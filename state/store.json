@@ -226,6 +226,76 @@
         "fc1b192ed5829737"
       ],
       "headline_hash": "ed5fcf984372d28a6458ea298f3c8c4c9db444b69ac50d9a7a4649b19c157dce"
+    },
+    "fbb5b3403a101b0bae000673bd66e647e0eccc943b295966a9f59cd8d900159d": {
+      "id": "fbb5b3403a101b0bae000673bd66e647e0eccc943b295966a9f59cd8d900159d",
+      "url": "https://www.marketwatch.com/story/unitedhealth-keeps-medical-costs-under-control-and-raises-its-outlook-again-71abc99c",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-13T20:29:00Z",
+      "first_seen": "2026-10-13T21:16:25Z",
+      "analysis": {
+        "segments": [
+          "sp500"
+        ],
+        "score": 0.65,
+        "confidence": 0.65,
+        "rules": [
+          "guidance_up"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "0fcd568a5cb9bdb4",
+        "308f40701833c566",
+        "4f53c6c301f98610",
+        "5e9ceb28244d0645",
+        "948dbde67a8ef961",
+        "b4c9e14061c2fd45",
+        "bcde6928e538c63c",
+        "d767748a603799c8",
+        "e93a372863997046"
+      ],
+      "headline_hash": "6a03507d01e15ceca65ba0853f8c97e90aadad93066610555d2a3b840cff4658"
+    },
+    "1d038b971a6d4397e0e8f4b9f1ed07424e2fee3921a35e4406c4c8cad2e4bfb6": {
+      "id": "1d038b971a6d4397e0e8f4b9f1ed07424e2fee3921a35e4406c4c8cad2e4bfb6",
+      "url": "https://www.marketwatch.com/story/was-broadcom-ceo-bullish-or-bearish-on-ai-gamblers-comment-creates-storm-33f11787",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-13T20:27:00Z",
+      "first_seen": "2026-10-13T21:16:25Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "0da774372abc697d",
+        "31d123108dba5fd3",
+        "32e83e92d45d71f6",
+        "373ac021a2c0bb2c",
+        "486bae792ce2ffcc",
+        "75dd3da2c26c2616",
+        "9a105749cfcbac2e",
+        "b01118398f23705a",
+        "b63b99f6383ba713",
+        "c44bb2fd516909da"
+      ],
+      "headline_hash": "669156e39d04739400eac794988c4145912a9a30bd5dd34b80378965d3cd4bde"
     }
   },
   "sources": {
@@ -233,22 +303,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-13T17:47:11Z",
+      "last_success": "2026-10-13T21:16:25Z",
       "received": 10,
-      "accepted": 2,
+      "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-13T17:47:11Z",
+      "last_attempt": "2026-10-13T21:16:25Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-13T17:47:11Z",
+      "last_success": "2026-10-13T21:16:25Z",
       "received": 20,
       "accepted": 4,
       "rejected": 0,
-      "last_attempt": "2026-10-13T17:47:11Z",
+      "last_attempt": "2026-10-13T21:16:25Z",
       "status": "ok"
     }
   },

@@ -138,5 +138,50 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.1"
     }
+  },
+  {
+    "id": "fbb5b3403a101b0bae000673bd66e647e0eccc943b295966a9f59cd8d900159d",
+    "url": "https://www.marketwatch.com/story/unitedhealth-keeps-medical-costs-under-control-and-raises-its-outlook-again-71abc99c",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-13T20:29:00Z",
+    "first_seen": "2026-10-13T21:16:25Z",
+    "analysis": {
+      "segments": [
+        "sp500"
+      ],
+      "score": 0.65,
+      "confidence": 0.65,
+      "rules": [
+        "guidance_up"
+      ],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
+  },
+  {
+    "id": "1d038b971a6d4397e0e8f4b9f1ed07424e2fee3921a35e4406c4c8cad2e4bfb6",
+    "url": "https://www.marketwatch.com/story/was-broadcom-ceo-bullish-or-bearish-on-ai-gamblers-comment-creates-storm-33f11787",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-13T20:27:00Z",
+    "first_seen": "2026-10-13T21:16:25Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
   }
 ]

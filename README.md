@@ -2,6 +2,10 @@
 
 Funkční experimentální MVP: Python 3.9+ (workflow 3.12) bez externích závislostí, RSS/volitelný API sběr, odhad dopadu anglických titulků na americké akcie, historie, JSON a statický art déco dashboard. Přiložená data pocházejí ze skutečného sběru, nikoli z demonstrace. Syntetické titulky jsou pouze v testech.
 
+Veřejný dashboard: https://pavelkohout-dotcom.github.io/sentiment/
+
+Repozitář: https://github.com/pavelkohout-dotcom/sentiment
+
 ## Spuštění
 
 V tomto adresáři:
@@ -22,7 +26,7 @@ Otevřete http://127.0.0.1:8765. Dashboard potřebuje HTTP, pouhé otevření `d
 - Pravidlový model z titulků, **nikoli LLM ani validovaný prediktor výnosů**. Umí explicitní pohyb akcií, výsledky/guidance, inflaci, výnosy, sazby; zbytek vynechá. Ukazuje konkrétní pravidla. Neumí spolehlivě ironii, složitou negaci, všechny vztahy mezi větami nebo příčinu tržního pohybu.
 - Typ komentář se označí pouze při explicitním signálu v titulku. Jinak `unknown`; neoznačujeme domněnku za zprávu.
 - Žádné článkové texty, souhrny, obrázky ani API klíče ve veřejném exportu. Titulky jsou standardně `null`. Archiv obsahuje odkazy, čas, zdroj a naše odvozené hodnoty. Přepínač `publish_titles` použijte jen s odpovídajícím oprávněním vydavatele.
-- GitHub Pages workflow je připravený. **Nasazení není ověřené, dokud neproběhne v konkrétním repozitáři a nevrátí URL.**
+- GitHub Pages je nasazený a ověřený: první úspěšný běh [38469312814](https://github.com/pavelkohout-dotcom/sentiment/actions/runs/38469312814), skutečný sběr 13. 10. 2026 ve 23:16 Praha, dashboard i JSON HTTP 200. Rozvrh je nastavený; pravidelnost budoucích běhů není garantovaná.
 
 ## Nasazení na GitHub Pages
 

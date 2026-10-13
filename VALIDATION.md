@@ -53,3 +53,9 @@
   }
 }
 ```
+
+## Ověřené nasazení
+
+GitHub Actions [běh 38469312814](https://github.com/pavelkohout-dotcom/sentiment/actions/runs/38469312814): completed / success. Dashboard https://pavelkohout-dotcom.github.io/sentiment/ i latest.json vrátily HTTP 200. Skutečný sběr `2026-10-13T21:16:25Z` (23:16 Praha): oba zdroje `ok`, archiv 8 záznamů; 6 aktivních relevantních titulků, 3 hodnocené události ze 2 zdrojů, MSI 45,37 a `low_coverage`. Momentum a extrémy zůstávají správně nedostupné.
+
+Vizuální kontrola veřejné stránky provedena. Mobilní šířka 390 px: obsah nepřetéká vodorovně. Automatický rozvrh 07/22/37/52 UTC je nasazen, pozdější rozvrhový běh nebyl v této kontrole vyčkáván.

@@ -1,0 +1,60 @@
+name: Collect and publish MSM
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore: ['state/**', 'docs/data/**']
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: msm-production
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test
+        run: python -m unittest discover -s tests -v
+      - name: Collect real feeds and preserve history
+        env:
+          ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
+        run: python -m msm.run
+      - name: Commit derived history
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add state/store.json docs/data
+          if ! git diff --cached --quiet; then
+            git commit -m 'data: update sentiment history [skip ci]'
+            git push origin HEAD:main
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Report source failure
+        run: |
+          python - <<'PY'
+          import json
+          d=json.load(open('docs/data/latest.json'))
+          if d['collection_status']=='degraded':
+              raise SystemExit('Published degraded status: inspect source availability in dashboard')
+          PY

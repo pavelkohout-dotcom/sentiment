@@ -1,0 +1,44 @@
+test_atom (test_msm.AdapterTests.test_atom) ... ok
+test_av_missing_key (test_msm.AdapterTests.test_av_missing_key) ... ok
+test_av_parse (test_msm.AdapterTests.test_av_parse) ... ok
+test_av_quota (test_msm.AdapterTests.test_av_quota) ... ok
+test_bad_xml (test_msm.AdapterTests.test_bad_xml) ... ok
+test_retry (test_msm.AdapterTests.test_retry) ... ok
+test_rss (test_msm.AdapterTests.test_rss) ... ok
+test_unapproved_domain (test_msm.AdapterTests.test_unapproved_domain) ... ok
+test_bad_dates (test_msm.CoreTests.test_bad_dates) ... ok
+test_canonical (test_msm.CoreTests.test_canonical) ... ok
+test_conditional (test_msm.CoreTests.test_conditional) ... ok
+test_dedup (test_msm.CoreTests.test_dedup) ... ok
+test_direction (test_msm.CoreTests.test_direction) ... ok
+test_duplicate_no_extra_weight (test_msm.CoreTests.test_duplicate_no_extra_weight) ... ok
+test_equal_sources (test_msm.CoreTests.test_equal_sources) ... ok
+test_expiration (test_msm.CoreTests.test_expiration) ... ok
+test_inflation (test_msm.CoreTests.test_inflation) ... ok
+test_low_coverage (test_msm.CoreTests.test_low_coverage) ... ok
+test_momentum (test_msm.CoreTests.test_momentum) ... ok
+test_negation (test_msm.CoreTests.test_negation) ... ok
+test_no_data (test_msm.CoreTests.test_no_data) ... ok
+test_no_evidence (test_msm.CoreTests.test_no_evidence) ... ok
+test_old_event (test_msm.CoreTests.test_old_event) ... ok
+test_opposite_news (test_msm.CoreTests.test_opposite_news) ... ok
+test_private_titles (test_msm.CoreTests.test_private_titles) ... ok
+test_relevance (test_msm.CoreTests.test_relevance) ... ok
+test_segments (test_msm.CoreTests.test_segments) ... ok
+test_type (test_msm.CoreTests.test_type) ... ok
+test_unknown_excluded (test_msm.CoreTests.test_unknown_excluded) ... ok
+test_unsafe_url (test_msm.CoreTests.test_unsafe_url) ... ok
+test_archive_never_pruned (test_msm.PipelineTests.test_archive_never_pruned) ... ok
+test_bad_item (test_msm.PipelineTests.test_bad_item) ... ok
+test_corrupt_state (test_msm.PipelineTests.test_corrupt_state) ... ok
+test_failed_throttle_stays_degraded (test_msm.PipelineTests.test_failed_throttle_stays_degraded) ... ok
+test_failure_preserves_and_redacts (test_msm.PipelineTests.test_failure_preserves_and_redacts) ... ok
+test_idempotence_history (test_msm.PipelineTests.test_idempotence_history) ... ok
+test_model_upgrade_preserves_revisions (test_msm.PipelineTests.test_model_upgrade_preserves_revisions) ... ok
+test_momentum_does_not_cross_models (test_msm.PipelineTests.test_momentum_does_not_cross_models) ... ok
+test_throttle (test_msm.PipelineTests.test_throttle) ... ok
+
+----------------------------------------------------------------------
+Ran 39 tests in 0.042s
+
+OK

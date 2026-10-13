@@ -1,0 +1,481 @@
+{
+  "schema": 1,
+  "records": {
+    "6789218c4b440d78e9b85d0c36b5725dda76b0a2ff8d6eb9ab761331191e97e5": {
+      "id": "6789218c4b440d78e9b85d0c36b5725dda76b0a2ff8d6eb9ab761331191e97e5",
+      "url": "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-13T16:52:00Z",
+      "first_seen": "2026-10-13T17:42:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "1219929bd7c1c9f4",
+        "16837433443196b5",
+        "1ef8f25405f82682",
+        "32e83e92d45d71f6",
+        "4064e6a9a434b058",
+        "41a1c14a0a3f4da2",
+        "60d0f0271678eb7d",
+        "b17ef6d19c7a5b1e",
+        "cc58a5f8986c71d4",
+        "d7cea7305a333d5c",
+        "d9c1acf117657bb0",
+        "e4d693d24e646cb7",
+        "fd963e4fd45949aa"
+      ],
+      "headline_hash": "e8153ddf2a047a277eccd2db820dfcd441a80c60bb65ca2967ed1d6abb25e622"
+    },
+    "6e100a37c81a66dca8b670eb0016ffac595e3dd0c79cdd33719bddb316d12fd4": {
+      "id": "6e100a37c81a66dca8b670eb0016ffac595e3dd0c79cdd33719bddb316d12fd4",
+      "url": "https://www.marketwatch.com/story/superintelligence-may-never-arrive-deutsche-bank-says-what-that-could-mean-for-the-u-s-economy-765b89a8",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-13T16:21:00Z",
+      "first_seen": "2026-10-13T17:42:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "0bfe935e70c321c7",
+        "0e031e954a432055",
+        "4381dc2ab1428516",
+        "49320db3751a40c0",
+        "6497e4b3d7bed169",
+        "6dc09a300747b82d",
+        "6fda2b8252b6d5ea",
+        "749ab2c0d06c42ae",
+        "82523faea1b0f2da",
+        "c4c66bbc00c46e68",
+        "ee4d988c65de860f"
+      ],
+      "headline_hash": "667d2976bc9d4c7d0e39ff4894c3bd45f39812df883cd94d6910bdeae3e167f1"
+    },
+    "e9f18d1cf95d8c5d8814b8fe7a8f9af729ec164345ec07b24e69104dbf1d806c": {
+      "id": "e9f18d1cf95d8c5d8814b8fe7a8f9af729ec164345ec07b24e69104dbf1d806c",
+      "url": "https://www.theguardian.com/business/2026/oct/13/chip-stocks-broadcom-ai-samsung-shares-cxmt",
+      "source": "www.theguardian.com",
+      "provider": "guardian",
+      "title": null,
+      "published_at": "2026-10-13T15:51:54Z",
+      "first_seen": "2026-10-13T17:42:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -0.7,
+        "confidence": 0.65,
+        "rules": [
+          "equity_down"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "1ef8f25405f82682",
+        "32e83e92d45d71f6",
+        "35da636b0d049d44",
+        "373ac021a2c0bb2c",
+        "405e6e0273215dab",
+        "7464e221a2a7dfb9",
+        "a5e7c002443743c5",
+        "b8a7e24e95497806",
+        "d7cea7305a333d5c"
+      ],
+      "headline_hash": "5c1a4a7e5d209c1fb5d79e96d3fab96a34144831cee183218abf117b442806ca"
+    },
+    "c615bc630b8768aef842dddb2174a6961c6b40e47294e6dc366584bb154bcdac": {
+      "id": "c615bc630b8768aef842dddb2174a6961c6b40e47294e6dc366584bb154bcdac",
+      "url": "https://www.theguardian.com/business/live/2026/oct/13/imf-uk-economy-growth-boost-chancellor-john-healey-oil-prices-inflation-business-live-news",
+      "source": "www.theguardian.com",
+      "provider": "guardian",
+      "title": null,
+      "published_at": "2026-10-13T14:08:32Z",
+      "first_seen": "2026-10-13T17:42:41Z",
+      "analysis": {
+        "segments": [
+          "sp500"
+        ],
+        "score": -1.0,
+        "confidence": 0.65,
+        "rules": [
+          "earnings_miss",
+          "inflation_up"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "4110c398f2d88fdb",
+        "4381dc2ab1428516",
+        "4879b2431ffb8a67",
+        "4ef9bfe6a5402861",
+        "6d731a5ed145ab6d",
+        "80822c900bdbb19f",
+        "964a9431ff491fd7",
+        "a5e7c002443743c5",
+        "b36708c7beec495a",
+        "b65bf95cc4f9b4b3",
+        "c37d8ede17f4c7ee",
+        "d23be8d1141403ea",
+        "d35c416a85b807e9"
+      ],
+      "headline_hash": "41e336caf23e32e179567bd76cb079140d9822a6bc3397566c219746c741a521"
+    },
+    "d5313c8ebd3fefb49d655bc1ea76637fa1c25270dd6e6a636903c6c1822f7a43": {
+      "id": "d5313c8ebd3fefb49d655bc1ea76637fa1c25270dd6e6a636903c6c1822f7a43",
+      "url": "https://www.theguardian.com/business/2026/oct/06/sp-500-nasdaq-stocks-ai-chipmakers",
+      "source": "www.theguardian.com",
+      "provider": "guardian",
+      "title": null,
+      "published_at": "2026-10-06T20:28:42Z",
+      "first_seen": "2026-10-13T17:42:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 0.7,
+        "confidence": 0.65,
+        "rules": [
+          "equity_up"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "0604cd3138feed20",
+        "1351bfd83437f2e1",
+        "148de9c5a7a44d19",
+        "32e83e92d45d71f6",
+        "3e70e3797dd10842",
+        "41ef29df4a53ab2d",
+        "70ce871f8a3d3fb4",
+        "afd5c5ae5738e275",
+        "fc1b192ed5829737"
+      ],
+      "headline_hash": "edd1661569cf633ba3d73ee400f3ee131ee995e9adcd970534469189c72187b9"
+    },
+    "2501cd6b80b596856254c2e5f5ca49d8e85d592aedbd68b9574392db41d02264": {
+      "id": "2501cd6b80b596856254c2e5f5ca49d8e85d592aedbd68b9574392db41d02264",
+      "url": "https://www.theguardian.com/business/live/2026/oct/02/french-bond-sell-off-euro-crisis-cuts-tax-rises-eurozone-inflation-us-jobs-report-latest-news-updates",
+      "source": "www.theguardian.com",
+      "provider": "guardian",
+      "title": null,
+      "published_at": "2026-10-02T15:58:01Z",
+      "first_seen": "2026-10-13T17:42:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 0.7,
+        "confidence": 0.65,
+        "rules": [
+          "equity_up"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "1aa20c854d615577",
+        "5d9a17cb70b9733a",
+        "62f51d296d3429d8",
+        "6ef7c9b15ecdd690",
+        "70ce871f8a3d3fb4",
+        "7383711c1b05e72a",
+        "79adb2a2fce5c6ba",
+        "845e91831319e89c",
+        "c37d8ede17f4c7ee",
+        "cea23dd4b87e8b00",
+        "fc1b192ed5829737"
+      ],
+      "headline_hash": "ed5fcf984372d28a6458ea298f3c8c4c9db444b69ac50d9a7a4649b19c157dce"
+    }
+  },
+  "sources": {
+    "marketwatch": {
+      "id": "marketwatch",
+      "name": "MarketWatch",
+      "terms": "https://www.marketwatch.com/help/terms-of-use",
+      "last_success": "2026-10-13T17:47:11Z",
+      "received": 10,
+      "accepted": 2,
+      "rejected": 0,
+      "last_attempt": "2026-10-13T17:47:11Z",
+      "status": "ok"
+    },
+    "guardian": {
+      "id": "guardian",
+      "name": "The Guardian · Business",
+      "terms": "https://www.theguardian.com/help/terms-of-service",
+      "last_success": "2026-10-13T17:47:11Z",
+      "received": 20,
+      "accepted": 4,
+      "rejected": 0,
+      "last_attempt": "2026-10-13T17:47:11Z",
+      "status": "ok"
+    }
+  },
+  "model_revisions": [
+    {
+      "id": "6789218c4b440d78e9b85d0c36b5725dda76b0a2ff8d6eb9ab761331191e97e5",
+      "url": "https://www.marketwatch.com/story/ai-fatigue-is-gripping-the-market-and-driving-chip-stocks-toward-their-worst-stretch-in-16-months-6dc78ece",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-13T16:52:00Z",
+      "first_seen": "2026-10-13T17:42:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0"
+      },
+      "signature": [
+        "1219929bd7c1c9f4",
+        "16837433443196b5",
+        "1ef8f25405f82682",
+        "32e83e92d45d71f6",
+        "4064e6a9a434b058",
+        "41a1c14a0a3f4da2",
+        "60d0f0271678eb7d",
+        "b17ef6d19c7a5b1e",
+        "cc58a5f8986c71d4",
+        "d7cea7305a333d5c",
+        "d9c1acf117657bb0",
+        "e4d693d24e646cb7",
+        "fd963e4fd45949aa"
+      ],
+      "headline_hash": "e8153ddf2a047a277eccd2db820dfcd441a80c60bb65ca2967ed1d6abb25e622"
+    },
+    {
+      "id": "6e100a37c81a66dca8b670eb0016ffac595e3dd0c79cdd33719bddb316d12fd4",
+      "url": "https://www.marketwatch.com/story/superintelligence-may-never-arrive-deutsche-bank-says-what-that-could-mean-for-the-u-s-economy-765b89a8",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-13T16:21:00Z",
+      "first_seen": "2026-10-13T17:42:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "0bfe935e70c321c7",
+        "0e031e954a432055",
+        "4381dc2ab1428516",
+        "49320db3751a40c0",
+        "6497e4b3d7bed169",
+        "6dc09a300747b82d",
+        "6fda2b8252b6d5ea",
+        "749ab2c0d06c42ae",
+        "82523faea1b0f2da",
+        "c4c66bbc00c46e68",
+        "ee4d988c65de860f"
+      ],
+      "headline_hash": "667d2976bc9d4c7d0e39ff4894c3bd45f39812df883cd94d6910bdeae3e167f1"
+    },
+    {
+      "id": "e9f18d1cf95d8c5d8814b8fe7a8f9af729ec164345ec07b24e69104dbf1d806c",
+      "url": "https://www.theguardian.com/business/2026/oct/13/chip-stocks-broadcom-ai-samsung-shares-cxmt",
+      "source": "www.theguardian.com",
+      "provider": "guardian",
+      "title": null,
+      "published_at": "2026-10-13T15:51:54Z",
+      "first_seen": "2026-10-13T17:42:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100"
+        ],
+        "score": -0.7,
+        "confidence": 0.65,
+        "rules": [
+          "equity_down"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0"
+      },
+      "signature": [
+        "1ef8f25405f82682",
+        "32e83e92d45d71f6",
+        "35da636b0d049d44",
+        "373ac021a2c0bb2c",
+        "405e6e0273215dab",
+        "7464e221a2a7dfb9",
+        "a5e7c002443743c5",
+        "b8a7e24e95497806",
+        "d7cea7305a333d5c"
+      ],
+      "headline_hash": "5c1a4a7e5d209c1fb5d79e96d3fab96a34144831cee183218abf117b442806ca"
+    },
+    {
+      "id": "c615bc630b8768aef842dddb2174a6961c6b40e47294e6dc366584bb154bcdac",
+      "url": "https://www.theguardian.com/business/live/2026/oct/13/imf-uk-economy-growth-boost-chancellor-john-healey-oil-prices-inflation-business-live-news",
+      "source": "www.theguardian.com",
+      "provider": "guardian",
+      "title": null,
+      "published_at": "2026-10-13T14:08:32Z",
+      "first_seen": "2026-10-13T17:42:41Z",
+      "analysis": {
+        "segments": [
+          "sp500"
+        ],
+        "score": -1.0,
+        "confidence": 0.65,
+        "rules": [
+          "earnings_miss",
+          "inflation_up"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0"
+      },
+      "signature": [
+        "4110c398f2d88fdb",
+        "4381dc2ab1428516",
+        "4879b2431ffb8a67",
+        "4ef9bfe6a5402861",
+        "6d731a5ed145ab6d",
+        "80822c900bdbb19f",
+        "964a9431ff491fd7",
+        "a5e7c002443743c5",
+        "b36708c7beec495a",
+        "b65bf95cc4f9b4b3",
+        "c37d8ede17f4c7ee",
+        "d23be8d1141403ea",
+        "d35c416a85b807e9"
+      ],
+      "headline_hash": "41e336caf23e32e179567bd76cb079140d9822a6bc3397566c219746c741a521"
+    },
+    {
+      "id": "d5313c8ebd3fefb49d655bc1ea76637fa1c25270dd6e6a636903c6c1822f7a43",
+      "url": "https://www.theguardian.com/business/2026/oct/06/sp-500-nasdaq-stocks-ai-chipmakers",
+      "source": "www.theguardian.com",
+      "provider": "guardian",
+      "title": null,
+      "published_at": "2026-10-06T20:28:42Z",
+      "first_seen": "2026-10-13T17:42:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 0.7,
+        "confidence": 0.65,
+        "rules": [
+          "equity_up"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "0604cd3138feed20",
+        "1351bfd83437f2e1",
+        "148de9c5a7a44d19",
+        "32e83e92d45d71f6",
+        "3e70e3797dd10842",
+        "41ef29df4a53ab2d",
+        "70ce871f8a3d3fb4",
+        "afd5c5ae5738e275",
+        "fc1b192ed5829737"
+      ],
+      "headline_hash": "edd1661569cf633ba3d73ee400f3ee131ee995e9adcd970534469189c72187b9"
+    },
+    {
+      "id": "2501cd6b80b596856254c2e5f5ca49d8e85d592aedbd68b9574392db41d02264",
+      "url": "https://www.theguardian.com/business/live/2026/oct/02/french-bond-sell-off-euro-crisis-cuts-tax-rises-eurozone-inflation-us-jobs-report-latest-news-updates",
+      "source": "www.theguardian.com",
+      "provider": "guardian",
+      "title": null,
+      "published_at": "2026-10-02T15:58:01Z",
+      "first_seen": "2026-10-13T17:42:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 0.7,
+        "confidence": 0.65,
+        "rules": [
+          "equity_up"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0"
+      },
+      "signature": [
+        "1aa20c854d615577",
+        "5d9a17cb70b9733a",
+        "62f51d296d3429d8",
+        "6ef7c9b15ecdd690",
+        "70ce871f8a3d3fb4",
+        "7383711c1b05e72a",
+        "79adb2a2fce5c6ba",
+        "845e91831319e89c",
+        "c37d8ede17f4c7ee",
+        "cea23dd4b87e8b00",
+        "fc1b192ed5829737"
+      ],
+      "headline_hash": "ed5fcf984372d28a6458ea298f3c8c4c9db444b69ac50d9a7a4649b19c157dce"
+    }
+  ]
+}

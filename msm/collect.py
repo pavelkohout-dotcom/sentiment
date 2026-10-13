@@ -1,0 +1,74 @@
+"""RSS/Atom and opt-in Alpha Vantage ingestion with bounded requests."""
+import json
+import os
+import time
+import urllib.error
+import urllib.request
+import xml.etree.ElementTree as ET
+from urllib.parse import urlencode, urlsplit
+from .core import clean, date, stamp, canonical, digest, signature, analyze
+
+MAX_BYTES=4_000_000
+
+def download(url):
+    for attempt in range(3):
+        try:
+            req=urllib.request.Request(url, headers={'User-Agent':'MarketSentimentMonitor/1.0 (RSS metadata reader)', 'Accept':'application/rss+xml, application/atom+xml, application/json, application/xml;q=0.9'})
+            with urllib.request.urlopen(req, timeout=20) as response:
+                data=response.read(MAX_BYTES+1)
+                if len(data)>MAX_BYTES: raise ValueError('response too large')
+                return data
+        except urllib.error.HTTPError as e:
+            if e.code not in (429,500,502,503,504) or attempt==2:
+                raise ValueError(f'HTTP {e.code}') from None
+            time.sleep(min(10, 2**attempt))
+        except (urllib.error.URLError, TimeoutError):
+            if attempt==2: raise ValueError('network timeout or unavailable') from None
+            time.sleep(2**attempt)
+    raise ValueError('request failed')
+
+def rss(data):
+    if b'<!DOCTYPE' in data.upper() or b'<!ENTITY' in data.upper():
+        raise ValueError('DTD/entity declarations are not supported')
+    root=ET.fromstring(data)
+    def local(tag): return tag.rsplit('}',1)[-1]
+    if local(root.tag) not in ('rss','feed','RDF'): raise ValueError('not an RSS/Atom feed')
+    result=[]
+    for item in root.iter():
+        if local(item.tag) not in ('item','entry'): continue
+        fields={local(c.tag): c.text or '' for c in item}
+        link=fields.get('link','')
+        for c in item:
+            if local(c.tag)=='link' and c.get('rel','alternate')=='alternate' and c.get('href'):
+                link=c.get('href')
+        result.append(dict(title=fields.get('title',''), url=link,
+                           published_at=fields.get('pubDate') or fields.get('published') or fields.get('date') or fields.get('updated')))
+    return result
+
+def fetch(source):
+    if source['kind']=='rss': return rss(download(source['url']))
+    if source['kind']!='alphavantage': raise ValueError('unsupported source')
+    key=os.getenv('ALPHAVANTAGE_API_KEY')
+    if not key: raise ValueError('missing ALPHAVANTAGE_API_KEY')
+    # One request per configured interval, not one request per ticker.
+    url='https://www.alphavantage.co/query?'+urlencode(dict(function='NEWS_SENTIMENT', topics='financial_markets', limit=200, sort='LATEST', apikey=key))
+    obj=json.loads(download(url))
+    if not isinstance(obj.get('feed'),list): raise ValueError('API quota, entitlement or response error')
+    return [dict(title=r.get('title',''),url=r.get('url',''),published_at=r.get('time_published')) for r in obj['feed']]
+
+def record(raw, source, now):
+    title=clean(raw['title'])
+    if not title: raise ValueError('empty title')
+    url=canonical(raw['url']); host=urlsplit(url).hostname
+    if not any(host==d or host.endswith('.'+d) for d in source['domains']):
+        raise ValueError('publisher not allowed')
+    published=date(raw['published_at'])
+    if published>now: raise ValueError('future publication date')
+    analysis=analyze(title)
+    if not analysis['segments']: return None
+    # Persist derived fingerprints, never feed summaries or article bodies.
+    # An explicit source rights decision is needed before exporting a title.
+    return dict(id=digest(url),url=url, source=host, provider=source['id'],
+                title=title if source.get('publish_titles',False) else None,
+                published_at=stamp(published),first_seen=stamp(now), analysis=analysis,
+                signature=signature(title), headline_hash=digest(title))

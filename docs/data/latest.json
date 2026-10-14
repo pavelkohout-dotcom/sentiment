@@ -1,39 +1,39 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T20:01:14Z",
+  "generated_at": "2026-10-14T20:15:45Z",
   "model": "impact-rules-1.0.1",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 34.76,
+      "value": 63.63,
       "status": "low_coverage",
-      "events": 27,
-      "scored_events": 2,
-      "articles": 27,
-      "sources": 1,
+      "events": 29,
+      "scored_events": 3,
+      "articles": 29,
+      "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
     },
     "nasdaq100": {
-      "value": 30.0,
+      "value": 61.25,
       "status": "low_coverage",
-      "events": 24,
-      "scored_events": 1,
-      "articles": 24,
-      "sources": 1,
+      "events": 26,
+      "scored_events": 2,
+      "articles": 26,
+      "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
     },
     "sp500": {
-      "value": 34.76,
+      "value": 63.63,
       "status": "low_coverage",
-      "events": 26,
-      "scored_events": 2,
-      "articles": 26,
-      "sources": 1,
+      "events": 28,
+      "scored_events": 3,
+      "articles": 28,
+      "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
@@ -44,39 +44,86 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T20:01:14Z",
+      "last_success": "2026-10-14T20:15:45Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-14T20:01:14Z",
+      "last_attempt": "2026-10-14T20:15:45Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T20:01:14Z",
+      "last_success": "2026-10-14T20:15:45Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T20:01:14Z",
+      "last_attempt": "2026-10-14T20:15:45Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-14T20:01:14Z",
+      "last_success": "2026-10-14T20:15:45Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-14T20:01:14Z",
+      "last_attempt": "2026-10-14T20:15:45Z",
       "status": "ok"
     }
   ],
-  "new_articles": 0,
-  "total_archived": 33,
+  "new_articles": 2,
+  "total_archived": 35,
   "articles": [
+    {
+      "id": "2d5811ff8d4adc070886e93de7292298940d0b468e509590dc969b096a96cf77",
+      "url": "https://www.investing.com/news/stock-market-news/gold-miners-fall-as-bullion-prices-drop-on-fed-rate-hike-bets-93CH-4949904",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T19:53:25Z",
+      "first_seen": "2026-10-14T20:15:45Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      }
+    },
+    {
+      "id": "d0fd8a9c201d63386e63ed0955faedfa2d432efb4b1e7dcbde92527618adc195",
+      "url": "https://www.investing.com/news/stock-market-news/us-treasury-yields-fall-after-reversing-inflationled-selloff-93CH-4949903",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T19:52:29Z",
+      "first_seen": "2026-10-14T20:15:45Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 0.85,
+        "confidence": 0.65,
+        "rules": [
+          "inflation_down",
+          "yields_down"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      }
+    },
     {
       "id": "a55ab85491d424d8d9a6c438b21de50176c1478c344f7a2720f46c6e60c8d342",
       "url": "https://www.investing.com/news/stock-market-news/alphabet-a-squeezed-between-350-and-356-live-levels-93CH-4944771",

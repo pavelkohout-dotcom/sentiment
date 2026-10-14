@@ -732,5 +732,52 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.1"
     }
+  },
+  {
+    "id": "2d5811ff8d4adc070886e93de7292298940d0b468e509590dc969b096a96cf77",
+    "url": "https://www.investing.com/news/stock-market-news/gold-miners-fall-as-bullion-prices-drop-on-fed-rate-hike-bets-93CH-4949904",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-14T19:53:25Z",
+    "first_seen": "2026-10-14T20:15:45Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
+  },
+  {
+    "id": "d0fd8a9c201d63386e63ed0955faedfa2d432efb4b1e7dcbde92527618adc195",
+    "url": "https://www.investing.com/news/stock-market-news/us-treasury-yields-fall-after-reversing-inflationled-selloff-93CH-4949903",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-14T19:52:29Z",
+    "first_seen": "2026-10-14T20:15:45Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": 0.85,
+      "confidence": 0.65,
+      "rules": [
+        "inflation_down",
+        "yields_down"
+      ],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
   }
 ]

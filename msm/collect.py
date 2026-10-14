@@ -1,5 +1,7 @@
 """RSS/Atom and opt-in Alpha Vantage ingestion with bounded requests."""
 import json
+from datetime import datetime
+from zoneinfo import ZoneInfo
 import os
 import time
 import urllib.error
@@ -77,7 +79,16 @@ def record(raw, source, now):
     url=canonical(raw['url']); host=urlsplit(url).hostname
     if not any(host==d or host.endswith('.'+d) for d in source['domains']):
         raise ValueError('publisher not allowed')
-    published=date(raw['published_at'])
+    publication=raw['published_at']
+    if source.get('naive_date_timezone'):
+        # Only the publisher's explicitly configured legacy format gets a zone.
+        try:
+            naive=datetime.strptime(publication, '%Y-%m-%d %H:%M:%S')
+        except (ValueError, TypeError):
+            pass
+        else:
+            publication=naive.replace(tzinfo=ZoneInfo(source['naive_date_timezone'])).isoformat()
+    published=date(publication)
     if published>now: raise ValueError('future publication date')
     analysis=analyze(title)
     if not analysis['segments']: return None

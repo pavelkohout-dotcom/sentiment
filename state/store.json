@@ -825,6 +825,44 @@
         "efad137e1f9224a5"
       ],
       "headline_hash": "90d0f178862b95eeb8d00ccb4dc128ff5c33b63712ee1fb669c3eca59cfa8731"
+    },
+    "17888426764279c2aa35afe1d35de417b7a92626668227fca0fd197039e828f9": {
+      "id": "17888426764279c2aa35afe1d35de417b7a92626668227fca0fd197039e828f9",
+      "url": "https://www.marketwatch.com/story/rising-bond-yields-and-higher-inflation-leave-the-fed-trapped-in-a-rate-hike-dilemma-d34ba326",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-14T16:27:00Z",
+      "first_seen": "2026-10-14T16:31:04Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -0.4,
+        "confidence": 0.65,
+        "rules": [
+          "yields_up"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "20e796c128096d22",
+        "6d731a5ed145ab6d",
+        "6ea607f9a01e62d1",
+        "824d422d755b9c7b",
+        "aed3d0cbc9a91880",
+        "af193190b8d3cd14",
+        "ba75b4423591cddc",
+        "c02d7803a91c3958",
+        "c549779d79e5c8e9",
+        "e5ff8d2b6809d810",
+        "f21dea74d898cfea"
+      ],
+      "headline_hash": "6aba5278d02e1b6516c7bf245c297e8d66c642f7c3a7d8f58a99015c84893d5a"
     }
   },
   "sources": {
@@ -832,22 +870,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T16:15:45Z",
+      "last_success": "2026-10-14T16:31:04Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-14T16:15:45Z",
+      "last_attempt": "2026-10-14T16:31:04Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T16:15:45Z",
+      "last_success": "2026-10-14T16:31:04Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T16:15:45Z",
+      "last_attempt": "2026-10-14T16:31:04Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -867,11 +905,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-14T16:15:45Z",
+      "last_success": "2026-10-14T16:31:04Z",
       "received": 10,
-      "accepted": 3,
+      "accepted": 0,
       "rejected": 0,
-      "last_attempt": "2026-10-14T16:15:45Z",
+      "last_attempt": "2026-10-14T16:31:04Z",
       "status": "ok"
     }
   },

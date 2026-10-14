@@ -340,22 +340,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T10:56:47Z",
+      "last_success": "2026-10-14T10:58:49Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-14T10:56:47Z",
+      "last_attempt": "2026-10-14T10:58:49Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T10:56:47Z",
+      "last_success": "2026-10-14T10:58:49Z",
       "received": 20,
       "accepted": 4,
       "rejected": 0,
-      "last_attempt": "2026-10-14T10:56:47Z",
+      "last_attempt": "2026-10-14T10:58:49Z",
       "status": "ok"
     },
     "alphavantage": {

@@ -226,5 +226,27 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.1"
     }
+  },
+  {
+    "id": "5807988a4e5d988d62c192db0a2d84688ca1053ceaff54b88702ea0d785a9004",
+    "url": "https://www.theguardian.com/business/live/2026/oct/14/imf-rising-government-borrowing-costs-inflation-oil-stock-markets-latest-news-updates",
+    "source": "www.theguardian.com",
+    "provider": "guardian",
+    "title": null,
+    "published_at": "2026-10-14T12:41:07Z",
+    "first_seen": "2026-10-14T12:45:45Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
   }
 ]

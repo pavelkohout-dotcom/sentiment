@@ -7,7 +7,7 @@ from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from urllib.parse import urlsplit, urlunsplit, parse_qsl, urlencode
 
-VERSION = 'impact-rules-1.0.1'
+VERSION = 'impact-rules-1.0.2'
 UTC = timezone.utc
 
 def stamp(dt):
@@ -49,17 +49,20 @@ SP = r'\b(s&p\s*500|s and p 500|spx|spy|jpmorgan|jpm|goldman sachs|walmart|exxon
 BROAD = r'\b(wall street|u\.?s\.? (stocks|equities|economy|inflation|jobs|markets)|american (stocks|equities)|fed|federal reserve|powell|treasury yields)\b'
 POS = r'(?:rise[sn]?|rising|rall(?:y|ies|ied)|surge[sd]?|gain[sd]?|jump[sd]?|soar[sd]?|rebound[sd]?|climb[sd]?|higher|record high)'
 NEG = r'(?:fall[sn]?|falling|fell|slid(?:e[sd]?|ing)|slump[sd]?|plunge[sd]?|drop[spd]*|tumble[sd]?|sink[sd]?|sank|lower|sell.?off|crash(?:es|ed)?)'
+# Bind a movement to its subject; do not scan across unrelated clauses.
+MOVE = r'\s+(?:(?:is|are|was|were|has|have|been|may|might|could|will|now|sharply|slightly|again|unexpectedly)\s+){0,3}'
+EQUITY = r'\b(?:stocks?|shares?|equities|nasdaq(?:-100)?|s&p\s*500|wall street|futures)\b'
 RULES = [
- ('equity_up', rf'(?:stocks|shares|equities|nasdaq|s&p\s*500|wall street|futures).{{0,35}}\b{POS}\b', .7),
- ('equity_down', rf'(?:stocks|shares|equities|nasdaq|s&p\s*500|wall street|futures).{{0,35}}\b{NEG}\b', -.7),
+ ('equity_up', rf'{EQUITY}{MOVE}{POS}\b', .7),
+ ('equity_down', rf'{EQUITY}{MOVE}{NEG}\b', -.7),
  ('earnings_beat', r'\b(?:beats?|tops?) (?:\w+ ){0,2}(?:expectations|estimates|forecasts)\b', .6),
  ('earnings_miss', r'\b(?:miss(?:es|ed)?|below) (?:\w+ ){0,2}(?:expectations|estimates|forecasts)\b', -.6),
  ('guidance_up', r'\b(?:raises?|raised|boosts?) (?:\w+ ){0,2}(?:guidance|outlook)\b', .65),
  ('guidance_down', r'\b(?:cuts?|lowers?|slashed) (?:\w+ ){0,2}(?:guidance|outlook)\b', -.65),
- ('inflation_up', rf'\binflation.{{0,20}}\b(?:{POS}|accelerates|sticky|hotter)\b|\b(?:sticky|hotter) inflation\b', -.5),
- ('inflation_down', rf'\binflation.{{0,20}}\b(?:{NEG}|cools|eases)\b', .5),
- ('yields_up', rf'\b(?:treasury |bond )?yields.{{0,15}}\b{POS}\b', -.4),
- ('yields_down', rf'\b(?:treasury |bond )?yields.{{0,15}}\b{NEG}\b', .35),
+ ('inflation_up', rf'\binflation{MOVE}(?:{POS}|accelerates|sticky|hotter)\b|\b(?:sticky|hot|hotter|higher|rising) inflation\b', -.5),
+ ('inflation_down', r'\binflation\s+(?:(?:is|was|has|been)\s+){0,2}(?:falls?|falling|fell|drops?|dropped|declines?|declined|cools?|cooled|eases?|eased)\b|\b(?:lower|cooler|falling) inflation\b', .5),
+ ('yields_up', rf'\b(?:treasury |bond )?yields{MOVE}{POS}\b|\b(?:rising|higher) (?:treasury |bond )?yields\b', -.4),
+ ('yields_down', rf'\b(?:treasury |bond )?yields{MOVE}{NEG}\b|\b(?:falling|lower) (?:treasury |bond )?yields\b', .35),
  ('rate_hike', r'\b(?:fed|federal reserve).{0,25}\b(?:raises|hikes) (?:interest )?rates\b', -.5),
  ('rate_cut', r'\b(?:fed|federal reserve).{0,25}\bcuts (?:interest )?rates\b', .4),
  ('recession', r'\b(recession|bankruptcy|defaults|bank failure)\b', -.6),

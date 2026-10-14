@@ -3,14 +3,15 @@ let latest, history, segment='all';
 const $=id=>document.getElementById(id);
 const fmt=d=>new Date(d).toLocaleString('cs-CZ',{timeZone:'Europe/Prague',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
 const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
-const status={ok:'DOSTATEČNÝ VZOREK',low_coverage:'SLABÉ POKRYTÍ',no_data:'BEZ HODNOCENÝCH DAT'};
+const status={ok:'DOSTATEČNÝ VZOREK',low_coverage:'NEDOSTATEK PODKLADŮ',no_data:'BEZ HODNOCENÝCH DAT'};
 function draw(){
  const m=latest.metrics[segment];
- $('value').textContent=m.value===null?'—':m.value.toFixed(1);
+ const available=m.status==='ok'&&m.value!==null;
+ $('value').textContent=available?m.value.toFixed(1):'—';
  $('quality').textContent=status[m.status];
- $('needle').setAttribute('visibility',m.value===null?'hidden':'visible');
+ $('needle').setAttribute('visibility',available?'visible':'hidden');
  $('needle').setAttribute('transform',`rotate(${m.value*1.8} 200 200)`);
- $('dial-title').textContent=`Sentiment ${m.value===null?'není dostupný':m.value+' ze 100'}; ${status[m.status]}`;
+ $('dial-title').textContent=`Sentiment ${available?m.value+' ze 100':'není dostupný'}; ${status[m.status]}`;
  $('momentum').textContent=m.momentum===null?'—':`${m.momentum>0?'+':''}${m.momentum.toFixed(1)} b.`;
  $('momentum-note').textContent=m.momentum_baseline?`Změna proti ${fmt(m.momentum_baseline)} (Praha).`:'Zatím chybí dostatečné pokrytí nebo platný bod starý 45–90 minut.';
  $('extreme').textContent={normal:'Bez extrému',panic:'Panika',euphoria:'Euforie',unavailable:'Nehodnoceno'}[m.extreme];
@@ -20,7 +21,8 @@ function draw(){
  const labels=[];
  if(age>45)labels.push(`ZASTARALÁ DATA · poslední běh před ${Math.floor(age/60)} h ${Math.floor(age%60)} min`);
  if(latest.collection_status!=='ok')labels.push('Sběr je omezený nebo offline');
- if(m.status!=='ok')labels.push('Nedostatek důkazů pro spolehlivé momentum a detekci extrémů');
+ labels.push(`Vyhodnoceno ${m.scored_events} z ${m.events} událostí · model ${latest.model}`);
+ if(m.status!=='ok')labels.push('Nedostatek podkladů: hlavní hodnota, momentum a extrémy se nezobrazují');
  $('notice').textContent=labels.join(' · ')||'Sběr proběhl. Experimentální odhad z titulků; podrobnosti a stav zdrojů níže.';
  $('updated').textContent=`POSLEDNÍ BĚH ${fmt(latest.generated_at)} · PRAHA`;
  renderChart();renderNews();
@@ -47,7 +49,7 @@ function renderChart(){
  const add=(tag,attrs,text)=>{const n=document.createElementNS(ns,tag);for(const [k,v]of Object.entries(attrs))n.setAttribute(k,v);if(text)n.textContent=text;s.append(n);return n;};
  for(const v of [0,20,50,80,100]){const y=190-v*1.6;add('line',{x1:40,x2:980,y1:y,y2:y,stroke:'#42504a','stroke-dasharray':v===50?'none':'3 6'});add('text',{x:0,y:y+4},String(v));}
  const start=Date.parse(points[0].at),span=Math.max(1,end-start);let previous=null;
- for(const p of points){const m=p.metrics[segment];if(m.value===null){previous=null;continue;}
+ for(const p of points){const m=p.metrics[segment];if(m.value===null||m.status!=='ok'){previous=null;continue;}
   const t=Date.parse(p.at),x=40+(t-start)/span*940,y=190-m.value*1.6;
   if(previous&&previous.model===p.model&&t-previous.t<=45*60000)add('line',{x1:previous.x,y1:previous.y,x2:x,y2:y,stroke:'#c4a76d','stroke-width':2});
   const circle=add('circle',{cx:x,cy:y,r:3,fill:m.status==='ok'?'#c4a76d':'#101e21',stroke:'#c4a76d'});const title=document.createElementNS(ns,'title');title.textContent=`${fmt(p.at)}: ${m.value} (${status[m.status]})`;circle.append(title);previous={t,x,y,model:p.model};

@@ -4,9 +4,61 @@
   "min_events": 5,
   "min_sources": 2,
   "sources": [
-    {"id":"marketwatch", "name":"MarketWatch", "kind":"rss", "url":"https://feeds.content.dowjones.io/public/rss/mw_topstories", "domains":["marketwatch.com"], "enabled":true, "publish_titles":false, "terms":"https://www.marketwatch.com/help/terms-of-use"},
-    {"id":"guardian", "name":"The Guardian · Business", "kind":"rss", "url":"https://www.theguardian.com/business/stock-markets/rss", "domains":["theguardian.com"], "enabled":true, "publish_titles":false, "terms":"https://www.theguardian.com/help/terms-of-service"},
-    {"id":"cnbc", "name":"CNBC", "kind":"rss", "url":"https://www.cnbc.com/id/100003114/device/rss/rss.html", "domains":["cnbc.com"], "enabled":false, "publish_titles":false, "terms":"https://www.cnbc.com/terms/", "note":"HTTP 403 při ověření; nepokoušet se obcházet."},
-    {"id":"alphavantage", "name":"Alpha Vantage · curated media", "kind":"alphavantage", "enabled":false, "publish_titles":false, "min_interval_minutes":120, "domains":["reuters.com","bloomberg.com","cnbc.com","ft.com","marketwatch.com","barrons.com","wsj.com","theguardian.com"], "terms":"https://www.alphavantage.co/terms_of_service/"}
+    {
+      "id": "marketwatch",
+      "name": "MarketWatch",
+      "kind": "rss",
+      "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories",
+      "domains": [
+        "marketwatch.com"
+      ],
+      "enabled": true,
+      "publish_titles": false,
+      "terms": "https://www.marketwatch.com/help/terms-of-use"
+    },
+    {
+      "id": "guardian",
+      "name": "The Guardian · Business",
+      "kind": "rss",
+      "url": "https://www.theguardian.com/business/stock-markets/rss",
+      "domains": [
+        "theguardian.com"
+      ],
+      "enabled": true,
+      "publish_titles": false,
+      "terms": "https://www.theguardian.com/help/terms-of-service"
+    },
+    {
+      "id": "cnbc",
+      "name": "CNBC",
+      "kind": "rss",
+      "url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+      "domains": [
+        "cnbc.com"
+      ],
+      "enabled": false,
+      "publish_titles": false,
+      "terms": "https://www.cnbc.com/terms/",
+      "note": "HTTP 403 při ověření; nepokoušet se obcházet."
+    },
+    {
+      "id": "alphavantage",
+      "name": "Alpha Vantage · curated media",
+      "kind": "alphavantage",
+      "enabled": true,
+      "publish_titles": false,
+      "min_interval_minutes": 120,
+      "domains": [
+        "reuters.com",
+        "bloomberg.com",
+        "cnbc.com",
+        "ft.com",
+        "marketwatch.com",
+        "barrons.com",
+        "wsj.com",
+        "theguardian.com"
+      ],
+      "terms": "https://www.alphavantage.co/terms_of_service/"
+    }
   ]
 }

@@ -10,6 +10,12 @@ from .core import clean, date, stamp, canonical, digest, signature, analyze
 
 MAX_BYTES=4_000_000
 
+class SourceError(ValueError):
+    def __init__(self, code):
+        self.code=code
+        super().__init__(code)
+
+
 def download(url):
     for attempt in range(3):
         try:
@@ -49,11 +55,20 @@ def fetch(source):
     if source['kind']=='rss': return rss(download(source['url']))
     if source['kind']!='alphavantage': raise ValueError('unsupported source')
     key=os.getenv('ALPHAVANTAGE_API_KEY')
-    if not key: raise ValueError('missing ALPHAVANTAGE_API_KEY')
+    if not key: raise SourceError('missing_api_key')
     # One request per configured interval, not one request per ticker.
     url='https://www.alphavantage.co/query?'+urlencode(dict(function='NEWS_SENTIMENT', topics='financial_markets', limit=200, sort='LATEST', apikey=key))
     obj=json.loads(download(url))
-    if not isinstance(obj.get('feed'),list): raise ValueError('API quota, entitlement or response error')
+    if not isinstance(obj.get('feed'),list):
+        # Inspect provider message in memory only; never persist raw messages/URLs.
+        message=' '.join(str(obj.get(k,'')) for k in ('Information','Note','Error Message')).lower()
+        if 'premium' in message or 'subscription' in message:
+            raise SourceError('api_entitlement_required')
+        if 'limit' in message or 'frequency' in message or 'quota' in message:
+            raise SourceError('api_quota_exceeded')
+        if 'apikey' in message or 'api key' in message:
+            raise SourceError('api_key_rejected')
+        raise SourceError('api_unexpected_response')
     return [dict(title=r.get('title',''),url=r.get('url',''),published_at=r.get('time_published')) for r in obj['feed']]
 
 def record(raw, source, now):

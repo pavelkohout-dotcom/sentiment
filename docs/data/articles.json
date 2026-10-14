@@ -183,5 +183,27 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.1"
     }
+  },
+  {
+    "id": "9f618511e3df54bd9b7dc92e204e8aa98961205b6be6497a1b51d8d6c5d4ca6d",
+    "url": "https://www.marketwatch.com/story/blackrock-now-has-assets-equal-to-half-the-size-of-the-u-s-economy-after-15-growth-c382b289",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-14T10:41:00Z",
+    "first_seen": "2026-10-14T10:45:40Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
   }
 ]

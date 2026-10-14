@@ -296,6 +296,43 @@
         "c44bb2fd516909da"
       ],
       "headline_hash": "669156e39d04739400eac794988c4145912a9a30bd5dd34b80378965d3cd4bde"
+    },
+    "9f618511e3df54bd9b7dc92e204e8aa98961205b6be6497a1b51d8d6c5d4ca6d": {
+      "id": "9f618511e3df54bd9b7dc92e204e8aa98961205b6be6497a1b51d8d6c5d4ca6d",
+      "url": "https://www.marketwatch.com/story/blackrock-now-has-assets-equal-to-half-the-size-of-the-u-s-economy-after-15-growth-c382b289",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-14T10:41:00Z",
+      "first_seen": "2026-10-14T10:45:40Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "0bfe935e70c321c7",
+        "19c64195eb8f22c3",
+        "6fda2b8252b6d5ea",
+        "7e6578c2e34b5313",
+        "8bf729ffe074caee",
+        "9150c74c5f92d51a",
+        "a11ae06469c63740",
+        "ccdcbe846f3da4eb",
+        "e629fa6598d73276",
+        "ed5eb9a37e2d8231",
+        "f9d6cd1ed5cf1ead"
+      ],
+      "headline_hash": "c8e665bcd4be759db3f491e8b8616ea71ef19d29c1bf8687347240754593d1ff"
     }
   },
   "sources": {
@@ -303,22 +340,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T10:31:03Z",
+      "last_success": "2026-10-14T10:45:40Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-14T10:31:03Z",
+      "last_attempt": "2026-10-14T10:45:40Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T10:31:03Z",
+      "last_success": "2026-10-14T10:45:40Z",
       "received": 20,
       "accepted": 4,
       "rejected": 0,
-      "last_attempt": "2026-10-14T10:31:03Z",
+      "last_attempt": "2026-10-14T10:45:40Z",
       "status": "ok"
     }
   },

@@ -756,6 +756,75 @@
         "e0a6230e370d20de"
       ],
       "headline_hash": "a91c5b9197f2109782d1aa62d38a707eadcb30f0df98f22f8528fee29ad2ea59"
+    },
+    "36c30d6974b7fb46d2bec225c389aab1b9106ccaee9acf373b9f50149fc60054": {
+      "id": "36c30d6974b7fb46d2bec225c389aab1b9106ccaee9acf373b9f50149fc60054",
+      "url": "https://www.investing.com/news/stock-market-news/google-deepminds-hassabis-calls-ai-hacks-early-warning-shots-4948612",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T15:54:41Z",
+      "first_seen": "2026-10-14T16:01:19Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "09fe70881253e354",
+        "0c47682ec767a3e9",
+        "32e83e92d45d71f6",
+        "4bd9354bb6522334",
+        "58ec5e1f622c518c",
+        "90642c3dd333bc0e",
+        "bbdefa2950f49882",
+        "f408830bcc7fab37",
+        "f46f5990ebfadcab"
+      ],
+      "headline_hash": "042d4ba773bcc9a73bc67c0b87929936273c45a3138c2f2df4c99532354df760"
+    },
+    "cda418c4bc038256a5031c1fb8991f2fec86cea19908c86ff05649575b255549": {
+      "id": "cda418c4bc038256a5031c1fb8991f2fec86cea19908c86ff05649575b255549",
+      "url": "https://www.investing.com/news/stock-market-news/meta-expands-whatsapp-utility-with-nonaccount-guest-calling-features-4949703",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T15:29:30Z",
+      "first_seen": "2026-10-14T16:01:19Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "57ffcc28d4b99976",
+        "5b8a8b56dada6ce7",
+        "84983c60f7daadc1",
+        "92b9ce21f5e3741c",
+        "9af211329b2fc82e",
+        "bcee72e6df5d5631",
+        "ea3bd73e2b506e00",
+        "ec8202b6f9fb16f9",
+        "efad137e1f9224a5"
+      ],
+      "headline_hash": "90d0f178862b95eeb8d00ccb4dc128ff5c33b63712ee1fb669c3eca59cfa8731"
     }
   },
   "sources": {
@@ -763,22 +832,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T15:45:48Z",
+      "last_success": "2026-10-14T16:01:19Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-14T15:45:48Z",
+      "last_attempt": "2026-10-14T16:01:19Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T15:45:48Z",
+      "last_success": "2026-10-14T16:01:19Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T15:45:48Z",
+      "last_attempt": "2026-10-14T16:01:19Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -798,11 +867,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-14T15:45:48Z",
+      "last_success": "2026-10-14T16:01:19Z",
       "received": 10,
-      "accepted": 2,
+      "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-14T15:45:48Z",
+      "last_attempt": "2026-10-14T16:01:19Z",
       "status": "ok"
     }
   },

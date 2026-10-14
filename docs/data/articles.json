@@ -466,5 +466,49 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.1"
     }
+  },
+  {
+    "id": "36c30d6974b7fb46d2bec225c389aab1b9106ccaee9acf373b9f50149fc60054",
+    "url": "https://www.investing.com/news/stock-market-news/google-deepminds-hassabis-calls-ai-hacks-early-warning-shots-4948612",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-14T15:54:41Z",
+    "first_seen": "2026-10-14T16:01:19Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
+  },
+  {
+    "id": "cda418c4bc038256a5031c1fb8991f2fec86cea19908c86ff05649575b255549",
+    "url": "https://www.investing.com/news/stock-market-news/meta-expands-whatsapp-utility-with-nonaccount-guest-calling-features-4949703",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-14T15:29:30Z",
+    "first_seen": "2026-10-14T16:01:19Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
   }
 ]

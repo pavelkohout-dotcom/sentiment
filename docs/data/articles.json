@@ -270,5 +270,49 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.1"
     }
+  },
+  {
+    "id": "523c18d89ac09a8642eec3bf2ee12516ba800031254c0687bbe52ca8bdd2ebf0",
+    "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-muted-after-chip-losses-drag-wall-street-cpi-data-awaited-4947807",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-14T13:35:07Z",
+    "first_seen": "2026-10-14T13:45:42Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
+  },
+  {
+    "id": "90a627c473e12cadad9fbd97df8439108ea39a31a53cd924aa0d4ebd952528aa",
+    "url": "https://www.investing.com/news/stock-market-news/netflix-cuts-about-6-of-jobs-wsj-reports-4949456",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-14T13:31:30Z",
+    "first_seen": "2026-10-14T13:45:42Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
   }
 ]

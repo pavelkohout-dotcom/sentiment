@@ -440,6 +440,77 @@
         "ea3bd73e2b506e00"
       ],
       "headline_hash": "1c9a1b219277108bad8d2d0a0cf7e118c6a0aa191677476956771e738618f79c"
+    },
+    "523c18d89ac09a8642eec3bf2ee12516ba800031254c0687bbe52ca8bdd2ebf0": {
+      "id": "523c18d89ac09a8642eec3bf2ee12516ba800031254c0687bbe52ca8bdd2ebf0",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-muted-after-chip-losses-drag-wall-street-cpi-data-awaited-4947807",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T13:35:07Z",
+      "first_seen": "2026-10-14T13:45:42Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "3359963d8a8deb76",
+        "4d8aaa64f68587b1",
+        "5d2ada361b47f841",
+        "6008c26f4452392a",
+        "6015993a383253de",
+        "7383711c1b05e72a",
+        "845e91831319e89c",
+        "b1f51a511f1da0cd",
+        "cea23dd4b87e8b00",
+        "f65402e247b10d10"
+      ],
+      "headline_hash": "c61c9d39132b7fdfe6be38b76a6b18e5fd9382749f4294e7027a9d606c8fd9b9"
+    },
+    "90a627c473e12cadad9fbd97df8439108ea39a31a53cd924aa0d4ebd952528aa": {
+      "id": "90a627c473e12cadad9fbd97df8439108ea39a31a53cd924aa0d4ebd952528aa",
+      "url": "https://www.investing.com/news/stock-market-news/netflix-cuts-about-6-of-jobs-wsj-reports-4949456",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T13:31:30Z",
+      "first_seen": "2026-10-14T13:45:42Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "13ed070478ef62c3",
+        "577aeee7d0d03b5a",
+        "5d9a17cb70b9733a",
+        "6b5a3ded016ab782",
+        "7f26104f77a7ce47",
+        "90191e4114b0c17d",
+        "a4262e1c9bcbc172",
+        "a783906837a48950",
+        "b1ab1e892617f210",
+        "df6f99cb5f0b085d",
+        "e7f6c011776e8db7"
+      ],
+      "headline_hash": "ea335bd08b0929559a6a9ab3ff0ae0688787d8f9e6b3d4c2f02edb50a3f3e296"
     }
   },
   "sources": {
@@ -447,22 +518,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T13:31:02Z",
+      "last_success": "2026-10-14T13:45:42Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
-      "last_attempt": "2026-10-14T13:31:02Z",
+      "last_attempt": "2026-10-14T13:45:42Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T13:31:02Z",
+      "last_success": "2026-10-14T13:45:42Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T13:31:02Z",
+      "last_attempt": "2026-10-14T13:45:42Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -482,11 +553,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-14T13:31:02Z",
+      "last_success": "2026-10-14T13:45:42Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-14T13:31:02Z",
+      "last_attempt": "2026-10-14T13:45:42Z",
       "status": "ok"
     }
   },

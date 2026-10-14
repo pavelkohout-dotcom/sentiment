@@ -1067,6 +1067,41 @@
         "e0f4f767ac88a930"
       ],
       "headline_hash": "c433486a342c98efe303b1e47b8a9876ee4afa30d5908ef0c4d33b9a21734090"
+    },
+    "9fba11f4a78b7cdc80ad65d240fa5a65df588e0d2a086f06c36f941b5522aa51": {
+      "id": "9fba11f4a78b7cdc80ad65d240fa5a65df588e0d2a086f06c36f941b5522aa51",
+      "url": "https://www.marketwatch.com/story/heres-what-the-fed-might-do-at-this-months-meeting-after-todays-hot-inflation-reading-087511b6",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-14T19:04:00Z",
+      "first_seen": "2026-10-14T19:15:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "0fd924362117d036",
+        "1fd5faa9b5cf91c2",
+        "20e796c128096d22",
+        "749ab2c0d06c42ae",
+        "77f2f036726eaa17",
+        "824d422d755b9c7b",
+        "c02d7803a91c3958",
+        "c549779d79e5c8e9",
+        "c6c1c9a9c8543f1e",
+        "ed5eb9a37e2d8231"
+      ],
+      "headline_hash": "c5d64a0b866e98287fc710e25bcc19a4e3c45699d1b643bb4c95fc2da78442d1"
     }
   },
   "sources": {
@@ -1074,22 +1109,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T19:01:15Z",
+      "last_success": "2026-10-14T19:15:41Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-14T19:01:15Z",
+      "last_attempt": "2026-10-14T19:15:41Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T19:01:15Z",
+      "last_success": "2026-10-14T19:15:41Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T19:01:15Z",
+      "last_attempt": "2026-10-14T19:15:41Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -1109,11 +1144,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-14T19:01:15Z",
+      "last_success": "2026-10-14T19:15:41Z",
       "received": 10,
-      "accepted": 3,
+      "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-14T19:01:15Z",
+      "last_attempt": "2026-10-14T19:15:41Z",
       "status": "ok"
     }
   },

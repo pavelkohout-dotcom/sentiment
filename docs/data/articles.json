@@ -822,5 +822,26 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.1"
     }
+  },
+  {
+    "id": "400053a0cbe36f3fada097f53455aeb40b075858c63d64476d2dceb3229c6303",
+    "url": "https://www.investing.com/news/stock-market-news/iambic-therapeutics-prices-ipo-at-16-per-share-on-nasdaq-432SI-4950227",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-14T23:05:02Z",
+    "first_seen": "2026-10-14T23:15:41Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

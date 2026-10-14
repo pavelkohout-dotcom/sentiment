@@ -1311,6 +1311,38 @@
         "ff6b1c44fb9488ad"
       ],
       "headline_hash": "59d555e49971f8411dcaf04c4c4fe469f6cbb7647abbd9f07ed9c93378e87433"
+    },
+    "400053a0cbe36f3fada097f53455aeb40b075858c63d64476d2dceb3229c6303": {
+      "id": "400053a0cbe36f3fada097f53455aeb40b075858c63d64476d2dceb3229c6303",
+      "url": "https://www.investing.com/news/stock-market-news/iambic-therapeutics-prices-ipo-at-16-per-share-on-nasdaq-432SI-4950227",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T23:05:02Z",
+      "first_seen": "2026-10-14T23:15:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "44ec15e31baddfe9",
+        "9647978e40f75d2a",
+        "b17ef6d19c7a5b1e",
+        "b427c3dec9045990",
+        "c3bc45ac352fe43f",
+        "fc1b192ed5829737",
+        "fe81f9390ffe3dc8",
+        "ff0fbada81b5d859"
+      ],
+      "headline_hash": "f4c98c7f1ee9ea8a5af7938681f3b6de8ac651b7650e3eb35cd82770822e0e7c"
     }
   },
   "sources": {
@@ -1318,22 +1350,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T23:01:11Z",
+      "last_success": "2026-10-14T23:15:41Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
-      "last_attempt": "2026-10-14T23:01:11Z",
+      "last_attempt": "2026-10-14T23:15:41Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T23:01:11Z",
+      "last_success": "2026-10-14T23:15:41Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T23:01:11Z",
+      "last_attempt": "2026-10-14T23:15:41Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -1353,11 +1385,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-14T23:01:11Z",
+      "last_success": "2026-10-14T23:15:41Z",
       "received": 10,
-      "accepted": 0,
+      "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-14T23:01:11Z",
+      "last_attempt": "2026-10-14T23:15:41Z",
       "status": "ok"
     }
   },

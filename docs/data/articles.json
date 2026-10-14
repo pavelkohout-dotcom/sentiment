@@ -248,5 +248,27 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.1"
     }
+  },
+  {
+    "id": "723e10d2fd96bf367c36428a20e30a84232f0ef2118fc8c66fbcaf9c17d09bf2",
+    "url": "https://www.investing.com/news/stock-market-news/guggenheim-lifts-meta-target-as-muse-usage-builds-4949305",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-14T12:58:52Z",
+    "first_seen": "2026-10-14T13:15:46Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
   }
 ]

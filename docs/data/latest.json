@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T13:03:13Z",
+  "generated_at": "2026-10-14T13:15:46Z",
   "model": "impact-rules-1.0.1",
   "collection_status": "degraded",
   "window_hours": 24,
@@ -8,9 +8,9 @@
     "all": {
       "value": 45.37,
       "status": "low_coverage",
-      "events": 9,
+      "events": 10,
       "scored_events": 3,
-      "articles": 9,
+      "articles": 10,
       "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
@@ -19,9 +19,9 @@
     "nasdaq100": {
       "value": 15.0,
       "status": "low_coverage",
-      "events": 6,
+      "events": 7,
       "scored_events": 1,
-      "articles": 6,
+      "articles": 7,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -30,9 +30,9 @@
     "sp500": {
       "value": 45.37,
       "status": "low_coverage",
-      "events": 9,
+      "events": 10,
       "scored_events": 3,
-      "articles": 9,
+      "articles": 10,
       "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
@@ -44,22 +44,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T13:03:13Z",
+      "last_success": "2026-10-14T13:15:46Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-14T13:03:13Z",
+      "last_attempt": "2026-10-14T13:15:46Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T13:03:13Z",
+      "last_success": "2026-10-14T13:15:46Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T13:03:13Z",
+      "last_attempt": "2026-10-14T13:15:46Z",
       "status": "ok"
     },
     {
@@ -76,17 +76,39 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-14T13:03:13Z",
+      "last_success": "2026-10-14T13:15:46Z",
       "received": 10,
-      "accepted": 0,
+      "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-14T13:03:13Z",
+      "last_attempt": "2026-10-14T13:15:46Z",
       "status": "ok"
     }
   ],
-  "new_articles": 0,
-  "total_archived": 11,
+  "new_articles": 1,
+  "total_archived": 12,
   "articles": [
+    {
+      "id": "723e10d2fd96bf367c36428a20e30a84232f0ef2118fc8c66fbcaf9c17d09bf2",
+      "url": "https://www.investing.com/news/stock-market-news/guggenheim-lifts-meta-target-as-muse-usage-builds-4949305",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T12:58:52Z",
+      "first_seen": "2026-10-14T13:15:46Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      }
+    },
     {
       "id": "5807988a4e5d988d62c192db0a2d84688ca1053ceaff54b88702ea0d785a9004",
       "url": "https://www.theguardian.com/business/live/2026/oct/14/imf-rising-government-borrowing-costs-inflation-oil-stock-markets-latest-news-updates",

@@ -408,6 +408,38 @@
         "f83cff8066af378d"
       ],
       "headline_hash": "c7c195a118779a68e3091f0c49ff89a2b9cac861165888b8c2dcf9c047960753"
+    },
+    "723e10d2fd96bf367c36428a20e30a84232f0ef2118fc8c66fbcaf9c17d09bf2": {
+      "id": "723e10d2fd96bf367c36428a20e30a84232f0ef2118fc8c66fbcaf9c17d09bf2",
+      "url": "https://www.investing.com/news/stock-market-news/guggenheim-lifts-meta-target-as-muse-usage-builds-4949305",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T12:58:52Z",
+      "first_seen": "2026-10-14T13:15:46Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "0a4e4c29432ecb01",
+        "34a04005bcaf206e",
+        "4016c3db3bc3c731",
+        "659204fb26f36932",
+        "8459419d4cfe6b1a",
+        "df9d9a138d5971e4",
+        "ea3bd73e2b506e00"
+      ],
+      "headline_hash": "1c9a1b219277108bad8d2d0a0cf7e118c6a0aa191677476956771e738618f79c"
     }
   },
   "sources": {
@@ -415,22 +447,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T13:03:13Z",
+      "last_success": "2026-10-14T13:15:46Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-14T13:03:13Z",
+      "last_attempt": "2026-10-14T13:15:46Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T13:03:13Z",
+      "last_success": "2026-10-14T13:15:46Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T13:03:13Z",
+      "last_attempt": "2026-10-14T13:15:46Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -450,11 +482,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-14T13:03:13Z",
+      "last_success": "2026-10-14T13:15:46Z",
       "received": 10,
-      "accepted": 0,
+      "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-14T13:03:13Z",
+      "last_attempt": "2026-10-14T13:15:46Z",
       "status": "ok"
     }
   },

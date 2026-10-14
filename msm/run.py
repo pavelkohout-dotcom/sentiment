@@ -53,6 +53,9 @@ def run(root, offline=False, now=None, fetcher=fetch):
             except Exception as e:
                 # Do not persist exception text: libraries can include URLs containing API keys.
                 report.update(status='error',error_type=type(e).__name__)
+                safe_code=getattr(e,'code',None)
+                if safe_code in ('missing_api_key','api_entitlement_required','api_quota_exceeded','api_key_rejected','api_unexpected_response'):
+                    report['error_code']=safe_code
             state['sources'][src['id']]={**prior,**report}
         reports.append(report)
     records=list(state['records'].values())

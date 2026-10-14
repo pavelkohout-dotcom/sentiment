@@ -136,5 +136,188 @@
       "kind": "unknown",
       "model": "impact-rules-1.0"
     }
+  },
+  {
+    "id": "9f618511e3df54bd9b7dc92e204e8aa98961205b6be6497a1b51d8d6c5d4ca6d",
+    "url": "https://www.marketwatch.com/story/blackrock-now-has-assets-equal-to-half-the-size-of-the-u-s-economy-after-15-growth-c382b289",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-14T10:41:00Z",
+    "first_seen": "2026-10-14T10:45:40Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
+  },
+  {
+    "id": "6afa5aa0f9c5ac8fae7e0f167d12de39d340231828d0719f61e292d7e3abd400",
+    "url": "https://www.marketwatch.com/story/why-dells-stock-was-one-of-the-s-p-500s-biggest-laggards-on-wednesday-70ce279e",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-14T20:21:00Z",
+    "first_seen": "2026-10-14T20:31:00Z",
+    "analysis": {
+      "segments": [
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
+  },
+  {
+    "id": "9fba11f4a78b7cdc80ad65d240fa5a65df588e0d2a086f06c36f941b5522aa51",
+    "url": "https://www.marketwatch.com/story/heres-what-the-fed-might-do-at-this-months-meeting-after-todays-hot-inflation-reading-087511b6",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-14T19:04:00Z",
+    "first_seen": "2026-10-14T19:15:41Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
+  },
+  {
+    "id": "5807988a4e5d988d62c192db0a2d84688ca1053ceaff54b88702ea0d785a9004",
+    "url": "https://www.theguardian.com/business/live/2026/oct/14/imf-rising-government-borrowing-costs-inflation-oil-stock-markets-latest-news-updates",
+    "source": "www.theguardian.com",
+    "provider": "guardian",
+    "title": null,
+    "published_at": "2026-10-14T12:41:07Z",
+    "first_seen": "2026-10-14T12:45:45Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
+  },
+  {
+    "id": "e9f18d1cf95d8c5d8814b8fe7a8f9af729ec164345ec07b24e69104dbf1d806c",
+    "url": "https://www.theguardian.com/business/2026/oct/13/chip-stocks-broadcom-ai-samsung-shares-cxmt",
+    "source": "www.theguardian.com",
+    "provider": "guardian",
+    "title": null,
+    "published_at": "2026-10-13T15:51:54Z",
+    "first_seen": "2026-10-13T17:42:41Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": -0.7,
+      "confidence": 0.65,
+      "rules": [
+        "equity_down"
+      ],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
+  },
+  {
+    "id": "c615bc630b8768aef842dddb2174a6961c6b40e47294e6dc366584bb154bcdac",
+    "url": "https://www.theguardian.com/business/live/2026/oct/13/imf-uk-economy-growth-boost-chancellor-john-healey-oil-prices-inflation-business-live-news",
+    "source": "www.theguardian.com",
+    "provider": "guardian",
+    "title": null,
+    "published_at": "2026-10-13T14:08:32Z",
+    "first_seen": "2026-10-13T17:42:41Z",
+    "analysis": {
+      "segments": [
+        "sp500"
+      ],
+      "score": -1.0,
+      "confidence": 0.65,
+      "rules": [
+        "earnings_miss",
+        "inflation_up"
+      ],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
+  },
+  {
+    "id": "d5313c8ebd3fefb49d655bc1ea76637fa1c25270dd6e6a636903c6c1822f7a43",
+    "url": "https://www.theguardian.com/business/2026/oct/06/sp-500-nasdaq-stocks-ai-chipmakers",
+    "source": "www.theguardian.com",
+    "provider": "guardian",
+    "title": null,
+    "published_at": "2026-10-06T20:28:42Z",
+    "first_seen": "2026-10-13T17:42:41Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": 0.7,
+      "confidence": 0.65,
+      "rules": [
+        "equity_up"
+      ],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
+  },
+  {
+    "id": "2501cd6b80b596856254c2e5f5ca49d8e85d592aedbd68b9574392db41d02264",
+    "url": "https://www.theguardian.com/business/live/2026/oct/02/french-bond-sell-off-euro-crisis-cuts-tax-rises-eurozone-inflation-us-jobs-report-latest-news-updates",
+    "source": "www.theguardian.com",
+    "provider": "guardian",
+    "title": null,
+    "published_at": "2026-10-02T15:58:01Z",
+    "first_seen": "2026-10-13T17:42:41Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": 0.7,
+      "confidence": 0.65,
+      "rules": [
+        "equity_up"
+      ],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
   }
 ]

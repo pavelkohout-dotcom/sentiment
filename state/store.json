@@ -97,7 +97,7 @@
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.1"
+        "model": "impact-rules-1.0.2"
       },
       "signature": [
         "1ef8f25405f82682",
@@ -133,7 +133,7 @@
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.1"
+        "model": "impact-rules-1.0.2"
       },
       "signature": [
         "4110c398f2d88fdb",
@@ -173,7 +173,7 @@
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.1"
+        "model": "impact-rules-1.0.2"
       },
       "signature": [
         "043a718774c572bd",
@@ -202,15 +202,13 @@
           "nasdaq100",
           "sp500"
         ],
-        "score": 0.7,
-        "confidence": 0.65,
-        "rules": [
-          "equity_up"
-        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.1"
+        "model": "impact-rules-1.0.2"
       },
       "signature": [
         "1aa20c854d615577",
@@ -303,7 +301,7 @@
       "source": "www.marketwatch.com",
       "provider": "marketwatch",
       "title": null,
-      "published_at": "2026-10-14T10:41:00Z",
+      "published_at": "2026-10-14T20:57:00Z",
       "first_seen": "2026-10-14T10:45:40Z",
       "analysis": {
         "segments": [
@@ -316,23 +314,23 @@
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.1"
+        "model": "impact-rules-1.0.2"
       },
       "signature": [
         "043a718774c572bd",
         "0bfe935e70c321c7",
         "19c64195eb8f22c3",
+        "545438cd9bc00976",
         "6fda2b8252b6d5ea",
         "7e6578c2e34b5313",
         "8bf729ffe074caee",
-        "9150c74c5f92d51a",
         "a11ae06469c63740",
         "ccdcbe846f3da4eb",
         "e629fa6598d73276",
         "ed5eb9a37e2d8231",
         "f9d6cd1ed5cf1ead"
       ],
-      "headline_hash": "c8e665bcd4be759db3f491e8b8616ea71ef19d29c1bf8687347240754593d1ff"
+      "headline_hash": "389ea03b9f74416e27472f1e1c10124469d55875ad2fe5506d8f8d1c12e8828b"
     },
     "115b9d2efa66a4cf730ff30fe8b9b005dd393fc2a308ae39e533a58e62280279": {
       "id": "115b9d2efa66a4cf730ff30fe8b9b005dd393fc2a308ae39e533a58e62280279",
@@ -376,7 +374,7 @@
       "source": "www.theguardian.com",
       "provider": "guardian",
       "title": null,
-      "published_at": "2026-10-14T12:41:07Z",
+      "published_at": "2026-10-14T14:20:54Z",
       "first_seen": "2026-10-14T12:45:45Z",
       "analysis": {
         "segments": [
@@ -389,25 +387,23 @@
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.1"
+        "model": "impact-rules-1.0.2"
       },
       "signature": [
-        "11d40417959631d3",
-        "208ea7744a24bd7f",
-        "247610f4dedd4ab7",
+        "14b625876cc4921c",
         "34f5290adc138ebb",
-        "361e48d0308f20e3",
         "4325ed4bef2a2a10",
-        "4a754148b88a68e1",
+        "4b42194596899bcd",
+        "6bdaf554e42029bd",
         "6d731a5ed145ab6d",
-        "75a288c0d6898c5f",
+        "72de275ac0b40947",
         "79adb2a2fce5c6ba",
-        "9390298f3fb0c5b1",
-        "b11833a4396b84cb",
-        "bcde6928e538c63c",
-        "f83cff8066af378d"
+        "7cf6b0597fe4e3cb",
+        "a60a52382d707771",
+        "c37d8ede17f4c7ee",
+        "fe81f9390ffe3dc8"
       ],
-      "headline_hash": "c7c195a118779a68e3091f0c49ff89a2b9cac861165888b8c2dcf9c047960753"
+      "headline_hash": "2019f9e066504435d882550aff76c415f7a58d2e4403dd8b33d16b3e9bd6f2cc"
     },
     "723e10d2fd96bf367c36428a20e30a84232f0ef2118fc8c66fbcaf9c17d09bf2": {
       "id": "723e10d2fd96bf367c36428a20e30a84232f0ef2118fc8c66fbcaf9c17d09bf2",
@@ -1087,7 +1083,7 @@
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.1"
+        "model": "impact-rules-1.0.2"
       },
       "signature": [
         "0fd924362117d036",
@@ -1259,7 +1255,7 @@
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.1"
+        "model": "impact-rules-1.0.2"
       },
       "signature": [
         "043a718774c572bd",
@@ -1322,22 +1318,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T21:31:01Z",
+      "last_success": "2026-10-14T21:45:12Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-14T21:31:01Z",
+      "last_attempt": "2026-10-14T21:45:12Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T21:31:01Z",
+      "last_success": "2026-10-14T21:45:12Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T21:31:01Z",
+      "last_attempt": "2026-10-14T21:45:12Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -1357,11 +1353,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-14T21:31:01Z",
+      "last_success": "2026-10-14T21:45:12Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 0,
       "rejected": 0,
-      "last_attempt": "2026-10-14T21:31:01Z",
+      "last_attempt": "2026-10-14T21:45:12Z",
       "status": "ok"
     }
   },
@@ -1574,6 +1570,303 @@
         "mixed": false,
         "kind": "unknown",
         "model": "impact-rules-1.0"
+      },
+      "signature": [
+        "1aa20c854d615577",
+        "5d9a17cb70b9733a",
+        "62f51d296d3429d8",
+        "6ef7c9b15ecdd690",
+        "70ce871f8a3d3fb4",
+        "7383711c1b05e72a",
+        "79adb2a2fce5c6ba",
+        "845e91831319e89c",
+        "c37d8ede17f4c7ee",
+        "cea23dd4b87e8b00",
+        "fc1b192ed5829737"
+      ],
+      "headline_hash": "ed5fcf984372d28a6458ea298f3c8c4c9db444b69ac50d9a7a4649b19c157dce"
+    },
+    {
+      "id": "9f618511e3df54bd9b7dc92e204e8aa98961205b6be6497a1b51d8d6c5d4ca6d",
+      "url": "https://www.marketwatch.com/story/blackrock-now-has-assets-equal-to-half-the-size-of-the-u-s-economy-after-15-growth-c382b289",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-14T10:41:00Z",
+      "first_seen": "2026-10-14T10:45:40Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "0bfe935e70c321c7",
+        "19c64195eb8f22c3",
+        "6fda2b8252b6d5ea",
+        "7e6578c2e34b5313",
+        "8bf729ffe074caee",
+        "9150c74c5f92d51a",
+        "a11ae06469c63740",
+        "ccdcbe846f3da4eb",
+        "e629fa6598d73276",
+        "ed5eb9a37e2d8231",
+        "f9d6cd1ed5cf1ead"
+      ],
+      "headline_hash": "c8e665bcd4be759db3f491e8b8616ea71ef19d29c1bf8687347240754593d1ff"
+    },
+    {
+      "id": "6afa5aa0f9c5ac8fae7e0f167d12de39d340231828d0719f61e292d7e3abd400",
+      "url": "https://www.marketwatch.com/story/why-dells-stock-was-one-of-the-s-p-500s-biggest-laggards-on-wednesday-70ce279e",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-14T20:21:00Z",
+      "first_seen": "2026-10-14T20:31:00Z",
+      "analysis": {
+        "segments": [
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "0604cd3138feed20",
+        "08c4242b5f585628",
+        "148de9c5a7a44d19",
+        "20825bf7e8ac3691",
+        "2be23c585f15e5fd",
+        "7692c3ad3540bb80",
+        "90191e4114b0c17d",
+        "b63b99f6383ba713",
+        "d0e2ece166bdef23",
+        "e86421cb8ca42871"
+      ],
+      "headline_hash": "af45eefffa1a2f53608371115a3078406bde90dd87a45b06afa38eb15b9f68d0"
+    },
+    {
+      "id": "9fba11f4a78b7cdc80ad65d240fa5a65df588e0d2a086f06c36f941b5522aa51",
+      "url": "https://www.marketwatch.com/story/heres-what-the-fed-might-do-at-this-months-meeting-after-todays-hot-inflation-reading-087511b6",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-14T19:04:00Z",
+      "first_seen": "2026-10-14T19:15:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "0fd924362117d036",
+        "1fd5faa9b5cf91c2",
+        "20e796c128096d22",
+        "749ab2c0d06c42ae",
+        "77f2f036726eaa17",
+        "824d422d755b9c7b",
+        "c02d7803a91c3958",
+        "c549779d79e5c8e9",
+        "c6c1c9a9c8543f1e",
+        "ed5eb9a37e2d8231"
+      ],
+      "headline_hash": "c5d64a0b866e98287fc710e25bcc19a4e3c45699d1b643bb4c95fc2da78442d1"
+    },
+    {
+      "id": "5807988a4e5d988d62c192db0a2d84688ca1053ceaff54b88702ea0d785a9004",
+      "url": "https://www.theguardian.com/business/live/2026/oct/14/imf-rising-government-borrowing-costs-inflation-oil-stock-markets-latest-news-updates",
+      "source": "www.theguardian.com",
+      "provider": "guardian",
+      "title": null,
+      "published_at": "2026-10-14T12:41:07Z",
+      "first_seen": "2026-10-14T12:45:45Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "11d40417959631d3",
+        "208ea7744a24bd7f",
+        "247610f4dedd4ab7",
+        "34f5290adc138ebb",
+        "361e48d0308f20e3",
+        "4325ed4bef2a2a10",
+        "4a754148b88a68e1",
+        "6d731a5ed145ab6d",
+        "75a288c0d6898c5f",
+        "79adb2a2fce5c6ba",
+        "9390298f3fb0c5b1",
+        "b11833a4396b84cb",
+        "bcde6928e538c63c",
+        "f83cff8066af378d"
+      ],
+      "headline_hash": "c7c195a118779a68e3091f0c49ff89a2b9cac861165888b8c2dcf9c047960753"
+    },
+    {
+      "id": "e9f18d1cf95d8c5d8814b8fe7a8f9af729ec164345ec07b24e69104dbf1d806c",
+      "url": "https://www.theguardian.com/business/2026/oct/13/chip-stocks-broadcom-ai-samsung-shares-cxmt",
+      "source": "www.theguardian.com",
+      "provider": "guardian",
+      "title": null,
+      "published_at": "2026-10-13T15:51:54Z",
+      "first_seen": "2026-10-13T17:42:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -0.7,
+        "confidence": 0.65,
+        "rules": [
+          "equity_down"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "1ef8f25405f82682",
+        "32e83e92d45d71f6",
+        "35da636b0d049d44",
+        "373ac021a2c0bb2c",
+        "405e6e0273215dab",
+        "7464e221a2a7dfb9",
+        "a5e7c002443743c5",
+        "b8a7e24e95497806",
+        "d7cea7305a333d5c"
+      ],
+      "headline_hash": "5c1a4a7e5d209c1fb5d79e96d3fab96a34144831cee183218abf117b442806ca"
+    },
+    {
+      "id": "c615bc630b8768aef842dddb2174a6961c6b40e47294e6dc366584bb154bcdac",
+      "url": "https://www.theguardian.com/business/live/2026/oct/13/imf-uk-economy-growth-boost-chancellor-john-healey-oil-prices-inflation-business-live-news",
+      "source": "www.theguardian.com",
+      "provider": "guardian",
+      "title": null,
+      "published_at": "2026-10-13T14:08:32Z",
+      "first_seen": "2026-10-13T17:42:41Z",
+      "analysis": {
+        "segments": [
+          "sp500"
+        ],
+        "score": -1.0,
+        "confidence": 0.65,
+        "rules": [
+          "earnings_miss",
+          "inflation_up"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "4110c398f2d88fdb",
+        "4381dc2ab1428516",
+        "4879b2431ffb8a67",
+        "4ef9bfe6a5402861",
+        "6d731a5ed145ab6d",
+        "80822c900bdbb19f",
+        "964a9431ff491fd7",
+        "a5e7c002443743c5",
+        "b36708c7beec495a",
+        "b65bf95cc4f9b4b3",
+        "c37d8ede17f4c7ee",
+        "d23be8d1141403ea",
+        "d35c416a85b807e9"
+      ],
+      "headline_hash": "41e336caf23e32e179567bd76cb079140d9822a6bc3397566c219746c741a521"
+    },
+    {
+      "id": "d5313c8ebd3fefb49d655bc1ea76637fa1c25270dd6e6a636903c6c1822f7a43",
+      "url": "https://www.theguardian.com/business/2026/oct/06/sp-500-nasdaq-stocks-ai-chipmakers",
+      "source": "www.theguardian.com",
+      "provider": "guardian",
+      "title": null,
+      "published_at": "2026-10-06T20:28:42Z",
+      "first_seen": "2026-10-13T17:42:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 0.7,
+        "confidence": 0.65,
+        "rules": [
+          "equity_up"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "0604cd3138feed20",
+        "1351bfd83437f2e1",
+        "148de9c5a7a44d19",
+        "32e83e92d45d71f6",
+        "3e70e3797dd10842",
+        "41ef29df4a53ab2d",
+        "70ce871f8a3d3fb4",
+        "afd5c5ae5738e275",
+        "fc1b192ed5829737"
+      ],
+      "headline_hash": "edd1661569cf633ba3d73ee400f3ee131ee995e9adcd970534469189c72187b9"
+    },
+    {
+      "id": "2501cd6b80b596856254c2e5f5ca49d8e85d592aedbd68b9574392db41d02264",
+      "url": "https://www.theguardian.com/business/live/2026/oct/02/french-bond-sell-off-euro-crisis-cuts-tax-rises-eurozone-inflation-us-jobs-report-latest-news-updates",
+      "source": "www.theguardian.com",
+      "provider": "guardian",
+      "title": null,
+      "published_at": "2026-10-02T15:58:01Z",
+      "first_seen": "2026-10-13T17:42:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 0.7,
+        "confidence": 0.65,
+        "rules": [
+          "equity_up"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
       },
       "signature": [
         "1aa20c854d615577",

@@ -1,39 +1,39 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T21:31:01Z",
-  "model": "impact-rules-1.0.1",
+  "generated_at": "2026-10-14T21:45:12Z",
+  "model": "impact-rules-1.0.2",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 41.16,
-      "status": "low_coverage",
-      "events": 29,
-      "scored_events": 3,
-      "articles": 29,
-      "sources": 2,
+      "value": null,
+      "status": "no_data",
+      "events": 4,
+      "scored_events": 0,
+      "articles": 4,
+      "sources": 0,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
     },
     "nasdaq100": {
-      "value": 41.16,
-      "status": "low_coverage",
-      "events": 26,
-      "scored_events": 3,
-      "articles": 26,
-      "sources": 2,
+      "value": null,
+      "status": "no_data",
+      "events": 3,
+      "scored_events": 0,
+      "articles": 3,
+      "sources": 0,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
     },
     "sp500": {
-      "value": 41.16,
-      "status": "low_coverage",
-      "events": 28,
-      "scored_events": 3,
-      "articles": 28,
-      "sources": 2,
+      "value": null,
+      "status": "no_data",
+      "events": 4,
+      "scored_events": 0,
+      "articles": 4,
+      "sources": 0,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
@@ -44,33 +44,33 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T21:31:01Z",
+      "last_success": "2026-10-14T21:45:12Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-14T21:31:01Z",
+      "last_attempt": "2026-10-14T21:45:12Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T21:31:01Z",
+      "last_success": "2026-10-14T21:45:12Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T21:31:01Z",
+      "last_attempt": "2026-10-14T21:45:12Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-14T21:31:01Z",
+      "last_success": "2026-10-14T21:45:12Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 0,
       "rejected": 0,
-      "last_attempt": "2026-10-14T21:31:01Z",
+      "last_attempt": "2026-10-14T21:45:12Z",
       "status": "ok"
     }
   ],
@@ -78,27 +78,25 @@
   "total_archived": 37,
   "articles": [
     {
-      "id": "c213c5ef3a8e6f89b657fed78e7b74c74d3f024ceccd9a00335fe9d718e85ef2",
-      "url": "https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-009-4950017",
-      "source": "www.investing.com",
-      "provider": "investing",
+      "id": "9f618511e3df54bd9b7dc92e204e8aa98961205b6be6497a1b51d8d6c5d4ca6d",
+      "url": "https://www.marketwatch.com/story/blackrock-now-has-assets-equal-to-half-the-size-of-the-u-s-economy-after-15-growth-c382b289",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
       "title": null,
-      "published_at": "2026-10-14T20:31:06Z",
-      "first_seen": "2026-10-14T21:01:17Z",
+      "published_at": "2026-10-14T20:57:00Z",
+      "first_seen": "2026-10-14T10:45:40Z",
       "analysis": {
         "segments": [
           "nasdaq100",
           "sp500"
         ],
-        "score": -0.7,
-        "confidence": 0.65,
-        "rules": [
-          "equity_down"
-        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.1"
+        "model": "impact-rules-1.0.2"
       }
     },
     {
@@ -119,98 +117,7 @@
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "2d5811ff8d4adc070886e93de7292298940d0b468e509590dc969b096a96cf77",
-      "url": "https://www.investing.com/news/stock-market-news/gold-miners-fall-as-bullion-prices-drop-on-fed-rate-hike-bets-93CH-4949904",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T19:53:25Z",
-      "first_seen": "2026-10-14T20:15:45Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "d0fd8a9c201d63386e63ed0955faedfa2d432efb4b1e7dcbde92527618adc195",
-      "url": "https://www.investing.com/news/stock-market-news/us-treasury-yields-fall-after-reversing-inflationled-selloff-93CH-4949903",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T19:52:29Z",
-      "first_seen": "2026-10-14T20:15:45Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": 0.85,
-        "confidence": 0.65,
-        "rules": [
-          "inflation_down",
-          "yields_down"
-        ],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "a55ab85491d424d8d9a6c438b21de50176c1478c344f7a2720f46c6e60c8d342",
-      "url": "https://www.investing.com/news/stock-market-news/alphabet-a-squeezed-between-350-and-356-live-levels-93CH-4944771",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T19:18:24Z",
-      "first_seen": "2026-10-14T19:31:02Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "49759732df97a86beeb1cafd2cdeee016ddd8906e17b2ffd4510b6d148a0e779",
-      "url": "https://www.investing.com/news/stock-market-news/apple-double-top-threat-near-ath-34524-live-levels-93CH-4944773",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T19:18:24Z",
-      "first_seen": "2026-10-14T19:31:02Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": true,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
+        "model": "impact-rules-1.0.2"
       }
     },
     {
@@ -232,425 +139,7 @@
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "f6f56f53ead8a65063aeedba534788a3515e00091297dd48c8cc323be60249e1",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-nvidia-stock-sliding-today-93CH-4949876",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T18:45:26Z",
-      "first_seen": "2026-10-14T19:01:15Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": true,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "ebf3302de0aaa5ceb9e0c4a47addc070b9ecec22d4de68dd55e334e271359b2a",
-      "url": "https://www.investing.com/news/stock-market-news/amd-bank-of-america-among-market-cap-stock-movers-on-wednesday-93CH-4949854",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T18:07:10Z",
-      "first_seen": "2026-10-14T18:31:02Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "5f2a477b1ada4b419c890073a557e1c92bb52d290b0f0d8cfc84d10cc416ae4d",
-      "url": "https://www.investing.com/news/stock-market-news/nvidia-ceo-says-he-would-stop-chip-supply-for-companies-with-unsafe-ai-4949841",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T17:55:33Z",
-      "first_seen": "2026-10-14T18:15:42Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "9a8b806c4db567c87e87640a65f4e923b0861ad010fb84e50cfb2f0b0d82076c",
-      "url": "https://www.investing.com/news/stock-market-news/lseg-teams-up-with-nvidia-for-faster-market-data-processing-4948123",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T17:54:27Z",
-      "first_seen": "2026-10-14T18:15:42Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "349a3bf01ed95e2d17b8934aa305d83910e2697da2eebc19a1dfd65c746eaabb",
-      "url": "https://www.investing.com/news/stock-market-news/us-lawmakers-ask-faa-to-conduct-review-before-allowing-amazon-drone-hub-near-boston-4949815",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T17:06:19Z",
-      "first_seen": "2026-10-14T17:15:47Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "8671e8317217595371c2a7b3da1f141a2497411ab61ed24d60eef5b20f6786a2",
-      "url": "https://www.investing.com/news/stock-market-news/as-wall-street-banks-finance-and-adopt-ai-risks-mount-on-both-fronts-4949795",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T16:54:22Z",
-      "first_seen": "2026-10-14T17:15:47Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": true,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "17888426764279c2aa35afe1d35de417b7a92626668227fca0fd197039e828f9",
-      "url": "https://www.marketwatch.com/story/rising-bond-yields-and-higher-inflation-leave-the-fed-trapped-in-a-rate-hike-dilemma-d34ba326",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-14T16:27:00Z",
-      "first_seen": "2026-10-14T16:31:04Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -0.4,
-        "confidence": 0.65,
-        "rules": [
-          "yields_up"
-        ],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "36c30d6974b7fb46d2bec225c389aab1b9106ccaee9acf373b9f50149fc60054",
-      "url": "https://www.investing.com/news/stock-market-news/google-deepminds-hassabis-calls-ai-hacks-early-warning-shots-4948612",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T15:54:41Z",
-      "first_seen": "2026-10-14T16:01:19Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "cda418c4bc038256a5031c1fb8991f2fec86cea19908c86ff05649575b255549",
-      "url": "https://www.investing.com/news/stock-market-news/meta-expands-whatsapp-utility-with-nonaccount-guest-calling-features-4949703",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T15:29:30Z",
-      "first_seen": "2026-10-14T16:01:19Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "49ece347700314629e6121f21c3182679b34a28df65fbdec2637fc132cac906a",
-      "url": "https://www.investing.com/news/stock-market-news/openai-employee-who-left-for-apple-took-files-about-unreleased-device-openai-alleges-4949701",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T15:25:02Z",
-      "first_seen": "2026-10-14T15:31:03Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "d4acf261926b836a5cc2afebfc08eec03618976dc773201c60503e2ac5fd5dc2",
-      "url": "https://www.investing.com/news/stock-market-news/tesla-stock-may-move-51-on-oct-21-earnings-release-93CH-4949600",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T14:20:49Z",
-      "first_seen": "2026-10-14T14:31:04Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": true,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "4b30451ff28a59c2ca67ea361b668c291db24e23c6b0aa3668ef394d7ea1bee9",
-      "url": "https://www.investing.com/news/stock-market-news/nasdaq-100-breaks-cloud-support-at-30935-live-levels-93CH-4944778",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T14:20:26Z",
-      "first_seen": "2026-10-14T14:31:04Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "4002f97577f7db2177c6d9c73cc5dc1ccdfd19f6feb7c99b4704ae049ad60903",
-      "url": "https://www.investing.com/news/stock-market-news/tesla-rangebound-at-380-with-weak-trend-live-levels-93CH-4944787",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T14:20:23Z",
-      "first_seen": "2026-10-14T14:31:04Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "d86197669c1b9576a6d94fc5d5620065550a854684fa63f95615a50e452bcefd",
-      "url": "https://www.investing.com/news/stock-market-news/alphabet-c-squeezed-at-349-between-key-levels-live-levels-93CH-4944780",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T14:20:22Z",
-      "first_seen": "2026-10-14T14:31:04Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "02e0a915373a6955bbdf73c841fc3f7b320a0cf4d4b75cc09a4109d3982386ca",
-      "url": "https://www.investing.com/news/stock-market-news/sp-500-stalls-in-chop-zone-below-7897-live-levels-93CH-4944776",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T14:19:55Z",
-      "first_seen": "2026-10-14T14:31:04Z",
-      "analysis": {
-        "segments": [
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "568e4b41f0044601d84404e0f769e226b67b5aa171a162e76824ddab30ab2c4c",
-      "url": "https://www.investing.com/news/stock-market-news/nvidia-teeters-at-225-support-with-fading-momentum-live-levels-93CH-4944777",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T14:19:44Z",
-      "first_seen": "2026-10-14T14:31:04Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "523c18d89ac09a8642eec3bf2ee12516ba800031254c0687bbe52ca8bdd2ebf0",
-      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-muted-after-chip-losses-drag-wall-street-cpi-data-awaited-4947807",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T13:35:07Z",
-      "first_seen": "2026-10-14T13:45:42Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "90a627c473e12cadad9fbd97df8439108ea39a31a53cd924aa0d4ebd952528aa",
-      "url": "https://www.investing.com/news/stock-market-news/netflix-cuts-about-6-of-jobs-wsj-reports-4949456",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T13:31:30Z",
-      "first_seen": "2026-10-14T13:45:42Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "723e10d2fd96bf367c36428a20e30a84232f0ef2118fc8c66fbcaf9c17d09bf2",
-      "url": "https://www.investing.com/news/stock-market-news/guggenheim-lifts-meta-target-as-muse-usage-builds-4949305",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T12:58:52Z",
-      "first_seen": "2026-10-14T13:15:46Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
+        "model": "impact-rules-1.0.2"
       }
     },
     {
@@ -659,7 +148,7 @@
       "source": "www.theguardian.com",
       "provider": "guardian",
       "title": null,
-      "published_at": "2026-10-14T12:41:07Z",
+      "published_at": "2026-10-14T14:20:54Z",
       "first_seen": "2026-10-14T12:45:45Z",
       "analysis": {
         "segments": [
@@ -672,50 +161,7 @@
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "115b9d2efa66a4cf730ff30fe8b9b005dd393fc2a308ae39e533a58e62280279",
-      "url": "https://www.marketwatch.com/story/heres-how-much-the-ai-boom-is-contributing-to-inflation-according-to-goldman-sachs-calculations-5ec717ff",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-14T11:18:00Z",
-      "first_seen": "2026-10-14T11:31:02Z",
-      "analysis": {
-        "segments": [
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "9f618511e3df54bd9b7dc92e204e8aa98961205b6be6497a1b51d8d6c5d4ca6d",
-      "url": "https://www.marketwatch.com/story/blackrock-now-has-assets-equal-to-half-the-size-of-the-u-s-economy-after-15-growth-c382b289",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-14T10:41:00Z",
-      "first_seen": "2026-10-14T10:45:40Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
+        "model": "impact-rules-1.0.2"
       }
     }
   ],

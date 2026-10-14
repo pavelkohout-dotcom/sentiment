@@ -64,7 +64,7 @@
       "uncertain": false,
       "mixed": false,
       "kind": "unknown",
-      "model": "impact-rules-1.0.1"
+      "model": "impact-rules-1.0.2"
     }
   },
   {
@@ -88,7 +88,7 @@
       "uncertain": false,
       "mixed": false,
       "kind": "unknown",
-      "model": "impact-rules-1.0.1"
+      "model": "impact-rules-1.0.2"
     }
   },
   {
@@ -112,7 +112,7 @@
       "uncertain": false,
       "mixed": false,
       "kind": "unknown",
-      "model": "impact-rules-1.0.1"
+      "model": "impact-rules-1.0.2"
     }
   },
   {
@@ -128,15 +128,13 @@
         "nasdaq100",
         "sp500"
       ],
-      "score": 0.7,
-      "confidence": 0.65,
-      "rules": [
-        "equity_up"
-      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
       "uncertain": false,
       "mixed": false,
       "kind": "unknown",
-      "model": "impact-rules-1.0.1"
+      "model": "impact-rules-1.0.2"
     }
   },
   {
@@ -190,7 +188,7 @@
     "source": "www.marketwatch.com",
     "provider": "marketwatch",
     "title": null,
-    "published_at": "2026-10-14T10:41:00Z",
+    "published_at": "2026-10-14T20:57:00Z",
     "first_seen": "2026-10-14T10:45:40Z",
     "analysis": {
       "segments": [
@@ -203,7 +201,7 @@
       "uncertain": false,
       "mixed": false,
       "kind": "unknown",
-      "model": "impact-rules-1.0.1"
+      "model": "impact-rules-1.0.2"
     }
   },
   {
@@ -233,7 +231,7 @@
     "source": "www.theguardian.com",
     "provider": "guardian",
     "title": null,
-    "published_at": "2026-10-14T12:41:07Z",
+    "published_at": "2026-10-14T14:20:54Z",
     "first_seen": "2026-10-14T12:45:45Z",
     "analysis": {
       "segments": [
@@ -246,7 +244,7 @@
       "uncertain": false,
       "mixed": false,
       "kind": "unknown",
-      "model": "impact-rules-1.0.1"
+      "model": "impact-rules-1.0.2"
     }
   },
   {
@@ -686,7 +684,7 @@
       "uncertain": false,
       "mixed": false,
       "kind": "unknown",
-      "model": "impact-rules-1.0.1"
+      "model": "impact-rules-1.0.2"
     }
   },
   {
@@ -798,7 +796,7 @@
       "uncertain": false,
       "mixed": false,
       "kind": "unknown",
-      "model": "impact-rules-1.0.1"
+      "model": "impact-rules-1.0.2"
     }
   },
   {

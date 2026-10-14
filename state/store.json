@@ -511,6 +511,215 @@
         "e7f6c011776e8db7"
       ],
       "headline_hash": "ea335bd08b0929559a6a9ab3ff0ae0688787d8f9e6b3d4c2f02edb50a3f3e296"
+    },
+    "d4acf261926b836a5cc2afebfc08eec03618976dc773201c60503e2ac5fd5dc2": {
+      "id": "d4acf261926b836a5cc2afebfc08eec03618976dc773201c60503e2ac5fd5dc2",
+      "url": "https://www.investing.com/news/stock-market-news/tesla-stock-may-move-51-on-oct-21-earnings-release-93CH-4949600",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T14:20:49Z",
+      "first_seen": "2026-10-14T14:31:04Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "08c4242b5f585628",
+        "65e10716f363b5a6",
+        "683a62ce15fbabb1",
+        "6b86b273ff34fce1",
+        "6f4b6612125fb3a0",
+        "7358bd4ec877e1b6",
+        "a4d451ec23463726",
+        "ee4d988c65de860f",
+        "ef2d127de37b942b",
+        "fe7634184576f6d1"
+      ],
+      "headline_hash": "12d7d4f2b8c323bcb19547c3b8376b4b301e4edec1c19ec810f6b0ba1773471e"
+    },
+    "4b30451ff28a59c2ca67ea361b668c291db24e23c6b0aa3668ef394d7ea1bee9": {
+      "id": "4b30451ff28a59c2ca67ea361b668c291db24e23c6b0aa3668ef394d7ea1bee9",
+      "url": "https://www.investing.com/news/stock-market-news/nasdaq-100-breaks-cloud-support-at-30935-live-levels-93CH-4944778",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T14:20:26Z",
+      "first_seen": "2026-10-14T14:31:04Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "247610f4dedd4ab7",
+        "2c70e12b7a0646f9",
+        "486bae792ce2ffcc",
+        "59830ebc3a418411",
+        "624b60c58c9d8bfb",
+        "69dabc67d286f871",
+        "a18603086e5bdf9d",
+        "ad57366865126e55",
+        "c1d2c1df9eabd696",
+        "fb84a9739699e1a2",
+        "fc1b192ed5829737"
+      ],
+      "headline_hash": "8983db36c61f4d0e5793168a1b1a9151ccf1b2fbbc6eb176d8b1fd6f5cf8525c"
+    },
+    "4002f97577f7db2177c6d9c73cc5dc1ccdfd19f6feb7c99b4704ae049ad60903": {
+      "id": "4002f97577f7db2177c6d9c73cc5dc1ccdfd19f6feb7c99b4704ae049ad60903",
+      "url": "https://www.investing.com/news/stock-market-news/tesla-rangebound-at-380-with-weak-trend-live-levels-93CH-4944787",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T14:20:23Z",
+      "first_seen": "2026-10-14T14:31:04Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "247610f4dedd4ab7",
+        "27badc983df1780b",
+        "28720365c5e7476a",
+        "2ce06a9e7f8c3e6b",
+        "7358bd4ec877e1b6",
+        "7d50f20853334a30",
+        "8ada24bf6bf31392",
+        "aed3d0cbc9a91880",
+        "e4d00226255e697d",
+        "f5fd5ffef3c528d3"
+      ],
+      "headline_hash": "2f335cb6ed241e196ceaf135d96783ea14029dd16eda07965a3ed88524caeeb4"
+    },
+    "d86197669c1b9576a6d94fc5d5620065550a854684fa63f95615a50e452bcefd": {
+      "id": "d86197669c1b9576a6d94fc5d5620065550a854684fa63f95615a50e452bcefd",
+      "url": "https://www.investing.com/news/stock-market-news/alphabet-c-squeezed-at-349-between-key-levels-live-levels-93CH-4944780",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T14:20:22Z",
+      "first_seen": "2026-10-14T14:31:04Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "2289b221b39605c3",
+        "247610f4dedd4ab7",
+        "2e7d2c03a9507ae2",
+        "355d8c0ee4e5698e",
+        "4dd4f3835505cd95",
+        "a18603086e5bdf9d",
+        "aed3d0cbc9a91880",
+        "be970d090a9b0a23",
+        "fbb27fbdc4f4dd04"
+      ],
+      "headline_hash": "f5ee4f24e2bf01c7db18436ad62365c4521f89329a25842eba32457ecb5649e7"
+    },
+    "02e0a915373a6955bbdf73c841fc3f7b320a0cf4d4b75cc09a4109d3982386ca": {
+      "id": "02e0a915373a6955bbdf73c841fc3f7b320a0cf4d4b75cc09a4109d3982386ca",
+      "url": "https://www.investing.com/news/stock-market-news/sp-500-stalls-in-chop-zone-below-7897-live-levels-93CH-4944776",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T14:19:55Z",
+      "first_seen": "2026-10-14T14:31:04Z",
+      "analysis": {
+        "segments": [
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "0604cd3138feed20",
+        "148de9c5a7a44d19",
+        "247610f4dedd4ab7",
+        "486bae792ce2ffcc",
+        "56681010b753e1ab",
+        "59830ebc3a418411",
+        "5d85be4cc5af40a7",
+        "7902699be42c8a8e",
+        "a18603086e5bdf9d",
+        "b6b9d84317692b7a"
+      ],
+      "headline_hash": "efe718363e2d2179e32a1e4b6eea45292ce7710599dcc888e658d1c7020c7a79"
+    },
+    "568e4b41f0044601d84404e0f769e226b67b5aa171a162e76824ddab30ab2c4c": {
+      "id": "568e4b41f0044601d84404e0f769e226b67b5aa171a162e76824ddab30ab2c4c",
+      "url": "https://www.investing.com/news/stock-market-news/nvidia-teeters-at-225-support-with-fading-momentum-live-levels-93CH-4944777",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T14:19:44Z",
+      "first_seen": "2026-10-14T14:31:04Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "247610f4dedd4ab7",
+        "2858dcd1057d3eae",
+        "28720365c5e7476a",
+        "2ce06a9e7f8c3e6b",
+        "342b503c67232dbe",
+        "59830ebc3a418411",
+        "7d50f20853334a30",
+        "8d4321d936320802",
+        "9b871512327c09ce",
+        "a18603086e5bdf9d"
+      ],
+      "headline_hash": "a1b9245188ec242765f89f3b81fbd36f5081d888342cb1e172850057d90ad2d9"
     }
   },
   "sources": {
@@ -518,22 +727,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T14:15:46Z",
+      "last_success": "2026-10-14T14:31:04Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-14T14:15:46Z",
+      "last_attempt": "2026-10-14T14:31:04Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T14:15:46Z",
+      "last_success": "2026-10-14T14:31:04Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T14:15:46Z",
+      "last_attempt": "2026-10-14T14:31:04Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -553,11 +762,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-14T14:15:46Z",
+      "last_success": "2026-10-14T14:31:04Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 6,
       "rejected": 0,
-      "last_attempt": "2026-10-14T14:15:46Z",
+      "last_attempt": "2026-10-14T14:31:04Z",
       "status": "ok"
     }
   },

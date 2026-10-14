@@ -578,5 +578,49 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.1"
     }
+  },
+  {
+    "id": "5f2a477b1ada4b419c890073a557e1c92bb52d290b0f0d8cfc84d10cc416ae4d",
+    "url": "https://www.investing.com/news/stock-market-news/nvidia-ceo-says-he-would-stop-chip-supply-for-companies-with-unsafe-ai-4949841",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-14T17:55:33Z",
+    "first_seen": "2026-10-14T18:15:42Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
+  },
+  {
+    "id": "9a8b806c4db567c87e87640a65f4e923b0861ad010fb84e50cfb2f0b0d82076c",
+    "url": "https://www.investing.com/news/stock-market-news/lseg-teams-up-with-nvidia-for-faster-market-data-processing-4948123",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-14T17:54:27Z",
+    "first_seen": "2026-10-14T18:15:42Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
   }
 ]

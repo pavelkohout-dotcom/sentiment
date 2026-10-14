@@ -168,3 +168,36 @@ class InvestingTests(unittest.TestCase):
     def test_future_rejected(self):
         raw={'title':'US stocks rally','url':'https://example.com/1','published_at':'2026-01-11 10:00:00'}
         with self.assertRaises(ValueError): record(raw,{**SRC,'naive_date_timezone':'UTC'},NOW)
+
+
+class MeaningRegressionTests(unittest.TestCase):
+    def test_labeled_headline_cases(self):
+        # Synthetic, manually labelled contrasts; not a market benchmark.
+        cases=[
+            ('Why is Nvidia stock sliding today?', -1),
+            ('Nvidia stock is rising today', 1),
+            ('US stocks plunge after inflation data', -1),
+            ('US stocks rally after inflation data', 1),
+            ('US inflation rises again', -1),
+            ('US inflation falls again', 1),
+            ('Hot inflation leaves the Fed trapped', -1),
+            ('Lower inflation gives the Fed room', 1),
+            ('Treasury yields rise', -1),
+            ('Treasury yields fall', 1),
+            ('Nvidia stock does not fall', 0),
+            ('Nvidia stock does not rise', 0),
+            ('Apple holds a meeting', 0),
+            ('US stocks await inflation data', 0),
+            ('US stocks watch oil prices plunge', 0),
+            ('US stocks watch oil prices surge', 0),
+        ]
+        for title, expected in cases:
+            with self.subTest(title=title):
+                score=analyze(title)['score']
+                self.assertEqual(0 if score is None else (1 if score>0 else -1 if score<0 else 0),expected)
+    def test_inflation_led_selloff_is_not_falling_inflation(self):
+        a=analyze('US Treasury yields fall after reversing inflation-led selloff')
+        self.assertEqual(a['rules'],['yields_down'])
+        self.assertAlmostEqual(a['score'],.35)
+    def test_inflation_led_rally_is_not_rising_inflation(self):
+        self.assertNotIn('inflation_up',analyze('US stocks discuss inflation-led rally')['rules'])

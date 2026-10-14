@@ -32,7 +32,7 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Collect real feeds and preserve history
         env:
-          ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
+          ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY || secrets.ALPHAVANTAGE }}
         run: python -m msm.run
       - name: Commit derived history
         run: |

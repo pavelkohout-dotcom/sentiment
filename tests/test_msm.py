@@ -150,3 +150,21 @@ class PipelineTests(unittest.TestCase):
         h={'model':'old-model','at':stamp(NOW-timedelta(hours=1)),'metrics':{'all':{'status':'ok','value':50}}}
         self.assertIsNone(metrics([rec()],NOW,[h],{**CFG,'min_events':1,'min_sources':1})['momentum'])
 if __name__=='__main__':unittest.main()
+
+
+class InvestingTests(unittest.TestCase):
+    def test_naive_feed_date_and_private_export(self):
+        src={**SRC,'naive_date_timezone':'UTC'}
+        rows=rss(b'<rss><channel><item><title>US stocks rally</title><link>https://example.com/1</link><pubDate>2026-01-10 10:00:00</pubDate></item></channel></rss>')
+        item=record(rows[0],src,NOW)
+        self.assertEqual(item['published_at'],'2026-01-10T10:00:00Z')
+        self.assertIsNone(item['title'])
+        self.assertGreater(item['analysis']['score'],0)
+        with self.assertRaises(ValueError): record(rows[0],SRC,NOW)
+    def test_explicit_zone_preserved(self):
+        raw={'title':'US stocks rally','url':'https://example.com/1','published_at':'2026-01-10T10:00:00+02:00'}
+        item=record(raw,{**SRC,'naive_date_timezone':'UTC'},NOW)
+        self.assertEqual(item['published_at'],'2026-01-10T08:00:00Z')
+    def test_future_rejected(self):
+        raw={'title':'US stocks rally','url':'https://example.com/1','published_at':'2026-01-11 10:00:00'}
+        with self.assertRaises(ValueError): record(raw,{**SRC,'naive_date_timezone':'UTC'},NOW)

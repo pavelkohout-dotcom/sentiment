@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T14:01:19Z",
+  "generated_at": "2026-10-14T14:15:46Z",
   "model": "impact-rules-1.0.1",
   "collection_status": "degraded",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 45.37,
+      "value": 48.75,
       "status": "low_coverage",
-      "events": 12,
-      "scored_events": 3,
-      "articles": 12,
+      "events": 11,
+      "scored_events": 2,
+      "articles": 11,
       "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
@@ -28,11 +28,11 @@
       "extreme": "unavailable"
     },
     "sp500": {
-      "value": 45.37,
+      "value": 48.75,
       "status": "low_coverage",
-      "events": 12,
-      "scored_events": 3,
-      "articles": 12,
+      "events": 11,
+      "scored_events": 2,
+      "articles": 11,
       "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
@@ -44,22 +44,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T14:01:19Z",
+      "last_success": "2026-10-14T14:15:46Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-14T14:01:19Z",
+      "last_attempt": "2026-10-14T14:15:46Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T14:01:19Z",
+      "last_success": "2026-10-14T14:15:46Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T14:01:19Z",
+      "last_attempt": "2026-10-14T14:15:46Z",
       "status": "ok"
     },
     {
@@ -76,11 +76,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-14T14:01:19Z",
+      "last_success": "2026-10-14T14:15:46Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-14T14:01:19Z",
+      "last_attempt": "2026-10-14T14:15:46Z",
       "status": "ok"
     }
   ],
@@ -324,30 +324,6 @@
         "confidence": 0.65,
         "rules": [
           "equity_down"
-        ],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.1"
-      }
-    },
-    {
-      "id": "c615bc630b8768aef842dddb2174a6961c6b40e47294e6dc366584bb154bcdac",
-      "url": "https://www.theguardian.com/business/live/2026/oct/13/imf-uk-economy-growth-boost-chancellor-john-healey-oil-prices-inflation-business-live-news",
-      "source": "www.theguardian.com",
-      "provider": "guardian",
-      "title": null,
-      "published_at": "2026-10-13T14:08:32Z",
-      "first_seen": "2026-10-13T17:42:41Z",
-      "analysis": {
-        "segments": [
-          "sp500"
-        ],
-        "score": -1.0,
-        "confidence": 0.65,
-        "rules": [
-          "earnings_miss",
-          "inflation_up"
         ],
         "uncertain": false,
         "mixed": false,

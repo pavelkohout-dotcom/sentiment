@@ -45,7 +45,7 @@
       "id": "alphavantage",
       "name": "Alpha Vantage · curated media",
       "kind": "alphavantage",
-      "enabled": true,
+      "enabled": false,
       "publish_titles": false,
       "min_interval_minutes": 120,
       "domains": [
@@ -58,7 +58,8 @@
         "wsj.com",
         "theguardian.com"
       ],
-      "terms": "https://www.alphavantage.co/terms_of_service/"
+      "terms": "https://www.alphavantage.co/terms_of_service/",
+      "note": "Disabled: NEWS_SENTIMENT entitlement unavailable. User requires free sources only."
     },
     {
       "id": "investing",

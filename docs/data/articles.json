@@ -622,5 +622,27 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.1"
     }
+  },
+  {
+    "id": "ebf3302de0aaa5ceb9e0c4a47addc070b9ecec22d4de68dd55e334e271359b2a",
+    "url": "https://www.investing.com/news/stock-market-news/amd-bank-of-america-among-market-cap-stock-movers-on-wednesday-93CH-4949854",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-14T18:07:10Z",
+    "first_seen": "2026-10-14T18:31:02Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
   }
 ]

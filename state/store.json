@@ -1003,6 +1003,40 @@
         "f5dbf9fe930c4f49"
       ],
       "headline_hash": "34ae3805e640f7570988b3a25a20c84b4e16b64dcb0eecfdb00e67cc6b09ef46"
+    },
+    "ebf3302de0aaa5ceb9e0c4a47addc070b9ecec22d4de68dd55e334e271359b2a": {
+      "id": "ebf3302de0aaa5ceb9e0c4a47addc070b9ecec22d4de68dd55e334e271359b2a",
+      "url": "https://www.investing.com/news/stock-market-news/amd-bank-of-america-among-market-cap-stock-movers-on-wednesday-93CH-4949854",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T18:07:10Z",
+      "first_seen": "2026-10-14T18:31:02Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "08c4242b5f585628",
+        "0d7129b097701cca",
+        "240389f4b730bad4",
+        "4381dc2ab1428516",
+        "45e84635bc4803c5",
+        "766c1d13a3e06c4d",
+        "b41e6560a4467aa4",
+        "e4d693d24e646cb7",
+        "e86421cb8ca42871"
+      ],
+      "headline_hash": "322a8be7686b5f76bf1024706dede8369306bf0189a1508d2f346d7a16b31013"
     }
   },
   "sources": {
@@ -1010,22 +1044,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T18:15:42Z",
+      "last_success": "2026-10-14T18:31:02Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-14T18:15:42Z",
+      "last_attempt": "2026-10-14T18:31:02Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T18:15:42Z",
+      "last_success": "2026-10-14T18:31:02Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T18:15:42Z",
+      "last_attempt": "2026-10-14T18:31:02Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -1045,11 +1079,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-14T18:15:42Z",
+      "last_success": "2026-10-14T18:31:02Z",
       "received": 10,
-      "accepted": 4,
+      "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-14T18:15:42Z",
+      "last_attempt": "2026-10-14T18:31:02Z",
       "status": "ok"
     }
   },

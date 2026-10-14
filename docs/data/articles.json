@@ -534,5 +534,49 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.1"
     }
+  },
+  {
+    "id": "349a3bf01ed95e2d17b8934aa305d83910e2697da2eebc19a1dfd65c746eaabb",
+    "url": "https://www.investing.com/news/stock-market-news/us-lawmakers-ask-faa-to-conduct-review-before-allowing-amazon-drone-hub-near-boston-4949815",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-14T17:06:19Z",
+    "first_seen": "2026-10-14T17:15:47Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
+  },
+  {
+    "id": "8671e8317217595371c2a7b3da1f141a2497411ab61ed24d60eef5b20f6786a2",
+    "url": "https://www.investing.com/news/stock-market-news/as-wall-street-banks-finance-and-adopt-ai-risks-mount-on-both-fronts-4949795",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-14T16:54:22Z",
+    "first_seen": "2026-10-14T17:15:47Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
   }
 ]

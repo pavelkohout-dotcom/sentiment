@@ -444,5 +444,27 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.1"
     }
+  },
+  {
+    "id": "49ece347700314629e6121f21c3182679b34a28df65fbdec2637fc132cac906a",
+    "url": "https://www.investing.com/news/stock-market-news/openai-employee-who-left-for-apple-took-files-about-unreleased-device-openai-alleges-4949701",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-14T15:25:02Z",
+    "first_seen": "2026-10-14T15:31:03Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
   }
 ]

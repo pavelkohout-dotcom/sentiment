@@ -720,6 +720,42 @@
         "a18603086e5bdf9d"
       ],
       "headline_hash": "a1b9245188ec242765f89f3b81fbd36f5081d888342cb1e172850057d90ad2d9"
+    },
+    "49ece347700314629e6121f21c3182679b34a28df65fbdec2637fc132cac906a": {
+      "id": "49ece347700314629e6121f21c3182679b34a28df65fbdec2637fc132cac906a",
+      "url": "https://www.investing.com/news/stock-market-news/openai-employee-who-left-for-apple-took-files-about-unreleased-device-openai-alleges-4949701",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T15:25:02Z",
+      "first_seen": "2026-10-14T15:31:03Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "0c1f3ed52a5a934f",
+        "263a4dbe41488fb8",
+        "289ea113d60ca1a4",
+        "2fdc0177057d3a5c",
+        "360f84035942243c",
+        "3a7bd3e2360a3d29",
+        "3d7db37d08f9140f",
+        "6ed0337140bd32b4",
+        "7d3194f79e645c42",
+        "a4262e1c9bcbc172",
+        "e0a6230e370d20de"
+      ],
+      "headline_hash": "a91c5b9197f2109782d1aa62d38a707eadcb30f0df98f22f8528fee29ad2ea59"
     }
   },
   "sources": {
@@ -727,22 +763,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T15:15:59Z",
+      "last_success": "2026-10-14T15:31:03Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-14T15:15:59Z",
+      "last_attempt": "2026-10-14T15:31:03Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T15:15:59Z",
+      "last_success": "2026-10-14T15:31:03Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T15:15:59Z",
+      "last_attempt": "2026-10-14T15:31:03Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -762,11 +798,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-14T15:15:59Z",
+      "last_success": "2026-10-14T15:31:03Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-14T15:15:59Z",
+      "last_attempt": "2026-10-14T15:31:03Z",
       "status": "ok"
     }
   },

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T18:45:44Z",
+  "generated_at": "2026-10-14T19:01:15Z",
   "model": "impact-rules-1.0.1",
   "collection_status": "ok",
   "window_hours": 24,
@@ -8,9 +8,9 @@
     "all": {
       "value": 34.76,
       "status": "low_coverage",
-      "events": 23,
+      "events": 24,
       "scored_events": 2,
-      "articles": 23,
+      "articles": 24,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -19,9 +19,9 @@
     "nasdaq100": {
       "value": 30.0,
       "status": "low_coverage",
-      "events": 20,
+      "events": 21,
       "scored_events": 1,
-      "articles": 20,
+      "articles": 21,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -30,9 +30,9 @@
     "sp500": {
       "value": 34.76,
       "status": "low_coverage",
-      "events": 22,
+      "events": 23,
       "scored_events": 2,
-      "articles": 22,
+      "articles": 23,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -44,39 +44,61 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T18:45:44Z",
+      "last_success": "2026-10-14T19:01:15Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-14T18:45:44Z",
+      "last_attempt": "2026-10-14T19:01:15Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T18:45:44Z",
+      "last_success": "2026-10-14T19:01:15Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T18:45:44Z",
+      "last_attempt": "2026-10-14T19:01:15Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-14T18:45:44Z",
+      "last_success": "2026-10-14T19:01:15Z",
       "received": 10,
-      "accepted": 2,
+      "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-14T18:45:44Z",
+      "last_attempt": "2026-10-14T19:01:15Z",
       "status": "ok"
     }
   ],
-  "new_articles": 0,
-  "total_archived": 29,
+  "new_articles": 1,
+  "total_archived": 30,
   "articles": [
+    {
+      "id": "f6f56f53ead8a65063aeedba534788a3515e00091297dd48c8cc323be60249e1",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-nvidia-stock-sliding-today-93CH-4949876",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T18:45:26Z",
+      "first_seen": "2026-10-14T19:01:15Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      }
+    },
     {
       "id": "ebf3302de0aaa5ceb9e0c4a47addc070b9ecec22d4de68dd55e334e271359b2a",
       "url": "https://www.investing.com/news/stock-market-news/amd-bank-of-america-among-market-cap-stock-movers-on-wednesday-93CH-4949854",

@@ -1037,6 +1037,36 @@
         "e86421cb8ca42871"
       ],
       "headline_hash": "322a8be7686b5f76bf1024706dede8369306bf0189a1508d2f346d7a16b31013"
+    },
+    "f6f56f53ead8a65063aeedba534788a3515e00091297dd48c8cc323be60249e1": {
+      "id": "f6f56f53ead8a65063aeedba534788a3515e00091297dd48c8cc323be60249e1",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-nvidia-stock-sliding-today-93CH-4949876",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T18:45:26Z",
+      "first_seen": "2026-10-14T19:01:15Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "08c4242b5f585628",
+        "2be23c585f15e5fd",
+        "58d805bc784099da",
+        "8d4321d936320802",
+        "e0f4f767ac88a930"
+      ],
+      "headline_hash": "c433486a342c98efe303b1e47b8a9876ee4afa30d5908ef0c4d33b9a21734090"
     }
   },
   "sources": {
@@ -1044,22 +1074,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T18:45:44Z",
+      "last_success": "2026-10-14T19:01:15Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-14T18:45:44Z",
+      "last_attempt": "2026-10-14T19:01:15Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T18:45:44Z",
+      "last_success": "2026-10-14T19:01:15Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T18:45:44Z",
+      "last_attempt": "2026-10-14T19:01:15Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -1079,11 +1109,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-14T18:45:44Z",
+      "last_success": "2026-10-14T19:01:15Z",
       "received": 10,
-      "accepted": 2,
+      "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-14T18:45:44Z",
+      "last_attempt": "2026-10-14T19:01:15Z",
       "status": "ok"
     }
   },

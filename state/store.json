@@ -415,22 +415,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T12:50:58Z",
+      "last_success": "2026-10-14T13:01:17Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-14T12:50:58Z",
+      "last_attempt": "2026-10-14T13:01:17Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T12:50:58Z",
+      "last_success": "2026-10-14T13:01:17Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T12:50:58Z",
+      "last_attempt": "2026-10-14T13:01:17Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -441,9 +441,10 @@
       "received": 0,
       "accepted": 0,
       "rejected": 0,
-      "last_attempt": "2026-10-14T10:56:47Z",
+      "last_attempt": "2026-10-14T13:01:17Z",
       "status": "error",
-      "error_type": "ValueError"
+      "error_type": "SourceError",
+      "error_code": "api_entitlement_required"
     }
   },
   "model_revisions": [

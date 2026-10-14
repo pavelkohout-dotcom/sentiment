@@ -800,5 +800,29 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.1"
     }
+  },
+  {
+    "id": "c213c5ef3a8e6f89b657fed78e7b74c74d3f024ceccd9a00335fe9d718e85ef2",
+    "url": "https://www.investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-009-4950017",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-14T20:31:06Z",
+    "first_seen": "2026-10-14T21:01:17Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": -0.7,
+      "confidence": 0.65,
+      "rules": [
+        "equity_down"
+      ],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
   }
 ]

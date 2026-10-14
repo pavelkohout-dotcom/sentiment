@@ -18,7 +18,7 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Verify API without exposing credentials
         env:
-          ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
+          ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY || secrets.ALPHAVANTAGE }}
         run: |
           python - <<'PY'
           import json, os

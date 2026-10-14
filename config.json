@@ -59,6 +59,20 @@
         "theguardian.com"
       ],
       "terms": "https://www.alphavantage.co/terms_of_service/"
+    },
+    {
+      "id": "investing",
+      "name": "Investing.com · Stock Market News",
+      "kind": "rss",
+      "url": "https://www.investing.com/rss/news_25.rss",
+      "domains": [
+        "investing.com"
+      ],
+      "enabled": true,
+      "publish_titles": false,
+      "naive_date_timezone": "UTC",
+      "terms": "https://www.investing.com/about-us/terms-and-conditions",
+      "note": "User requested personal analysis. No article bodies or titles published. Feed timestamps omit timezone; UTC is an explicit assumption."
     }
   ]
 }

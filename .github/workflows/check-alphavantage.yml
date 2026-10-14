@@ -1,0 +1,40 @@
+name: Check Alpha Vantage
+on:
+  workflow_dispatch:
+  push:
+    paths: ['.github/workflows/check-alphavantage.yml']
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Verify API without exposing credentials
+        env:
+          ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from msm.collect import fetch, SourceError
+          from pathlib import Path
+          result={'key_configured':bool(os.getenv('ALPHAVANTAGE_API_KEY'))}
+          try:
+              rows=fetch({'kind':'alphavantage'})
+              result.update(status='ok',received=len(rows))
+          except SourceError as e:
+              result.update(status='error',error_code=e.code)
+          except Exception:
+              result.update(status='error',error_code='network_or_parse_error')
+          summary=json.dumps(result,indent=2)
+          print(summary)
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a') as f:
+              f.write('## Alpha Vantage check\n\n'+summary+'\n')
+          if result['status']!='ok': raise SystemExit(1)
+          PY

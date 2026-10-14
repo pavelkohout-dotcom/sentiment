@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T19:16:35Z",
+  "generated_at": "2026-10-14T19:31:02Z",
   "model": "impact-rules-1.0.1",
   "collection_status": "ok",
   "window_hours": 24,
@@ -8,9 +8,9 @@
     "all": {
       "value": 34.76,
       "status": "low_coverage",
-      "events": 25,
+      "events": 27,
       "scored_events": 2,
-      "articles": 25,
+      "articles": 27,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -19,9 +19,9 @@
     "nasdaq100": {
       "value": 30.0,
       "status": "low_coverage",
-      "events": 22,
+      "events": 24,
       "scored_events": 1,
-      "articles": 22,
+      "articles": 24,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -30,9 +30,9 @@
     "sp500": {
       "value": 34.76,
       "status": "low_coverage",
-      "events": 24,
+      "events": 26,
       "scored_events": 2,
-      "articles": 24,
+      "articles": 26,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -44,39 +44,83 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T19:16:35Z",
+      "last_success": "2026-10-14T19:31:02Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-14T19:16:35Z",
+      "last_attempt": "2026-10-14T19:31:02Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T19:16:35Z",
+      "last_success": "2026-10-14T19:31:02Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T19:16:35Z",
+      "last_attempt": "2026-10-14T19:31:02Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-14T19:16:35Z",
+      "last_success": "2026-10-14T19:31:02Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 6,
       "rejected": 0,
-      "last_attempt": "2026-10-14T19:16:35Z",
+      "last_attempt": "2026-10-14T19:31:02Z",
       "status": "ok"
     }
   ],
-  "new_articles": 0,
-  "total_archived": 31,
+  "new_articles": 2,
+  "total_archived": 33,
   "articles": [
+    {
+      "id": "a55ab85491d424d8d9a6c438b21de50176c1478c344f7a2720f46c6e60c8d342",
+      "url": "https://www.investing.com/news/stock-market-news/alphabet-a-squeezed-between-350-and-356-live-levels-93CH-4944771",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T19:18:24Z",
+      "first_seen": "2026-10-14T19:31:02Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      }
+    },
+    {
+      "id": "49759732df97a86beeb1cafd2cdeee016ddd8906e17b2ffd4510b6d148a0e779",
+      "url": "https://www.investing.com/news/stock-market-news/apple-double-top-threat-near-ath-34524-live-levels-93CH-4944773",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T19:18:24Z",
+      "first_seen": "2026-10-14T19:31:02Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      }
+    },
     {
       "id": "9fba11f4a78b7cdc80ad65d240fa5a65df588e0d2a086f06c36f941b5522aa51",
       "url": "https://www.marketwatch.com/story/heres-what-the-fed-might-do-at-this-months-meeting-after-todays-hot-inflation-reading-087511b6",

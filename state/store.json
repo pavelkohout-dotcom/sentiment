@@ -1102,6 +1102,73 @@
         "ed5eb9a37e2d8231"
       ],
       "headline_hash": "c5d64a0b866e98287fc710e25bcc19a4e3c45699d1b643bb4c95fc2da78442d1"
+    },
+    "a55ab85491d424d8d9a6c438b21de50176c1478c344f7a2720f46c6e60c8d342": {
+      "id": "a55ab85491d424d8d9a6c438b21de50176c1478c344f7a2720f46c6e60c8d342",
+      "url": "https://www.investing.com/news/stock-market-news/alphabet-a-squeezed-between-350-and-356-live-levels-93CH-4944771",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T19:18:24Z",
+      "first_seen": "2026-10-14T19:31:02Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "1351bfd83437f2e1",
+        "2269c0be009b610c",
+        "2289b221b39605c3",
+        "22f56333ffdc935a",
+        "247610f4dedd4ab7",
+        "486bae792ce2ffcc",
+        "4dd4f3835505cd95",
+        "7d50f20853334a30"
+      ],
+      "headline_hash": "a3cf7297e78a35ee1e088071ee2500872f8056dd9c889d80d50a7662c52b341e"
+    },
+    "49759732df97a86beeb1cafd2cdeee016ddd8906e17b2ffd4510b6d148a0e779": {
+      "id": "49759732df97a86beeb1cafd2cdeee016ddd8906e17b2ffd4510b6d148a0e779",
+      "url": "https://www.investing.com/news/stock-market-news/apple-double-top-threat-near-ath-34524-live-levels-93CH-4944773",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T19:18:24Z",
+      "first_seen": "2026-10-14T19:31:02Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "247610f4dedd4ab7",
+        "28720365c5e7476a",
+        "2c6ef0f0d0e4cc6e",
+        "2ce06a9e7f8c3e6b",
+        "3a7bd3e2360a3d29",
+        "46ba34770bccfde7",
+        "7d50f20853334a30",
+        "bfd7f2fafa674a3a",
+        "ce40f08b150bf9c2"
+      ],
+      "headline_hash": "31a94c119652681a0b0681e471c454a49bb09b95a7f96678ab03afc4e57b3d9c"
     }
   },
   "sources": {
@@ -1109,22 +1176,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T19:16:35Z",
+      "last_success": "2026-10-14T19:31:02Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-14T19:16:35Z",
+      "last_attempt": "2026-10-14T19:31:02Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T19:16:35Z",
+      "last_success": "2026-10-14T19:31:02Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-14T19:16:35Z",
+      "last_attempt": "2026-10-14T19:31:02Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -1144,11 +1211,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-14T19:16:35Z",
+      "last_success": "2026-10-14T19:31:02Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 6,
       "rejected": 0,
-      "last_attempt": "2026-10-14T19:16:35Z",
+      "last_attempt": "2026-10-14T19:31:02Z",
       "status": "ok"
     }
   },

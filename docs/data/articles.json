@@ -688,5 +688,49 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.1"
     }
+  },
+  {
+    "id": "a55ab85491d424d8d9a6c438b21de50176c1478c344f7a2720f46c6e60c8d342",
+    "url": "https://www.investing.com/news/stock-market-news/alphabet-a-squeezed-between-350-and-356-live-levels-93CH-4944771",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-14T19:18:24Z",
+    "first_seen": "2026-10-14T19:31:02Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
+  },
+  {
+    "id": "49759732df97a86beeb1cafd2cdeee016ddd8906e17b2ffd4510b6d148a0e779",
+    "url": "https://www.investing.com/news/stock-market-news/apple-double-top-threat-near-ath-34524-live-levels-93CH-4944773",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-14T19:18:24Z",
+    "first_seen": "2026-10-14T19:31:02Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.1"
+    }
   }
 ]

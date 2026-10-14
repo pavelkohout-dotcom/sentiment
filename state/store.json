@@ -333,6 +333,42 @@
         "f9d6cd1ed5cf1ead"
       ],
       "headline_hash": "c8e665bcd4be759db3f491e8b8616ea71ef19d29c1bf8687347240754593d1ff"
+    },
+    "115b9d2efa66a4cf730ff30fe8b9b005dd393fc2a308ae39e533a58e62280279": {
+      "id": "115b9d2efa66a4cf730ff30fe8b9b005dd393fc2a308ae39e533a58e62280279",
+      "url": "https://www.marketwatch.com/story/heres-how-much-the-ai-boom-is-contributing-to-inflation-according-to-goldman-sachs-calculations-5ec717ff",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-14T11:18:00Z",
+      "first_seen": "2026-10-14T11:31:02Z",
+      "analysis": {
+        "segments": [
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "1bf26a0f3f931961",
+        "32e83e92d45d71f6",
+        "543b1c4bd4f6b184",
+        "6d731a5ed145ab6d",
+        "8044aae1f86875d9",
+        "81f52337ebb4cb16",
+        "b7a348d567c7fb4e",
+        "b917d8215e51bcaf",
+        "f1fc3326d9fc752b",
+        "f4c8478ed1e9d21a",
+        "fcec91509759ad99"
+      ],
+      "headline_hash": "012001de39da4d1b53a23ea83cd24dde77c0b1722a119480abaee2b1559008f1"
     }
   },
   "sources": {
@@ -340,22 +376,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T11:15:46Z",
+      "last_success": "2026-10-14T11:31:02Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-14T11:15:46Z",
+      "last_attempt": "2026-10-14T11:31:02Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T11:15:46Z",
+      "last_success": "2026-10-14T11:31:02Z",
       "received": 20,
       "accepted": 4,
       "rejected": 0,
-      "last_attempt": "2026-10-14T11:15:46Z",
+      "last_attempt": "2026-10-14T11:31:02Z",
       "status": "ok"
     },
     "alphavantage": {

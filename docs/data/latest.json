@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T11:15:46Z",
+  "generated_at": "2026-10-14T11:31:02Z",
   "model": "impact-rules-1.0.1",
   "collection_status": "degraded",
   "window_hours": 24,
@@ -8,9 +8,9 @@
     "all": {
       "value": 45.37,
       "status": "low_coverage",
-      "events": 7,
+      "events": 8,
       "scored_events": 3,
-      "articles": 7,
+      "articles": 8,
       "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
@@ -30,9 +30,9 @@
     "sp500": {
       "value": 45.37,
       "status": "low_coverage",
-      "events": 7,
+      "events": 8,
       "scored_events": 3,
-      "articles": 7,
+      "articles": 8,
       "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
@@ -44,22 +44,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-14T11:15:46Z",
+      "last_success": "2026-10-14T11:31:02Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-14T11:15:46Z",
+      "last_attempt": "2026-10-14T11:31:02Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-14T11:15:46Z",
+      "last_success": "2026-10-14T11:31:02Z",
       "received": 20,
       "accepted": 4,
       "rejected": 0,
-      "last_attempt": "2026-10-14T11:15:46Z",
+      "last_attempt": "2026-10-14T11:31:02Z",
       "status": "ok"
     },
     {
@@ -73,9 +73,30 @@
       "status": "error"
     }
   ],
-  "new_articles": 0,
-  "total_archived": 9,
+  "new_articles": 1,
+  "total_archived": 10,
   "articles": [
+    {
+      "id": "115b9d2efa66a4cf730ff30fe8b9b005dd393fc2a308ae39e533a58e62280279",
+      "url": "https://www.marketwatch.com/story/heres-how-much-the-ai-boom-is-contributing-to-inflation-according-to-goldman-sachs-calculations-5ec717ff",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-14T11:18:00Z",
+      "first_seen": "2026-10-14T11:31:02Z",
+      "analysis": {
+        "segments": [
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      }
+    },
     {
       "id": "9f618511e3df54bd9b7dc92e204e8aa98961205b6be6497a1b51d8d6c5d4ca6d",
       "url": "https://www.marketwatch.com/story/blackrock-now-has-assets-equal-to-half-the-size-of-the-u-s-economy-after-15-growth-c382b289",

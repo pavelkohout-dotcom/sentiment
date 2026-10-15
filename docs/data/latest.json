@@ -1,39 +1,39 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T14:01:17Z",
+  "generated_at": "2026-10-15T14:15:49Z",
   "model": "impact-rules-1.0.2",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 23.68,
+      "value": 19.34,
       "status": "low_coverage",
-      "events": 28,
-      "scored_events": 3,
-      "articles": 28,
-      "sources": 1,
+      "events": 29,
+      "scored_events": 4,
+      "articles": 29,
+      "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
     },
     "nasdaq100": {
-      "value": 23.68,
+      "value": 19.34,
       "status": "low_coverage",
-      "events": 17,
-      "scored_events": 3,
-      "articles": 17,
-      "sources": 1,
+      "events": 18,
+      "scored_events": 4,
+      "articles": 18,
+      "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
     },
     "sp500": {
-      "value": 23.68,
+      "value": 19.34,
       "status": "low_coverage",
-      "events": 26,
-      "scored_events": 3,
-      "articles": 26,
-      "sources": 1,
+      "events": 27,
+      "scored_events": 4,
+      "articles": 27,
+      "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
@@ -44,39 +44,63 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T14:01:17Z",
+      "last_success": "2026-10-15T14:15:49Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-15T14:01:17Z",
+      "last_attempt": "2026-10-15T14:15:49Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T14:01:17Z",
+      "last_success": "2026-10-15T14:15:49Z",
       "received": 20,
-      "accepted": 6,
+      "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T14:01:17Z",
+      "last_attempt": "2026-10-15T14:15:49Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T14:01:17Z",
+      "last_success": "2026-10-15T14:15:49Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-15T14:01:17Z",
+      "last_attempt": "2026-10-15T14:15:49Z",
       "status": "ok"
     }
   ],
-  "new_articles": 2,
-  "total_archived": 61,
+  "new_articles": 1,
+  "total_archived": 62,
   "articles": [
+    {
+      "id": "5cfb41418ddf34e2a4099b0fd5c8a82fcedcf6a5099d9a3be97bd5cafe30b7c6",
+      "url": "https://www.theguardian.com/business/live/2026/oct/15/tech-stock-sell-off-markets-uk-gdp-economy-august-imf-latest-news-updates",
+      "source": "www.theguardian.com",
+      "provider": "guardian",
+      "title": null,
+      "published_at": "2026-10-15T14:13:31Z",
+      "first_seen": "2026-10-15T14:15:49Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -0.7,
+        "confidence": 0.65,
+        "rules": [
+          "equity_down"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
     {
       "id": "21c9f13e9e7f324d643b5dc1e63c0ac9ed7cb54a1749062043dd6a0ade14f058",
       "url": "https://www.investing.com/news/stock-market-news/musk-floats-amazon-rival-as-ai-shopping-battle-comes-into-focus-4952059",

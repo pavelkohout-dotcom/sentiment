@@ -1345,5 +1345,29 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "5cfb41418ddf34e2a4099b0fd5c8a82fcedcf6a5099d9a3be97bd5cafe30b7c6",
+    "url": "https://www.theguardian.com/business/live/2026/oct/15/tech-stock-sell-off-markets-uk-gdp-economy-august-imf-latest-news-updates",
+    "source": "www.theguardian.com",
+    "provider": "guardian",
+    "title": null,
+    "published_at": "2026-10-15T14:13:31Z",
+    "first_seen": "2026-10-15T14:15:49Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": -0.7,
+      "confidence": 0.65,
+      "rules": [
+        "equity_down"
+      ],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

@@ -1803,6 +1803,76 @@
         "9150c74c5f92d51a"
       ],
       "headline_hash": "283e8aa377c371a58b8ddd052fde31cf6cb6574a978b5681e53ce4d15fc2c448"
+    },
+    "dedf3b8665abe644c4c41e4787ef65a1f7acc384de23ada167813361a2782c4e": {
+      "id": "dedf3b8665abe644c4c41e4787ef65a1f7acc384de23ada167813361a2782c4e",
+      "url": "https://www.investing.com/news/stock-market-news/factboxtech-leaders-governments-split-over-ai-doom-fears-4949457",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T11:00:28Z",
+      "first_seen": "2026-10-15T11:15:46Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "1f5d8ab6136a201a",
+        "32e83e92d45d71f6",
+        "405f061bf4908efb",
+        "4d8aaa64f68587b1",
+        "58a9163769c9337d",
+        "5fb6a47e368e12e5",
+        "6008c26f4452392a",
+        "8e506e203cf1774d",
+        "910ecd3e43c7d241",
+        "ad1a64057f9ab34f",
+        "efd125a6b11f6fcb",
+        "fe9bbd400bb6cb31"
+      ],
+      "headline_hash": "24a45af9fda8bf4ae73a387aad1cad9aced8364d7b23f9f62db01ed46213d28b"
+    },
+    "8e8c9dda4366e8356e451631d6c040f7b879f0331cadad9ae3bdf894b41c8a2a": {
+      "id": "8e8c9dda4366e8356e451631d6c040f7b879f0331cadad9ae3bdf894b41c8a2a",
+      "url": "https://www.investing.com/news/stock-market-news/walmart-stock-deutsche-bank-gets-bullish-amid-pricing-tailwinds-4951163",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T10:53:47Z",
+      "first_seen": "2026-10-15T11:15:46Z",
+      "analysis": {
+        "segments": [
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "08c4242b5f585628",
+        "1e2ea6d9b72e685b",
+        "4381dc2ab1428516",
+        "49320db3751a40c0",
+        "69dabc67d286f871",
+        "943c3eeb252dbd17",
+        "b01118398f23705a",
+        "d372c101dd9b5c84",
+        "d3fb7168cbef420e"
+      ],
+      "headline_hash": "c6df6ffd8c5f32cb83c5163f3e74f56e6a966cd1951063864ed67d1434a1afd7"
     }
   },
   "sources": {
@@ -1810,22 +1880,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T11:01:18Z",
+      "last_success": "2026-10-15T11:15:46Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T11:01:18Z",
+      "last_attempt": "2026-10-15T11:15:46Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T11:01:18Z",
+      "last_success": "2026-10-15T11:15:46Z",
       "received": 20,
       "accepted": 6,
       "rejected": 0,
-      "last_attempt": "2026-10-15T11:01:18Z",
+      "last_attempt": "2026-10-15T11:15:46Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -1845,11 +1915,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T11:01:18Z",
+      "last_success": "2026-10-15T11:15:46Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-15T11:01:18Z",
+      "last_attempt": "2026-10-15T11:15:46Z",
       "status": "ok"
     }
   },

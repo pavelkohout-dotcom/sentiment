@@ -1127,5 +1127,48 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "dedf3b8665abe644c4c41e4787ef65a1f7acc384de23ada167813361a2782c4e",
+    "url": "https://www.investing.com/news/stock-market-news/factboxtech-leaders-governments-split-over-ai-doom-fears-4949457",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T11:00:28Z",
+    "first_seen": "2026-10-15T11:15:46Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
+  },
+  {
+    "id": "8e8c9dda4366e8356e451631d6c040f7b879f0331cadad9ae3bdf894b41c8a2a",
+    "url": "https://www.investing.com/news/stock-market-news/walmart-stock-deutsche-bank-gets-bullish-amid-pricing-tailwinds-4951163",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T10:53:47Z",
+    "first_seen": "2026-10-15T11:15:46Z",
+    "analysis": {
+      "segments": [
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

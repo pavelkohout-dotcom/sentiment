@@ -1170,5 +1170,26 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "6f686eee82a0baa46af4ee890ea0cf42cdc15145445703b5bf1a03b0b7a04130",
+    "url": "https://www.marketwatch.com/story/this-30-year-market-veteran-is-alarmed-by-a-near-record-s-p-500-heres-where-hes-investing-instead-c6611143",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-15T11:17:00Z",
+    "first_seen": "2026-10-15T11:31:12Z",
+    "analysis": {
+      "segments": [
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

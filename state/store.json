@@ -1873,6 +1873,45 @@
         "d3fb7168cbef420e"
       ],
       "headline_hash": "c6df6ffd8c5f32cb83c5163f3e74f56e6a966cd1951063864ed67d1434a1afd7"
+    },
+    "6f686eee82a0baa46af4ee890ea0cf42cdc15145445703b5bf1a03b0b7a04130": {
+      "id": "6f686eee82a0baa46af4ee890ea0cf42cdc15145445703b5bf1a03b0b7a04130",
+      "url": "https://www.marketwatch.com/story/this-30-year-market-veteran-is-alarmed-by-a-near-record-s-p-500-heres-where-hes-investing-instead-c6611143",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-15T11:17:00Z",
+      "first_seen": "2026-10-15T11:31:12Z",
+      "analysis": {
+        "segments": [
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "0604cd3138feed20",
+        "148de9c5a7a44d19",
+        "35da636b0d049d44",
+        "372f7e2fd2d01ce2",
+        "46ba34770bccfde7",
+        "4cb4ea25583c2564",
+        "624b60c58c9d8bfb",
+        "70ce871f8a3d3fb4",
+        "99262a0284ae7670",
+        "b48111c10c65fc11",
+        "d133a66dd576b4cf",
+        "e4d693d24e646cb7",
+        "f0809efbcc99ac7c",
+        "fcec91509759ad99"
+      ],
+      "headline_hash": "7750c1089308e7e178923a344d5a76d3552fc5e01a2b030fa8df4aa1eee06810"
     }
   },
   "sources": {
@@ -1880,22 +1919,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T11:15:46Z",
+      "last_success": "2026-10-15T11:31:12Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-15T11:15:46Z",
+      "last_attempt": "2026-10-15T11:31:12Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T11:15:46Z",
+      "last_success": "2026-10-15T11:31:12Z",
       "received": 20,
       "accepted": 6,
       "rejected": 0,
-      "last_attempt": "2026-10-15T11:15:46Z",
+      "last_attempt": "2026-10-15T11:31:12Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -1915,11 +1954,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T11:15:46Z",
+      "last_success": "2026-10-15T11:31:12Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-15T11:15:46Z",
+      "last_attempt": "2026-10-15T11:31:12Z",
       "status": "ok"
     }
   },

@@ -1481,5 +1481,49 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "0192250980d424dbfc3f0ac9f8c9a78a8f8e60c8a4ba25e36d7949cb2d532b9e",
+    "url": "https://www.marketwatch.com/story/tesla-may-finally-debut-a-flying-car-today-after-testing-fans-patience-for-nearly-a-decade-9a23c8e8",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-15T16:43:00Z",
+    "first_seen": "2026-10-15T16:45:47Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
+  },
+  {
+    "id": "b46936a225cee68215953aea5c0f06f8fb47465d31cdea8acb0f02888519ab58",
+    "url": "https://www.investing.com/news/stock-market-news/microsoft-ai-unveils-28-trillionparameter-model-claims-efficiency-gains-4952355",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T16:26:17Z",
+    "first_seen": "2026-10-15T16:45:47Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

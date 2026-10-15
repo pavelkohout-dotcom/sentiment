@@ -913,5 +913,27 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "0d84993399549d736bd9fae5797ec2c3d805a9e9074bec928ac2c0c1295b7ea1",
+    "url": "https://www.investing.com/news/stock-market-news/european-shares-trip-on-global-tech-bump-and-us-inflation-spike-4950557",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T07:10:48Z",
+    "first_seen": "2026-10-15T07:30:59Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

@@ -1455,6 +1455,41 @@
         "f4c8478ed1e9d21a"
       ],
       "headline_hash": "090b2e023f11d3facfb310fc31e9b8a1d8e864599070e62cd82a72af8030712b"
+    },
+    "0d84993399549d736bd9fae5797ec2c3d805a9e9074bec928ac2c0c1295b7ea1": {
+      "id": "0d84993399549d736bd9fae5797ec2c3d805a9e9074bec928ac2c0c1295b7ea1",
+      "url": "https://www.investing.com/news/stock-market-news/european-shares-trip-on-global-tech-bump-and-us-inflation-spike-4950557",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T07:10:48Z",
+      "first_seen": "2026-10-15T07:30:59Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "0bfe935e70c321c7",
+        "34a389d790fc2bdd",
+        "4a64609f7db9facc",
+        "5fbde9bb9c3fd8c2",
+        "6d731a5ed145ab6d",
+        "798552d3924a30ba",
+        "8001c27439650c5c",
+        "e39cf4518fca1824",
+        "fe9bbd400bb6cb31"
+      ],
+      "headline_hash": "a7353da303f9d2da597885266049d3e3ab69b393856cb1bf2954ab0ae01fcfbd"
     }
   },
   "sources": {
@@ -1462,22 +1497,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T07:15:43Z",
+      "last_success": "2026-10-15T07:30:59Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
-      "last_attempt": "2026-10-15T07:15:43Z",
+      "last_attempt": "2026-10-15T07:30:59Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T07:15:43Z",
+      "last_success": "2026-10-15T07:30:59Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-15T07:15:43Z",
+      "last_attempt": "2026-10-15T07:30:59Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -1497,11 +1532,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T07:15:43Z",
+      "last_success": "2026-10-15T07:30:59Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-15T07:15:43Z",
+      "last_attempt": "2026-10-15T07:30:59Z",
       "status": "ok"
     }
   },

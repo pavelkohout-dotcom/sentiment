@@ -1042,5 +1042,69 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "4933f18049cc89fdd60e469c8dae82c6fcbde65566f1dee7b8eb80ec90811c76",
+    "url": "https://www.investing.com/news/stock-market-news/tesla-set-to-unveil-next-generation-roadster-sports-ev-after-years-of-delay-4951021",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T10:25:09Z",
+    "first_seen": "2026-10-15T10:31:03Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
+  },
+  {
+    "id": "31ae28e502823bc2f193bef4baabe5e4c39dbeae12e3e3a598a3eada0b063093",
+    "url": "https://www.investing.com/news/stock-market-news/jpmorgan-turns-bullish-on-european-steel-upgrading-arcelormittal-on-pullback-4951044",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T10:13:59Z",
+    "first_seen": "2026-10-15T10:31:03Z",
+    "analysis": {
+      "segments": [
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
+  },
+  {
+    "id": "06d855348f53c2fe14e275bd869aac0075c5e6de33d4f85e142a0e81494c0aef",
+    "url": "https://www.investing.com/news/stock-market-news/israeli-firm-used-online-ads-to-run-vast-spy-operation-researchers-say-4951020",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T10:07:06Z",
+    "first_seen": "2026-10-15T10:31:03Z",
+    "analysis": {
+      "segments": [
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

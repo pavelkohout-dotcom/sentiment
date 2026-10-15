@@ -843,5 +843,30 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "33f060435828eeb9df94dcec0e9f31970a9536274580ad54ee7489ed1db7b102",
+    "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-hot-inflation-revives-fed-hike-concerns-4950317",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T00:30:04Z",
+    "first_seen": "2026-10-15T01:01:13Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": -1.0,
+      "confidence": 0.65,
+      "rules": [
+        "equity_down",
+        "inflation_up"
+      ],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

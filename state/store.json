@@ -1343,6 +1343,45 @@
         "ff0fbada81b5d859"
       ],
       "headline_hash": "f4c98c7f1ee9ea8a5af7938681f3b6de8ac651b7650e3eb35cd82770822e0e7c"
+    },
+    "33f060435828eeb9df94dcec0e9f31970a9536274580ad54ee7489ed1db7b102": {
+      "id": "33f060435828eeb9df94dcec0e9f31970a9536274580ad54ee7489ed1db7b102",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-hot-inflation-revives-fed-hike-concerns-4950317",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T00:30:04Z",
+      "first_seen": "2026-10-15T01:01:13Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -1.0,
+        "confidence": 0.65,
+        "rules": [
+          "equity_down",
+          "inflation_up"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "08c4242b5f585628",
+        "0bfe935e70c321c7",
+        "20e796c128096d22",
+        "2dc46af1b78c32df",
+        "591d77b58fe3f304",
+        "5c03421eb21fa6e4",
+        "6d731a5ed145ab6d",
+        "7f5d1618e7d28cc7",
+        "c02d7803a91c3958",
+        "fcfc5fe39fc177d6"
+      ],
+      "headline_hash": "cf90a8a9f070f15cd757930550564258043505906751ea8144e0a2c84c403a0a"
     }
   },
   "sources": {
@@ -1350,22 +1389,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T00:45:39Z",
+      "last_success": "2026-10-15T01:01:13Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
-      "last_attempt": "2026-10-15T00:45:39Z",
+      "last_attempt": "2026-10-15T01:01:13Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T00:45:39Z",
+      "last_success": "2026-10-15T01:01:13Z",
       "received": 20,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-15T00:45:39Z",
+      "last_attempt": "2026-10-15T01:01:13Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -1385,11 +1424,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T00:45:39Z",
+      "last_success": "2026-10-15T01:01:13Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-15T00:45:39Z",
+      "last_attempt": "2026-10-15T01:01:13Z",
       "status": "ok"
     }
   },

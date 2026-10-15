@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T19:15:45Z",
+  "generated_at": "2026-10-15T19:31:02Z",
   "model": "impact-rules-1.0.2",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 21.2,
+      "value": 42.47,
       "status": "ok",
-      "events": 45,
-      "scored_events": 5,
-      "articles": 45,
-      "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-15T18:15:45Z",
+      "events": 46,
+      "scored_events": 6,
+      "articles": 46,
+      "sources": 3,
+      "momentum": 21.27,
+      "momentum_baseline": "2026-10-15T18:31:03Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 21.2,
+      "value": 42.47,
       "status": "ok",
-      "events": 33,
-      "scored_events": 5,
-      "articles": 33,
-      "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-15T18:15:45Z",
+      "events": 34,
+      "scored_events": 6,
+      "articles": 34,
+      "sources": 3,
+      "momentum": 21.27,
+      "momentum_baseline": "2026-10-15T18:31:03Z",
       "extreme": "normal"
     },
     "sp500": {
-      "value": 21.2,
+      "value": 42.47,
       "status": "ok",
-      "events": 42,
-      "scored_events": 5,
-      "articles": 42,
-      "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-15T18:15:45Z",
+      "events": 43,
+      "scored_events": 6,
+      "articles": 43,
+      "sources": 3,
+      "momentum": 21.27,
+      "momentum_baseline": "2026-10-15T18:31:03Z",
       "extreme": "normal"
     }
   },
@@ -44,39 +44,63 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T19:15:45Z",
+      "last_success": "2026-10-15T19:31:02Z",
       "received": 10,
-      "accepted": 0,
+      "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T19:15:45Z",
+      "last_attempt": "2026-10-15T19:31:02Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T19:15:45Z",
+      "last_success": "2026-10-15T19:31:02Z",
       "received": 20,
       "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T19:15:45Z",
+      "last_attempt": "2026-10-15T19:31:02Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T19:15:45Z",
+      "last_success": "2026-10-15T19:31:02Z",
       "received": 10,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-15T19:15:45Z",
+      "last_attempt": "2026-10-15T19:31:02Z",
       "status": "ok"
     }
   ],
-  "new_articles": 0,
-  "total_archived": 76,
+  "new_articles": 1,
+  "total_archived": 77,
   "articles": [
+    {
+      "id": "d447a8b3033a216dcad91029f6162fed845e544720621455f5dac57fb8711b3f",
+      "url": "https://www.marketwatch.com/story/coreweave-investors-are-feeling-spooked-as-the-companys-stock-and-bonds-see-fresh-pressure-ba39a931",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-15T19:26:00Z",
+      "first_seen": "2026-10-15T19:31:02Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 0.7,
+        "confidence": 0.65,
+        "rules": [
+          "equity_up"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
     {
       "id": "729091995dc6586de0479703c9211909d27b0a2f27636b78d59d48604ff720bf",
       "url": "https://www.investing.com/news/stock-market-news/google-demonstrates-quantum-computing-breakthrough-cuts-errors-40fold-4952450",

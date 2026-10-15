@@ -1679,5 +1679,29 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "d447a8b3033a216dcad91029f6162fed845e544720621455f5dac57fb8711b3f",
+    "url": "https://www.marketwatch.com/story/coreweave-investors-are-feeling-spooked-as-the-companys-stock-and-bonds-see-fresh-pressure-ba39a931",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-15T19:26:00Z",
+    "first_seen": "2026-10-15T19:31:02Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": 0.7,
+      "confidence": 0.65,
+      "rules": [
+        "equity_up"
+      ],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T21:45:44Z",
+  "generated_at": "2026-10-15T22:01:14Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 30.03,
+      "value": 30.35,
       "status": "ok",
-      "events": 23,
-      "scored_events": 22,
-      "articles": 23,
+      "events": 21,
+      "scored_events": 20,
+      "articles": 21,
       "sources": 3,
-      "momentum": -6.92,
-      "momentum_baseline": "2026-10-15T20:47:24Z",
+      "momentum": -6.33,
+      "momentum_baseline": "2026-10-15T21:01:12Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 47.3,
+      "value": 47.53,
       "status": "ok",
-      "events": 12,
-      "scored_events": 11,
-      "articles": 12,
+      "events": 11,
+      "scored_events": 10,
+      "articles": 11,
       "sources": 3,
-      "momentum": -0.28,
-      "momentum_baseline": "2026-10-15T20:47:24Z",
+      "momentum": 0.23,
+      "momentum_baseline": "2026-10-15T21:01:12Z",
       "extreme": "normal"
     },
     "sp500": {
-      "value": 47.3,
+      "value": 47.53,
       "status": "ok",
-      "events": 12,
-      "scored_events": 11,
-      "articles": 12,
+      "events": 11,
+      "scored_events": 10,
+      "articles": 11,
       "sources": 3,
-      "momentum": -0.28,
-      "momentum_baseline": "2026-10-15T20:47:24Z",
+      "momentum": 0.23,
+      "momentum_baseline": "2026-10-15T21:01:12Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T21:45:44Z",
+      "last_success": "2026-10-15T22:01:14Z",
       "received": 10,
       "accepted": 4,
       "rejected": 0,
-      "pending_llama": 3,
-      "last_attempt": "2026-10-15T21:45:44Z",
+      "pending_llama": 4,
+      "last_attempt": "2026-10-15T22:01:14Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T21:45:44Z",
+      "last_success": "2026-10-15T22:01:14Z",
       "received": 20,
       "accepted": 15,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-15T21:45:44Z",
+      "last_attempt": "2026-10-15T22:01:14Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T21:45:44Z",
+      "last_success": "2026-10-15T22:01:14Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
       "pending_llama": 8,
-      "last_attempt": "2026-10-15T21:45:44Z",
+      "last_attempt": "2026-10-15T22:01:14Z",
       "status": "ok"
     }
   ],
@@ -615,57 +615,6 @@
         "reason": "The headline suggests that CoreWeave's AI bonds are experiencing a decline, which could raise concerns for the wider market and potentially impact US equities negatively.",
         "rated_at": "2026-10-15T20:40:55Z"
       }
-    },
-    {
-      "id": "e4f5fc3f3f1b00a6cd0458c1e4fee1cf7e7df656a899a6bf87cacf9f42468377",
-      "url": "https://www.investing.com/news/stock-market-news/rocket-lab-pushes-neutron-rockets-debut-flight-to-2027-shares-fall-4950171",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T21:54:26Z",
-      "first_seen": "2026-10-15T20:41:56Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "The headline mentions a delay in the debut flight of Rocket Lab's Neutron rocket, which likely had a negative impact on the company's stock price.",
-        "rated_at": "2026-10-15T20:41:56Z"
-      }
-    },
-    {
-      "id": "cb0a0e230895732727c2d1563b77bbf4332a8549d1d979a4c30fb69a81a9482f",
-      "url": "https://www.marketwatch.com/story/from-a-record-high-to-a-10-drop-in-just-two-months-why-small-cap-stocks-have-unraveled-so-fast-1cf0f4d5",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-14T21:54:00Z",
-      "first_seen": "2026-10-15T20:40:57Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "negative",
-        "reason": "The headline suggests a decline in small-cap stocks, which is a subset of broad US equities, indicating a negative impact on US equities.",
-        "rated_at": "2026-10-15T20:40:57Z"
-      }
     }
   ],
   "methodology": {
@@ -680,7 +629,7 @@
     "last_rated_at": "2026-10-15T21:23:25Z",
     "last_refresh_at": "2026-10-15T21:23:25Z",
     "errors": 1,
-    "pending": 11,
+    "pending": 12,
     "model_digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
     "scale": {
       "negative": -1,

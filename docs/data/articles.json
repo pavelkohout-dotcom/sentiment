@@ -1106,5 +1106,26 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "0fe335ea7095d5b40218a90b29280336d3ddad68cc0004c0a411ea2af48017df",
+    "url": "https://www.investing.com/news/stock-market-news/sp-500-energy-is-up-46-ytd-this-ai-stock-strategy-has-surged-78-4951063",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T10:25:37Z",
+    "first_seen": "2026-10-15T11:01:18Z",
+    "analysis": {
+      "segments": [
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

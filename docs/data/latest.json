@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T09:31:03Z",
+  "generated_at": "2026-10-15T09:45:43Z",
   "model": "impact-rules-1.0.2",
   "collection_status": "ok",
   "window_hours": 24,
@@ -8,9 +8,9 @@
     "all": {
       "value": 13.49,
       "status": "low_coverage",
-      "events": 13,
+      "events": 14,
       "scored_events": 2,
-      "articles": 13,
+      "articles": 14,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -30,9 +30,9 @@
     "sp500": {
       "value": 13.49,
       "status": "low_coverage",
-      "events": 11,
+      "events": 12,
       "scored_events": 2,
-      "articles": 11,
+      "articles": 12,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -44,39 +44,60 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T09:31:03Z",
+      "last_success": "2026-10-15T09:45:43Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T09:31:03Z",
+      "last_attempt": "2026-10-15T09:45:43Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T09:31:03Z",
+      "last_success": "2026-10-15T09:45:43Z",
       "received": 20,
       "accepted": 6,
       "rejected": 0,
-      "last_attempt": "2026-10-15T09:31:03Z",
+      "last_attempt": "2026-10-15T09:45:43Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T09:31:03Z",
+      "last_success": "2026-10-15T09:45:43Z",
       "received": 10,
-      "accepted": 0,
+      "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T09:31:03Z",
+      "last_attempt": "2026-10-15T09:45:43Z",
       "status": "ok"
     }
   ],
-  "new_articles": 0,
-  "total_archived": 46,
+  "new_articles": 1,
+  "total_archived": 47,
   "articles": [
+    {
+      "id": "8667adcbc4471c82ba4c56798a5d5c54ba57450647e352d5d103035500e31c18",
+      "url": "https://www.investing.com/news/stock-market-news/goldman-sachs-updates-utility-estimates-ahead-of-q3-earnings-93CH-4950882",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T09:22:09Z",
+      "first_seen": "2026-10-15T09:45:43Z",
+      "analysis": {
+        "segments": [
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
     {
       "id": "b480e4fd0e3295f0bfcacd0719de00c411da1c58dd9506d3cf0ca026a27396ba",
       "url": "https://www.marketwatch.com/story/why-the-ai-trade-is-not-set-up-for-a-rebound-like-julys-according-to-jpmorgan-5ae511db",

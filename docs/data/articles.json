@@ -1021,5 +1021,26 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "8667adcbc4471c82ba4c56798a5d5c54ba57450647e352d5d103035500e31c18",
+    "url": "https://www.investing.com/news/stock-market-news/goldman-sachs-updates-utility-estimates-ahead-of-q3-earnings-93CH-4950882",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T09:22:09Z",
+    "first_seen": "2026-10-15T09:45:43Z",
+    "analysis": {
+      "segments": [
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

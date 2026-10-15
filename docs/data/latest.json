@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T11:31:12Z",
+  "generated_at": "2026-10-15T11:45:45Z",
   "model": "impact-rules-1.0.2",
   "collection_status": "ok",
   "window_hours": 24,
@@ -8,9 +8,9 @@
     "all": {
       "value": 13.49,
       "status": "low_coverage",
-      "events": 21,
+      "events": 22,
       "scored_events": 2,
-      "articles": 21,
+      "articles": 22,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -30,9 +30,9 @@
     "sp500": {
       "value": 13.49,
       "status": "low_coverage",
-      "events": 19,
+      "events": 20,
       "scored_events": 2,
-      "articles": 19,
+      "articles": 20,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -44,39 +44,60 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T11:31:12Z",
+      "last_success": "2026-10-15T11:45:45Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-15T11:31:12Z",
+      "last_attempt": "2026-10-15T11:45:45Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T11:31:12Z",
+      "last_success": "2026-10-15T11:45:45Z",
       "received": 20,
       "accepted": 6,
       "rejected": 0,
-      "last_attempt": "2026-10-15T11:31:12Z",
+      "last_attempt": "2026-10-15T11:45:45Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T11:31:12Z",
+      "last_success": "2026-10-15T11:45:45Z",
       "received": 10,
-      "accepted": 3,
+      "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-15T11:31:12Z",
+      "last_attempt": "2026-10-15T11:45:45Z",
       "status": "ok"
     }
   ],
   "new_articles": 1,
-  "total_archived": 54,
+  "total_archived": 55,
   "articles": [
+    {
+      "id": "dc58f4f1878897692a8291c00c7a97b91c0010f3dbc09970018b386c45e0b735",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-walmart-stock-rallying-today-93CH-4951373",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T11:30:54Z",
+      "first_seen": "2026-10-15T11:45:45Z",
+      "analysis": {
+        "segments": [
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
     {
       "id": "6f686eee82a0baa46af4ee890ea0cf42cdc15145445703b5bf1a03b0b7a04130",
       "url": "https://www.marketwatch.com/story/this-30-year-market-veteran-is-alarmed-by-a-near-record-s-p-500-heres-where-hes-investing-instead-c6611143",

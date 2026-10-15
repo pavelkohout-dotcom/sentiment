@@ -1191,5 +1191,26 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "dc58f4f1878897692a8291c00c7a97b91c0010f3dbc09970018b386c45e0b735",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-walmart-stock-rallying-today-93CH-4951373",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T11:30:54Z",
+    "first_seen": "2026-10-15T11:45:45Z",
+    "analysis": {
+      "segments": [
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

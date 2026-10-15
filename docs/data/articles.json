@@ -1279,5 +1279,27 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "517e5c81e2bfe50265997ed40aed33f2cb88b893db91f10dea4780b6733211a4",
+    "url": "https://www.marketwatch.com/story/micron-nvidia-and-other-chip-stocks-face-renewed-pressure-as-ai-fears-swell-4e0dc989",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-15T12:43:00Z",
+    "first_seen": "2026-10-15T13:01:18Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

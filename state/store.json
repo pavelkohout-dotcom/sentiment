@@ -2055,6 +2055,42 @@
         "fe9bbd400bb6cb31"
       ],
       "headline_hash": "8f64880386f455ac2342da0c5352413ef464f33a0ad03a74cca461c1709d693b"
+    },
+    "517e5c81e2bfe50265997ed40aed33f2cb88b893db91f10dea4780b6733211a4": {
+      "id": "517e5c81e2bfe50265997ed40aed33f2cb88b893db91f10dea4780b6733211a4",
+      "url": "https://www.marketwatch.com/story/micron-nvidia-and-other-chip-stocks-face-renewed-pressure-as-ai-fears-swell-4e0dc989",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-15T12:43:00Z",
+      "first_seen": "2026-10-15T13:01:18Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "0282d9b79f42c74c",
+        "1ef8f25405f82682",
+        "32e83e92d45d71f6",
+        "36603efb55eb1ebf",
+        "37b5fecebce720fd",
+        "8d4321d936320802",
+        "8e506e203cf1774d",
+        "b50946a2af60a94c",
+        "b667446e6eb2552f",
+        "d7cea7305a333d5c",
+        "d9298a10d1b07358"
+      ],
+      "headline_hash": "5208b028b95a77249a8e11ffb996bee785ba3ab3232a607b7893fe5ace46d126"
     }
   },
   "sources": {
@@ -2062,22 +2098,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T12:45:46Z",
+      "last_success": "2026-10-15T13:01:18Z",
       "received": 10,
-      "accepted": 3,
+      "accepted": 4,
       "rejected": 0,
-      "last_attempt": "2026-10-15T12:45:46Z",
+      "last_attempt": "2026-10-15T13:01:18Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T12:45:46Z",
+      "last_success": "2026-10-15T13:01:18Z",
       "received": 20,
       "accepted": 6,
       "rejected": 0,
-      "last_attempt": "2026-10-15T12:45:46Z",
+      "last_attempt": "2026-10-15T13:01:18Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -2097,11 +2133,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T12:45:46Z",
+      "last_success": "2026-10-15T13:01:18Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-15T12:45:46Z",
+      "last_attempt": "2026-10-15T13:01:18Z",
       "status": "ok"
     }
   },

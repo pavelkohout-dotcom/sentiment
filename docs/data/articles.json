@@ -1301,5 +1301,49 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "21c9f13e9e7f324d643b5dc1e63c0ac9ed7cb54a1749062043dd6a0ade14f058",
+    "url": "https://www.investing.com/news/stock-market-news/musk-floats-amazon-rival-as-ai-shopping-battle-comes-into-focus-4952059",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T13:47:47Z",
+    "first_seen": "2026-10-15T14:01:17Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
+  },
+  {
+    "id": "d7ec82570f059448f7b115a978df3fc3e720ecadf25f62657fa83ce62638dfd1",
+    "url": "https://www.investing.com/news/stock-market-news/teslaspacex-merger-could-be-announced-before-december-barclays-says-4951979",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T13:32:10Z",
+    "first_seen": "2026-10-15T14:01:17Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

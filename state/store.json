@@ -2631,6 +2631,40 @@
         "ee8250fb76e094b3"
       ],
       "headline_hash": "9a7a8131097503e67b670f7a4f5fbf851bdfde25fe1b2ef2bf5c6ca3b62e9552"
+    },
+    "729091995dc6586de0479703c9211909d27b0a2f27636b78d59d48604ff720bf": {
+      "id": "729091995dc6586de0479703c9211909d27b0a2f27636b78d59d48604ff720bf",
+      "url": "https://www.investing.com/news/stock-market-news/google-demonstrates-quantum-computing-breakthrough-cuts-errors-40fold-4952450",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T18:14:56Z",
+      "first_seen": "2026-10-15T18:45:46Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "2142487324cdb6d8",
+        "255541b1d8c61855",
+        "2ddeaa83d0898c3f",
+        "577aeee7d0d03b5a",
+        "722cac41a5d2f99a",
+        "8fb7cf7a46995c95",
+        "bbdefa2950f49882",
+        "be4bd56772770471",
+        "d59eced1ded07f84"
+      ],
+      "headline_hash": "9f239b9dd50b9ec5f83af507aae934c16a074588924b8e7108759c012160ce94"
     }
   },
   "sources": {
@@ -2638,22 +2672,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T18:31:03Z",
+      "last_success": "2026-10-15T18:45:46Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T18:31:03Z",
+      "last_attempt": "2026-10-15T18:45:46Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T18:31:03Z",
+      "last_success": "2026-10-15T18:45:46Z",
       "received": 20,
       "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T18:31:03Z",
+      "last_attempt": "2026-10-15T18:45:46Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -2673,11 +2707,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T18:31:03Z",
+      "last_success": "2026-10-15T18:45:46Z",
       "received": 10,
-      "accepted": 2,
+      "accepted": 4,
       "rejected": 0,
-      "last_attempt": "2026-10-15T18:31:03Z",
+      "last_attempt": "2026-10-15T18:45:46Z",
       "status": "ok"
     }
   },

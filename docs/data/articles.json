@@ -1657,5 +1657,27 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "729091995dc6586de0479703c9211909d27b0a2f27636b78d59d48604ff720bf",
+    "url": "https://www.investing.com/news/stock-market-news/google-demonstrates-quantum-computing-breakthrough-cuts-errors-40fold-4952450",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T18:14:56Z",
+    "first_seen": "2026-10-15T18:45:46Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

@@ -1941,6 +1941,43 @@
         "e0f4f767ac88a930"
       ],
       "headline_hash": "2065d1b569cdfaf0b3112216087ac28d47364ebc1b15eaf9a9e819a600389a6e"
+    },
+    "69a6bd8f711e13011161eff36357b8b45cb90d2138636b331815aef691c9bb25": {
+      "id": "69a6bd8f711e13011161eff36357b8b45cb90d2138636b331815aef691c9bb25",
+      "url": "https://www.investing.com/news/stock-market-news/premarket-movers-chip-stocks-slide-as-inflation-fears-hit-ai-trade-4951419",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T11:44:41Z",
+      "first_seen": "2026-10-15T12:01:19Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -0.35,
+        "confidence": 0.35,
+        "rules": [
+          "equity_down"
+        ],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "0d7129b097701cca",
+        "1ef8f25405f82682",
+        "276446ba01e3aa38",
+        "32e83e92d45d71f6",
+        "63d04dee7c50f6fb",
+        "6d731a5ed145ab6d",
+        "8e506e203cf1774d",
+        "9462cd983401a5f7",
+        "b8a7e24e95497806",
+        "d7cea7305a333d5c"
+      ],
+      "headline_hash": "0aa76cb48241db60f00121e4e99d545f8543955d21c06a3f716f9ff9c0a7d9e2"
     }
   },
   "sources": {
@@ -1948,22 +1985,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T11:45:45Z",
+      "last_success": "2026-10-15T12:01:19Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-15T11:45:45Z",
+      "last_attempt": "2026-10-15T12:01:19Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T11:45:45Z",
+      "last_success": "2026-10-15T12:01:19Z",
       "received": 20,
       "accepted": 6,
       "rejected": 0,
-      "last_attempt": "2026-10-15T11:45:45Z",
+      "last_attempt": "2026-10-15T12:01:19Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -1983,11 +2020,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T11:45:45Z",
+      "last_success": "2026-10-15T12:01:19Z",
       "received": 10,
-      "accepted": 2,
+      "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T11:45:45Z",
+      "last_attempt": "2026-10-15T12:01:19Z",
       "status": "ok"
     }
   },

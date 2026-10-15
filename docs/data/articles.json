@@ -1212,5 +1212,29 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "69a6bd8f711e13011161eff36357b8b45cb90d2138636b331815aef691c9bb25",
+    "url": "https://www.investing.com/news/stock-market-news/premarket-movers-chip-stocks-slide-as-inflation-fears-hit-ai-trade-4951419",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T11:44:41Z",
+    "first_seen": "2026-10-15T12:01:19Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": -0.35,
+      "confidence": 0.35,
+      "rules": [
+        "equity_down"
+      ],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

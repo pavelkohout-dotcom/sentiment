@@ -5118,5 +5118,45 @@
         "extreme": "unavailable"
       }
     }
+  },
+  {
+    "at": "2026-10-15T12:01:19Z",
+    "model": "impact-rules-1.0.2",
+    "collection_status": "ok",
+    "metrics": {
+      "all": {
+        "value": 23.68,
+        "status": "low_coverage",
+        "events": 23,
+        "scored_events": 3,
+        "articles": 23,
+        "sources": 1,
+        "momentum": null,
+        "momentum_baseline": null,
+        "extreme": "unavailable"
+      },
+      "nasdaq100": {
+        "value": 23.68,
+        "status": "low_coverage",
+        "events": 13,
+        "scored_events": 3,
+        "articles": 13,
+        "sources": 1,
+        "momentum": null,
+        "momentum_baseline": null,
+        "extreme": "unavailable"
+      },
+      "sp500": {
+        "value": 23.68,
+        "status": "low_coverage",
+        "events": 21,
+        "scored_events": 3,
+        "articles": 21,
+        "sources": 1,
+        "momentum": null,
+        "momentum_baseline": null,
+        "extreme": "unavailable"
+      }
+    }
   }
 ]

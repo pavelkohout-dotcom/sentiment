@@ -2596,6 +2596,41 @@
         "d9c1acf117657bb0"
       ],
       "headline_hash": "96ffe3878c4fe8d7e07a2d0364cac08814112cb86db742a34fcafe1075bdfe14"
+    },
+    "567c541afb7e7decfe02a89465e80933028273471daf33f6a8bf5158f881b283": {
+      "id": "567c541afb7e7decfe02a89465e80933028273471daf33f6a8bf5158f881b283",
+      "url": "https://www.investing.com/news/stock-market-news/openai-and-meta-warn-us-judicial-panel-about-deepfake-evidence-4952449",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T18:12:13Z",
+      "first_seen": "2026-10-15T18:31:03Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "0bfe935e70c321c7",
+        "320e00e73a7d24a9",
+        "5038384a678cdc6c",
+        "7d3194f79e645c42",
+        "8ab7ab8937c8bd23",
+        "a4262e1c9bcbc172",
+        "aa63925edf225e26",
+        "ea3bd73e2b506e00",
+        "ee8250fb76e094b3"
+      ],
+      "headline_hash": "9a7a8131097503e67b670f7a4f5fbf851bdfde25fe1b2ef2bf5c6ca3b62e9552"
     }
   },
   "sources": {
@@ -2603,22 +2638,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T18:15:45Z",
+      "last_success": "2026-10-15T18:31:03Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T18:15:45Z",
+      "last_attempt": "2026-10-15T18:31:03Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T18:15:45Z",
+      "last_success": "2026-10-15T18:31:03Z",
       "received": 20,
       "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T18:15:45Z",
+      "last_attempt": "2026-10-15T18:31:03Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -2638,11 +2673,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T18:15:45Z",
+      "last_success": "2026-10-15T18:31:03Z",
       "received": 10,
-      "accepted": 3,
+      "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-15T18:15:45Z",
+      "last_attempt": "2026-10-15T18:31:03Z",
       "status": "ok"
     }
   },

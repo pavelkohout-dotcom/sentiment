@@ -2229,6 +2229,38 @@
         "be970d090a9b0a23"
       ],
       "headline_hash": "9b0b6e1e57d66a63179036b4773d097e5d2ce46172398a3ee89880c37e671d55"
+    },
+    "ed1cb34785d6eb916e7fa4a901bc87bdbf28caf9fbc349c5977097b1563d739b": {
+      "id": "ed1cb34785d6eb916e7fa4a901bc87bdbf28caf9fbc349c5977097b1563d739b",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-tesla-stock-sliding-today-93CH-4952168",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T14:25:43Z",
+      "first_seen": "2026-10-15T14:45:49Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -0.35,
+        "confidence": 0.35,
+        "rules": [
+          "equity_down"
+        ],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "08c4242b5f585628",
+        "2be23c585f15e5fd",
+        "58d805bc784099da",
+        "7358bd4ec877e1b6",
+        "e0f4f767ac88a930"
+      ],
+      "headline_hash": "d04c5c841086c3fce2527c90665578a9746d9fa160c4953ce87d8e9f3254e418"
     }
   },
   "sources": {
@@ -2236,22 +2268,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T14:31:05Z",
+      "last_success": "2026-10-15T14:45:49Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-15T14:31:05Z",
+      "last_attempt": "2026-10-15T14:45:49Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T14:31:05Z",
+      "last_success": "2026-10-15T14:45:49Z",
       "received": 20,
       "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T14:31:05Z",
+      "last_attempt": "2026-10-15T14:45:49Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -2271,11 +2303,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T14:31:05Z",
+      "last_success": "2026-10-15T14:45:49Z",
       "received": 10,
-      "accepted": 5,
+      "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T14:31:05Z",
+      "last_attempt": "2026-10-15T14:45:49Z",
       "status": "ok"
     }
   },

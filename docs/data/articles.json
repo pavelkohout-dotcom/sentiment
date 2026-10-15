@@ -1391,5 +1391,29 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "ed1cb34785d6eb916e7fa4a901bc87bdbf28caf9fbc349c5977097b1563d739b",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-tesla-stock-sliding-today-93CH-4952168",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T14:25:43Z",
+    "first_seen": "2026-10-15T14:45:49Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": -0.35,
+      "confidence": 0.35,
+      "rules": [
+        "equity_down"
+      ],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

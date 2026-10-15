@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T21:23:56Z",
+  "generated_at": "2026-10-15T21:31:00Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 29.63,
+      "value": 29.72,
       "status": "ok",
-      "events": 26,
-      "scored_events": 25,
-      "articles": 26,
+      "events": 25,
+      "scored_events": 24,
+      "articles": 25,
       "sources": 3,
       "momentum": null,
       "momentum_baseline": null,
@@ -44,40 +44,40 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T21:23:56Z",
+      "last_success": "2026-10-15T21:31:00Z",
       "received": 10,
-      "accepted": 5,
+      "accepted": 4,
       "rejected": 0,
-      "pending_llama": 2,
-      "last_attempt": "2026-10-15T21:23:56Z",
+      "pending_llama": 3,
+      "last_attempt": "2026-10-15T21:31:00Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T21:23:56Z",
+      "last_success": "2026-10-15T21:31:00Z",
       "received": 20,
       "accepted": 15,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-15T21:23:56Z",
+      "last_attempt": "2026-10-15T21:31:00Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T21:23:56Z",
+      "last_success": "2026-10-15T21:31:00Z",
       "received": 10,
       "accepted": 7,
       "rejected": 0,
       "pending_llama": 1,
-      "last_attempt": "2026-10-15T21:23:56Z",
+      "last_attempt": "2026-10-15T21:31:00Z",
       "status": "ok"
     }
   ],
-  "new_articles": 5,
+  "new_articles": 0,
   "total_archived": 109,
   "articles": [
     {
@@ -716,31 +716,6 @@
         "reason": "The headline suggests that Rocket Lab's stock is experiencing a decline, indicating a negative impact on the company's equity.",
         "rated_at": "2026-10-15T20:42:00Z"
       }
-    },
-    {
-      "id": "25ae1fa78fbf7bfca45a15ebf9a310786d1c612f1615ef2257bcac9c3b3d08eb",
-      "url": "https://www.investing.com/news/stock-market-news/vanda-pharmaceuticals-stock-falls-after-anxiety-drug-trial-fails-4950139",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T21:24:48Z",
-      "first_seen": "2026-10-15T20:42:05Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "The headline specifically mentions a single US company, Vanda Pharmaceuticals, and the stock falling after a trial failure, indicating a negative impact on the company's stock.",
-        "rated_at": "2026-10-15T20:42:05Z"
-      }
     }
   ],
   "methodology": {
@@ -755,7 +730,7 @@
     "last_rated_at": "2026-10-15T21:23:25Z",
     "last_refresh_at": "2026-10-15T21:23:25Z",
     "errors": 1,
-    "pending": 3,
+    "pending": 4,
     "model_digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
     "scale": {
       "negative": -1,

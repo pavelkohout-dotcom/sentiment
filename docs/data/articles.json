@@ -1569,5 +1569,27 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "97dd13515bcd13f2ecf5e4c9d240e7ec8727dd52e626bbfc79f67ca1776dbe74",
+    "url": "https://www.investing.com/news/stock-market-news/volvo-cars-expands-nvidia-partnership-for-selfdriving-tech-93CH-4952419",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T17:32:25Z",
+    "first_seen": "2026-10-15T17:45:46Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

@@ -2498,6 +2498,39 @@
         "f96c94f287038f69"
       ],
       "headline_hash": "226d5fb6db8cc08cca8f38bfa752b0896f480d3b78a70b2d06c6d4d5332deeee"
+    },
+    "97dd13515bcd13f2ecf5e4c9d240e7ec8727dd52e626bbfc79f67ca1776dbe74": {
+      "id": "97dd13515bcd13f2ecf5e4c9d240e7ec8727dd52e626bbfc79f67ca1776dbe74",
+      "url": "https://www.investing.com/news/stock-market-news/volvo-cars-expands-nvidia-partnership-for-selfdriving-tech-93CH-4952419",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T17:32:25Z",
+      "first_seen": "2026-10-15T17:45:46Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "06c604b332b386b6",
+        "1f58b1e965af6512",
+        "76f9df77e8afeb0c",
+        "8d4321d936320802",
+        "92b9ce21f5e3741c",
+        "bccae4ce7be65100",
+        "d9c1acf117657bb0",
+        "fe9bbd400bb6cb31"
+      ],
+      "headline_hash": "8185f20d24a8c2d91d2d861c9bec9785eb773255e2b011eed011cf9cabc880d2"
     }
   },
   "sources": {
@@ -2505,22 +2538,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T17:31:03Z",
+      "last_success": "2026-10-15T17:45:46Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-15T17:31:03Z",
+      "last_attempt": "2026-10-15T17:45:46Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T17:31:03Z",
+      "last_success": "2026-10-15T17:45:46Z",
       "received": 20,
       "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T17:31:03Z",
+      "last_attempt": "2026-10-15T17:45:46Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -2540,11 +2573,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T17:31:03Z",
+      "last_success": "2026-10-15T17:45:46Z",
       "received": 10,
-      "accepted": 2,
+      "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-15T17:31:03Z",
+      "last_attempt": "2026-10-15T17:45:46Z",
       "status": "ok"
     }
   },

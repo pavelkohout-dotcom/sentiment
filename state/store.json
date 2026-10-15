@@ -683,7 +683,7 @@
       "source": "www.investing.com",
       "provider": "investing",
       "title": null,
-      "published_at": "2026-10-14T14:19:44Z",
+      "published_at": "2026-10-15T19:19:09Z",
       "first_seen": "2026-10-14T14:31:04Z",
       "analysis": {
         "segments": [
@@ -696,21 +696,19 @@
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.1"
+        "model": "impact-rules-1.0.2"
       },
       "signature": [
         "247610f4dedd4ab7",
-        "2858dcd1057d3eae",
-        "28720365c5e7476a",
-        "2ce06a9e7f8c3e6b",
         "342b503c67232dbe",
-        "59830ebc3a418411",
+        "446be308664e1964",
+        "486bae792ce2ffcc",
+        "5966abd0cbfc86f9",
         "7d50f20853334a30",
         "8d4321d936320802",
-        "9b871512327c09ce",
-        "a18603086e5bdf9d"
+        "908aec4512d80ff4"
       ],
-      "headline_hash": "a1b9245188ec242765f89f3b81fbd36f5081d888342cb1e172850057d90ad2d9"
+      "headline_hash": "b355e0dc916021b35124b6d3660ce59e8309e4af2b9fa597e7ed3a99a5c40e3c"
     },
     "49ece347700314629e6121f21c3182679b34a28df65fbdec2637fc132cac906a": {
       "id": "49ece347700314629e6121f21c3182679b34a28df65fbdec2637fc132cac906a",
@@ -2711,22 +2709,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T19:31:02Z",
+      "last_success": "2026-10-15T19:45:46Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T19:31:02Z",
+      "last_attempt": "2026-10-15T19:45:46Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T19:31:02Z",
+      "last_success": "2026-10-15T19:45:46Z",
       "received": 20,
       "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T19:31:02Z",
+      "last_attempt": "2026-10-15T19:45:46Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -2746,11 +2744,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T19:31:02Z",
+      "last_success": "2026-10-15T19:45:46Z",
       "received": 10,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-15T19:31:02Z",
+      "last_attempt": "2026-10-15T19:45:46Z",
       "status": "ok"
     }
   },
@@ -3414,6 +3412,41 @@
         "f5fd5ffef3c528d3"
       ],
       "headline_hash": "2f335cb6ed241e196ceaf135d96783ea14029dd16eda07965a3ed88524caeeb4"
+    },
+    {
+      "id": "568e4b41f0044601d84404e0f769e226b67b5aa171a162e76824ddab30ab2c4c",
+      "url": "https://www.investing.com/news/stock-market-news/nvidia-teeters-at-225-support-with-fading-momentum-live-levels-93CH-4944777",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T14:19:44Z",
+      "first_seen": "2026-10-14T14:31:04Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "247610f4dedd4ab7",
+        "2858dcd1057d3eae",
+        "28720365c5e7476a",
+        "2ce06a9e7f8c3e6b",
+        "342b503c67232dbe",
+        "59830ebc3a418411",
+        "7d50f20853334a30",
+        "8d4321d936320802",
+        "9b871512327c09ce",
+        "a18603086e5bdf9d"
+      ],
+      "headline_hash": "a1b9245188ec242765f89f3b81fbd36f5081d888342cb1e172850057d90ad2d9"
     }
   ]
 }

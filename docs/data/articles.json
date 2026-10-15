@@ -427,7 +427,7 @@
     "source": "www.investing.com",
     "provider": "investing",
     "title": null,
-    "published_at": "2026-10-14T14:19:44Z",
+    "published_at": "2026-10-15T19:19:09Z",
     "first_seen": "2026-10-14T14:31:04Z",
     "analysis": {
       "segments": [
@@ -440,7 +440,7 @@
       "uncertain": false,
       "mixed": false,
       "kind": "unknown",
-      "model": "impact-rules-1.0.1"
+      "model": "impact-rules-1.0.2"
     }
   },
   {

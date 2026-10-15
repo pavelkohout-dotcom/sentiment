@@ -935,5 +935,48 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "bb92c371629fda3025cea5038d8cb47d6833ddba01369eb40dd36c9835b87e0f",
+    "url": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt",
+    "source": "www.theguardian.com",
+    "provider": "guardian",
+    "title": null,
+    "published_at": "2026-10-15T08:39:54Z",
+    "first_seen": "2026-10-15T08:45:44Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
+  },
+  {
+    "id": "dbe6cb212a698861e34d9a6b59ab48b5eab2b51df92a30fb7b8c931aff1300b4",
+    "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-dive-1-as-ai-rout-deepens-on-debt-concerns-4950779",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T08:24:20Z",
+    "first_seen": "2026-10-15T08:45:44Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

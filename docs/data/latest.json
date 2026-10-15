@@ -1,11 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T08:31:03Z",
+  "generated_at": "2026-10-15T08:45:44Z",
   "model": "impact-rules-1.0.2",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
+      "value": 13.49,
+      "status": "low_coverage",
+      "events": 11,
+      "scored_events": 2,
+      "articles": 11,
+      "sources": 1,
+      "momentum": null,
+      "momentum_baseline": null,
+      "extreme": "unavailable"
+    },
+    "nasdaq100": {
       "value": 13.49,
       "status": "low_coverage",
       "events": 9,
@@ -16,23 +27,12 @@
       "momentum_baseline": null,
       "extreme": "unavailable"
     },
-    "nasdaq100": {
-      "value": 13.49,
-      "status": "low_coverage",
-      "events": 7,
-      "scored_events": 2,
-      "articles": 7,
-      "sources": 1,
-      "momentum": null,
-      "momentum_baseline": null,
-      "extreme": "unavailable"
-    },
     "sp500": {
       "value": 13.49,
       "status": "low_coverage",
-      "events": 8,
+      "events": 9,
       "scored_events": 2,
-      "articles": 8,
+      "articles": 9,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -44,39 +44,82 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T08:31:03Z",
+      "last_success": "2026-10-15T08:45:44Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
-      "last_attempt": "2026-10-15T08:31:03Z",
+      "last_attempt": "2026-10-15T08:45:44Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T08:31:03Z",
+      "last_success": "2026-10-15T08:45:44Z",
       "received": 20,
-      "accepted": 5,
+      "accepted": 6,
       "rejected": 0,
-      "last_attempt": "2026-10-15T08:31:03Z",
+      "last_attempt": "2026-10-15T08:45:44Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T08:31:03Z",
+      "last_success": "2026-10-15T08:45:44Z",
       "received": 10,
-      "accepted": 0,
+      "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T08:31:03Z",
+      "last_attempt": "2026-10-15T08:45:44Z",
       "status": "ok"
     }
   ],
-  "new_articles": 0,
-  "total_archived": 42,
+  "new_articles": 2,
+  "total_archived": 44,
   "articles": [
+    {
+      "id": "bb92c371629fda3025cea5038d8cb47d6833ddba01369eb40dd36c9835b87e0f",
+      "url": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt",
+      "source": "www.theguardian.com",
+      "provider": "guardian",
+      "title": null,
+      "published_at": "2026-10-15T08:39:54Z",
+      "first_seen": "2026-10-15T08:45:44Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
+    {
+      "id": "dbe6cb212a698861e34d9a6b59ab48b5eab2b51df92a30fb7b8c931aff1300b4",
+      "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-dive-1-as-ai-rout-deepens-on-debt-concerns-4950779",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T08:24:20Z",
+      "first_seen": "2026-10-15T08:45:44Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
     {
       "id": "0d84993399549d736bd9fae5797ec2c3d805a9e9074bec928ac2c0c1295b7ea1",
       "url": "https://www.investing.com/news/stock-market-news/european-shares-trip-on-global-tech-bump-and-us-inflation-spike-4950557",

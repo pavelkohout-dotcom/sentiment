@@ -1490,6 +1490,76 @@
         "fe9bbd400bb6cb31"
       ],
       "headline_hash": "a7353da303f9d2da597885266049d3e3ab69b393856cb1bf2954ab0ae01fcfbd"
+    },
+    "bb92c371629fda3025cea5038d8cb47d6833ddba01369eb40dd36c9835b87e0f": {
+      "id": "bb92c371629fda3025cea5038d8cb47d6833ddba01369eb40dd36c9835b87e0f",
+      "url": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt",
+      "source": "www.theguardian.com",
+      "provider": "guardian",
+      "title": null,
+      "published_at": "2026-10-15T08:39:54Z",
+      "first_seen": "2026-10-15T08:45:44Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "32e83e92d45d71f6",
+        "5fb6a47e368e12e5",
+        "652d75f9bafb25e5",
+        "69dabc67d286f871",
+        "6d731a5ed145ab6d",
+        "79adb2a2fce5c6ba",
+        "8e506e203cf1774d",
+        "b4dc66dde806261b",
+        "bf28bfe81f5cf803",
+        "c0f21d451463ec3e",
+        "e4d693d24e646cb7",
+        "fe9bbd400bb6cb31"
+      ],
+      "headline_hash": "f7e1060e68de65b82a9d5f081c5e7dc26133c90df99afc36e7c2ab88bb1fd934"
+    },
+    "dbe6cb212a698861e34d9a6b59ab48b5eab2b51df92a30fb7b8c931aff1300b4": {
+      "id": "dbe6cb212a698861e34d9a6b59ab48b5eab2b51df92a30fb7b8c931aff1300b4",
+      "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-dive-1-as-ai-rout-deepens-on-debt-concerns-4950779",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T08:24:20Z",
+      "first_seen": "2026-10-15T08:45:44Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "0f8897661f150233",
+        "32e83e92d45d71f6",
+        "3df8c38622686e1a",
+        "591d77b58fe3f304",
+        "652d75f9bafb25e5",
+        "6b86b273ff34fce1",
+        "bf28bfe81f5cf803",
+        "fc1b192ed5829737",
+        "fcfc5fe39fc177d6"
+      ],
+      "headline_hash": "bd99ae0957758ea6bb6d6b4e91cc2bc9a6d6d0644689d9511993995081b2c2dc"
     }
   },
   "sources": {
@@ -1497,22 +1567,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T08:31:03Z",
+      "last_success": "2026-10-15T08:45:44Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
-      "last_attempt": "2026-10-15T08:31:03Z",
+      "last_attempt": "2026-10-15T08:45:44Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T08:31:03Z",
+      "last_success": "2026-10-15T08:45:44Z",
       "received": 20,
-      "accepted": 5,
+      "accepted": 6,
       "rejected": 0,
-      "last_attempt": "2026-10-15T08:31:03Z",
+      "last_attempt": "2026-10-15T08:45:44Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -1532,11 +1602,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T08:31:03Z",
+      "last_success": "2026-10-15T08:45:44Z",
       "received": 10,
-      "accepted": 0,
+      "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T08:31:03Z",
+      "last_attempt": "2026-10-15T08:45:44Z",
       "status": "ok"
     }
   },

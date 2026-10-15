@@ -119,7 +119,8 @@ def cluster(records):
     return groups
 
 def metrics(records, now, history, config, segment=None):
-    active=[r for r in records if r['analysis']['model']==VERSION and 0 <= (now-date(r['published_at'])).total_seconds() <= config['window_hours']*3600
+    model=config.get('analysis_model',VERSION)
+    active=[r for r in records if r['analysis']['model']==model and r['analysis']['segments'] and 0 <= (now-date(r['published_at'])).total_seconds() <= config['window_hours']*3600
             and (not segment or segment in r['analysis']['segments'])]
     groups=cluster(active)
     scored=[g for g in groups if any(r['analysis']['score'] is not None for r in g)]
@@ -134,7 +135,7 @@ def metrics(records, now, history, config, segment=None):
     value=round(50+50*sum(source_means)/len(source_means),2) if source_means else None
     enough=len(scored)>=config['min_events'] and len(per_source)>=config['min_sources']
     key=segment or 'all'
-    candidates=[h for h in history if h.get('model')==VERSION and 45*60 <= (now-date(h['at'])).total_seconds() <= 90*60
+    candidates=[h for h in history if h.get('model')==model and 45*60 <= (now-date(h['at'])).total_seconds() <= 90*60
                 and h['metrics'][key]['status']=='ok' and h['metrics'][key]['value'] is not None]
     previous=min(candidates,key=lambda h:abs((now-date(h['at'])).total_seconds()-3600)) if candidates else None
     momentum=round(value-previous['metrics'][key]['value'],2) if enough and previous else None

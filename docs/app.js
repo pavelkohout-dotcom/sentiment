@@ -21,6 +21,11 @@ function draw(){
  const labels=[];
  if(age>45)labels.push(`ZASTARALÁ DATA · poslední běh před ${Math.floor(age/60)} h ${Math.floor(age%60)} min`);
  if(latest.collection_status!=='ok')labels.push('Sběr je omezený nebo offline');
+ if(latest.llama){
+  const llmAge=latest.llama.last_refresh_at?(Date.now()-Date.parse(latest.llama.last_refresh_at))/60000:Infinity;
+  labels.push(`Titulky čekající na platné hodnocení Llamy: ${latest.llama.pending}`);
+  if(llmAge>60)labels.push('HODNOCENÍ LLAMY SE NEOBNOVILO DÉLE NEŽ HODINU — vyžaduje běžící Mac');
+ }
  labels.push(`Vyhodnoceno ${m.scored_events} z ${m.events} událostí · model ${latest.model}`);
  if(m.status!=='ok')labels.push('Nedostatek podkladů: hlavní hodnota, momentum a extrémy se nezobrazují');
  $('notice').textContent=labels.join(' · ')||'Sběr proběhl. Experimentální odhad z titulků; podrobnosti a stav zdrojů níže.';
@@ -36,7 +41,8 @@ function renderNews(){
   const body=el('div');const a=el('a',r.title||`Zpráva · ${r.source}`);
   try{const u=new URL(r.url);if(['http:','https:'].includes(u.protocol)){a.href=u.href;a.target='_blank';a.rel='noopener noreferrer';}}catch{}
   body.append(a,el('small',`${r.analysis.kind==='commentary'?'Komentář':'Typ neurčen'} · ${r.source}${r.title?'':' · Titulek se veřejně neexportuje'}`));
-  body.append(el('small',r.analysis.rules.length?`Pravidla: ${r.analysis.rules.join(', ')}${r.analysis.uncertain?' · podmíněný výrok':''}`:'Bez rozpoznaného pravidla; do skóre nezahrnuto.'));
+  if(r.analysis.model.startsWith('llama3-'))body.append(el('small',`Llama · ${{broad_us:'širší US trh',single_us_company:'jednotlivá US firma',other:'jiný trh',unclear:'nejasný rozsah'}[r.analysis.scope]||r.analysis.scope} · ${r.analysis.reason||'Bez směrového hodnocení'}`));
+  else body.append(el('small',r.analysis.rules.length?`Pravidla: ${r.analysis.rules.join(', ')}${r.analysis.uncertain?' · podmíněný výrok':''}`:'Bez rozpoznaného pravidla; do skóre nezahrnuto.'));
   row.append(body,el('span',r.analysis.score===null?'—':`${r.analysis.score>0?'+':''}${r.analysis.score.toFixed(2)}`,'impact'));host.append(row);
  }
 }

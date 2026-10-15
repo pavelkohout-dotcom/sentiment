@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths-ignore: ['state/**', 'docs/data/**']
+    paths-ignore: ['state/store.json', 'docs/data/**']
 permissions:
   contents: write
   pages: write

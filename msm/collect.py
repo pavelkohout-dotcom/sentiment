@@ -73,7 +73,7 @@ def fetch(source):
         raise SourceError('api_unexpected_response')
     return [dict(title=r.get('title',''),url=r.get('url',''),published_at=r.get('time_published')) for r in obj['feed']]
 
-def record(raw, source, now):
+def record(raw, source, now, analyzer=analyze):
     title=clean(raw['title'])
     if not title: raise ValueError('empty title')
     url=canonical(raw['url']); host=urlsplit(url).hostname
@@ -90,7 +90,7 @@ def record(raw, source, now):
             publication=naive.replace(tzinfo=ZoneInfo(source['naive_date_timezone'])).isoformat()
     published=date(publication)
     if published>now: raise ValueError('future publication date')
-    analysis=analyze(title)
+    analysis=analyzer(title)
     if not analysis['segments']: return None
     # Persist derived fingerprints, never feed summaries or article bodies.
     # An explicit source rights decision is needed before exporting a title.

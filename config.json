@@ -75,5 +75,6 @@
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
       "note": "User requested personal analysis. No article bodies or titles published. Feed timestamps omit timezone; UTC is an explicit assumption."
     }
-  ]
+  ],
+  "analysis_model": "llama3-numeric-1.0.0"
 }

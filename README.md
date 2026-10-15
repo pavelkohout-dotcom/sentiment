@@ -1,3 +1,15 @@
+## Public Llama scoring (October 2026)
+
+The active model is `llama3-numeric-1.0.0`, using the existing local Ollama `llama3:latest` (pinned digest in `msm/llama.py`). Each headline receives -1 (negative), +1 (positive), 0 (mixed), or null (unclear/out of scope). These are direction codes, not calibrated intensity or probability. Null is excluded, zero is included. Numeric output is validated against the model labels, with one corrective retry. Headlines are data, never instructions.
+
+The public US MARKET score includes broad US stories and individual US firms. Existing routing is retained for Nasdaq/S&P segments; additional companies are not automatically claimed as index constituents. Event deduplication, equal publisher weights, six-hour time decay, 24-hour window and minimum coverage remain unchanged. Original rules history is preserved, with a model boundary in the chart and momentum.
+
+GitHub Actions cannot reach a Mac's localhost. Local inference runs with `python3 -B -m msm.rate_local`; then publish only `state/llama_scores.json` to `main`. A cache update triggers the existing collect/deploy workflow, which also recomputes on its 15-minute schedule. The cache stores derived scores, explanations and provenance, not raw headlines or article bodies. It also restores previously observed feed items that have rotated out. Missing Llama ratings never fall back to rules. The web shows pending titles and warns if local inference has not refreshed for an hour. An asleep/offline Mac cannot produce new ratings.
+
+`python3 -B -m msm.rate_local --seed /private/path/results.json` can backfill previously observed real RSS samples. It validates dates/domains and never downloads a model. `python3 -B -m msm.run` builds the public data from the cache. For recurring updates, keep the local Mac, Ollama and the configured publishing task available. No paid inference API is used.
+
+The historical documentation below describes the previous rules model and initial setup; the active behavior is described above and on the public dashboard.
+
 # MARKET SENTIMENT MONITOR 1.0
 
 Funkční experimentální MVP: Python 3.9+ (workflow 3.12) bez externích závislostí, RSS/volitelný API sběr, odhad dopadu anglických titulků na americké akcie, historie, JSON a statický art déco dashboard. Přiložená data pocházejí ze skutečného sběru, nikoli z demonstrace. Syntetické titulky jsou pouze v testech.

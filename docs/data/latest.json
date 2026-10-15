@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T20:45:46Z",
-  "model": "impact-rules-1.0.2",
+  "generated_at": "2026-10-15T20:47:24Z",
+  "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 54.24,
+      "value": 36.95,
       "status": "ok",
-      "events": 47,
-      "scored_events": 7,
-      "articles": 47,
+      "events": 24,
+      "scored_events": 22,
+      "articles": 24,
       "sources": 3,
-      "momentum": 11.77,
-      "momentum_baseline": "2026-10-15T19:45:46Z",
+      "momentum": null,
+      "momentum_baseline": null,
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 54.24,
+      "value": 47.58,
       "status": "ok",
-      "events": 36,
-      "scored_events": 7,
-      "articles": 36,
+      "events": 14,
+      "scored_events": 12,
+      "articles": 14,
       "sources": 3,
-      "momentum": 11.77,
-      "momentum_baseline": "2026-10-15T19:45:46Z",
+      "momentum": null,
+      "momentum_baseline": null,
       "extreme": "normal"
     },
     "sp500": {
-      "value": 54.24,
+      "value": 47.58,
       "status": "ok",
-      "events": 44,
-      "scored_events": 7,
-      "articles": 44,
+      "events": 14,
+      "scored_events": 12,
+      "articles": 14,
       "sources": 3,
-      "momentum": 11.77,
-      "momentum_baseline": "2026-10-15T19:45:46Z",
+      "momentum": null,
+      "momentum_baseline": null,
       "extreme": "normal"
     }
   },
@@ -44,39 +44,93 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T20:45:46Z",
+      "last_success": "2026-10-15T20:47:24Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 6,
       "rejected": 0,
-      "last_attempt": "2026-10-15T20:45:46Z",
+      "pending_llama": 1,
+      "last_attempt": "2026-10-15T20:47:24Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T20:45:46Z",
+      "last_success": "2026-10-15T20:47:24Z",
       "received": 20,
-      "accepted": 7,
+      "accepted": 15,
       "rejected": 0,
-      "last_attempt": "2026-10-15T20:45:46Z",
+      "pending_llama": 0,
+      "last_attempt": "2026-10-15T20:47:24Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T20:45:46Z",
+      "last_success": "2026-10-15T20:47:24Z",
       "received": 10,
-      "accepted": 2,
+      "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T20:45:46Z",
+      "pending_llama": 0,
+      "last_attempt": "2026-10-15T20:47:24Z",
       "status": "ok"
     }
   ],
-  "new_articles": 1,
-  "total_archived": 78,
+  "new_articles": 26,
+  "total_archived": 104,
   "articles": [
+    {
+      "id": "2b7c393137c2b672f7921e5ed6d2f069f17119f18ca72577a7ec3be134731f14",
+      "url": "https://www.marketwatch.com/story/traders-pile-into-bonds-and-defensive-stocks-as-the-tech-wreck-picks-up-steam-48c04374",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-15T20:40:00Z",
+      "first_seen": "2026-10-15T20:47:24Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "negative",
+        "reason": "The headline suggests that investors are selling AI stocks, which could have a negative impact on the broader US market.",
+        "rated_at": "2026-10-15T20:44:09Z"
+      }
+    },
+    {
+      "id": "1d93477cb2a8f0e4cd0e91a14f3f338ac5e801c0295d2f14d39069edbdebca6a",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-jb-hunt-transport-stock-sliding-today-93CH-4952641",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T20:31:28Z",
+      "first_seen": "2026-10-15T20:47:24Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "The headline suggests that the stock is sliding, implying a negative impact on the company's stock price.",
+        "rated_at": "2026-10-15T20:42:53Z"
+      }
+    },
     {
       "id": "a12febd033645bbf7a7ecbffa928fa419c81f94b27ec03bcd73024302bebbf2f",
       "url": "https://www.investing.com/news/stock-market-news/us-stocks-higher-at-close-of-trade-dow-jones-industrial-average-up-108-4952637",
@@ -90,15 +144,170 @@
           "nasdaq100",
           "sp500"
         ],
-        "score": 0.7,
-        "confidence": 0.65,
-        "rules": [
-          "equity_up"
-        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.2"
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "positive",
+        "reason": "The headline indicates a positive performance of the Dow Jones Industrial Average, which is a broad market indicator.",
+        "rated_at": "2026-10-15T20:42:55Z"
+      }
+    },
+    {
+      "id": "673578cc42f63322fc837a89a11baa37f19f863a6169e195a016c57911a6505f",
+      "url": "https://www.marketwatch.com/story/big-pharma-stocks-near-all-time-highs-as-tech-selloff-pushes-investors-toward-safer-bets-0a5d5d07",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-15T20:29:00Z",
+      "first_seen": "2026-10-15T20:47:24Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "positive",
+        "reason": "The headline suggests that big pharma stocks are closing near all-time highs, indicating a positive trend in the broader US market.",
+        "rated_at": "2026-10-15T20:42:19Z"
+      }
+    },
+    {
+      "id": "85626c91b49022d857a9f25a358d088f70112883a1b17aa0fdb8e9d8fca4ceab",
+      "url": "https://www.investing.com/news/stock-market-news/varonis-stock-climbs-on-63-billion-proofpoint-deal-4952619",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T20:24:25Z",
+      "first_seen": "2026-10-15T20:47:24Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "positive",
+        "reason": "Varonis stock climbs on $6.3 billion Proofpoint deal, indicating a positive impact on the company's stock price",
+        "rated_at": "2026-10-15T20:43:01Z"
+      }
+    },
+    {
+      "id": "e30af7879e15fd13b169bf14e6c64fe7b285b13c3e0415b60dda75eb680694ec",
+      "url": "https://www.investing.com/news/stock-market-news/diamondback-expand-energy-named-top-picks-at-scotiabank-4952614",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T20:22:09Z",
+      "first_seen": "2026-10-15T20:47:24Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "positive",
+        "reason": "The headline suggests that Scotiabank has named Diamondback and Expand Energy as top picks, implying a positive outlook for these companies and potentially their US equities.",
+        "rated_at": "2026-10-15T20:43:03Z"
+      }
+    },
+    {
+      "id": "c70555241f33faebdff034f0c7dfbf67c6b0acf1a236260bd7d3afb0187cea03",
+      "url": "https://www.investing.com/news/stock-market-news/tsx-futures-inch-higher-amid-ai-jitters-ratehike-worries-4951081",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T20:20:08Z",
+      "first_seen": "2026-10-15T20:47:24Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "positive",
+        "reason": "The headline suggests that a rise in the TSX (Toronto Stock Exchange) is fueled by lower bond yields, which is likely to have a positive impact on US equities as well.",
+        "rated_at": "2026-10-15T20:43:06Z"
+      }
+    },
+    {
+      "id": "40a3cea23a1b3b7fdf5364864f1ab0032661261fe56dc0fdd384475f0bad17ed",
+      "url": "https://www.investing.com/news/stock-market-news/kfc-to-sign-cocacola-on-as-beverage-partner-ditching-pepsico-wsj-reports-4952509",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T20:18:55Z",
+      "first_seen": "2026-10-15T20:47:24Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "The headline implies a negative impact on PepsiCo's US equities, as KFC is switching from a longtime partner to a new supplier, Coca-Cola.",
+        "rated_at": "2026-10-15T20:43:09Z"
+      }
+    },
+    {
+      "id": "33f060435828eeb9df94dcec0e9f31970a9536274580ad54ee7489ed1db7b102",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-hot-inflation-revives-fed-hike-concerns-4950317",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T20:12:30Z",
+      "first_seen": "2026-10-15T01:01:13Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "positive",
+        "reason": "The headline suggests a rebound in the Nasdaq, which is a broad US stock market index, indicating a positive impact on US equities.",
+        "rated_at": "2026-10-15T20:43:13Z"
       }
     },
     {
@@ -114,201 +323,53 @@
           "nasdaq100",
           "sp500"
         ],
-        "score": 0.7,
-        "confidence": 0.65,
-        "rules": [
-          "equity_up"
-        ],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "568e4b41f0044601d84404e0f769e226b67b5aa171a162e76824ddab30ab2c4c",
-      "url": "https://www.investing.com/news/stock-market-news/nvidia-teeters-at-225-support-with-fading-momentum-live-levels-93CH-4944777",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T19:19:09Z",
-      "first_seen": "2026-10-14T14:31:04Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
+        "score": 1,
+        "confidence": 1,
         "rules": [],
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.2"
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "positive",
+        "reason": "The headline suggests that CoreWeave's stock is rebounding, indicating a positive impact on the company's equity.",
+        "rated_at": "2026-10-15T20:42:21Z"
       }
     },
     {
-      "id": "729091995dc6586de0479703c9211909d27b0a2f27636b78d59d48604ff720bf",
-      "url": "https://www.investing.com/news/stock-market-news/google-demonstrates-quantum-computing-breakthrough-cuts-errors-40fold-4952450",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T18:14:56Z",
-      "first_seen": "2026-10-15T18:45:46Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "567c541afb7e7decfe02a89465e80933028273471daf33f6a8bf5158f881b283",
-      "url": "https://www.investing.com/news/stock-market-news/openai-and-meta-warn-us-judicial-panel-about-deepfake-evidence-4952449",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T18:12:13Z",
-      "first_seen": "2026-10-15T18:31:03Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "3b8b08f770c229ff1a4bd4dcfeb590d1003e218ec70ce3a8c94203eeadbcb44a",
-      "url": "https://www.investing.com/news/stock-market-news/amazon-launches-two-new-portable-ai-listening-devices-4952429",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T17:49:17Z",
-      "first_seen": "2026-10-15T18:01:16Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "09aa2f6b3c9d6d60ab02f50f50dd8dac0b51ee01f0009093fcb19cf37135749f",
-      "url": "https://www.investing.com/news/stock-market-news/volvo-cars-expands-automated-driving-partnership-with-nvidia-4952421",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T17:42:40Z",
-      "first_seen": "2026-10-15T18:01:16Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "97dd13515bcd13f2ecf5e4c9d240e7ec8727dd52e626bbfc79f67ca1776dbe74",
-      "url": "https://www.investing.com/news/stock-market-news/volvo-cars-expands-nvidia-partnership-for-selfdriving-tech-93CH-4952419",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T17:32:25Z",
-      "first_seen": "2026-10-15T17:45:46Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "e4ec180742087830ce0016369c548f08c86ace20002424472884afd4bcd26830",
-      "url": "https://www.investing.com/news/stock-market-news/cnn-signs-multiyear-ai-partnership-with-google-4952397",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T17:12:39Z",
-      "first_seen": "2026-10-15T17:31:03Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "f8a51d9655e6b8888374feee08f0ef9dea8a96dc0ee6b0320836c53eddc3fb12",
-      "url": "https://www.investing.com/news/stock-market-news/cnn-and-google-announce-multiyear-partnership-deal-93CH-4952396",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T17:12:10Z",
-      "first_seen": "2026-10-15T17:31:03Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "0192250980d424dbfc3f0ac9f8c9a78a8f8e60c8a4ba25e36d7949cb2d532b9e",
-      "url": "https://www.marketwatch.com/story/tesla-may-finally-debut-a-flying-car-today-after-testing-fans-patience-for-nearly-a-decade-9a23c8e8",
+      "id": "45bb31e369c7797d780ba774b5561a9a860ed315a53d49eba1199493505e140c",
+      "url": "https://www.marketwatch.com/story/this-one-governors-race-could-derail-the-ai-trade-thats-powered-the-stock-market-6bbf06f8",
       "source": "www.marketwatch.com",
       "provider": "marketwatch",
       "title": null,
-      "published_at": "2026-10-15T16:43:00Z",
-      "first_seen": "2026-10-15T16:45:47Z",
+      "published_at": "2026-10-15T19:00:00Z",
+      "first_seen": "2026-10-15T20:47:24Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "negative",
+        "reason": "The headline suggests that a governor's race could negatively impact the AI trade, which has powered the stock market, implying a potential decline in US equities.",
+        "rated_at": "2026-10-15T20:42:23Z"
+      }
+    },
+    {
+      "id": "8620d86ac76137de9e570294e80ae145699dc056ddae339549f20102dade04f1",
+      "url": "https://www.marketwatch.com/story/did-this-years-cola-beat-inflation-heres-how-spending-by-american-seniors-stacks-up-so-far-in-2026-917c400c",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-15T17:07:00Z",
+      "first_seen": "2026-10-15T20:47:24Z",
       "analysis": {
         "segments": [
           "nasdaq100",
@@ -320,227 +381,37 @@
         "uncertain": true,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.2"
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "unclear",
+        "reason": "The headline does not provide any information about the impact on US equities, but rather discusses COLA (Cost of Living Adjustment) and spending by American seniors, which is unclear in terms of its impact on the broader US stock market.",
+        "rated_at": "2026-10-15T20:42:37Z"
       }
     },
     {
-      "id": "b46936a225cee68215953aea5c0f06f8fb47465d31cdea8acb0f02888519ab58",
-      "url": "https://www.investing.com/news/stock-market-news/microsoft-ai-unveils-28-trillionparameter-model-claims-efficiency-gains-4952355",
-      "source": "www.investing.com",
-      "provider": "investing",
+      "id": "218898703f80c122ecb56a36e201c74eeac947983fe395465ecc151c17e2cc50",
+      "url": "https://www.marketwatch.com/story/the-cola-wars-are-coming-for-social-security-10c177f1",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
       "title": null,
-      "published_at": "2026-10-15T16:26:17Z",
-      "first_seen": "2026-10-15T16:45:47Z",
+      "published_at": "2026-10-15T17:07:00Z",
+      "first_seen": "2026-10-15T20:47:24Z",
       "analysis": {
         "segments": [
           "nasdaq100",
           "sp500"
         ],
-        "score": null,
-        "confidence": 0,
+        "score": -1,
+        "confidence": 1,
         "rules": [],
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "36347211661058cb7911f2af29d3202297485566c3034a183aca288c32cc9c9a",
-      "url": "https://www.investing.com/news/stock-market-news/nasdaq-reports-network-disruption-us-equities-data-feeds-impacted-4952331",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T16:01:16Z",
-      "first_seen": "2026-10-15T16:15:50Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "8daaed1b891b52bdbe9f6501c2c65a00040af8f65a45450c14e78cab1fe96bbd",
-      "url": "https://www.investing.com/news/stock-market-news/nvidia-ceo-says-coreweave-needs-no-backstop-as-shares-extend-slide-4952315",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T15:57:23Z",
-      "first_seen": "2026-10-15T16:15:50Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "4a601de1653868f6d3f229bf795386cd15ff9e31739cf1db8cac61de1bade4dd",
-      "url": "https://www.investing.com/news/stock-market-news/germany-to-partner-with-nvidia-on-ai-development-initiative--report-4952233",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T14:58:46Z",
-      "first_seen": "2026-10-15T15:15:46Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "ed1cb34785d6eb916e7fa4a901bc87bdbf28caf9fbc349c5977097b1563d739b",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-tesla-stock-sliding-today-93CH-4952168",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T14:25:43Z",
-      "first_seen": "2026-10-15T14:45:49Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -0.35,
-        "confidence": 0.35,
-        "rules": [
-          "equity_down"
-        ],
-        "uncertain": true,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "c53974721eb6aea719b433927754ed400e5341adc826975b2ec24b5b98be751e",
-      "url": "https://www.investing.com/news/stock-market-news/microsoft-nears-overbought-rsi-below-542-resistance-live-levels-93CH-4944772",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T14:16:41Z",
-      "first_seen": "2026-10-15T14:31:05Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "02e0a915373a6955bbdf73c841fc3f7b320a0cf4d4b75cc09a4109d3982386ca",
-      "url": "https://www.investing.com/news/stock-market-news/sp-500-stalls-in-chop-zone-below-7897-live-levels-93CH-4944776",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T14:16:26Z",
-      "first_seen": "2026-10-14T14:31:04Z",
-      "analysis": {
-        "segments": [
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "4b30451ff28a59c2ca67ea361b668c291db24e23c6b0aa3668ef394d7ea1bee9",
-      "url": "https://www.investing.com/news/stock-market-news/nasdaq-100-breaks-cloud-support-at-30935-live-levels-93CH-4944778",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T14:16:14Z",
-      "first_seen": "2026-10-14T14:31:04Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "d86197669c1b9576a6d94fc5d5620065550a854684fa63f95615a50e452bcefd",
-      "url": "https://www.investing.com/news/stock-market-news/alphabet-c-squeezed-at-349-between-key-levels-live-levels-93CH-4944780",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T14:16:09Z",
-      "first_seen": "2026-10-14T14:31:04Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "4002f97577f7db2177c6d9c73cc5dc1ccdfd19f6feb7c99b4704ae049ad60903",
-      "url": "https://www.investing.com/news/stock-market-news/tesla-rangebound-at-380-with-weak-trend-live-levels-93CH-4944787",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T14:16:08Z",
-      "first_seen": "2026-10-14T14:31:04Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "negative",
+        "reason": "The headline suggests a potential impact on Social Security, which is a broad US market indicator, and the tone implies a negative impact.",
+        "rated_at": "2026-10-15T20:41:03Z"
       }
     },
     {
@@ -549,367 +420,24 @@
       "source": "www.theguardian.com",
       "provider": "guardian",
       "title": null,
-      "published_at": "2026-10-15T14:13:31Z",
+      "published_at": "2026-10-15T14:59:52Z",
       "first_seen": "2026-10-15T14:15:49Z",
       "analysis": {
         "segments": [
           "nasdaq100",
           "sp500"
         ],
-        "score": -0.7,
-        "confidence": 0.65,
-        "rules": [
-          "equity_down"
-        ],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "21c9f13e9e7f324d643b5dc1e63c0ac9ed7cb54a1749062043dd6a0ade14f058",
-      "url": "https://www.investing.com/news/stock-market-news/musk-floats-amazon-rival-as-ai-shopping-battle-comes-into-focus-4952059",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T13:47:47Z",
-      "first_seen": "2026-10-15T14:01:17Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
+        "score": -1,
+        "confidence": 1,
         "rules": [],
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "d7ec82570f059448f7b115a978df3fc3e720ecadf25f62657fa83ce62638dfd1",
-      "url": "https://www.investing.com/news/stock-market-news/teslaspacex-merger-could-be-announced-before-december-barclays-says-4951979",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T13:32:10Z",
-      "first_seen": "2026-10-15T14:01:17Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": true,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "517e5c81e2bfe50265997ed40aed33f2cb88b893db91f10dea4780b6733211a4",
-      "url": "https://www.marketwatch.com/story/micron-nvidia-and-other-chip-stocks-face-renewed-pressure-as-ai-fears-swell-4e0dc989",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-15T12:43:00Z",
-      "first_seen": "2026-10-15T13:01:18Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": true,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "ca8dba9522ba38e320de5601696bc43c1bc585bb2101bb0e75d9400e290a964e",
-      "url": "https://www.investing.com/news/stock-market-news/microsoft-president-warns-greencard-curbs-could-hurt-us-tech-politico-reports-4951538",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T12:12:46Z",
-      "first_seen": "2026-10-15T12:31:04Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": true,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "e6c5f8a55944f9d76a9218d035811d9a221c2c1c03f9b707b80d2ca2dbcd33ba",
-      "url": "https://www.marketwatch.com/story/theres-a-monstrous-bull-market-developing-under-the-surface-of-the-s-p-500-this-hedge-fund-manager-tells-you-where-its-at-98450ef4",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-15T12:08:00Z",
-      "first_seen": "2026-10-15T12:15:43Z",
-      "analysis": {
-        "segments": [
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "69a6bd8f711e13011161eff36357b8b45cb90d2138636b331815aef691c9bb25",
-      "url": "https://www.investing.com/news/stock-market-news/premarket-movers-chip-stocks-slide-as-inflation-fears-hit-ai-trade-4951419",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T11:44:41Z",
-      "first_seen": "2026-10-15T12:01:19Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -0.35,
-        "confidence": 0.35,
-        "rules": [
-          "equity_down"
-        ],
-        "uncertain": true,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "dc58f4f1878897692a8291c00c7a97b91c0010f3dbc09970018b386c45e0b735",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-walmart-stock-rallying-today-93CH-4951373",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T11:30:54Z",
-      "first_seen": "2026-10-15T11:45:45Z",
-      "analysis": {
-        "segments": [
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": true,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "6f686eee82a0baa46af4ee890ea0cf42cdc15145445703b5bf1a03b0b7a04130",
-      "url": "https://www.marketwatch.com/story/this-30-year-market-veteran-is-alarmed-by-a-near-record-s-p-500-heres-where-hes-investing-instead-c6611143",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-15T11:17:00Z",
-      "first_seen": "2026-10-15T11:31:12Z",
-      "analysis": {
-        "segments": [
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "dedf3b8665abe644c4c41e4787ef65a1f7acc384de23ada167813361a2782c4e",
-      "url": "https://www.investing.com/news/stock-market-news/factboxtech-leaders-governments-split-over-ai-doom-fears-4949457",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T11:00:28Z",
-      "first_seen": "2026-10-15T11:15:46Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": true,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "8e8c9dda4366e8356e451631d6c040f7b879f0331cadad9ae3bdf894b41c8a2a",
-      "url": "https://www.investing.com/news/stock-market-news/walmart-stock-deutsche-bank-gets-bullish-amid-pricing-tailwinds-4951163",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T10:53:47Z",
-      "first_seen": "2026-10-15T11:15:46Z",
-      "analysis": {
-        "segments": [
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "0fe335ea7095d5b40218a90b29280336d3ddad68cc0004c0a411ea2af48017df",
-      "url": "https://www.investing.com/news/stock-market-news/sp-500-energy-is-up-46-ytd-this-ai-stock-strategy-has-surged-78-4951063",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T10:25:37Z",
-      "first_seen": "2026-10-15T11:01:18Z",
-      "analysis": {
-        "segments": [
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "4933f18049cc89fdd60e469c8dae82c6fcbde65566f1dee7b8eb80ec90811c76",
-      "url": "https://www.investing.com/news/stock-market-news/tesla-set-to-unveil-next-generation-roadster-sports-ev-after-years-of-delay-4951021",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T10:25:09Z",
-      "first_seen": "2026-10-15T10:31:03Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "31ae28e502823bc2f193bef4baabe5e4c39dbeae12e3e3a598a3eada0b063093",
-      "url": "https://www.investing.com/news/stock-market-news/jpmorgan-turns-bullish-on-european-steel-upgrading-arcelormittal-on-pullback-4951044",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T10:13:59Z",
-      "first_seen": "2026-10-15T10:31:03Z",
-      "analysis": {
-        "segments": [
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "06d855348f53c2fe14e275bd869aac0075c5e6de33d4f85e142a0e81494c0aef",
-      "url": "https://www.investing.com/news/stock-market-news/israeli-firm-used-online-ads-to-run-vast-spy-operation-researchers-say-4951020",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T10:07:06Z",
-      "first_seen": "2026-10-15T10:31:03Z",
-      "analysis": {
-        "segments": [
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "8667adcbc4471c82ba4c56798a5d5c54ba57450647e352d5d103035500e31c18",
-      "url": "https://www.investing.com/news/stock-market-news/goldman-sachs-updates-utility-estimates-ahead-of-q3-earnings-93CH-4950882",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T09:22:09Z",
-      "first_seen": "2026-10-15T09:45:43Z",
-      "analysis": {
-        "segments": [
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "b480e4fd0e3295f0bfcacd0719de00c411da1c58dd9506d3cf0ca026a27396ba",
-      "url": "https://www.marketwatch.com/story/why-the-ai-trade-is-not-set-up-for-a-rebound-like-julys-according-to-jpmorgan-5ae511db",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-15T08:53:00Z",
-      "first_seen": "2026-10-15T09:01:20Z",
-      "analysis": {
-        "segments": [
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "negative",
+        "reason": "The headline mentions a jump in US producer inflation, which could lead to a negative impact on US equities.",
+        "rated_at": "2026-10-15T20:42:43Z"
       }
     },
     {
@@ -918,30 +446,185 @@
       "source": "www.theguardian.com",
       "provider": "guardian",
       "title": null,
-      "published_at": "2026-10-15T08:39:54Z",
+      "published_at": "2026-10-15T14:33:12Z",
       "first_seen": "2026-10-15T08:45:44Z",
       "analysis": {
         "segments": [
           "nasdaq100",
           "sp500"
         ],
-        "score": null,
-        "confidence": 0,
+        "score": -1,
+        "confidence": 1,
         "rules": [],
-        "uncertain": true,
+        "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.2"
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "negative",
+        "reason": "The headline suggests a broad sell-off in the tech market, which could have a negative impact on US equities.",
+        "rated_at": "2026-10-15T20:42:41Z"
       }
     },
     {
-      "id": "a7158c2be07cea49f679d52895f85861ee0471bef4dd94fe51cf06ac5fe396b7",
-      "url": "https://www.investing.com/news/stock-market-news/european-chipmakers-tumble-as-inflation-data-fuels-ratehike-fears-ai-rout-4950732",
+      "id": "b037217a0321b127c1620e8ef85b40996e0ca60842a64485f727b1e9791a032c",
+      "url": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-14T22:03:00Z",
+      "first_seen": "2026-10-15T20:40:55Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "The headline suggests that CoreWeave's AI bonds are experiencing a decline, which could raise concerns for the wider market and potentially impact US equities negatively.",
+        "rated_at": "2026-10-15T20:40:55Z"
+      }
+    },
+    {
+      "id": "e4f5fc3f3f1b00a6cd0458c1e4fee1cf7e7df656a899a6bf87cacf9f42468377",
+      "url": "https://www.investing.com/news/stock-market-news/rocket-lab-pushes-neutron-rockets-debut-flight-to-2027-shares-fall-4950171",
       "source": "www.investing.com",
       "provider": "investing",
       "title": null,
-      "published_at": "2026-10-15T08:38:12Z",
-      "first_seen": "2026-10-15T09:01:20Z",
+      "published_at": "2026-10-14T21:54:26Z",
+      "first_seen": "2026-10-15T20:41:56Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "The headline mentions a delay in the debut flight of Rocket Lab's Neutron rocket, which likely had a negative impact on the company's stock price.",
+        "rated_at": "2026-10-15T20:41:56Z"
+      }
+    },
+    {
+      "id": "cb0a0e230895732727c2d1563b77bbf4332a8549d1d979a4c30fb69a81a9482f",
+      "url": "https://www.marketwatch.com/story/from-a-record-high-to-a-10-drop-in-just-two-months-why-small-cap-stocks-have-unraveled-so-fast-1cf0f4d5",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-14T21:54:00Z",
+      "first_seen": "2026-10-15T20:40:57Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "negative",
+        "reason": "The headline suggests a decline in small-cap stocks, which is a subset of broad US equities, indicating a negative impact on US equities.",
+        "rated_at": "2026-10-15T20:40:57Z"
+      }
+    },
+    {
+      "id": "a2005ae3c4b60ddd5830cebb4b1f8ffdee9df9826a7ee6831adabbf80ad88cfa",
+      "url": "https://www.marketwatch.com/story/bank-of-america-adds-a-profit-miss-to-the-misery-of-a-1-2-billion-government-fine-d4420bfa",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-14T21:40:00Z",
+      "first_seen": "2026-10-15T20:41:00Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "The headline mentions a profit miss, which is a negative impact on the company's stock, and also mentions a $1.2 billion government fine, which is a significant negative event.",
+        "rated_at": "2026-10-15T20:41:00Z"
+      }
+    },
+    {
+      "id": "c3f55ff1285905008141dffea081c432bf7eb650dbe9929566cd479706593609",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-rocket-lab-stock-tumbling-today-93CH-4950150",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T21:31:35Z",
+      "first_seen": "2026-10-15T20:42:00Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "The headline suggests that Rocket Lab's stock is experiencing a decline, indicating a negative impact on the company's equity.",
+        "rated_at": "2026-10-15T20:42:00Z"
+      }
+    },
+    {
+      "id": "25ae1fa78fbf7bfca45a15ebf9a310786d1c612f1615ef2257bcac9c3b3d08eb",
+      "url": "https://www.investing.com/news/stock-market-news/vanda-pharmaceuticals-stock-falls-after-anxiety-drug-trial-fails-4950139",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T21:24:48Z",
+      "first_seen": "2026-10-15T20:42:05Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "The headline specifically mentions a single US company, Vanda Pharmaceuticals, and the stock falling after a trial failure, indicating a negative impact on the company's stock.",
+        "rated_at": "2026-10-15T20:42:05Z"
+      }
+    },
+    {
+      "id": "69c0106659f3591ede6a0f28fbc08d9b9475b5408ecdeb35ed6d4920c4c6513e",
+      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-down-030-4950135",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T21:20:03Z",
+      "first_seen": "2026-10-15T20:42:08Z",
       "analysis": {
         "segments": [
           "nasdaq100",
@@ -953,141 +636,36 @@
         "uncertain": true,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.2"
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "unclear",
+        "reason": "The headline refers to Russia stocks, not US equities, so it does not have a direct impact on US stocks. The direction of the impact is unclear as it is a foreign market.",
+        "rated_at": "2026-10-15T20:42:08Z"
       }
     },
     {
-      "id": "dbe6cb212a698861e34d9a6b59ab48b5eab2b51df92a30fb7b8c931aff1300b4",
-      "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-dive-1-as-ai-rout-deepens-on-debt-concerns-4950779",
+      "id": "f51dfaa1bf6e0c12578953bedcce183b4d156671a5395447fbc0a32d2f3b9923",
+      "url": "https://www.investing.com/news/stock-market-news/anthropic-to-add-us-voting-information-to-claude-before-midterms-4949935",
       "source": "www.investing.com",
       "provider": "investing",
       "title": null,
-      "published_at": "2026-10-15T08:24:20Z",
-      "first_seen": "2026-10-15T08:45:44Z",
+      "published_at": "2026-10-14T21:07:10Z",
+      "first_seen": "2026-10-15T20:42:13Z",
       "analysis": {
         "segments": [
-          "nasdaq100"
+          "us_equities"
         ],
-        "score": null,
-        "confidence": 0,
+        "score": 1,
+        "confidence": 1,
         "rules": [],
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "0d84993399549d736bd9fae5797ec2c3d805a9e9074bec928ac2c0c1295b7ea1",
-      "url": "https://www.investing.com/news/stock-market-news/european-shares-trip-on-global-tech-bump-and-us-inflation-spike-4950557",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T07:10:48Z",
-      "first_seen": "2026-10-15T07:30:59Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "a1edd370868d49b933f224f2bef8634fc0da2daed543a2fcb20ad46cd1d197ee",
-      "url": "https://www.investing.com/news/stock-market-news/goldman-sachs-names-top-european-real-estate-stocks-to-buy-4950651",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T06:42:28Z",
-      "first_seen": "2026-10-15T07:15:43Z",
-      "analysis": {
-        "segments": [
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "fe7bbcde727f5193235e8bc943009919d2b49a5bcc1fa7972855769fc79722ef",
-      "url": "https://www.investing.com/news/stock-market-news/asia-stocks-slump-as-chip-rout-deepens-after-hotter-us-inflation-4950421",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T02:53:44Z",
-      "first_seen": "2026-10-15T03:15:41Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -0.35,
-        "confidence": 0.35,
-        "rules": [
-          "equity_down"
-        ],
-        "uncertain": true,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "33f060435828eeb9df94dcec0e9f31970a9536274580ad54ee7489ed1db7b102",
-      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-hot-inflation-revives-fed-hike-concerns-4950317",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T00:30:04Z",
-      "first_seen": "2026-10-15T01:01:13Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -1.0,
-        "confidence": 0.65,
-        "rules": [
-          "equity_down",
-          "inflation_up"
-        ],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "400053a0cbe36f3fada097f53455aeb40b075858c63d64476d2dceb3229c6303",
-      "url": "https://www.investing.com/news/stock-market-news/iambic-therapeutics-prices-ipo-at-16-per-share-on-nasdaq-432SI-4950227",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T23:05:02Z",
-      "first_seen": "2026-10-14T23:15:41Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "positive",
+        "reason": "The addition of US voting information to Claude, a language model, may lead to increased engagement and interest in the upcoming midterms, potentially benefiting the company's stock.",
+        "rated_at": "2026-10-15T20:42:13Z"
       }
     },
     {
@@ -1103,22 +681,40 @@
           "nasdaq100",
           "sp500"
         ],
-        "score": null,
-        "confidence": 0,
+        "score": 1,
+        "confidence": 1,
         "rules": [],
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.2"
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "positive",
+        "reason": "The growth of BlackRock's managed assets is likely to have a positive impact on the broader US stock market, as the company's success is often seen as a proxy for the overall health of the economy.",
+        "rated_at": "2026-10-15T20:40:38Z"
       }
     }
   ],
   "methodology": {
-    "type": "deterministic_headline_impact_proxy",
+    "type": "local_llama_headline_impact",
     "half_life_hours": 6,
     "min_events": 5,
     "min_sources": 2,
-    "scope": "Explicit index/macro references and a limited large-cap watchlist; not complete index constituents.",
+    "scope": "Llama relevance and direction; existing index routing; additional US companies included only in US MARKET. Not complete index membership.",
     "titles": "Hidden unless publisher rights explicitly configured. No article bodies collected."
+  },
+  "llama": {
+    "last_rated_at": "2026-10-15T20:44:17Z",
+    "last_refresh_at": "2026-10-15T20:45:44Z",
+    "errors": 1,
+    "pending": 1,
+    "model_digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
+    "scale": {
+      "negative": -1,
+      "mixed": 0,
+      "positive": 1,
+      "unclear": null
+    },
+    "execution": "Ollama on owner Mac; cached ratings published to GitHub"
   }
 }

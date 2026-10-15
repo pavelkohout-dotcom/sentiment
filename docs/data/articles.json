@@ -868,5 +868,29 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "fe7bbcde727f5193235e8bc943009919d2b49a5bcc1fa7972855769fc79722ef",
+    "url": "https://www.investing.com/news/stock-market-news/asia-stocks-slump-as-chip-rout-deepens-after-hotter-us-inflation-4950421",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T02:53:44Z",
+    "first_seen": "2026-10-15T03:15:41Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": -0.35,
+      "confidence": 0.35,
+      "rules": [
+        "equity_down"
+      ],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

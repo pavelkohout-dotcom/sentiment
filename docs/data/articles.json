@@ -341,7 +341,7 @@
     "source": "www.investing.com",
     "provider": "investing",
     "title": null,
-    "published_at": "2026-10-14T14:20:26Z",
+    "published_at": "2026-10-15T14:16:14Z",
     "first_seen": "2026-10-14T14:31:04Z",
     "analysis": {
       "segments": [
@@ -353,7 +353,7 @@
       "uncertain": false,
       "mixed": false,
       "kind": "unknown",
-      "model": "impact-rules-1.0.1"
+      "model": "impact-rules-1.0.2"
     }
   },
   {
@@ -362,7 +362,7 @@
     "source": "www.investing.com",
     "provider": "investing",
     "title": null,
-    "published_at": "2026-10-14T14:20:23Z",
+    "published_at": "2026-10-15T14:16:08Z",
     "first_seen": "2026-10-14T14:31:04Z",
     "analysis": {
       "segments": [
@@ -375,7 +375,7 @@
       "uncertain": false,
       "mixed": false,
       "kind": "unknown",
-      "model": "impact-rules-1.0.1"
+      "model": "impact-rules-1.0.2"
     }
   },
   {
@@ -384,7 +384,7 @@
     "source": "www.investing.com",
     "provider": "investing",
     "title": null,
-    "published_at": "2026-10-14T14:20:22Z",
+    "published_at": "2026-10-15T14:16:09Z",
     "first_seen": "2026-10-14T14:31:04Z",
     "analysis": {
       "segments": [
@@ -397,7 +397,7 @@
       "uncertain": false,
       "mixed": false,
       "kind": "unknown",
-      "model": "impact-rules-1.0.1"
+      "model": "impact-rules-1.0.2"
     }
   },
   {
@@ -406,7 +406,7 @@
     "source": "www.investing.com",
     "provider": "investing",
     "title": null,
-    "published_at": "2026-10-14T14:19:55Z",
+    "published_at": "2026-10-15T14:16:26Z",
     "first_seen": "2026-10-14T14:31:04Z",
     "analysis": {
       "segments": [
@@ -418,7 +418,7 @@
       "uncertain": false,
       "mixed": false,
       "kind": "unknown",
-      "model": "impact-rules-1.0.1"
+      "model": "impact-rules-1.0.2"
     }
   },
   {
@@ -1364,6 +1364,28 @@
       "rules": [
         "equity_down"
       ],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
+  },
+  {
+    "id": "c53974721eb6aea719b433927754ed400e5341adc826975b2ec24b5b98be751e",
+    "url": "https://www.investing.com/news/stock-market-news/microsoft-nears-overbought-rsi-below-542-resistance-live-levels-93CH-4944772",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T14:16:41Z",
+    "first_seen": "2026-10-15T14:31:05Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
       "uncertain": false,
       "mixed": false,
       "kind": "unknown",

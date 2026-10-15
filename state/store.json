@@ -549,7 +549,7 @@
       "source": "www.investing.com",
       "provider": "investing",
       "title": null,
-      "published_at": "2026-10-14T14:20:26Z",
+      "published_at": "2026-10-15T14:16:14Z",
       "first_seen": "2026-10-14T14:31:04Z",
       "analysis": {
         "segments": [
@@ -561,22 +561,20 @@
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.1"
+        "model": "impact-rules-1.0.2"
       },
       "signature": [
         "247610f4dedd4ab7",
-        "2c70e12b7a0646f9",
-        "486bae792ce2ffcc",
-        "59830ebc3a418411",
-        "624b60c58c9d8bfb",
-        "69dabc67d286f871",
-        "a18603086e5bdf9d",
+        "355550250b12c4d2",
+        "7d50f20853334a30",
         "ad57366865126e55",
-        "c1d2c1df9eabd696",
-        "fb84a9739699e1a2",
+        "bfd7f2fafa674a3a",
+        "e7f6c011776e8db7",
+        "f0f8270db484173c",
+        "f5ca38f748a1d6ea",
         "fc1b192ed5829737"
       ],
-      "headline_hash": "8983db36c61f4d0e5793168a1b1a9151ccf1b2fbbc6eb176d8b1fd6f5cf8525c"
+      "headline_hash": "62f55278116308ba9f7fff0005342f3c244001997b0c742998a9c3a33c4c2bb8"
     },
     "4002f97577f7db2177c6d9c73cc5dc1ccdfd19f6feb7c99b4704ae049ad60903": {
       "id": "4002f97577f7db2177c6d9c73cc5dc1ccdfd19f6feb7c99b4704ae049ad60903",
@@ -584,7 +582,7 @@
       "source": "www.investing.com",
       "provider": "investing",
       "title": null,
-      "published_at": "2026-10-14T14:20:23Z",
+      "published_at": "2026-10-15T14:16:08Z",
       "first_seen": "2026-10-14T14:31:04Z",
       "analysis": {
         "segments": [
@@ -597,21 +595,19 @@
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.1"
+        "model": "impact-rules-1.0.2"
       },
       "signature": [
+        "03a3d955b8799a90",
         "247610f4dedd4ab7",
-        "27badc983df1780b",
-        "28720365c5e7476a",
-        "2ce06a9e7f8c3e6b",
+        "342b503c67232dbe",
+        "40e0fff2a48f4432",
+        "56681010b753e1ab",
         "7358bd4ec877e1b6",
         "7d50f20853334a30",
-        "8ada24bf6bf31392",
-        "aed3d0cbc9a91880",
-        "e4d00226255e697d",
-        "f5fd5ffef3c528d3"
+        "8ada24bf6bf31392"
       ],
-      "headline_hash": "2f335cb6ed241e196ceaf135d96783ea14029dd16eda07965a3ed88524caeeb4"
+      "headline_hash": "0c583da9d94d9b1402026ea594d59f2def44b6ade84bb73e7b625b07cc28b971"
     },
     "d86197669c1b9576a6d94fc5d5620065550a854684fa63f95615a50e452bcefd": {
       "id": "d86197669c1b9576a6d94fc5d5620065550a854684fa63f95615a50e452bcefd",
@@ -619,7 +615,7 @@
       "source": "www.investing.com",
       "provider": "investing",
       "title": null,
-      "published_at": "2026-10-14T14:20:22Z",
+      "published_at": "2026-10-15T14:16:09Z",
       "first_seen": "2026-10-14T14:31:04Z",
       "analysis": {
         "segments": [
@@ -632,20 +628,20 @@
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.1"
+        "model": "impact-rules-1.0.2"
       },
       "signature": [
-        "2289b221b39605c3",
+        "02e6295d8f522840",
+        "2269c0be009b610c",
         "247610f4dedd4ab7",
         "2e7d2c03a9507ae2",
-        "355d8c0ee4e5698e",
         "4dd4f3835505cd95",
-        "a18603086e5bdf9d",
-        "aed3d0cbc9a91880",
-        "be970d090a9b0a23",
-        "fbb27fbdc4f4dd04"
+        "530a93b6486d0354",
+        "72ba187b05e705de",
+        "7d50f20853334a30",
+        "e2fd4410c00e8dab"
       ],
-      "headline_hash": "f5ee4f24e2bf01c7db18436ad62365c4521f89329a25842eba32457ecb5649e7"
+      "headline_hash": "bff148192a3585e3dadca0e9196d9c5e952275af669d83feb99b365b49ef4428"
     },
     "02e0a915373a6955bbdf73c841fc3f7b320a0cf4d4b75cc09a4109d3982386ca": {
       "id": "02e0a915373a6955bbdf73c841fc3f7b320a0cf4d4b75cc09a4109d3982386ca",
@@ -653,7 +649,7 @@
       "source": "www.investing.com",
       "provider": "investing",
       "title": null,
-      "published_at": "2026-10-14T14:19:55Z",
+      "published_at": "2026-10-15T14:16:26Z",
       "first_seen": "2026-10-14T14:31:04Z",
       "analysis": {
         "segments": [
@@ -665,22 +661,21 @@
         "uncertain": false,
         "mixed": false,
         "kind": "unknown",
-        "model": "impact-rules-1.0.1"
+        "model": "impact-rules-1.0.2"
       },
       "signature": [
         "043a718774c572bd",
         "0604cd3138feed20",
         "148de9c5a7a44d19",
         "247610f4dedd4ab7",
+        "2ab022d82080f5d9",
+        "2c2e2440f6052e13",
         "486bae792ce2ffcc",
-        "56681010b753e1ab",
-        "59830ebc3a418411",
-        "5d85be4cc5af40a7",
         "7902699be42c8a8e",
-        "a18603086e5bdf9d",
-        "b6b9d84317692b7a"
+        "7d50f20853334a30",
+        "a15faf6f6c7e4c11"
       ],
-      "headline_hash": "efe718363e2d2179e32a1e4b6eea45292ce7710599dcc888e658d1c7020c7a79"
+      "headline_hash": "6e9c112aa28e38b13963f2d51ddf98460589481b0c6f9da4caf34e698bcc3443"
     },
     "568e4b41f0044601d84404e0f769e226b67b5aa171a162e76824ddab30ab2c4c": {
       "id": "568e4b41f0044601d84404e0f769e226b67b5aa171a162e76824ddab30ab2c4c",
@@ -2201,6 +2196,39 @@
         "ddc6af1a32422cb2"
       ],
       "headline_hash": "e776ca11831f626eb112a235b3680a4849c4d6e584e6a6685066d92eed169fdf"
+    },
+    "c53974721eb6aea719b433927754ed400e5341adc826975b2ec24b5b98be751e": {
+      "id": "c53974721eb6aea719b433927754ed400e5341adc826975b2ec24b5b98be751e",
+      "url": "https://www.investing.com/news/stock-market-news/microsoft-nears-overbought-rsi-below-542-resistance-live-levels-93CH-4944772",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T14:16:41Z",
+      "first_seen": "2026-10-15T14:31:05Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "20ca98162ba78088",
+        "247610f4dedd4ab7",
+        "59830ebc3a418411",
+        "632e93023886160a",
+        "7d50f20853334a30",
+        "9fbf261b62c1d7c0",
+        "afd5c5ae5738e275",
+        "be970d090a9b0a23"
+      ],
+      "headline_hash": "9b0b6e1e57d66a63179036b4773d097e5d2ce46172398a3ee89880c37e671d55"
     }
   },
   "sources": {
@@ -2208,22 +2236,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T14:15:49Z",
+      "last_success": "2026-10-15T14:31:05Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-15T14:15:49Z",
+      "last_attempt": "2026-10-15T14:31:05Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T14:15:49Z",
+      "last_success": "2026-10-15T14:31:05Z",
       "received": 20,
       "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T14:15:49Z",
+      "last_attempt": "2026-10-15T14:31:05Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -2243,11 +2271,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T14:15:49Z",
+      "last_success": "2026-10-15T14:31:05Z",
       "received": 10,
-      "accepted": 3,
+      "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-15T14:15:49Z",
+      "last_attempt": "2026-10-15T14:31:05Z",
       "status": "ok"
     }
   },
@@ -2772,6 +2800,145 @@
         "fc1b192ed5829737"
       ],
       "headline_hash": "ed5fcf984372d28a6458ea298f3c8c4c9db444b69ac50d9a7a4649b19c157dce"
+    },
+    {
+      "id": "02e0a915373a6955bbdf73c841fc3f7b320a0cf4d4b75cc09a4109d3982386ca",
+      "url": "https://www.investing.com/news/stock-market-news/sp-500-stalls-in-chop-zone-below-7897-live-levels-93CH-4944776",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T14:19:55Z",
+      "first_seen": "2026-10-14T14:31:04Z",
+      "analysis": {
+        "segments": [
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "0604cd3138feed20",
+        "148de9c5a7a44d19",
+        "247610f4dedd4ab7",
+        "486bae792ce2ffcc",
+        "56681010b753e1ab",
+        "59830ebc3a418411",
+        "5d85be4cc5af40a7",
+        "7902699be42c8a8e",
+        "a18603086e5bdf9d",
+        "b6b9d84317692b7a"
+      ],
+      "headline_hash": "efe718363e2d2179e32a1e4b6eea45292ce7710599dcc888e658d1c7020c7a79"
+    },
+    {
+      "id": "4b30451ff28a59c2ca67ea361b668c291db24e23c6b0aa3668ef394d7ea1bee9",
+      "url": "https://www.investing.com/news/stock-market-news/nasdaq-100-breaks-cloud-support-at-30935-live-levels-93CH-4944778",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T14:20:26Z",
+      "first_seen": "2026-10-14T14:31:04Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "247610f4dedd4ab7",
+        "2c70e12b7a0646f9",
+        "486bae792ce2ffcc",
+        "59830ebc3a418411",
+        "624b60c58c9d8bfb",
+        "69dabc67d286f871",
+        "a18603086e5bdf9d",
+        "ad57366865126e55",
+        "c1d2c1df9eabd696",
+        "fb84a9739699e1a2",
+        "fc1b192ed5829737"
+      ],
+      "headline_hash": "8983db36c61f4d0e5793168a1b1a9151ccf1b2fbbc6eb176d8b1fd6f5cf8525c"
+    },
+    {
+      "id": "d86197669c1b9576a6d94fc5d5620065550a854684fa63f95615a50e452bcefd",
+      "url": "https://www.investing.com/news/stock-market-news/alphabet-c-squeezed-at-349-between-key-levels-live-levels-93CH-4944780",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T14:20:22Z",
+      "first_seen": "2026-10-14T14:31:04Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "2289b221b39605c3",
+        "247610f4dedd4ab7",
+        "2e7d2c03a9507ae2",
+        "355d8c0ee4e5698e",
+        "4dd4f3835505cd95",
+        "a18603086e5bdf9d",
+        "aed3d0cbc9a91880",
+        "be970d090a9b0a23",
+        "fbb27fbdc4f4dd04"
+      ],
+      "headline_hash": "f5ee4f24e2bf01c7db18436ad62365c4521f89329a25842eba32457ecb5649e7"
+    },
+    {
+      "id": "4002f97577f7db2177c6d9c73cc5dc1ccdfd19f6feb7c99b4704ae049ad60903",
+      "url": "https://www.investing.com/news/stock-market-news/tesla-rangebound-at-380-with-weak-trend-live-levels-93CH-4944787",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-14T14:20:23Z",
+      "first_seen": "2026-10-14T14:31:04Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.1"
+      },
+      "signature": [
+        "247610f4dedd4ab7",
+        "27badc983df1780b",
+        "28720365c5e7476a",
+        "2ce06a9e7f8c3e6b",
+        "7358bd4ec877e1b6",
+        "7d50f20853334a30",
+        "8ada24bf6bf31392",
+        "aed3d0cbc9a91880",
+        "e4d00226255e697d",
+        "f5fd5ffef3c528d3"
+      ],
+      "headline_hash": "2f335cb6ed241e196ceaf135d96783ea14029dd16eda07965a3ed88524caeeb4"
     }
   ]
 }

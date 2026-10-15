@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T14:15:49Z",
+  "generated_at": "2026-10-15T14:31:05Z",
   "model": "impact-rules-1.0.2",
   "collection_status": "ok",
   "window_hours": 24,
@@ -8,9 +8,9 @@
     "all": {
       "value": 19.34,
       "status": "low_coverage",
-      "events": 29,
+      "events": 33,
       "scored_events": 4,
-      "articles": 29,
+      "articles": 33,
       "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
@@ -19,9 +19,9 @@
     "nasdaq100": {
       "value": 19.34,
       "status": "low_coverage",
-      "events": 18,
+      "events": 21,
       "scored_events": 4,
-      "articles": 18,
+      "articles": 21,
       "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
@@ -30,9 +30,9 @@
     "sp500": {
       "value": 19.34,
       "status": "low_coverage",
-      "events": 27,
+      "events": 30,
       "scored_events": 4,
-      "articles": 27,
+      "articles": 30,
       "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
@@ -44,39 +44,147 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T14:15:49Z",
+      "last_success": "2026-10-15T14:31:05Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-15T14:15:49Z",
+      "last_attempt": "2026-10-15T14:31:05Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T14:15:49Z",
+      "last_success": "2026-10-15T14:31:05Z",
       "received": 20,
       "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T14:15:49Z",
+      "last_attempt": "2026-10-15T14:31:05Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T14:15:49Z",
+      "last_success": "2026-10-15T14:31:05Z",
       "received": 10,
-      "accepted": 3,
+      "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-15T14:15:49Z",
+      "last_attempt": "2026-10-15T14:31:05Z",
       "status": "ok"
     }
   ],
   "new_articles": 1,
-  "total_archived": 62,
+  "total_archived": 63,
   "articles": [
+    {
+      "id": "c53974721eb6aea719b433927754ed400e5341adc826975b2ec24b5b98be751e",
+      "url": "https://www.investing.com/news/stock-market-news/microsoft-nears-overbought-rsi-below-542-resistance-live-levels-93CH-4944772",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T14:16:41Z",
+      "first_seen": "2026-10-15T14:31:05Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
+    {
+      "id": "02e0a915373a6955bbdf73c841fc3f7b320a0cf4d4b75cc09a4109d3982386ca",
+      "url": "https://www.investing.com/news/stock-market-news/sp-500-stalls-in-chop-zone-below-7897-live-levels-93CH-4944776",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T14:16:26Z",
+      "first_seen": "2026-10-14T14:31:04Z",
+      "analysis": {
+        "segments": [
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
+    {
+      "id": "4b30451ff28a59c2ca67ea361b668c291db24e23c6b0aa3668ef394d7ea1bee9",
+      "url": "https://www.investing.com/news/stock-market-news/nasdaq-100-breaks-cloud-support-at-30935-live-levels-93CH-4944778",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T14:16:14Z",
+      "first_seen": "2026-10-14T14:31:04Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
+    {
+      "id": "d86197669c1b9576a6d94fc5d5620065550a854684fa63f95615a50e452bcefd",
+      "url": "https://www.investing.com/news/stock-market-news/alphabet-c-squeezed-at-349-between-key-levels-live-levels-93CH-4944780",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T14:16:09Z",
+      "first_seen": "2026-10-14T14:31:04Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
+    {
+      "id": "4002f97577f7db2177c6d9c73cc5dc1ccdfd19f6feb7c99b4704ae049ad60903",
+      "url": "https://www.investing.com/news/stock-market-news/tesla-rangebound-at-380-with-weak-trend-live-levels-93CH-4944787",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T14:16:08Z",
+      "first_seen": "2026-10-14T14:31:04Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
     {
       "id": "5cfb41418ddf34e2a4099b0fd5c8a82fcedcf6a5099d9a3be97bd5cafe30b7c6",
       "url": "https://www.theguardian.com/business/live/2026/oct/15/tech-stock-sell-off-markets-uk-gdp-economy-august-imf-latest-news-updates",
@@ -675,28 +783,6 @@
       "title": null,
       "published_at": "2026-10-14T19:04:00Z",
       "first_seen": "2026-10-14T19:15:41Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "5807988a4e5d988d62c192db0a2d84688ca1053ceaff54b88702ea0d785a9004",
-      "url": "https://www.theguardian.com/business/live/2026/oct/14/imf-rising-government-borrowing-costs-inflation-oil-stock-markets-latest-news-updates",
-      "source": "www.theguardian.com",
-      "provider": "guardian",
-      "title": null,
-      "published_at": "2026-10-14T14:20:54Z",
-      "first_seen": "2026-10-14T12:45:45Z",
       "analysis": {
         "segments": [
           "nasdaq100",

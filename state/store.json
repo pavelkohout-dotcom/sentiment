@@ -1978,6 +1978,46 @@
         "d7cea7305a333d5c"
       ],
       "headline_hash": "0aa76cb48241db60f00121e4e99d545f8543955d21c06a3f716f9ff9c0a7d9e2"
+    },
+    "e6c5f8a55944f9d76a9218d035811d9a221c2c1c03f9b707b80d2ca2dbcd33ba": {
+      "id": "e6c5f8a55944f9d76a9218d035811d9a221c2c1c03f9b707b80d2ca2dbcd33ba",
+      "url": "https://www.marketwatch.com/story/theres-a-monstrous-bull-market-developing-under-the-surface-of-the-s-p-500-this-hedge-fund-manager-tells-you-where-its-at-98450ef4",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-15T12:08:00Z",
+      "first_seen": "2026-10-15T12:15:43Z",
+      "analysis": {
+        "segments": [
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "0604cd3138feed20",
+        "148de9c5a7a44d19",
+        "53fce6389a6de304",
+        "639f78fb7729d09d",
+        "6ee4a469cd4e9105",
+        "763cdc62a869262b",
+        "97fe21bcd36ae81c",
+        "b48111c10c65fc11",
+        "bb0347a468d97e98",
+        "c5a12df66df6947f",
+        "c67c126365145982",
+        "d767748a603799c8",
+        "d9403e3cdb1f24c7",
+        "e244f187f696561d",
+        "e4d693d24e646cb7"
+      ],
+      "headline_hash": "ff2150732c05ee61db722b5ee934b1a00399a6fa26a40f6ecadd18fcb82f8ff7"
     }
   },
   "sources": {
@@ -1985,22 +2025,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T12:01:19Z",
+      "last_success": "2026-10-15T12:15:43Z",
       "received": 10,
-      "accepted": 2,
+      "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-15T12:01:19Z",
+      "last_attempt": "2026-10-15T12:15:43Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T12:01:19Z",
+      "last_success": "2026-10-15T12:15:43Z",
       "received": 20,
       "accepted": 6,
       "rejected": 0,
-      "last_attempt": "2026-10-15T12:01:19Z",
+      "last_attempt": "2026-10-15T12:15:43Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -2020,11 +2060,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T12:01:19Z",
+      "last_success": "2026-10-15T12:15:43Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T12:01:19Z",
+      "last_attempt": "2026-10-15T12:15:43Z",
       "status": "ok"
     }
   },

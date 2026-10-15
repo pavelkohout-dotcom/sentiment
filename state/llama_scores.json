@@ -1063,7 +1063,7 @@
       "rated_at": "2026-10-15T20:42:21Z",
       "url": "https://www.marketwatch.com/story/coreweave-investors-are-feeling-spooked-as-the-companys-stock-and-bonds-see-fresh-pressure-ba39a931",
       "provider": "marketwatch",
-      "published_at": "2026-10-15T19:26:00Z",
+      "published_at": "2026-10-15T21:03:00Z",
       "signature": [
         "043a718774c572bd",
         "08c4242b5f585628",
@@ -1712,15 +1712,146 @@
       ],
       "rule_segments": [],
       "kind": "unknown"
+    },
+    "18529ae6f02524aa2a6025cdcdd0c79eee4b111913e454cc74866f2c916b2af5": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The announcement of a special dividend of $3 per share is likely to boost the stock price of SITE Centers."
+      },
+      "rated_at": "2026-10-15T21:23:15Z",
+      "url": "https://www.investing.com/news/stock-market-news/site-centers-stock-surges-on-3-special-dividend-4952700",
+      "provider": "investing",
+      "published_at": "2026-10-15T21:06:56Z",
+      "signature": [
+        "08c4242b5f585628",
+        "4e07408562bedb8b",
+        "7d4c5c8894e016e7",
+        "891ce66a0f781c2a",
+        "c1879a6540d4da03",
+        "f7539a338b962fd3",
+        "fbae041b02c41ed0"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "47415de4761760c89221a13d2fecba28f5bbd159a50787c4b0e60948fb011dd8": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that investors are tempering their expectations for Anthropic's IPO valuation due to a slowdown in revenue growth, indicating a negative impact on the company's stock."
+      },
+      "rated_at": "2026-10-15T21:23:18Z",
+      "url": "https://www.investing.com/news/stock-market-news/exclusiveinvestors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say-4952698",
+      "provider": "investing",
+      "published_at": "2026-10-15T21:06:47Z",
+      "signature": [
+        "19c64195eb8f22c3",
+        "371f7e4223809d8b",
+        "433cd7fc8060e082",
+        "4f420329adfeccf2",
+        "5fb6a47e368e12e5",
+        "80822c900bdbb19f",
+        "878a52fc5ff6a57d",
+        "927f368c571eef4c",
+        "9647978e40f75d2a",
+        "a0b967fc60136d2e",
+        "c2f3e1cb321d8aef",
+        "c70eca6b0f88f44d",
+        "ca98e82217aeefd8"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "538183ddc788aad040a9e89c07818f1b22cc3960f5b4afac18420158d5963e09": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that some investors are pushing for a lower valuation for Anthropic's IPO, which could negatively impact the company's stock price."
+      },
+      "rated_at": "2026-10-15T21:23:20Z",
+      "url": "https://www.investing.com/news/stock-market-news/some-investors-push-anthropic-to-cut-ipo-valuation-to-15-trillion--report-4952696",
+      "provider": "investing",
+      "published_at": "2026-10-15T21:05:03Z",
+      "signature": [
+        "378bfce5cda2599a",
+        "55b484fa51b49262",
+        "6b86b273ff34fce1",
+        "845e91831319e89c",
+        "927f368c571eef4c",
+        "9647978e40f75d2a",
+        "a6b46dd0d1ae5e86",
+        "c2f3e1cb321d8aef",
+        "c70eca6b0f88f44d",
+        "d107ea3629c32671",
+        "ef2d127de37b942b"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "648461900a4f35b0cf7b3af7aa6cfae7cafdc9c948f07793a34cb078e2386674": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The selling of $3.3 billion in shares by the co-founders may put downward pressure on the company's stock price."
+      },
+      "rated_at": "2026-10-15T21:23:22Z",
+      "url": "https://www.investing.com/news/stock-market-news/coreweave-three-cofounders-sold-33-billion-in-shares-since-ipo-4952665",
+      "provider": "investing",
+      "published_at": "2026-10-15T20:47:03Z",
+      "signature": [
+        "4a64609f7db9facc",
+        "4e07408562bedb8b",
+        "52196a62f405150a",
+        "6b5a3ded016ab782",
+        "80c697e9924a5260",
+        "8348e0915fc78ec2",
+        "8b5b9db0c13db242",
+        "9647978e40f75d2a",
+        "a6fffccf2d95e20b",
+        "c330ec504d82c24f"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "bf94d20a5400f226599da62d74651cbf95165584d6270f5e8e512bb19652760f": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that Hain Celestial, a single US company, is considering filing for Chapter 11 bankruptcy protection due to debt pressures, which would have a negative impact on its stock."
+      },
+      "rated_at": "2026-10-15T21:23:25Z",
+      "url": "https://www.investing.com/news/stock-market-news/hain-celestial-weighs-chapter-11-filing-as-debt-pressures-build--bloomberg-4952659",
+      "provider": "investing",
+      "published_at": "2026-10-15T20:45:00Z",
+      "signature": [
+        "0cbb043abe19b54d",
+        "0fb9765e58d296e5",
+        "294977cefaa2743e",
+        "44575cf5b28512d7",
+        "4fc82b26aecb47d2",
+        "652d75f9bafb25e5",
+        "667b9327cc0b3ab6",
+        "991dc97ac2475470",
+        "a5bfbc7f7c81dc34",
+        "a5cde2893e1cbec0"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
     }
   },
-  "updated_at": "2026-10-15T20:44:17Z",
-  "last_attempt": "2026-10-15T20:45:44Z",
+  "updated_at": "2026-10-15T21:23:25Z",
+  "last_attempt": "2026-10-15T21:23:25Z",
   "errors": [
     {
       "headline_hash": "f79c269d5fe1eb8d72f6d2437ee68f0d1202622a208cb06e56df4e4cd638cea3",
       "error": "ValueError"
     }
   ],
-  "last_success": "2026-10-15T20:45:44Z"
+  "last_success": "2026-10-15T21:23:25Z"
 }

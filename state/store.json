@@ -2702,6 +2702,46 @@
         "bec343d7e7787cce"
       ],
       "headline_hash": "c18609aee2f87348d56ff2148df874f57a825e20e84beb7b928aee3b0a26794a"
+    },
+    "a12febd033645bbf7a7ecbffa928fa419c81f94b27ec03bcd73024302bebbf2f": {
+      "id": "a12febd033645bbf7a7ecbffa928fa419c81f94b27ec03bcd73024302bebbf2f",
+      "url": "https://www.investing.com/news/stock-market-news/us-stocks-higher-at-close-of-trade-dow-jones-industrial-average-up-108-4952637",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T20:31:03Z",
+      "first_seen": "2026-10-15T20:45:46Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 0.7,
+        "confidence": 0.65,
+        "rules": [
+          "equity_up"
+        ],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "0bfe935e70c321c7",
+        "184df936d41b2da8",
+        "1ef8f25405f82682",
+        "276446ba01e3aa38",
+        "310ff200149b44a3",
+        "323783be9a53a31e",
+        "6b86b273ff34fce1",
+        "75a288c0d6898c5f",
+        "8ff09c475dc48a3f",
+        "9706987d633e05a0",
+        "e5ff8d2b6809d810",
+        "ff6b1c44fb9488ad"
+      ],
+      "headline_hash": "03be6dd9afc695dcae3d71a0a4647ce5c376739186768ba29c04ca4322391d06"
     }
   },
   "sources": {
@@ -2709,22 +2749,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T20:31:06Z",
+      "last_success": "2026-10-15T20:45:46Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T20:31:06Z",
+      "last_attempt": "2026-10-15T20:45:46Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T20:31:06Z",
+      "last_success": "2026-10-15T20:45:46Z",
       "received": 20,
       "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T20:31:06Z",
+      "last_attempt": "2026-10-15T20:45:46Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -2744,11 +2784,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T20:31:06Z",
+      "last_success": "2026-10-15T20:45:46Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-15T20:31:06Z",
+      "last_attempt": "2026-10-15T20:45:46Z",
       "status": "ok"
     }
   },

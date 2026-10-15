@@ -2428,5 +2428,130 @@
       "reason": "The addition of US voting information to Claude, a language model, may lead to increased engagement and interest in the upcoming midterms, potentially benefiting the company's stock.",
       "rated_at": "2026-10-15T20:42:13Z"
     }
+  },
+  {
+    "id": "6bed83e857c75ef73a4bae4811615b7ad778617a399068df977a1a30f35b6c73",
+    "url": "https://www.investing.com/news/stock-market-news/exclusiveinvestors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say-4952698",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T21:12:37Z",
+    "first_seen": "2026-10-15T21:23:56Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "negative",
+      "reason": "The headline suggests that investors are tempering their expectations for Anthropic's IPO valuation due to a slowdown in revenue growth, indicating a negative impact on the company's stock.",
+      "rated_at": "2026-10-15T21:23:18Z"
+    }
+  },
+  {
+    "id": "e6fb19782e5343125c3198ba524642828915decb7cf510a7039968ab4ed362cf",
+    "url": "https://www.investing.com/news/stock-market-news/site-centers-stock-surges-on-3-special-dividend-4952700",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T21:06:56Z",
+    "first_seen": "2026-10-15T21:23:56Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": 1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "positive",
+      "reason": "The announcement of a special dividend of $3 per share is likely to boost the stock price of SITE Centers.",
+      "rated_at": "2026-10-15T21:23:15Z"
+    }
+  },
+  {
+    "id": "0a5888ca174dfb6fc85422359c1d5511fb8003da7be6864231b9ea31e5cc2b46",
+    "url": "https://www.investing.com/news/stock-market-news/some-investors-push-anthropic-to-cut-ipo-valuation-to-15-trillion--report-4952696",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T21:05:03Z",
+    "first_seen": "2026-10-15T21:23:56Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "negative",
+      "reason": "The headline suggests that some investors are pushing for a lower valuation for Anthropic's IPO, which could negatively impact the company's stock price.",
+      "rated_at": "2026-10-15T21:23:20Z"
+    }
+  },
+  {
+    "id": "a583f0a27ed3418f0cb2d1f3af7573e4278dd23a8c6265f13d14e921717e9020",
+    "url": "https://www.investing.com/news/stock-market-news/coreweave-three-cofounders-sold-33-billion-in-shares-since-ipo-4952665",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T20:47:03Z",
+    "first_seen": "2026-10-15T21:23:56Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "negative",
+      "reason": "The selling of $3.3 billion in shares by the co-founders may put downward pressure on the company's stock price.",
+      "rated_at": "2026-10-15T21:23:22Z"
+    }
+  },
+  {
+    "id": "cbcc360858b83dec30dcfcc4aba0fcb079f793677d75c8b84578eb3814b496bf",
+    "url": "https://www.investing.com/news/stock-market-news/hain-celestial-weighs-chapter-11-filing-as-debt-pressures-build--bloomberg-4952659",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T20:45:00Z",
+    "first_seen": "2026-10-15T21:23:56Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "negative",
+      "reason": "The headline suggests that Hain Celestial, a single US company, is considering filing for Chapter 11 bankruptcy protection due to debt pressures, which would have a negative impact on its stock.",
+      "rated_at": "2026-10-15T21:23:25Z"
+    }
   }
 ]

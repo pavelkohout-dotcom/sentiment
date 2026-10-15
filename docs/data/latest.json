@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T21:15:45Z",
+  "generated_at": "2026-10-15T21:23:56Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 36.58,
+      "value": 29.63,
       "status": "ok",
-      "events": 22,
-      "scored_events": 20,
-      "articles": 22,
+      "events": 26,
+      "scored_events": 25,
+      "articles": 26,
       "sources": 3,
       "momentum": null,
       "momentum_baseline": null,
@@ -19,9 +19,9 @@
     "nasdaq100": {
       "value": 47.3,
       "status": "ok",
-      "events": 13,
+      "events": 12,
       "scored_events": 11,
-      "articles": 13,
+      "articles": 12,
       "sources": 3,
       "momentum": null,
       "momentum_baseline": null,
@@ -30,9 +30,9 @@
     "sp500": {
       "value": 47.3,
       "status": "ok",
-      "events": 13,
+      "events": 12,
       "scored_events": 11,
-      "articles": 13,
+      "articles": 12,
       "sources": 3,
       "momentum": null,
       "momentum_baseline": null,
@@ -44,42 +44,167 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T21:15:45Z",
+      "last_success": "2026-10-15T21:23:56Z",
       "received": 10,
-      "accepted": 6,
+      "accepted": 5,
       "rejected": 0,
-      "pending_llama": 1,
-      "last_attempt": "2026-10-15T21:15:45Z",
+      "pending_llama": 2,
+      "last_attempt": "2026-10-15T21:23:56Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T21:15:45Z",
+      "last_success": "2026-10-15T21:23:56Z",
       "received": 20,
       "accepted": 15,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-15T21:15:45Z",
+      "last_attempt": "2026-10-15T21:23:56Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T21:15:45Z",
+      "last_success": "2026-10-15T21:23:56Z",
       "received": 10,
-      "accepted": 6,
+      "accepted": 7,
       "rejected": 0,
-      "pending_llama": 2,
-      "last_attempt": "2026-10-15T21:15:45Z",
+      "pending_llama": 1,
+      "last_attempt": "2026-10-15T21:23:56Z",
       "status": "ok"
     }
   ],
-  "new_articles": 0,
-  "total_archived": 104,
+  "new_articles": 5,
+  "total_archived": 109,
   "articles": [
+    {
+      "id": "6bed83e857c75ef73a4bae4811615b7ad778617a399068df977a1a30f35b6c73",
+      "url": "https://www.investing.com/news/stock-market-news/exclusiveinvestors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say-4952698",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T21:12:37Z",
+      "first_seen": "2026-10-15T21:23:56Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "The headline suggests that investors are tempering their expectations for Anthropic's IPO valuation due to a slowdown in revenue growth, indicating a negative impact on the company's stock.",
+        "rated_at": "2026-10-15T21:23:18Z"
+      }
+    },
+    {
+      "id": "e6fb19782e5343125c3198ba524642828915decb7cf510a7039968ab4ed362cf",
+      "url": "https://www.investing.com/news/stock-market-news/site-centers-stock-surges-on-3-special-dividend-4952700",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T21:06:56Z",
+      "first_seen": "2026-10-15T21:23:56Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "positive",
+        "reason": "The announcement of a special dividend of $3 per share is likely to boost the stock price of SITE Centers.",
+        "rated_at": "2026-10-15T21:23:15Z"
+      }
+    },
+    {
+      "id": "0a5888ca174dfb6fc85422359c1d5511fb8003da7be6864231b9ea31e5cc2b46",
+      "url": "https://www.investing.com/news/stock-market-news/some-investors-push-anthropic-to-cut-ipo-valuation-to-15-trillion--report-4952696",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T21:05:03Z",
+      "first_seen": "2026-10-15T21:23:56Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "The headline suggests that some investors are pushing for a lower valuation for Anthropic's IPO, which could negatively impact the company's stock price.",
+        "rated_at": "2026-10-15T21:23:20Z"
+      }
+    },
+    {
+      "id": "a583f0a27ed3418f0cb2d1f3af7573e4278dd23a8c6265f13d14e921717e9020",
+      "url": "https://www.investing.com/news/stock-market-news/coreweave-three-cofounders-sold-33-billion-in-shares-since-ipo-4952665",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T20:47:03Z",
+      "first_seen": "2026-10-15T21:23:56Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "The selling of $3.3 billion in shares by the co-founders may put downward pressure on the company's stock price.",
+        "rated_at": "2026-10-15T21:23:22Z"
+      }
+    },
+    {
+      "id": "cbcc360858b83dec30dcfcc4aba0fcb079f793677d75c8b84578eb3814b496bf",
+      "url": "https://www.investing.com/news/stock-market-news/hain-celestial-weighs-chapter-11-filing-as-debt-pressures-build--bloomberg-4952659",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T20:45:00Z",
+      "first_seen": "2026-10-15T21:23:56Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "The headline suggests that Hain Celestial, a single US company, is considering filing for Chapter 11 bankruptcy protection due to debt pressures, which would have a negative impact on its stock.",
+        "rated_at": "2026-10-15T21:23:25Z"
+      }
+    },
     {
       "id": "2b7c393137c2b672f7921e5ed6d2f069f17119f18ca72577a7ec3be134731f14",
       "url": "https://www.marketwatch.com/story/traders-pile-into-bonds-and-defensive-stocks-as-the-tech-wreck-picks-up-steam-48c04374",
@@ -616,32 +741,6 @@
         "reason": "The headline specifically mentions a single US company, Vanda Pharmaceuticals, and the stock falling after a trial failure, indicating a negative impact on the company's stock.",
         "rated_at": "2026-10-15T20:42:05Z"
       }
-    },
-    {
-      "id": "69c0106659f3591ede6a0f28fbc08d9b9475b5408ecdeb35ed6d4920c4c6513e",
-      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-down-030-4950135",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-14T21:20:03Z",
-      "first_seen": "2026-10-15T20:42:08Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": true,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "unclear",
-        "reason": "The headline refers to Russia stocks, not US equities, so it does not have a direct impact on US stocks. The direction of the impact is unclear as it is a foreign market.",
-        "rated_at": "2026-10-15T20:42:08Z"
-      }
     }
   ],
   "methodology": {
@@ -653,8 +752,8 @@
     "titles": "Hidden unless publisher rights explicitly configured. No article bodies collected."
   },
   "llama": {
-    "last_rated_at": "2026-10-15T20:44:17Z",
-    "last_refresh_at": "2026-10-15T20:45:44Z",
+    "last_rated_at": "2026-10-15T21:23:25Z",
+    "last_refresh_at": "2026-10-15T21:23:25Z",
     "errors": 1,
     "pending": 3,
     "model_digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",

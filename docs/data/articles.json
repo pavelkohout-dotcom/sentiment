@@ -1437,5 +1437,49 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "36347211661058cb7911f2af29d3202297485566c3034a183aca288c32cc9c9a",
+    "url": "https://www.investing.com/news/stock-market-news/nasdaq-reports-network-disruption-us-equities-data-feeds-impacted-4952331",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T16:01:16Z",
+    "first_seen": "2026-10-15T16:15:50Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
+  },
+  {
+    "id": "8daaed1b891b52bdbe9f6501c2c65a00040af8f65a45450c14e78cab1fe96bbd",
+    "url": "https://www.investing.com/news/stock-market-news/nvidia-ceo-says-coreweave-needs-no-backstop-as-shares-extend-slide-4952315",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T15:57:23Z",
+    "first_seen": "2026-10-15T16:15:50Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

@@ -2293,6 +2293,74 @@
         "b2c01c8a8a0d9a99"
       ],
       "headline_hash": "8c0c829425a0080f5da703561d47b42f9be2a31066ae505c1d08c0768cff2da8"
+    },
+    "36347211661058cb7911f2af29d3202297485566c3034a183aca288c32cc9c9a": {
+      "id": "36347211661058cb7911f2af29d3202297485566c3034a183aca288c32cc9c9a",
+      "url": "https://www.investing.com/news/stock-market-news/nasdaq-reports-network-disruption-us-equities-data-feeds-impacted-4952331",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T16:01:16Z",
+      "first_seen": "2026-10-15T16:15:50Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "2a3138bc213f1438",
+        "3009be769fb8f956",
+        "3a6eb0790f39ac87",
+        "79adb2a2fce5c6ba",
+        "7f26104f77a7ce47",
+        "906f3846eef013a2",
+        "b889fd1d37a320c6",
+        "eacacfab74cf6c8d",
+        "fc1b192ed5829737"
+      ],
+      "headline_hash": "d95868c6440d82d478aad825c631ac6f3d85d7c4dc4a288720b7508eefd82545"
+    },
+    "8daaed1b891b52bdbe9f6501c2c65a00040af8f65a45450c14e78cab1fe96bbd": {
+      "id": "8daaed1b891b52bdbe9f6501c2c65a00040af8f65a45450c14e78cab1fe96bbd",
+      "url": "https://www.investing.com/news/stock-market-news/nvidia-ceo-says-coreweave-needs-no-backstop-as-shares-extend-slide-4952315",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T15:57:23Z",
+      "first_seen": "2026-10-15T16:15:50Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "266d1c70a4cbe7cd",
+        "31d123108dba5fd3",
+        "4a64609f7db9facc",
+        "6e6025c5164a4cae",
+        "8348e0915fc78ec2",
+        "8d4321d936320802",
+        "9390298f3fb0c5b1",
+        "b8a7e24e95497806",
+        "bf0bb4ee60e2cd5a"
+      ],
+      "headline_hash": "4eabb0709f915003b3b185dfe02bea5cf3122f757c003346631b7bb78b10cf50"
     }
   },
   "sources": {
@@ -2300,22 +2368,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T16:01:21Z",
+      "last_success": "2026-10-15T16:15:50Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-15T16:01:21Z",
+      "last_attempt": "2026-10-15T16:15:50Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T16:01:21Z",
+      "last_success": "2026-10-15T16:15:50Z",
       "received": 20,
       "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T16:01:21Z",
+      "last_attempt": "2026-10-15T16:15:50Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -2335,11 +2403,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T16:01:21Z",
+      "last_success": "2026-10-15T16:15:50Z",
       "received": 10,
-      "accepted": 0,
+      "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-15T16:01:21Z",
+      "last_attempt": "2026-10-15T16:15:50Z",
       "status": "ok"
     }
   },

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T08:45:44Z",
+  "generated_at": "2026-10-15T09:01:20Z",
   "model": "impact-rules-1.0.2",
   "collection_status": "ok",
   "window_hours": 24,
@@ -8,9 +8,9 @@
     "all": {
       "value": 13.49,
       "status": "low_coverage",
-      "events": 11,
+      "events": 13,
       "scored_events": 2,
-      "articles": 11,
+      "articles": 13,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -19,9 +19,9 @@
     "nasdaq100": {
       "value": 13.49,
       "status": "low_coverage",
-      "events": 9,
+      "events": 10,
       "scored_events": 2,
-      "articles": 9,
+      "articles": 10,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -30,9 +30,9 @@
     "sp500": {
       "value": 13.49,
       "status": "low_coverage",
-      "events": 9,
+      "events": 11,
       "scored_events": 2,
-      "articles": 9,
+      "articles": 11,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -44,39 +44,60 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T08:45:44Z",
+      "last_success": "2026-10-15T09:01:20Z",
       "received": 10,
-      "accepted": 0,
+      "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T08:45:44Z",
+      "last_attempt": "2026-10-15T09:01:20Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T08:45:44Z",
+      "last_success": "2026-10-15T09:01:20Z",
       "received": 20,
       "accepted": 6,
       "rejected": 0,
-      "last_attempt": "2026-10-15T08:45:44Z",
+      "last_attempt": "2026-10-15T09:01:20Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T08:45:44Z",
+      "last_success": "2026-10-15T09:01:20Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T08:45:44Z",
+      "last_attempt": "2026-10-15T09:01:20Z",
       "status": "ok"
     }
   ],
   "new_articles": 2,
-  "total_archived": 44,
+  "total_archived": 46,
   "articles": [
+    {
+      "id": "b480e4fd0e3295f0bfcacd0719de00c411da1c58dd9506d3cf0ca026a27396ba",
+      "url": "https://www.marketwatch.com/story/why-the-ai-trade-is-not-set-up-for-a-rebound-like-julys-according-to-jpmorgan-5ae511db",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-15T08:53:00Z",
+      "first_seen": "2026-10-15T09:01:20Z",
+      "analysis": {
+        "segments": [
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
     {
       "id": "bb92c371629fda3025cea5038d8cb47d6833ddba01369eb40dd36c9835b87e0f",
       "url": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt",
@@ -85,6 +106,28 @@
       "title": null,
       "published_at": "2026-10-15T08:39:54Z",
       "first_seen": "2026-10-15T08:45:44Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
+    {
+      "id": "a7158c2be07cea49f679d52895f85861ee0471bef4dd94fe51cf06ac5fe396b7",
+      "url": "https://www.investing.com/news/stock-market-news/european-chipmakers-tumble-as-inflation-data-fuels-ratehike-fears-ai-rout-4950732",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T08:38:12Z",
+      "first_seen": "2026-10-15T09:01:20Z",
       "analysis": {
         "segments": [
           "nasdaq100",

@@ -978,5 +978,48 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "b480e4fd0e3295f0bfcacd0719de00c411da1c58dd9506d3cf0ca026a27396ba",
+    "url": "https://www.marketwatch.com/story/why-the-ai-trade-is-not-set-up-for-a-rebound-like-julys-according-to-jpmorgan-5ae511db",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-15T08:53:00Z",
+    "first_seen": "2026-10-15T09:01:20Z",
+    "analysis": {
+      "segments": [
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
+  },
+  {
+    "id": "a7158c2be07cea49f679d52895f85861ee0471bef4dd94fe51cf06ac5fe396b7",
+    "url": "https://www.investing.com/news/stock-market-news/european-chipmakers-tumble-as-inflation-data-fuels-ratehike-fears-ai-rout-4950732",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T08:38:12Z",
+    "first_seen": "2026-10-15T09:01:20Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

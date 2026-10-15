@@ -1,0 +1,1726 @@
+{
+  "model": "llama3-numeric-1.0.0",
+  "model_digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
+  "prompt_hash": "76527fbf106eccdde8271c7494baf7e9ffdd0cad52d84e7ec77334b4d399ba09",
+  "options": {
+    "temperature": 0,
+    "num_predict": 250,
+    "num_ctx": 2048
+  },
+  "ratings": {
+    "389ea03b9f74416e27472f1e1c10124469d55875ad2fe5506d8f8d1c12e8828b": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The growth of BlackRock's managed assets is likely to have a positive impact on the broader US stock market, as the company's success is often seen as a proxy for the overall health of the economy."
+      },
+      "rated_at": "2026-10-15T20:40:38Z",
+      "url": "https://www.marketwatch.com/story/blackrock-now-has-assets-equal-to-half-the-size-of-the-u-s-economy-after-15-growth-c382b289",
+      "provider": "marketwatch",
+      "published_at": "2026-10-14T20:57:00Z",
+      "signature": [
+        "043a718774c572bd",
+        "0bfe935e70c321c7",
+        "19c64195eb8f22c3",
+        "545438cd9bc00976",
+        "6fda2b8252b6d5ea",
+        "7e6578c2e34b5313",
+        "8bf729ffe074caee",
+        "a11ae06469c63740",
+        "ccdcbe846f3da4eb",
+        "e629fa6598d73276",
+        "ed5eb9a37e2d8231",
+        "f9d6cd1ed5cf1ead"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "af45eefffa1a2f53608371115a3078406bde90dd87a45b06afa38eb15b9f68d0": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline implies that Dell's stock underperformed the broader market, specifically the S&P 500, on Wednesday."
+      },
+      "rated_at": "2026-10-15T20:40:40Z",
+      "url": "https://www.marketwatch.com/story/why-dells-stock-was-one-of-the-s-p-500s-biggest-laggards-on-wednesday-70ce279e",
+      "provider": "marketwatch",
+      "published_at": "2026-10-14T20:21:00Z",
+      "signature": [
+        "043a718774c572bd",
+        "0604cd3138feed20",
+        "08c4242b5f585628",
+        "148de9c5a7a44d19",
+        "20825bf7e8ac3691",
+        "2be23c585f15e5fd",
+        "7692c3ad3540bb80",
+        "90191e4114b0c17d",
+        "b63b99f6383ba713",
+        "d0e2ece166bdef23",
+        "e86421cb8ca42871"
+      ],
+      "rule_segments": [
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "c5d64a0b866e98287fc710e25bcc19a4e3c45699d1b643bb4c95fc2da78442d1": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that rate-hike odds are rising, which could lead to a decrease in US equities."
+      },
+      "rated_at": "2026-10-15T20:40:42Z",
+      "url": "https://www.marketwatch.com/story/heres-what-the-fed-might-do-at-this-months-meeting-after-todays-hot-inflation-reading-087511b6",
+      "provider": "marketwatch",
+      "published_at": "2026-10-14T19:04:00Z",
+      "signature": [
+        "0fd924362117d036",
+        "1fd5faa9b5cf91c2",
+        "20e796c128096d22",
+        "749ab2c0d06c42ae",
+        "77f2f036726eaa17",
+        "824d422d755b9c7b",
+        "c02d7803a91c3958",
+        "c549779d79e5c8e9",
+        "c6c1c9a9c8543f1e",
+        "ed5eb9a37e2d8231"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "2019f9e066504435d882550aff76c415f7a58d2e4403dd8b33d16b3e9bd6f2cc": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests a rise in US inflation, which could negatively impact US equities."
+      },
+      "rated_at": "2026-10-15T20:40:44Z",
+      "url": "https://www.theguardian.com/business/live/2026/oct/14/imf-rising-government-borrowing-costs-inflation-oil-stock-markets-latest-news-updates",
+      "provider": "guardian",
+      "published_at": "2026-10-14T14:20:54Z",
+      "signature": [
+        "14b625876cc4921c",
+        "34f5290adc138ebb",
+        "4325ed4bef2a2a10",
+        "4b42194596899bcd",
+        "6bdaf554e42029bd",
+        "6d731a5ed145ab6d",
+        "72de275ac0b40947",
+        "79adb2a2fce5c6ba",
+        "7cf6b0597fe4e3cb",
+        "a60a52382d707771",
+        "c37d8ede17f4c7ee",
+        "fe81f9390ffe3dc8"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "5c1a4a7e5d209c1fb5d79e96d3fab96a34144831cee183218abf117b442806ca": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The mention of AI investing being likened to a casino suggests a negative sentiment towards chip stocks, implying a potential decline in their value."
+      },
+      "rated_at": "2026-10-15T20:40:47Z",
+      "url": "https://www.theguardian.com/business/2026/oct/13/chip-stocks-broadcom-ai-samsung-shares-cxmt",
+      "provider": "guardian",
+      "published_at": "2026-10-13T15:51:54Z",
+      "signature": [
+        "1ef8f25405f82682",
+        "32e83e92d45d71f6",
+        "35da636b0d049d44",
+        "373ac021a2c0bb2c",
+        "405e6e0273215dab",
+        "7464e221a2a7dfb9",
+        "a5e7c002443743c5",
+        "b8a7e24e95497806",
+        "d7cea7305a333d5c"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "41e336caf23e32e179567bd76cb079140d9822a6bc3397566c219746c741a521": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that JPMorgan's missed profit expectations may have a negative impact on US equities, as it implies a warning about large fiscal deficits and sticky inflation, which could lead to market volatility and decreased investor confidence."
+      },
+      "rated_at": "2026-10-15T20:40:50Z",
+      "url": "https://www.theguardian.com/business/live/2026/oct/13/imf-uk-economy-growth-boost-chancellor-john-healey-oil-prices-inflation-business-live-news",
+      "provider": "guardian",
+      "published_at": "2026-10-13T14:08:32Z",
+      "signature": [
+        "4110c398f2d88fdb",
+        "4381dc2ab1428516",
+        "4879b2431ffb8a67",
+        "4ef9bfe6a5402861",
+        "6d731a5ed145ab6d",
+        "80822c900bdbb19f",
+        "964a9431ff491fd7",
+        "a5e7c002443743c5",
+        "b36708c7beec495a",
+        "b65bf95cc4f9b4b3",
+        "c37d8ede17f4c7ee",
+        "d23be8d1141403ea",
+        "d35c416a85b807e9"
+      ],
+      "rule_segments": [
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "edd1661569cf633ba3d73ee400f3ee131ee995e9adcd970534469189c72187b9": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests a broad market rally, with the S&P 500 and Nasdaq reaching record highs, indicating a positive impact on US equities."
+      },
+      "rated_at": "2026-10-15T20:40:52Z",
+      "url": "https://www.theguardian.com/business/2026/oct/06/sp-500-nasdaq-stocks-ai-chipmakers",
+      "provider": "guardian",
+      "published_at": "2026-10-06T20:28:42Z",
+      "signature": [
+        "043a718774c572bd",
+        "0604cd3138feed20",
+        "1351bfd83437f2e1",
+        "148de9c5a7a44d19",
+        "32e83e92d45d71f6",
+        "3e70e3797dd10842",
+        "41ef29df4a53ab2d",
+        "70ce871f8a3d3fb4",
+        "afd5c5ae5738e275",
+        "fc1b192ed5829737"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "41db6236a5d4c46d64d6ce487736bae3b5599365d5a14be5139751afe8675dcb": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that CoreWeave's AI bonds are experiencing a decline, which could raise concerns for the wider market and potentially impact US equities negatively."
+      },
+      "rated_at": "2026-10-15T20:40:55Z",
+      "url": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4",
+      "provider": "marketwatch",
+      "published_at": "2026-10-14T22:03:00Z",
+      "signature": [
+        "043a718774c572bd",
+        "0f13e1a23920c65b",
+        "2934fb49d6b38ade",
+        "32e83e92d45d71f6",
+        "7d0df4916ad725be",
+        "8348e0915fc78ec2",
+        "b1f51a511f1da0cd",
+        "c7148011a9acf8fd",
+        "e4d693d24e646cb7",
+        "fe8c45af02b4682d"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "b8466da8113c947570ddc082de608e76e204d78ce22556c9043503fda5cab1c1": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests a decline in small-cap stocks, which is a subset of broad US equities, indicating a negative impact on US equities."
+      },
+      "rated_at": "2026-10-15T20:40:57Z",
+      "url": "https://www.marketwatch.com/story/from-a-record-high-to-a-10-drop-in-just-two-months-why-small-cap-stocks-have-unraveled-so-fast-1cf0f4d5",
+      "provider": "marketwatch",
+      "published_at": "2026-10-14T21:54:00Z",
+      "signature": [
+        "115dc3606fbf8691",
+        "16837433443196b5",
+        "193c45b5281908d2",
+        "1ef8f25405f82682",
+        "2be23c585f15e5fd",
+        "3c93f031dbaf719c",
+        "3fc4ccfe745870e2",
+        "45e84635bc4803c5",
+        "4a44dc15364204a8",
+        "6ef7c9b15ecdd690",
+        "70ce871f8a3d3fb4",
+        "81db8ebbbbc69c6c",
+        "a1d9890884c1b4b9",
+        "b2c66dfd45dd07f5",
+        "d90ee9ccf6bea1d2"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "3f1a9d166abadd9ba4edfde157e7a3aa081e233cf5b7420b9ef1a4633412fce7": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline mentions a profit miss, which is a negative impact on the company's stock, and also mentions a $1.2 billion government fine, which is a significant negative event."
+      },
+      "rated_at": "2026-10-15T20:41:00Z",
+      "url": "https://www.marketwatch.com/story/bank-of-america-adds-a-profit-miss-to-the-misery-of-a-1-2-billion-government-fine-d4420bfa",
+      "provider": "marketwatch",
+      "published_at": "2026-10-14T21:40:00Z",
+      "signature": [
+        "4381dc2ab1428516",
+        "64407f4d33e01863",
+        "6b86b273ff34fce1",
+        "80688fc3d5f88a06",
+        "80c697e9924a5260",
+        "8da91408dd1a5a7e",
+        "ab5e9e376f953917",
+        "b41e6560a4467aa4",
+        "d14a58bae804a2b8",
+        "d23be8d1141403ea",
+        "d4735e3a265e16ee"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "d27ee09eb9f148368a3f5891721e6a3d977d9e192eefe3131b11518f98fbd12b": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests a potential impact on Social Security, which is a broad US market indicator, and the tone implies a negative impact."
+      },
+      "rated_at": "2026-10-15T20:41:03Z",
+      "url": "https://www.marketwatch.com/story/the-cola-wars-are-coming-for-social-security-10c177f1",
+      "provider": "marketwatch",
+      "published_at": "2026-10-15T17:07:00Z",
+      "signature": [
+        "2e7af2bf0c17e5a9",
+        "3e860f41a5ea92c4",
+        "42be22c266603b34",
+        "5d2d3ceb7abe5523",
+        "ffbfabc54ca8a26e"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "13e2bc21ec957b1878053b3c14cea40fe367c2e3d3a3673edbb6503766c2a6f5": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or the stock market, and the topic is unrelated to finance."
+      },
+      "rated_at": "2026-10-15T20:41:05Z",
+      "url": "https://www.marketwatch.com/story/meet-the-baby-chasers-theyre-transforming-the-housing-market-and-solving-the-childcare-crisis-574b5bcc",
+      "provider": "marketwatch",
+      "published_at": "2026-10-14T20:39:00Z",
+      "signature": [
+        "0654fc3f91d14281",
+        "151e58a831306903",
+        "34d6231c09aa82a5",
+        "3ac1ecbd2220c675",
+        "889508afe2d56326",
+        "8ccb033c0e48b27f",
+        "9f25f230467bd9db",
+        "a3ca38ef0e8554b3",
+        "d005d6c459a8a9f4",
+        "dc81c82673f84c2a",
+        "e4d693d24e646cb7"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "3f691588a6760eaecdc67bdfe857140f717a944ff37bcc4c598567db36691daa": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any specific company, and the topic is an investment in a UAE data center, which is unrelated to US stocks."
+      },
+      "rated_at": "2026-10-15T20:41:07Z",
+      "url": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c",
+      "provider": "marketwatch",
+      "published_at": "2026-10-14T20:01:00Z",
+      "signature": [
+        "038468518ad8122e",
+        "0bd873542dcade8a",
+        "233c3c2c59623ae7",
+        "2744ccd10c7533bd",
+        "2ac9a6746aca543a",
+        "38a81e87e79631e6",
+        "3a6eb0790f39ac87",
+        "4dc53ebcd4e75d41",
+        "5c417c6c8127d2a3",
+        "77049f6f8893dd97",
+        "7f0c68cb87de6c2a",
+        "ab6db599234d2636",
+        "de7d1b721a1e0632",
+        "deeeb5df3f2cee6b",
+        "f179a509d32bd92c",
+        "f84a347034749ea1",
+        "fed0e4820af42571"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "bbcf7725ceb48b78bca1993b4f2bc692fd117b40311e6fc45240d0023f142ec0": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or the stock market, and the topic is personal finance and housing. The tone is reflective and questioning, rather than indicating a specific impact on the market."
+      },
+      "rated_at": "2026-10-15T20:41:13Z",
+      "url": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67",
+      "provider": "marketwatch",
+      "published_at": "2026-10-14T19:15:00Z",
+      "signature": [
+        "038468518ad8122e",
+        "0e9fd1596c4b1dfc",
+        "16d34b5e7bcb341e",
+        "27042f4e6eca7d0b",
+        "2be23c585f15e5fd",
+        "4133621f58c1c3ca",
+        "4ea140588150773c",
+        "75ca3ca2ece24355",
+        "76f75e6129fe3013",
+        "87765da6ccf06682",
+        "a0a44ed8cfc32b7e",
+        "a6b46dd0d1ae5e86",
+        "b5cbb993bb195e1d",
+        "c836905751e74c2e",
+        "c9022680f888674e",
+        "de7d1b721a1e0632"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "1a7736d9e5a05f221c99e3e4c20bdf112aeca86db29a9a7e8c101205418ca291": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests a potential negative impact on US equities due to the threat of an AI share crash, which could affect global financial stability."
+      },
+      "rated_at": "2026-10-15T20:41:15Z",
+      "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+      "provider": "guardian",
+      "published_at": "2026-10-13T12:30:01Z",
+      "signature": [
+        "1115728d9e501607",
+        "2c6ef0f0d0e4cc6e",
+        "32e83e92d45d71f6",
+        "486ea46224d1bb4f",
+        "8588b8c524e36861",
+        "a569b9b2250fe323",
+        "b1e79532d5b97c77",
+        "c3bc45ac352fe43f",
+        "cdb2e0d0f873ce53",
+        "fed0e4820af42571"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "749e249d6ea205f8caccd90770aa2934d809be56f8b91bdb81311d61955b3a79": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The award of the Nobel prize to two Americans is likely to have a positive impact on US equities, as it reflects positively on the country's economic research and innovation."
+      },
+      "rated_at": "2026-10-15T20:41:20Z",
+      "url": "https://www.theguardian.com/business/live/2026/oct/12/uk-growth-inflation-pressures-oil-price-sveriges-riksbank-nobel-prize-economic-sciences-awarded-latest-news-updates",
+      "provider": "guardian",
+      "published_at": "2026-10-12T14:17:27Z",
+      "signature": [
+        "00e13ed7af55b276",
+        "11507a0e2f5e69d5",
+        "11eb3a6eba241501",
+        "3cbaeb57c64020ee",
+        "3fc4ccfe745870e2",
+        "4342cbcc047bb6c8",
+        "48ef4cc1cb686d9b",
+        "5e9ad751b5e6102b",
+        "72a7a4f82e487ef3",
+        "89cb08cdf4c6d504",
+        "8edcc26c0f6c7256",
+        "a775f10fb2af6eae",
+        "c37d8ede17f4c7ee"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "72649ee28bc539f96b00af16b3852c415c8815a0acb4e4c4261c583e2f0d2119": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that global market pressures may lead to fiscal restraint, which could negatively impact US equities."
+      },
+      "rated_at": "2026-10-15T20:41:25Z",
+      "url": "https://www.theguardian.com/world/2026/oct/10/france-caught-between-bond-markets-student-worker-blockades",
+      "provider": "guardian",
+      "published_at": "2026-10-10T04:00:47Z",
+      "signature": [
+        "043a718774c572bd",
+        "262cd7e8d3156b5b",
+        "2c598436e5575a57",
+        "6c6948d75b800d13",
+        "6ea607f9a01e62d1",
+        "7c36fc9be162d466",
+        "b65bf95cc4f9b4b3",
+        "c1b33d39b83a8241",
+        "c4d0cf241a1bfa1c",
+        "dffc177fd0bbfd67"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "63ba61a875c3b37c98df6346008a86ca6a321de25e5789d32988969cac405bfb": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or a US company, and the scope is unclear"
+      },
+      "rated_at": "2026-10-15T20:41:29Z",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/09/firmus-australian-stock-market-listing-bust-finance",
+      "provider": "guardian",
+      "published_at": "2026-10-09T05:31:45Z",
+      "signature": [
+        "043a718774c572bd",
+        "08c4242b5f585628",
+        "0fc4dfc4feb3b154",
+        "103404f85e8aabd2",
+        "13702c44b9242673",
+        "222b0bd51fcef7e6",
+        "3af708031d4a7106",
+        "543b1c4bd4f6b184",
+        "8044aae1f86875d9",
+        "81f52337ebb4cb16",
+        "ab51004e9d71a485",
+        "d86cd3dfc312e753",
+        "e4d693d24e646cb7",
+        "f1518d92eff335a2"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "54432071ccd748d2e6178765541f7b6b0eb31aa1c02808b3a875d2f7f17fb497": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that the increase in oil and gas prices due to Middle East shipping attacks is having a negative impact on US stocks, while bond yields are rising."
+      },
+      "rated_at": "2026-10-15T20:41:32Z",
+      "url": "https://www.theguardian.com/business/live/2026/oct/08/oil-prices-rise-shipping-attacks-rate-rise-uk-housing-market-bank-england-latest-live-updates",
+      "provider": "guardian",
+      "published_at": "2026-10-08T14:26:56Z",
+      "signature": [
+        "1ef8f25405f82682",
+        "2fe840e13244a9d7",
+        "6bdaf554e42029bd",
+        "6bdb262b0201799a",
+        "740062676a3134f3",
+        "86474ae6ea984de3",
+        "8c6fb1e9e37a1aea",
+        "a4888af4e46c129c",
+        "ab7902bcbd91137e",
+        "ba75b4423591cddc",
+        "c37d8ede17f4c7ee",
+        "ced7c0957fab4ca8",
+        "e5ff8d2b6809d810",
+        "f21dea74d898cfea",
+        "fe81f9390ffe3dc8"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "0a8d66f90e4e48a740c0cbd3739fc1fbfb4e7d96dc6936fdc519475e563a5929": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or US stocks, and the layoffs are not directly related to the US market."
+      },
+      "rated_at": "2026-10-15T20:41:34Z",
+      "url": "https://www.theguardian.com/business/live/2026/oct/07/imf-chief-warns-energy-shockk-public-debt-ai-boom-threaten-global-growth-uk-house-prices-standstill-latest-live-updates",
+      "provider": "guardian",
+      "published_at": "2026-10-07T14:33:41Z",
+      "signature": [
+        "00d8d3f11739d2f3",
+        "0604cd3138feed20",
+        "361e48d0308f20e3",
+        "378bfce5cda2599a",
+        "4cb4ea25583c2564",
+        "5cc3f82838ba7260",
+        "5d9a17cb70b9733a",
+        "75a288c0d6898c5f",
+        "9f2e6d33a3717ee8",
+        "a18603086e5bdf9d",
+        "aa43038afb6314a3",
+        "c37d8ede17f4c7ee",
+        "c6c1c9a9c8543f1e",
+        "d4735e3a265e16ee"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "4fe4b84c7bc35b1cd03861ae583a2fc76d0b43bb9557323ae6848c5ee0bbbd32": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any specific company, and the investigation into a potential hack does not imply a direct impact on the stock market."
+      },
+      "rated_at": "2026-10-15T20:41:37Z",
+      "url": "https://www.theguardian.com/business/live/2026/oct/06/euro-france-central-bank-interest-rates-bonds-latest-live-updates",
+      "provider": "guardian",
+      "published_at": "2026-10-06T14:18:52Z",
+      "signature": [
+        "1242ab99f6773a84",
+        "21eb2153dd1483cd",
+        "2998b3232d29e8dc",
+        "36b2a10044ffe600",
+        "6c13fff8ae63bd0e",
+        "853916b1dbc21e61",
+        "9150c74c5f92d51a",
+        "b1240c312f8f3637",
+        "b794894489893eac",
+        "bcc668c9308ed513",
+        "c37d8ede17f4c7ee",
+        "cc1b1210f1ce69ee"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "b4e45e501426ab04ae36346b6f1471917e4b70d5b197ddc67017c968ce3c34df": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any US companies, so it is unclear how it would impact US stocks."
+      },
+      "rated_at": "2026-10-15T20:41:39Z",
+      "url": "https://www.theguardian.com/business/live/2026/oct/05/bt-strikes-deal-rescue-broadband-firm-talktalk-euro-slides-france-debt-burden-fears-live-updates",
+      "provider": "guardian",
+      "published_at": "2026-10-05T14:05:29Z",
+      "signature": [
+        "043a718774c572bd",
+        "36611f17cca18e01",
+        "39d77c4bd9a79b5d",
+        "3e167607d1438b89",
+        "4bd77cffb0da8cbd",
+        "5fb6a47e368e12e5",
+        "7f26104f77a7ce47",
+        "80c697e9924a5260",
+        "81b6b2c874b78764",
+        "a0b967fc60136d2e",
+        "c20dea4d876b5b8f",
+        "c37d8ede17f4c7ee",
+        "cfd5adb3dbf2ff5e",
+        "ffe3715dd3d56af9"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "ed5fcf984372d28a6458ea298f3c8c4c9db444b69ac50d9a7a4649b19c157dce": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "Weaker-than-expected US jobs report led to a record high for the Nasdaq, indicating a positive impact on US equities."
+      },
+      "rated_at": "2026-10-15T20:41:42Z",
+      "url": "https://www.theguardian.com/business/live/2026/oct/02/french-bond-sell-off-euro-crisis-cuts-tax-rises-eurozone-inflation-us-jobs-report-latest-news-updates",
+      "provider": "guardian",
+      "published_at": "2026-10-02T15:58:01Z",
+      "signature": [
+        "1aa20c854d615577",
+        "5d9a17cb70b9733a",
+        "62f51d296d3429d8",
+        "6ef7c9b15ecdd690",
+        "70ce871f8a3d3fb4",
+        "7383711c1b05e72a",
+        "79adb2a2fce5c6ba",
+        "845e91831319e89c",
+        "c37d8ede17f4c7ee",
+        "cea23dd4b87e8b00",
+        "fc1b192ed5829737"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "7eb28a071e95ac4871b890ddb90c5f7c9e96578a73d0a721652233c5182a4eef": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The rise in government borrowing costs may lead to increased costs for US companies and potentially impact the overall US stock market."
+      },
+      "rated_at": "2026-10-15T20:41:44Z",
+      "url": "https://www.theguardian.com/business/live/2026/oct/01/uk-house-prices-september-mortgage-rates-bonds-stock-markets-manufacturing-latest-news-updates",
+      "provider": "guardian",
+      "published_at": "2026-10-01T16:08:01Z",
+      "signature": [
+        "4cb4ea25583c2564",
+        "4d8fa801a136f34f",
+        "624b60c58c9d8bfb",
+        "62f51d296d3429d8",
+        "63d04dee7c50f6fb",
+        "6b5a3ded016ab782",
+        "6c94e35ccc352d4e",
+        "79adb2a2fce5c6ba",
+        "83116acf18e4dc44",
+        "8bbcba42d48dcffe",
+        "90d448c0f5a04425",
+        "ab5e9e376f953917",
+        "b4dc66dde806261b",
+        "bcde6928e538c63c",
+        "c0f21d451463ec3e",
+        "c37d8ede17f4c7ee",
+        "e7f6c011776e8db7",
+        "f21dea74d898cfea"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "e67ba49cf756c1ce40fb638f8109f8b95e2bbae911a2bc87fd04d029295a27a6": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "Economic growth in US revised higher, indicating a positive impact on US equities."
+      },
+      "rated_at": "2026-10-15T20:41:46Z",
+      "url": "https://www.theguardian.com/business/live/2026/sep/30/uk-economy-growth-revised-up-stock-markets-greggs-job-cuts-energy-prices-latest-news-updates",
+      "provider": "guardian",
+      "published_at": "2026-09-30T16:02:38Z",
+      "signature": [
+        "11c45871e9f8b9df",
+        "19c64195eb8f22c3",
+        "1e4de31f94535968",
+        "336074805fc85398",
+        "3b2e48ec5010bc30",
+        "79adb2a2fce5c6ba",
+        "83116acf18e4dc44",
+        "a7937b64b8caa58f",
+        "bd50eb17ec514485",
+        "c37d8ede17f4c7ee",
+        "d4735e3a265e16ee",
+        "e5ff8d2b6809d810",
+        "f83cff8066af378d"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "0fa305f006aef54ce0b8d816cd9c3097c76c854e5fad27737b420192b736c5e7": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any specific US company, and the impact on US equities is unclear."
+      },
+      "rated_at": "2026-10-15T20:41:48Z",
+      "url": "https://www.theguardian.com/business/live/2026/sep/29/anthropic-ipo-warning-existential-risks-to-humanity-from-ai-astrazeneca-2bn-cancer-drug-tie-up-diesel-stock-market-live-news-updates",
+      "provider": "guardian",
+      "published_at": "2026-09-29T15:07:56Z",
+      "signature": [
+        "125058724ada049e",
+        "4a44dc15364204a8",
+        "4cb4ea25583c2564",
+        "4d8fa801a136f34f",
+        "652d75f9bafb25e5",
+        "6b5a3ded016ab782",
+        "828408e40d4fe651",
+        "83116acf18e4dc44",
+        "95482ba25b7bf178",
+        "ab5e9e376f953917",
+        "c37d8ede17f4c7ee",
+        "c549779d79e5c8e9",
+        "ce8457d59078a699",
+        "f21dea74d898cfea"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "2cdd910ea0748583a5cb09deff2eb5cf9cdff64d177d51fcaed6f7fabbe54fad": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or a specific US company, and the UK diesel prices and housebuilder stocks are unrelated to the US market."
+      },
+      "rated_at": "2026-10-15T20:41:51Z",
+      "url": "https://www.theguardian.com/business/live/2026/sep/28/uk-housebuilders-stocks-new-homes-scheme-first-time-buyers-business-live-news",
+      "provider": "guardian",
+      "published_at": "2026-09-28T14:28:44Z",
+      "signature": [
+        "11507a0e2f5e69d5",
+        "1ef8f25405f82682",
+        "3b2e48ec5010bc30",
+        "41ef29df4a53ab2d",
+        "4b784e0f0d2c2bf6",
+        "5a39cadd1b007093",
+        "63d04dee7c50f6fb",
+        "6ef7c9b15ecdd690",
+        "70ce871f8a3d3fb4",
+        "83116acf18e4dc44",
+        "a492a09c7a465259",
+        "c37d8ede17f4c7ee",
+        "cd6688d7eb595563",
+        "cd892494455f6fa0",
+        "f83cff8066af378d",
+        "fe81f9390ffe3dc8"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "4a5f1509a521bb1453c22ec7df82b5c2670b218518ef0966bcdefa4299769167": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not have a direct impact on US equities, and the potential effects on digital platforms and minors are unclear."
+      },
+      "rated_at": "2026-10-15T20:41:53Z",
+      "url": "https://www.investing.com/news/stock-market-news/mexico-to-require-digital-platforms-to-protect-minors-from-violent-sexual-content-4949581",
+      "provider": "investing",
+      "published_at": "2026-10-14T22:12:26Z",
+      "signature": [
+        "0684f6b9c83d23bf",
+        "072a626ed2d6cc7d",
+        "58904effcb30c04e",
+        "8be2978e343799a3",
+        "c4d0cf241a1bfa1c",
+        "cda3c373f19f1c51",
+        "d983a0182470db89",
+        "ed7002b439e9ac84"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "b7bc362b47fa411e5829475579b681bc3899647cb4b3670435e2040ec57904ee": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline mentions a delay in the debut flight of Rocket Lab's Neutron rocket, which likely had a negative impact on the company's stock price."
+      },
+      "rated_at": "2026-10-15T20:41:56Z",
+      "url": "https://www.investing.com/news/stock-market-news/rocket-lab-pushes-neutron-rockets-debut-flight-to-2027-shares-fall-4950171",
+      "provider": "investing",
+      "published_at": "2026-10-14T21:54:26Z",
+      "signature": [
+        "03b6b3e9163de296",
+        "043a718774c572bd",
+        "2dc46af1b78c32df",
+        "37e1d3b955938bd1",
+        "4a64609f7db9facc",
+        "5313e5bf17148de8",
+        "583999dcd2af5df3",
+        "8a880f63682ff8f9",
+        "a51146d38077ff99",
+        "c58dd0a3760008c9"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "57d14766923becf3921c0532405645e4bd8e66a183957b89b27e6ddb05c1a010": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any potential impact on the stock market, so it is unclear."
+      },
+      "rated_at": "2026-10-15T20:41:58Z",
+      "url": "https://www.investing.com/news/stock-market-news/explainerwhat-is-starshieldspacexs-military-version-of-starlink-4949897",
+      "provider": "investing",
+      "published_at": "2026-10-14T21:48:31Z",
+      "signature": [
+        "043a718774c572bd",
+        "0cb1dd1d18fda2b6",
+        "2412f76972451e84",
+        "5ca4f3850ccc331a",
+        "71d7575667922ac5",
+        "749ab2c0d06c42ae",
+        "e78bdebae031095b",
+        "f3b0df18e87774dd"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "3145840e6e18594ae92b423495c5e2165e19aa12bcd9d3ad267d4d823e925447": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that Rocket Lab's stock is experiencing a decline, indicating a negative impact on the company's equity."
+      },
+      "rated_at": "2026-10-15T20:42:00Z",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-rocket-lab-stock-tumbling-today-93CH-4950150",
+      "provider": "investing",
+      "published_at": "2026-10-14T21:31:35Z",
+      "signature": [
+        "08c4242b5f585628",
+        "272bb34c0ddbd190",
+        "2be23c585f15e5fd",
+        "a51146d38077ff99",
+        "c58dd0a3760008c9",
+        "e0f4f767ac88a930"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "74c6ca7a413622a83f4b87aebe25f62d178ea400fbf3a62e86d52fa81c0eff6a": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline specifically mentions a single US company, Vanda Pharmaceuticals, and the stock falling after a trial failure, indicating a negative impact on the company's stock."
+      },
+      "rated_at": "2026-10-15T20:42:05Z",
+      "url": "https://www.investing.com/news/stock-market-news/vanda-pharmaceuticals-stock-falls-after-anxiety-drug-trial-fails-4950139",
+      "provider": "investing",
+      "published_at": "2026-10-14T21:24:48Z",
+      "signature": [
+        "063daf1cb5f9f197",
+        "08c4242b5f585628",
+        "79891e980747ffbd",
+        "8da6bda1912194cb",
+        "ab0231f72dd9f078",
+        "c1481e2eb555ca92",
+        "c1b7cf7c9cdf6f57",
+        "f4a85a7509a0a756"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "3261e545596f50d18caf3bb992437bdd9fca36747965830fa0534704f5ec3e77": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline refers to Russia stocks, not US equities, so it does not have a direct impact on US stocks. The direction of the impact is unclear as it is a foreign market."
+      },
+      "rated_at": "2026-10-15T20:42:08Z",
+      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-down-030-4950135",
+      "provider": "investing",
+      "published_at": "2026-10-14T21:20:03Z",
+      "signature": [
+        "1bc04b5291c26a46",
+        "1ef8f25405f82682",
+        "276446ba01e3aa38",
+        "310ff200149b44a3",
+        "5feceb66ffc86f38",
+        "624b60c58c9d8bfb",
+        "8c6fb1e9e37a1aea",
+        "908aec4512d80ff4",
+        "90a6d53df47e4097",
+        "a2fb5a4b36ac6aa8"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "88ce9766b134463ed55582cc1c63fc0c57bb3fb3e731add943d8f7a03eb17ffe": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any economic impact on the US market. It appears to be a news article about a conflict in Yemen and Saudi Arabia."
+      },
+      "rated_at": "2026-10-15T20:42:11Z",
+      "url": "https://www.investing.com/news/stock-market-news/yemens-houthis-vow-more-attacks-on-saudi-airports-oil-facilities-after-aramco-hq-hit-4949648",
+      "provider": "investing",
+      "published_at": "2026-10-14T21:18:43Z",
+      "signature": [
+        "043a718774c572bd",
+        "05f84363a37b4290",
+        "187897ce0afcf20b",
+        "3c5ca5554a2fd48c",
+        "63d04dee7c50f6fb",
+        "85da2ed4b4c3d9ef",
+        "ab7902bcbd91137e",
+        "cc3d6b2176eba4a5",
+        "ced7c0957fab4ca8",
+        "d9903ac96966dbc5",
+        "dfbfcd6f5474f6d4",
+        "ed149fce28b15b99",
+        "f958de1b99f1e3d0"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "fd6985dbd0abc546645ff4861d92f54aa122f5ef5872e00a61de342f2cd93609": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The addition of US voting information to Claude, a language model, may lead to increased engagement and interest in the upcoming midterms, potentially benefiting the company's stock."
+      },
+      "rated_at": "2026-10-15T20:42:13Z",
+      "url": "https://www.investing.com/news/stock-market-news/anthropic-to-add-us-voting-information-to-claude-before-midterms-4949935",
+      "provider": "investing",
+      "published_at": "2026-10-14T21:07:10Z",
+      "signature": [
+        "79adb2a2fce5c6ba",
+        "7e9e5ac30f2216fd",
+        "82e31d5020a88903",
+        "c70eca6b0f88f44d",
+        "c857d09db23e6822",
+        "d28f8c2373c679cc",
+        "dea7111a8406e27c"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "7dd67addf80bb05db991a7e8b2b0c156842fa38bad9ea5c3208fdd9e306930b6": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or stocks, and the bankruptcy of Character.AI is unlikely to have a direct impact on the US stock market. The focus is on data protections for children, which is a separate issue."
+      },
+      "rated_at": "2026-10-15T20:42:16Z",
+      "url": "https://www.investing.com/news/stock-market-news/us-states-seek-childrens-data-protections-in-characterai-bankruptcy-4950121",
+      "provider": "investing",
+      "published_at": "2026-10-14T21:06:38Z",
+      "signature": [
+        "043a718774c572bd",
+        "10910087de24bfca",
+        "32e83e92d45d71f6",
+        "3a6eb0790f39ac87",
+        "4bcef3de76eaf574",
+        "79adb2a2fce5c6ba",
+        "923b4b90ea64343e",
+        "a2efc0b2b181e1fa",
+        "cbd345d6a2815fa8",
+        "fdc4917f70bd1a73"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "c4f13ab833c32bbdc488218b3e91737bcfc485b217ed28733056e478e42d9cf7": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that big pharma stocks are closing near all-time highs, indicating a positive trend in the broader US market."
+      },
+      "rated_at": "2026-10-15T20:42:19Z",
+      "url": "https://www.marketwatch.com/story/big-pharma-stocks-near-all-time-highs-as-tech-selloff-pushes-investors-toward-safer-bets-0a5d5d07",
+      "provider": "marketwatch",
+      "published_at": "2026-10-15T20:29:00Z",
+      "signature": [
+        "02d49882d20ad2f0",
+        "0a2ad928707a5106",
+        "1351bfd83437f2e1",
+        "1ef8f25405f82682",
+        "2548c17ff2a7c7f0",
+        "2a21fe6d592a19b7",
+        "310ff200149b44a3",
+        "336074805fc85398",
+        "46ba34770bccfde7",
+        "5ef5ef0364b6939c",
+        "8a880f63682ff8f9",
+        "927f368c571eef4c",
+        "994c5e2c8b5fe4e7",
+        "cc58a5f8986c71d4",
+        "fe9bbd400bb6cb31"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "c18609aee2f87348d56ff2148df874f57a825e20e84beb7b928aee3b0a26794a": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that CoreWeave's stock is rebounding, indicating a positive impact on the company's equity."
+      },
+      "rated_at": "2026-10-15T20:42:21Z",
+      "url": "https://www.marketwatch.com/story/coreweave-investors-are-feeling-spooked-as-the-companys-stock-and-bonds-see-fresh-pressure-ba39a931",
+      "provider": "marketwatch",
+      "published_at": "2026-10-15T19:26:00Z",
+      "signature": [
+        "043a718774c572bd",
+        "08c4242b5f585628",
+        "262cd7e8d3156b5b",
+        "32e83e92d45d71f6",
+        "4d8aaa64f68587b1",
+        "59854b300f1ad281",
+        "6008c26f4452392a",
+        "63143ec88592c85a",
+        "8348e0915fc78ec2",
+        "a4262e1c9bcbc172",
+        "b4dc66dde806261b",
+        "bec343d7e7787cce"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "e6e25a144c7cc84bd84eea50c19a9dd7000206edc945439e155bdcdd06a36c27": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that a governor's race could negatively impact the AI trade, which has powered the stock market, implying a potential decline in US equities."
+      },
+      "rated_at": "2026-10-15T20:42:23Z",
+      "url": "https://www.marketwatch.com/story/this-one-governors-race-could-derail-the-ai-trade-thats-powered-the-stock-market-6bbf06f8",
+      "provider": "marketwatch",
+      "published_at": "2026-10-15T19:00:00Z",
+      "signature": [
+        "043a718774c572bd",
+        "08c4242b5f585628",
+        "0e031e954a432055",
+        "129ce50dd90bf244",
+        "276446ba01e3aa38",
+        "32e83e92d45d71f6",
+        "7692c3ad3540bb80",
+        "b3f6a67e041389bb",
+        "e419af974250d19c",
+        "e4d693d24e646cb7",
+        "fbfbfbca5edc8c07"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "a8a4c9a3055f050ccf465d038c9d2d7524500d8d76b4f987c85eba0c8bc182b3": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any specific company, and the information provided is about retirement planning and financial planning strategies, which is unrelated to US equities."
+      },
+      "rated_at": "2026-10-15T20:42:29Z",
+      "url": "https://www.marketwatch.com/story/are-we-spending-our-retirement-money-in-the-right-order-our-plan-is-social-security-annuities-cash-then-ira-02cec336",
+      "provider": "marketwatch",
+      "published_at": "2026-10-15T17:52:00Z",
+      "signature": [
+        "0b80c840b3218a5f",
+        "21af6f1260f927f5",
+        "262cd7e8d3156b5b",
+        "27042f4e6eca7d0b",
+        "3a96b8af1e808ba3",
+        "3e860f41a5ea92c4",
+        "3eeb7e96e59ce40f",
+        "5d2d3ceb7abe5523",
+        "64879f7d6b960a01",
+        "8d2ac8b58ead9744",
+        "a6556e4852e26390",
+        "ab0fcec08e18a7bc",
+        "c12c628bc0b921d7",
+        "dc7c811b9561739d"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "d379d03ecbd86336a94b7014f30d329c80be97d02a87f8414421750e14a5cd90": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any economic factors that would impact the stock market. It appears to be a personal family matter."
+      },
+      "rated_at": "2026-10-15T20:42:31Z",
+      "url": "https://www.marketwatch.com/story/my-sister-moved-in-with-our-widowed-mother-78-and-says-she-deserves-the-family-home-is-she-right-7981835d",
+      "provider": "marketwatch",
+      "published_at": "2026-10-15T17:30:00Z",
+      "signature": [
+        "038468518ad8122e",
+        "1980d3927f07fec9",
+        "27042f4e6eca7d0b",
+        "2ac9a6746aca543a",
+        "2cda85e504e155f3",
+        "349c41201b62db85",
+        "4ea140588150773c",
+        "51054b8a03281fd0",
+        "5edd1832df25e2f1",
+        "a6556e4852e26390",
+        "cf0622ef2a661cd2",
+        "d34a569ab7aaa54d",
+        "f44158159a15b595"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "7ef9e25dd587918239058d10680bdaf082b8036c2bf6a22a004cf5f84e0064b4": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any specific company, and the topic is an investment opportunity in a UAE data center, which is unrelated to US stocks."
+      },
+      "rated_at": "2026-10-15T20:42:33Z",
+      "url": "https://www.marketwatch.com/story/the-prospectus-looks-impressive-my-financial-adviser-wants-me-to-invest-350-000-in-a-uae-data-center-is-this-risky-d5d3747c",
+      "provider": "marketwatch",
+      "published_at": "2026-10-15T17:15:00Z",
+      "signature": [
+        "038468518ad8122e",
+        "0bd873542dcade8a",
+        "233c3c2c59623ae7",
+        "2744ccd10c7533bd",
+        "2a21fe6d592a19b7",
+        "2ac9a6746aca543a",
+        "3a6eb0790f39ac87",
+        "4dc53ebcd4e75d41",
+        "5c417c6c8127d2a3",
+        "7187f0675eb38279",
+        "ae0a9ad3227c5420",
+        "cab2644828bcc1f2",
+        "de7d1b721a1e0632",
+        "deeeb5df3f2cee6b",
+        "f179a509d32bd92c",
+        "f84a347034749ea1",
+        "fed0e4820af42571"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "85146eb7ace462f90726deef124cc10e113c7632882753512267374c37f3d8a8": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not provide any information about the impact on US equities, but rather discusses COLA (Cost of Living Adjustment) and spending by American seniors, which is unclear in terms of its impact on the broader US stock market."
+      },
+      "rated_at": "2026-10-15T20:42:37Z",
+      "url": "https://www.marketwatch.com/story/did-this-years-cola-beat-inflation-heres-how-spending-by-american-seniors-stacks-up-so-far-in-2026-917c400c",
+      "provider": "marketwatch",
+      "published_at": "2026-10-15T17:07:00Z",
+      "signature": [
+        "043a718774c572bd",
+        "158a323a7ba44870",
+        "262cd7e8d3156b5b",
+        "42be22c266603b34",
+        "4cb4ea25583c2564",
+        "512eea46ceb3921d",
+        "51cf1f388213bd2e",
+        "6d731a5ed145ab6d",
+        "75a288c0d6898c5f",
+        "75ca3ca2ece24355",
+        "8044aae1f86875d9",
+        "a1d9890884c1b4b9",
+        "b4f4e6c4e52c1f6b",
+        "e6deb10a6558650a",
+        "f9eeb63bf773f4b0",
+        "fcec91509759ad99"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "ee0dbe2eae0001a90048374be18d197cf058a0385a911bd1eff87ca255d9c225": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests an increase in Social Security checks, which could positively impact US equities."
+      },
+      "rated_at": "2026-10-15T20:42:39Z",
+      "url": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2",
+      "provider": "marketwatch",
+      "published_at": "2026-10-15T17:06:00Z"
+    },
+    "f7e1060e68de65b82a9d5f081c5e7dc26133c90df99afc36e7c2ab88bb1fd934": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests a broad sell-off in the tech market, which could have a negative impact on US equities."
+      },
+      "rated_at": "2026-10-15T20:42:41Z",
+      "url": "https://www.theguardian.com/business/2026/oct/15/tech-market-sell-off-deepens-amid-fears-over-us-inflation-and-ai-debt",
+      "provider": "guardian",
+      "published_at": "2026-10-15T14:33:12Z",
+      "signature": [
+        "32e83e92d45d71f6",
+        "5fb6a47e368e12e5",
+        "652d75f9bafb25e5",
+        "69dabc67d286f871",
+        "6d731a5ed145ab6d",
+        "79adb2a2fce5c6ba",
+        "8e506e203cf1774d",
+        "b4dc66dde806261b",
+        "bf28bfe81f5cf803",
+        "c0f21d451463ec3e",
+        "e4d693d24e646cb7",
+        "fe9bbd400bb6cb31"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "81978950def2bcd10952ea53eadb700c30d60ba622852ab234c6ba9789ef2613": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline mentions a jump in US producer inflation, which could lead to a negative impact on US equities."
+      },
+      "rated_at": "2026-10-15T20:42:43Z",
+      "url": "https://www.theguardian.com/business/live/2026/oct/15/tech-stock-sell-off-markets-uk-gdp-economy-august-imf-latest-news-updates",
+      "provider": "guardian",
+      "published_at": "2026-10-15T14:59:52Z",
+      "signature": [
+        "0dcfafab5f8035e7",
+        "20246bb1bf5313e2",
+        "37a680133bd09342",
+        "471bcf3ba0df253d",
+        "4d8aaa64f68587b1",
+        "6008c26f4452392a",
+        "6bdaf554e42029bd",
+        "6d731a5ed145ab6d",
+        "79adb2a2fce5c6ba",
+        "83116acf18e4dc44",
+        "96d9632f363564cc",
+        "b9a1602551834723",
+        "c37d8ede17f4c7ee",
+        "d1990f97a1f4fe7b",
+        "ddc6af1a32422cb2"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "c4387368e22df938e2d6a6d0b6bb9d8565787749ba58d4c72f834ace17f2e1d8": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that the stock is sliding, implying a negative impact on the company's stock price."
+      },
+      "rated_at": "2026-10-15T20:42:53Z",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-jb-hunt-transport-stock-sliding-today-93CH-4952641",
+      "provider": "investing",
+      "published_at": "2026-10-15T20:31:28Z",
+      "signature": [
+        "08c4242b5f585628",
+        "18c3bc28bde14691",
+        "2be23c585f15e5fd",
+        "58d805bc784099da",
+        "6694ea8075001f66",
+        "da114fe251e57acd",
+        "e0f4f767ac88a930"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "03be6dd9afc695dcae3d71a0a4647ce5c376739186768ba29c04ca4322391d06": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline indicates a positive performance of the Dow Jones Industrial Average, which is a broad market indicator."
+      },
+      "rated_at": "2026-10-15T20:42:55Z",
+      "url": "https://www.investing.com/news/stock-market-news/us-stocks-higher-at-close-of-trade-dow-jones-industrial-average-up-108-4952637",
+      "provider": "investing",
+      "published_at": "2026-10-15T20:31:03Z",
+      "signature": [
+        "043a718774c572bd",
+        "0bfe935e70c321c7",
+        "184df936d41b2da8",
+        "1ef8f25405f82682",
+        "276446ba01e3aa38",
+        "310ff200149b44a3",
+        "323783be9a53a31e",
+        "6b86b273ff34fce1",
+        "75a288c0d6898c5f",
+        "8ff09c475dc48a3f",
+        "9706987d633e05a0",
+        "e5ff8d2b6809d810",
+        "ff6b1c44fb9488ad"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "2bdc4f8fbd32841bdc38052257ddce3b9b12cc42c5b297b7ddcdd110d0680abd": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "Varonis stock climbs on $6.3 billion Proofpoint deal, indicating a positive impact on the company's stock price"
+      },
+      "rated_at": "2026-10-15T20:43:01Z",
+      "url": "https://www.investing.com/news/stock-market-news/varonis-stock-climbs-on-63-billion-proofpoint-deal-4952619",
+      "provider": "investing",
+      "published_at": "2026-10-15T20:24:25Z",
+      "signature": [
+        "08c4242b5f585628",
+        "4e07408562bedb8b",
+        "80c697e9924a5260",
+        "aba20fea803f9de8",
+        "bcff8c912269a516",
+        "d48e1093a46fac35",
+        "e7f6c011776e8db7",
+        "f96c94f287038f69"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "83e067685f05c71789acc1e3e916d38ad4491638d67fe5794a6833d47f2e3c15": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that Scotiabank has named Diamondback and Expand Energy as top picks, implying a positive outlook for these companies and potentially their US equities."
+      },
+      "rated_at": "2026-10-15T20:43:03Z",
+      "url": "https://www.investing.com/news/stock-market-news/diamondback-expand-energy-named-top-picks-at-scotiabank-4952614",
+      "provider": "investing",
+      "published_at": "2026-10-15T20:22:09Z",
+      "signature": [
+        "28720365c5e7476a",
+        "381cfb6e1e428419",
+        "941a5bcb9bf2cb7a",
+        "a157d36a739191c1",
+        "d78de925a8786731",
+        "e2fa544f1c063438",
+        "fcb06142b9e9e812"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "54efe1d4f215027cd15248a0f649c1721550b4ae84934ec5ba75fca72c4cae99": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that a rise in the TSX (Toronto Stock Exchange) is fueled by lower bond yields, which is likely to have a positive impact on US equities as well."
+      },
+      "rated_at": "2026-10-15T20:43:06Z",
+      "url": "https://www.investing.com/news/stock-market-news/tsx-futures-inch-higher-amid-ai-jitters-ratehike-worries-4951081",
+      "provider": "investing",
+      "published_at": "2026-10-15T20:20:08Z",
+      "signature": [
+        "1bc04b5291c26a46",
+        "2ac9a6746aca543a",
+        "392874163a9634fa",
+        "3c482346f3750276",
+        "76a50887d8f1c2e9",
+        "88c7f08d0be5407e",
+        "8c6fb1e9e37a1aea",
+        "acbe4bfc77e55c07",
+        "ba75b4423591cddc",
+        "bcff8c912269a516",
+        "c1879a6540d4da03",
+        "e647f94effe44500",
+        "f21dea74d898cfea"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "a627af127d7dc9010903a4c32c53493c6157dce08beb518d351d3d2fc560cadb": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline implies a negative impact on PepsiCo's US equities, as KFC is switching from a longtime partner to a new supplier, Coca-Cola."
+      },
+      "rated_at": "2026-10-15T20:43:09Z",
+      "url": "https://www.investing.com/news/stock-market-news/kfc-to-sign-cocacola-on-as-beverage-partner-ditching-pepsico-wsj-reports-4952509",
+      "provider": "investing",
+      "published_at": "2026-10-15T20:18:55Z",
+      "signature": [
+        "14a136223815c492",
+        "214d3b704f33f2c5",
+        "42be22c266603b34",
+        "6116c93bf51548a6",
+        "79adb2a2fce5c6ba",
+        "7f3fa48ca8856781",
+        "83049bf87edd848d",
+        "955ed10b73d6265b",
+        "a4cf5e703ea05d93",
+        "e2fa544f1c063438",
+        "eefa3980fdf345e9"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "70d13c1570fcd0d790a3f56ef5dfc9dd0e5870568f99dfb3cedb7aa8ad38be22": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any company, so it is unclear how it would impact US stocks."
+      },
+      "rated_at": "2026-10-15T20:43:11Z",
+      "url": "https://www.investing.com/news/stock-market-news/uks-streeting-says-he-and-hegseth-welcomed-starlink-restoration-in-ukraine-4952602",
+      "provider": "investing",
+      "published_at": "2026-10-15T20:18:31Z",
+      "signature": [
+        "043a718774c572bd",
+        "2412f76972451e84",
+        "2ea52059d898cafc",
+        "372f7e2fd2d01ce2",
+        "5c86f5a8ea4a7368",
+        "5df72db94138ab75",
+        "7d56069fc33ffe5e",
+        "83116acf18e4dc44",
+        "a7fd11ebf9937f9d"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "87b7c012c3f6aac18cdc21851e15fa84d46e417141b08a6dd4a1a8cd42c962a5": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests a rebound in the Nasdaq, which is a broad US stock market index, indicating a positive impact on US equities."
+      },
+      "rated_at": "2026-10-15T20:43:13Z",
+      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-hot-inflation-revives-fed-hike-concerns-4950317",
+      "provider": "investing",
+      "published_at": "2026-10-15T20:12:30Z",
+      "signature": [
+        "0fef65463b6dcae4",
+        "2a21fe6d592a19b7",
+        "7f5d1618e7d28cc7",
+        "86d3c6deca06c897",
+        "afd5c5ae5738e275",
+        "b7a7513cd632f8a3",
+        "bb9567a24fab2b3f",
+        "e5ff8d2b6809d810",
+        "e647f94effe44500",
+        "f21dea74d898cfea",
+        "fc1b192ed5829737",
+        "fe9bbd400bb6cb31"
+      ],
+      "rule_segments": [
+        "nasdaq100"
+      ],
+      "kind": "unknown"
+    },
+    "b633390d4ff7a91b1ca00d807d5971366ae318f90a52853cf46933d9e25c384e": {
+      "rating": {
+        "scope": "other",
+        "direction": "negative",
+        "score": null,
+        "reason": "The IMF warning about the global economy's resilience suggests a potential negative impact on US equities, as a global economic downturn could affect US markets."
+      },
+      "rated_at": "2026-10-15T20:43:52Z",
+      "url": "https://www.theguardian.com/business/2026/oct/13/imf-global-economy-world-economic-outlook-uk-gdp-forecast-2026",
+      "provider": "guardian",
+      "published_at": "2026-10-13T02:00:11Z",
+      "signature": [
+        "0e031e954a432055",
+        "4110c398f2d88fdb",
+        "4a754148b88a68e1",
+        "6fda2b8252b6d5ea",
+        "8001c27439650c5c",
+        "8588b8c524e36861",
+        "8a46fd6fc3d79d41",
+        "9f86d081884c7d65",
+        "b8cbc700577c96ee"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "7d992a7e3251f49a55b7b400deb62fba876444885f46fb35c6238bc0a63ca493": {
+      "rating": {
+        "scope": "other",
+        "direction": "negative",
+        "score": null,
+        "reason": "The headline's tone and language suggest a negative impact on US equities, as it implies criticism and potential negative sentiment towards US-based companies and investors."
+      },
+      "rated_at": "2026-10-15T20:43:58Z",
+      "url": "https://www.theguardian.com/business/2026/oct/12/saba-capital-boaz-weinstein-baillie-gifford-us-growth-trust",
+      "provider": "guardian",
+      "published_at": "2026-10-12T13:14:04Z",
+      "signature": [
+        "09053dbc39a10cab",
+        "1b4cf534c7f762dd",
+        "2998b3232d29e8dc",
+        "2e1eb18c4a776517",
+        "318f82cf849d0667",
+        "336074805fc85398",
+        "76f75e6129fe3013",
+        "79adb2a2fce5c6ba",
+        "879915cfdc2cb485",
+        "b4c9e14061c2fd45",
+        "bd08022e8fb80701"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "ecc0f6954cf47548b409253a3d440a71fa122404e1b3ace41ccab1d67fa59b1b": {
+      "rating": {
+        "scope": "other",
+        "direction": "negative",
+        "score": null,
+        "reason": "The headline suggests a negative impact on US equities due to the fall in oil prices, which could lead to a decrease in energy company stock prices."
+      },
+      "rated_at": "2026-10-15T20:44:03Z",
+      "url": "https://www.theguardian.com/business/live/2026/oct/09/oil-prices-crude-brent-trump-iran-us-war-midterm-elections-stocks-bonds-business-live",
+      "provider": "guardian",
+      "published_at": "2026-10-09T14:12:06Z",
+      "signature": [
+        "0ecbf1d2e65ec845",
+        "2dc46af1b78c32df",
+        "4b4e49dd2de5eae9",
+        "50c0152c2952082a",
+        "6e16c557ded0a96c",
+        "a60a52382d707771",
+        "ab7902bcbd91137e",
+        "acbe4bfc77e55c07",
+        "c37d8ede17f4c7ee",
+        "ced7c0957fab4ca8",
+        "d4328f17fc46dfde",
+        "fe81f9390ffe3dc8"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "e805cd40ab995ec6b3a4d9821e4712bade0618d15e5da857f5506ba9c6f54b20": {
+      "rating": {
+        "scope": "other",
+        "direction": "negative",
+        "score": null,
+        "reason": "The headline refers to Colombia stocks, which is not a US equity, so it has a negative impact on US equities."
+      },
+      "rated_at": "2026-10-15T20:44:07Z",
+      "url": "https://www.investing.com/news/stock-market-news/colombia-stocks-higher-at-close-of-trade-colcap-up-044-4950140",
+      "provider": "investing",
+      "published_at": "2026-10-14T21:25:03Z",
+      "signature": [
+        "1ef8f25405f82682",
+        "276446ba01e3aa38",
+        "310ff200149b44a3",
+        "5feceb66ffc86f38",
+        "653f2e6dc5ece30a",
+        "71ee45a3c0db9a98",
+        "75a288c0d6898c5f",
+        "c91bd9c288c0a7c5",
+        "e5ff8d2b6809d810"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "1e7e9d911e45f490afbcdaca8da4b9dd63f9963cd1b7bd668fc6df57c1509735": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that investors are selling AI stocks, which could have a negative impact on the broader US market."
+      },
+      "rated_at": "2026-10-15T20:44:09Z",
+      "url": "https://www.marketwatch.com/story/traders-pile-into-bonds-and-defensive-stocks-as-the-tech-wreck-picks-up-steam-48c04374",
+      "provider": "marketwatch",
+      "published_at": "2026-10-15T20:40:00Z",
+      "signature": [
+        "043a718774c572bd",
+        "128dd29990811279",
+        "151e58a831306903",
+        "1ef8f25405f82682",
+        "2ab62cfe39e1ff00",
+        "32e83e92d45d71f6",
+        "3ac1ecbd2220c675",
+        "7e4353d9a9b2d35e",
+        "927f368c571eef4c",
+        "b48111c10c65fc11",
+        "d894668cb4ee8612",
+        "ed5eb9a37e2d8231",
+        "fcec91509759ad99",
+        "fe9bbd400bb6cb31"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "5baa531f73ae263e51899057f1660c92aee2e331e387a9883e40cf596747b4ed": {
+      "rating": {
+        "scope": "other",
+        "direction": "positive",
+        "score": null,
+        "reason": "The headline indicates a positive impact on Canadian stocks, but does not directly imply an impact on US equities."
+      },
+      "rated_at": "2026-10-15T20:44:14Z",
+      "url": "https://www.investing.com/news/stock-market-news/canada-stocks-higher-at-close-of-trade-sptsx-composite-up-155-4952636",
+      "provider": "investing",
+      "published_at": "2026-10-15T20:30:33Z",
+      "signature": [
+        "02d20bbd7e394ad5",
+        "043a718774c572bd",
+        "148de9c5a7a44d19",
+        "1ef8f25405f82682",
+        "276446ba01e3aa38",
+        "310ff200149b44a3",
+        "392874163a9634fa",
+        "408c7c5887a0f390",
+        "6b86b273ff34fce1",
+        "75a288c0d6898c5f",
+        "ad1e26066637d18f",
+        "e5ff8d2b6809d810"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "44ccf206df0a187601fde2b9975d50c44598f1f4e458a073c47d584cf91cf353": {
+      "rating": {
+        "scope": "other",
+        "direction": "negative",
+        "score": null,
+        "reason": "The headline mentions a decline in Brazil's stock market, which is unrelated to US equities."
+      },
+      "rated_at": "2026-10-15T20:44:17Z",
+      "url": "https://www.investing.com/news/stock-market-news/brazil-stocks-lower-at-close-of-trade-bovespa-down-106-4952628",
+      "provider": "investing",
+      "published_at": "2026-10-15T20:30:05Z",
+      "signature": [
+        "1ef8f25405f82682",
+        "276446ba01e3aa38",
+        "310ff200149b44a3",
+        "5c8f52ca28966103",
+        "6b86b273ff34fce1",
+        "7a7bebd6d53d19cc",
+        "8c6fb1e9e37a1aea",
+        "908aec4512d80ff4",
+        "aacd834b5cdc64a3"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    }
+  },
+  "updated_at": "2026-10-15T20:44:17Z",
+  "last_attempt": "2026-10-15T20:45:44Z",
+  "errors": [
+    {
+      "headline_hash": "f79c269d5fe1eb8d72f6d2437ee68f0d1202622a208cb06e56df4e4cd638cea3",
+      "error": "ValueError"
+    }
+  ],
+  "last_success": "2026-10-15T20:45:44Z"
+}

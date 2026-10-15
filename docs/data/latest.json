@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T17:45:46Z",
+  "generated_at": "2026-10-15T18:01:16Z",
   "model": "impact-rules-1.0.2",
   "collection_status": "ok",
   "window_hours": 24,
@@ -8,34 +8,34 @@
     "all": {
       "value": 21.2,
       "status": "ok",
-      "events": 42,
+      "events": 44,
       "scored_events": 5,
-      "articles": 42,
+      "articles": 44,
       "sources": 2,
       "momentum": 0.0,
-      "momentum_baseline": "2026-10-15T16:45:47Z",
+      "momentum_baseline": "2026-10-15T17:01:19Z",
       "extreme": "normal"
     },
     "nasdaq100": {
       "value": 21.2,
       "status": "ok",
-      "events": 30,
+      "events": 32,
       "scored_events": 5,
-      "articles": 30,
+      "articles": 32,
       "sources": 2,
       "momentum": 0.0,
-      "momentum_baseline": "2026-10-15T16:45:47Z",
+      "momentum_baseline": "2026-10-15T17:01:19Z",
       "extreme": "normal"
     },
     "sp500": {
       "value": 21.2,
       "status": "ok",
-      "events": 39,
+      "events": 41,
       "scored_events": 5,
-      "articles": 39,
+      "articles": 41,
       "sources": 2,
       "momentum": 0.0,
-      "momentum_baseline": "2026-10-15T16:45:47Z",
+      "momentum_baseline": "2026-10-15T17:01:19Z",
       "extreme": "normal"
     }
   },
@@ -44,39 +44,83 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T17:45:46Z",
+      "last_success": "2026-10-15T18:01:16Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-15T17:45:46Z",
+      "last_attempt": "2026-10-15T18:01:16Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T17:45:46Z",
+      "last_success": "2026-10-15T18:01:16Z",
       "received": 20,
       "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T17:45:46Z",
+      "last_attempt": "2026-10-15T18:01:16Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T17:45:46Z",
+      "last_success": "2026-10-15T18:01:16Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-15T17:45:46Z",
+      "last_attempt": "2026-10-15T18:01:16Z",
       "status": "ok"
     }
   ],
-  "new_articles": 1,
-  "total_archived": 72,
+  "new_articles": 2,
+  "total_archived": 74,
   "articles": [
+    {
+      "id": "3b8b08f770c229ff1a4bd4dcfeb590d1003e218ec70ce3a8c94203eeadbcb44a",
+      "url": "https://www.investing.com/news/stock-market-news/amazon-launches-two-new-portable-ai-listening-devices-4952429",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T17:49:17Z",
+      "first_seen": "2026-10-15T18:01:16Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
+    {
+      "id": "09aa2f6b3c9d6d60ab02f50f50dd8dac0b51ee01f0009093fcb19cf37135749f",
+      "url": "https://www.investing.com/news/stock-market-news/volvo-cars-expands-automated-driving-partnership-with-nvidia-4952421",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T17:42:40Z",
+      "first_seen": "2026-10-15T18:01:16Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
     {
       "id": "97dd13515bcd13f2ecf5e4c9d240e7ec8727dd52e626bbfc79f67ca1776dbe74",
       "url": "https://www.investing.com/news/stock-market-news/volvo-cars-expands-nvidia-partnership-for-selfdriving-tech-93CH-4952419",

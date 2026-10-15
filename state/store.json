@@ -2531,6 +2531,71 @@
         "fe9bbd400bb6cb31"
       ],
       "headline_hash": "8185f20d24a8c2d91d2d861c9bec9785eb773255e2b011eed011cf9cabc880d2"
+    },
+    "3b8b08f770c229ff1a4bd4dcfeb590d1003e218ec70ce3a8c94203eeadbcb44a": {
+      "id": "3b8b08f770c229ff1a4bd4dcfeb590d1003e218ec70ce3a8c94203eeadbcb44a",
+      "url": "https://www.investing.com/news/stock-market-news/amazon-launches-two-new-portable-ai-listening-devices-4952429",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T17:49:17Z",
+      "first_seen": "2026-10-15T18:01:16Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "01e782826ae51822",
+        "11507a0e2f5e69d5",
+        "32e83e92d45d71f6",
+        "3fc4ccfe745870e2",
+        "8560878b8782af43",
+        "92a876c71ce9e22c",
+        "ade15a1287dabe92",
+        "cbc62794911ff31b"
+      ],
+      "headline_hash": "ea486e1ada544471652035928ba126ff3be5035134ad4d3ba85e09f91c73d4a8"
+    },
+    "09aa2f6b3c9d6d60ab02f50f50dd8dac0b51ee01f0009093fcb19cf37135749f": {
+      "id": "09aa2f6b3c9d6d60ab02f50f50dd8dac0b51ee01f0009093fcb19cf37135749f",
+      "url": "https://www.investing.com/news/stock-market-news/volvo-cars-expands-automated-driving-partnership-with-nvidia-4952421",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T17:42:40Z",
+      "first_seen": "2026-10-15T18:01:16Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "1f58b1e965af6512",
+        "3c1a565403f6064b",
+        "76f9df77e8afeb0c",
+        "8d4321d936320802",
+        "92b9ce21f5e3741c",
+        "bccae4ce7be65100",
+        "d9c1acf117657bb0"
+      ],
+      "headline_hash": "96ffe3878c4fe8d7e07a2d0364cac08814112cb86db742a34fcafe1075bdfe14"
     }
   },
   "sources": {
@@ -2538,22 +2603,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T17:45:46Z",
+      "last_success": "2026-10-15T18:01:16Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-15T17:45:46Z",
+      "last_attempt": "2026-10-15T18:01:16Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T17:45:46Z",
+      "last_success": "2026-10-15T18:01:16Z",
       "received": 20,
       "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T17:45:46Z",
+      "last_attempt": "2026-10-15T18:01:16Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -2573,11 +2638,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T17:45:46Z",
+      "last_success": "2026-10-15T18:01:16Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-15T17:45:46Z",
+      "last_attempt": "2026-10-15T18:01:16Z",
       "status": "ok"
     }
   },

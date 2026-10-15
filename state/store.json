@@ -2018,6 +2018,43 @@
         "e4d693d24e646cb7"
       ],
       "headline_hash": "ff2150732c05ee61db722b5ee934b1a00399a6fa26a40f6ecadd18fcb82f8ff7"
+    },
+    "ca8dba9522ba38e320de5601696bc43c1bc585bb2101bb0e75d9400e290a964e": {
+      "id": "ca8dba9522ba38e320de5601696bc43c1bc585bb2101bb0e75d9400e290a964e",
+      "url": "https://www.investing.com/news/stock-market-news/microsoft-president-warns-greencard-curbs-could-hurt-us-tech-politico-reports-4951538",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T12:12:46Z",
+      "first_seen": "2026-10-15T12:31:04Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "0e031e954a432055",
+        "4110c398f2d88fdb",
+        "472eed993cb137a3",
+        "49002d515d1605d8",
+        "79adb2a2fce5c6ba",
+        "7a47d46e30a5efe7",
+        "7f26104f77a7ce47",
+        "8367cd66fdd136bb",
+        "9fbf261b62c1d7c0",
+        "a7898b637d820444",
+        "ba4788b226aa8dc2",
+        "fe9bbd400bb6cb31"
+      ],
+      "headline_hash": "8f64880386f455ac2342da0c5352413ef464f33a0ad03a74cca461c1709d693b"
     }
   },
   "sources": {
@@ -2025,22 +2062,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T12:15:43Z",
+      "last_success": "2026-10-15T12:31:04Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-15T12:15:43Z",
+      "last_attempt": "2026-10-15T12:31:04Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T12:15:43Z",
+      "last_success": "2026-10-15T12:31:04Z",
       "received": 20,
       "accepted": 6,
       "rejected": 0,
-      "last_attempt": "2026-10-15T12:15:43Z",
+      "last_attempt": "2026-10-15T12:31:04Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -2060,11 +2097,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T12:15:43Z",
+      "last_success": "2026-10-15T12:31:04Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T12:15:43Z",
+      "last_attempt": "2026-10-15T12:31:04Z",
       "status": "ok"
     }
   },

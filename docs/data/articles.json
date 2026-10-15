@@ -1257,5 +1257,27 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "ca8dba9522ba38e320de5601696bc43c1bc585bb2101bb0e75d9400e290a964e",
+    "url": "https://www.investing.com/news/stock-market-news/microsoft-president-warns-greencard-curbs-could-hurt-us-tech-politico-reports-4951538",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T12:12:46Z",
+    "first_seen": "2026-10-15T12:31:04Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

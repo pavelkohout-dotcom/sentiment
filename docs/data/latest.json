@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T12:15:43Z",
+  "generated_at": "2026-10-15T12:31:04Z",
   "model": "impact-rules-1.0.2",
   "collection_status": "ok",
   "window_hours": 24,
@@ -8,9 +8,9 @@
     "all": {
       "value": 23.68,
       "status": "low_coverage",
-      "events": 24,
+      "events": 25,
       "scored_events": 3,
-      "articles": 24,
+      "articles": 25,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -19,9 +19,9 @@
     "nasdaq100": {
       "value": 23.68,
       "status": "low_coverage",
-      "events": 13,
+      "events": 14,
       "scored_events": 3,
-      "articles": 13,
+      "articles": 14,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -30,9 +30,9 @@
     "sp500": {
       "value": 23.68,
       "status": "low_coverage",
-      "events": 22,
+      "events": 23,
       "scored_events": 3,
-      "articles": 22,
+      "articles": 23,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -44,39 +44,61 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T12:15:43Z",
+      "last_success": "2026-10-15T12:31:04Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-15T12:15:43Z",
+      "last_attempt": "2026-10-15T12:31:04Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T12:15:43Z",
+      "last_success": "2026-10-15T12:31:04Z",
       "received": 20,
       "accepted": 6,
       "rejected": 0,
-      "last_attempt": "2026-10-15T12:15:43Z",
+      "last_attempt": "2026-10-15T12:31:04Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T12:15:43Z",
+      "last_success": "2026-10-15T12:31:04Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T12:15:43Z",
+      "last_attempt": "2026-10-15T12:31:04Z",
       "status": "ok"
     }
   ],
   "new_articles": 1,
-  "total_archived": 57,
+  "total_archived": 58,
   "articles": [
+    {
+      "id": "ca8dba9522ba38e320de5601696bc43c1bc585bb2101bb0e75d9400e290a964e",
+      "url": "https://www.investing.com/news/stock-market-news/microsoft-president-warns-greencard-curbs-could-hurt-us-tech-politico-reports-4951538",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T12:12:46Z",
+      "first_seen": "2026-10-15T12:31:04Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
     {
       "id": "e6c5f8a55944f9d76a9218d035811d9a221c2c1c03f9b707b80d2ca2dbcd33ba",
       "url": "https://www.marketwatch.com/story/theres-a-monstrous-bull-market-developing-under-the-surface-of-the-s-p-500-this-hedge-fund-manager-tells-you-where-its-at-98450ef4",

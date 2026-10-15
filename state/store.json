@@ -2434,6 +2434,70 @@
         "d4735e3a265e16ee"
       ],
       "headline_hash": "7243ae892bf060b8be096b45f476d42eb44ec3ef1550d2edb710d00896cd687f"
+    },
+    "e4ec180742087830ce0016369c548f08c86ace20002424472884afd4bcd26830": {
+      "id": "e4ec180742087830ce0016369c548f08c86ace20002424472884afd4bcd26830",
+      "url": "https://www.investing.com/news/stock-market-news/cnn-signs-multiyear-ai-partnership-with-google-4952397",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T17:12:39Z",
+      "first_seen": "2026-10-15T17:31:03Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "32e83e92d45d71f6",
+        "4aa08612a8f6e9e4",
+        "4bd77cffb0da8cbd",
+        "4cb4ea25583c2564",
+        "76f9df77e8afeb0c",
+        "bbdefa2950f49882",
+        "e259202cf023eab7"
+      ],
+      "headline_hash": "adf379f03822107255eb05ae6f76e4eb602b9d2c5bb3c514c7ea19528106f43e"
+    },
+    "f8a51d9655e6b8888374feee08f0ef9dea8a96dc0ee6b0320836c53eddc3fb12": {
+      "id": "f8a51d9655e6b8888374feee08f0ef9dea8a96dc0ee6b0320836c53eddc3fb12",
+      "url": "https://www.investing.com/news/stock-market-news/cnn-and-google-announce-multiyear-partnership-deal-93CH-4952396",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T17:12:10Z",
+      "first_seen": "2026-10-15T17:31:03Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      },
+      "signature": [
+        "4aa08612a8f6e9e4",
+        "4bd77cffb0da8cbd",
+        "4cb4ea25583c2564",
+        "76f9df77e8afeb0c",
+        "bbdefa2950f49882",
+        "f178ad42d80eb9cd",
+        "f96c94f287038f69"
+      ],
+      "headline_hash": "226d5fb6db8cc08cca8f38bfa752b0896f480d3b78a70b2d06c6d4d5332deeee"
     }
   },
   "sources": {
@@ -2441,22 +2505,22 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T17:15:45Z",
+      "last_success": "2026-10-15T17:31:03Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-15T17:15:45Z",
+      "last_attempt": "2026-10-15T17:31:03Z",
       "status": "ok"
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T17:15:45Z",
+      "last_success": "2026-10-15T17:31:03Z",
       "received": 20,
       "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T17:15:45Z",
+      "last_attempt": "2026-10-15T17:31:03Z",
       "status": "ok"
     },
     "alphavantage": {
@@ -2476,11 +2540,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T17:15:45Z",
+      "last_success": "2026-10-15T17:31:03Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-15T17:15:45Z",
+      "last_attempt": "2026-10-15T17:31:03Z",
       "status": "ok"
     }
   },

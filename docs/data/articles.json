@@ -1525,5 +1525,49 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "e4ec180742087830ce0016369c548f08c86ace20002424472884afd4bcd26830",
+    "url": "https://www.investing.com/news/stock-market-news/cnn-signs-multiyear-ai-partnership-with-google-4952397",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T17:12:39Z",
+    "first_seen": "2026-10-15T17:31:03Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
+  },
+  {
+    "id": "f8a51d9655e6b8888374feee08f0ef9dea8a96dc0ee6b0320836c53eddc3fb12",
+    "url": "https://www.investing.com/news/stock-market-news/cnn-and-google-announce-multiyear-partnership-deal-93CH-4952396",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T17:12:10Z",
+    "first_seen": "2026-10-15T17:31:03Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

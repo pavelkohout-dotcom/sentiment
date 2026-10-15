@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T17:15:45Z",
+  "generated_at": "2026-10-15T17:31:03Z",
   "model": "impact-rules-1.0.2",
   "collection_status": "ok",
   "window_hours": 24,
@@ -8,34 +8,34 @@
     "all": {
       "value": 21.2,
       "status": "ok",
-      "events": 39,
+      "events": 41,
       "scored_events": 5,
-      "articles": 39,
+      "articles": 41,
       "sources": 2,
       "momentum": 0.0,
-      "momentum_baseline": "2026-10-15T16:15:50Z",
+      "momentum_baseline": "2026-10-15T16:31:12Z",
       "extreme": "normal"
     },
     "nasdaq100": {
       "value": 21.2,
       "status": "ok",
-      "events": 27,
+      "events": 29,
       "scored_events": 5,
-      "articles": 27,
+      "articles": 29,
       "sources": 2,
       "momentum": 0.0,
-      "momentum_baseline": "2026-10-15T16:15:50Z",
+      "momentum_baseline": "2026-10-15T16:31:12Z",
       "extreme": "normal"
     },
     "sp500": {
       "value": 21.2,
       "status": "ok",
-      "events": 36,
+      "events": 38,
       "scored_events": 5,
-      "articles": 36,
+      "articles": 38,
       "sources": 2,
       "momentum": 0.0,
-      "momentum_baseline": "2026-10-15T16:15:50Z",
+      "momentum_baseline": "2026-10-15T16:31:12Z",
       "extreme": "normal"
     }
   },
@@ -44,39 +44,83 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T17:15:45Z",
+      "last_success": "2026-10-15T17:31:03Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-15T17:15:45Z",
+      "last_attempt": "2026-10-15T17:31:03Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T17:15:45Z",
+      "last_success": "2026-10-15T17:31:03Z",
       "received": 20,
       "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T17:15:45Z",
+      "last_attempt": "2026-10-15T17:31:03Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T17:15:45Z",
+      "last_success": "2026-10-15T17:31:03Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-15T17:15:45Z",
+      "last_attempt": "2026-10-15T17:31:03Z",
       "status": "ok"
     }
   ],
-  "new_articles": 0,
-  "total_archived": 69,
+  "new_articles": 2,
+  "total_archived": 71,
   "articles": [
+    {
+      "id": "e4ec180742087830ce0016369c548f08c86ace20002424472884afd4bcd26830",
+      "url": "https://www.investing.com/news/stock-market-news/cnn-signs-multiyear-ai-partnership-with-google-4952397",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T17:12:39Z",
+      "first_seen": "2026-10-15T17:31:03Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
+    {
+      "id": "f8a51d9655e6b8888374feee08f0ef9dea8a96dc0ee6b0320836c53eddc3fb12",
+      "url": "https://www.investing.com/news/stock-market-news/cnn-and-google-announce-multiyear-partnership-deal-93CH-4952396",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T17:12:10Z",
+      "first_seen": "2026-10-15T17:31:03Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
     {
       "id": "0192250980d424dbfc3f0ac9f8c9a78a8f8e60c8a4ba25e36d7949cb2d532b9e",
       "url": "https://www.marketwatch.com/story/tesla-may-finally-debut-a-flying-car-today-after-testing-fans-patience-for-nearly-a-decade-9a23c8e8",

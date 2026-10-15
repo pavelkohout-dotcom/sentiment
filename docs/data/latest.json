@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T22:01:14Z",
+  "generated_at": "2026-10-15T22:08:08Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 30.35,
+      "value": 30.59,
       "status": "ok",
-      "events": 21,
-      "scored_events": 20,
-      "articles": 21,
+      "events": 20,
+      "scored_events": 19,
+      "articles": 20,
       "sources": 3,
-      "momentum": -6.33,
+      "momentum": -6.09,
       "momentum_baseline": "2026-10-15T21:01:12Z",
       "extreme": "normal"
     },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T22:01:14Z",
+      "last_success": "2026-10-15T22:08:08Z",
       "received": 10,
       "accepted": 4,
       "rejected": 0,
       "pending_llama": 4,
-      "last_attempt": "2026-10-15T22:01:14Z",
+      "last_attempt": "2026-10-15T22:08:08Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T22:01:14Z",
+      "last_success": "2026-10-15T22:08:08Z",
       "received": 20,
       "accepted": 15,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-15T22:01:14Z",
+      "last_attempt": "2026-10-15T22:08:08Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T22:01:14Z",
+      "last_success": "2026-10-15T22:08:08Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
       "pending_llama": 8,
-      "last_attempt": "2026-10-15T22:01:14Z",
+      "last_attempt": "2026-10-15T22:08:08Z",
       "status": "ok"
     }
   ],
@@ -589,31 +589,6 @@
         "direction": "negative",
         "reason": "The headline suggests a broad sell-off in the tech market, which could have a negative impact on US equities.",
         "rated_at": "2026-10-15T20:42:41Z"
-      }
-    },
-    {
-      "id": "b037217a0321b127c1620e8ef85b40996e0ca60842a64485f727b1e9791a032c",
-      "url": "https://www.marketwatch.com/story/coreweave-sparks-worry-about-broader-credit-market-stress-as-its-bonds-tumble-887458e4",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-14T22:03:00Z",
-      "first_seen": "2026-10-15T20:40:55Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "The headline suggests that CoreWeave's AI bonds are experiencing a decline, which could raise concerns for the wider market and potentially impact US equities negatively.",
-        "rated_at": "2026-10-15T20:40:55Z"
       }
     }
   ],

@@ -1415,5 +1415,27 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "4a601de1653868f6d3f229bf795386cd15ff9e31739cf1db8cac61de1bade4dd",
+    "url": "https://www.investing.com/news/stock-market-news/germany-to-partner-with-nvidia-on-ai-development-initiative--report-4952233",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T14:58:46Z",
+    "first_seen": "2026-10-15T15:15:46Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

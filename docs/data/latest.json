@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T15:01:23Z",
+  "generated_at": "2026-10-15T15:15:46Z",
   "model": "impact-rules-1.0.2",
   "collection_status": "ok",
   "window_hours": 24,
@@ -8,9 +8,9 @@
     "all": {
       "value": 21.2,
       "status": "ok",
-      "events": 34,
+      "events": 35,
       "scored_events": 5,
-      "articles": 34,
+      "articles": 35,
       "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
@@ -19,9 +19,9 @@
     "nasdaq100": {
       "value": 21.2,
       "status": "ok",
-      "events": 22,
+      "events": 23,
       "scored_events": 5,
-      "articles": 22,
+      "articles": 23,
       "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
@@ -30,9 +30,9 @@
     "sp500": {
       "value": 21.2,
       "status": "ok",
-      "events": 31,
+      "events": 32,
       "scored_events": 5,
-      "articles": 31,
+      "articles": 32,
       "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
@@ -44,39 +44,61 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T15:01:23Z",
+      "last_success": "2026-10-15T15:15:46Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-15T15:01:23Z",
+      "last_attempt": "2026-10-15T15:15:46Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T15:01:23Z",
+      "last_success": "2026-10-15T15:15:46Z",
       "received": 20,
       "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T15:01:23Z",
+      "last_attempt": "2026-10-15T15:15:46Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T15:01:23Z",
+      "last_success": "2026-10-15T15:15:46Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-15T15:01:23Z",
+      "last_attempt": "2026-10-15T15:15:46Z",
       "status": "ok"
     }
   ],
-  "new_articles": 0,
-  "total_archived": 64,
+  "new_articles": 1,
+  "total_archived": 65,
   "articles": [
+    {
+      "id": "4a601de1653868f6d3f229bf795386cd15ff9e31739cf1db8cac61de1bade4dd",
+      "url": "https://www.investing.com/news/stock-market-news/germany-to-partner-with-nvidia-on-ai-development-initiative--report-4952233",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-15T14:58:46Z",
+      "first_seen": "2026-10-15T15:15:46Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "impact-rules-1.0.2"
+      }
+    },
     {
       "id": "ed1cb34785d6eb916e7fa4a901bc87bdbf28caf9fbc349c5977097b1563d739b",
       "url": "https://www.investing.com/news/stock-market-news/why-is-tesla-stock-sliding-today-93CH-4952168",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T20:15:46Z",
+  "generated_at": "2026-10-15T20:31:06Z",
   "model": "impact-rules-1.0.2",
   "collection_status": "ok",
   "window_hours": 24,
@@ -8,12 +8,12 @@
     "all": {
       "value": 42.47,
       "status": "ok",
-      "events": 47,
+      "events": 46,
       "scored_events": 6,
-      "articles": 47,
+      "articles": 46,
       "sources": 3,
-      "momentum": 21.27,
-      "momentum_baseline": "2026-10-15T19:15:45Z",
+      "momentum": 0.0,
+      "momentum_baseline": "2026-10-15T19:31:02Z",
       "extreme": "normal"
     },
     "nasdaq100": {
@@ -23,19 +23,19 @@
       "scored_events": 6,
       "articles": 35,
       "sources": 3,
-      "momentum": 21.27,
-      "momentum_baseline": "2026-10-15T19:15:45Z",
+      "momentum": 0.0,
+      "momentum_baseline": "2026-10-15T19:31:02Z",
       "extreme": "normal"
     },
     "sp500": {
       "value": 42.47,
       "status": "ok",
-      "events": 44,
+      "events": 43,
       "scored_events": 6,
-      "articles": 44,
+      "articles": 43,
       "sources": 3,
-      "momentum": 21.27,
-      "momentum_baseline": "2026-10-15T19:15:45Z",
+      "momentum": 0.0,
+      "momentum_baseline": "2026-10-15T19:31:02Z",
       "extreme": "normal"
     }
   },
@@ -44,33 +44,33 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T20:15:46Z",
+      "last_success": "2026-10-15T20:31:06Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T20:15:46Z",
+      "last_attempt": "2026-10-15T20:31:06Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T20:15:46Z",
+      "last_success": "2026-10-15T20:31:06Z",
       "received": 20,
       "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T20:15:46Z",
+      "last_attempt": "2026-10-15T20:31:06Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T20:15:46Z",
+      "last_success": "2026-10-15T20:31:06Z",
       "received": 10,
-      "accepted": 2,
+      "accepted": 1,
       "rejected": 0,
-      "last_attempt": "2026-10-15T20:15:46Z",
+      "last_attempt": "2026-10-15T20:31:06Z",
       "status": "ok"
     }
   ],
@@ -1077,27 +1077,6 @@
       "analysis": {
         "segments": [
           "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "6afa5aa0f9c5ac8fae7e0f167d12de39d340231828d0719f61e292d7e3abd400",
-      "url": "https://www.marketwatch.com/story/why-dells-stock-was-one-of-the-s-p-500s-biggest-laggards-on-wednesday-70ce279e",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-14T20:21:00Z",
-      "first_seen": "2026-10-14T20:31:00Z",
-      "analysis": {
-        "segments": [
           "sp500"
         ],
         "score": null,

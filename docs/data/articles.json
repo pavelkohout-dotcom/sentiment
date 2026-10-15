@@ -892,5 +892,26 @@
       "kind": "unknown",
       "model": "impact-rules-1.0.2"
     }
+  },
+  {
+    "id": "a1edd370868d49b933f224f2bef8634fc0da2daed543a2fcb20ad46cd1d197ee",
+    "url": "https://www.investing.com/news/stock-market-news/goldman-sachs-names-top-european-real-estate-stocks-to-buy-4950651",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-15T06:42:28Z",
+    "first_seen": "2026-10-15T07:15:43Z",
+    "analysis": {
+      "segments": [
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "impact-rules-1.0.2"
+    }
   }
 ]

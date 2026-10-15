@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T19:02:19Z",
+  "generated_at": "2026-10-15T19:15:45Z",
   "model": "impact-rules-1.0.2",
   "collection_status": "ok",
   "window_hours": 24,
@@ -8,34 +8,34 @@
     "all": {
       "value": 21.2,
       "status": "ok",
-      "events": 46,
+      "events": 45,
       "scored_events": 5,
-      "articles": 46,
+      "articles": 45,
       "sources": 2,
       "momentum": 0.0,
-      "momentum_baseline": "2026-10-15T18:01:16Z",
+      "momentum_baseline": "2026-10-15T18:15:45Z",
       "extreme": "normal"
     },
     "nasdaq100": {
       "value": 21.2,
       "status": "ok",
-      "events": 34,
+      "events": 33,
       "scored_events": 5,
-      "articles": 34,
+      "articles": 33,
       "sources": 2,
       "momentum": 0.0,
-      "momentum_baseline": "2026-10-15T18:01:16Z",
+      "momentum_baseline": "2026-10-15T18:15:45Z",
       "extreme": "normal"
     },
     "sp500": {
       "value": 21.2,
       "status": "ok",
-      "events": 43,
+      "events": 42,
       "scored_events": 5,
-      "articles": 43,
+      "articles": 42,
       "sources": 2,
       "momentum": 0.0,
-      "momentum_baseline": "2026-10-15T18:01:16Z",
+      "momentum_baseline": "2026-10-15T18:15:45Z",
       "extreme": "normal"
     }
   },
@@ -44,33 +44,33 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-15T19:02:19Z",
+      "last_success": "2026-10-15T19:15:45Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 0,
       "rejected": 0,
-      "last_attempt": "2026-10-15T19:02:19Z",
+      "last_attempt": "2026-10-15T19:15:45Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-15T19:02:19Z",
+      "last_success": "2026-10-15T19:15:45Z",
       "received": 20,
       "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-15T19:02:19Z",
+      "last_attempt": "2026-10-15T19:15:45Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-15T19:02:19Z",
+      "last_success": "2026-10-15T19:15:45Z",
       "received": 10,
       "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-15T19:02:19Z",
+      "last_attempt": "2026-10-15T19:15:45Z",
       "status": "ok"
     }
   ],
@@ -1052,28 +1052,6 @@
       "first_seen": "2026-10-14T20:31:00Z",
       "analysis": {
         "segments": [
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "impact-rules-1.0.2"
-      }
-    },
-    {
-      "id": "9fba11f4a78b7cdc80ad65d240fa5a65df588e0d2a086f06c36f941b5522aa51",
-      "url": "https://www.marketwatch.com/story/heres-what-the-fed-might-do-at-this-months-meeting-after-todays-hot-inflation-reading-087511b6",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-14T19:04:00Z",
-      "first_seen": "2026-10-14T19:15:41Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
           "sp500"
         ],
         "score": null,

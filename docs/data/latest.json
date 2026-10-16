@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T21:19:23Z",
+  "generated_at": "2026-10-16T21:31:04Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 52.81,
+      "value": 53.11,
       "status": "ok",
-      "events": 40,
-      "scored_events": 34,
-      "articles": 40,
+      "events": 38,
+      "scored_events": 32,
+      "articles": 38,
       "sources": 2,
-      "momentum": 0.1,
-      "momentum_baseline": "2026-10-16T20:15:44Z",
+      "momentum": 1.05,
+      "momentum_baseline": "2026-10-16T20:31:01Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 36.55,
+      "value": 36.81,
       "status": "ok",
-      "events": 22,
-      "scored_events": 17,
-      "articles": 22,
+      "events": 20,
+      "scored_events": 15,
+      "articles": 20,
       "sources": 2,
-      "momentum": -1.38,
-      "momentum_baseline": "2026-10-16T20:15:44Z",
+      "momentum": 0.04,
+      "momentum_baseline": "2026-10-16T20:31:01Z",
       "extreme": "normal"
     },
     "sp500": {
-      "value": 36.55,
+      "value": 36.81,
       "status": "ok",
-      "events": 22,
-      "scored_events": 17,
-      "articles": 22,
+      "events": 20,
+      "scored_events": 15,
+      "articles": 20,
       "sources": 2,
-      "momentum": -1.38,
-      "momentum_baseline": "2026-10-16T20:15:44Z",
+      "momentum": 0.04,
+      "momentum_baseline": "2026-10-16T20:31:01Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-16T21:19:23Z",
+      "last_success": "2026-10-16T21:31:04Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
       "pending_llama": 5,
-      "last_attempt": "2026-10-16T21:19:23Z",
+      "last_attempt": "2026-10-16T21:31:04Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-16T21:19:23Z",
+      "last_success": "2026-10-16T21:31:04Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-16T21:19:23Z",
+      "last_attempt": "2026-10-16T21:31:04Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-16T21:19:23Z",
+      "last_success": "2026-10-16T21:31:04Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-16T21:19:23Z",
+      "last_attempt": "2026-10-16T21:31:04Z",
       "status": "ok"
     }
   ],
@@ -1048,58 +1048,6 @@
         "direction": "negative",
         "reason": "The headline suggests that a midterm sweep by Democrats could lead to increased regulation and scrutiny of the tech industry, potentially causing a crash in tech stocks.",
         "rated_at": "2026-10-16T05:25:23Z"
-      }
-    },
-    {
-      "id": "517e5c81e2bfe50265997ed40aed33f2cb88b893db91f10dea4780b6733211a4",
-      "url": "https://www.marketwatch.com/story/micron-nvidia-and-other-chip-stocks-face-renewed-pressure-as-ai-fears-swell-4e0dc989",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-15T21:23:00Z",
-      "first_seen": "2026-10-15T13:01:18Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "negative",
-        "reason": "The headline suggests that the pressure on chip stocks, including Nvidia, is due to fears about AI, which could negatively impact the overall US equity market.",
-        "rated_at": "2026-10-16T05:25:26Z"
-      }
-    },
-    {
-      "id": "4c85aa7c76ffa7def00e31a84257ef94fbcb9bc30d5fb58493eff922bd09335c",
-      "url": "https://www.marketwatch.com/story/dont-ditch-tech-stocks-just-yet-make-these-moves-to-take-advantage-of-the-latest-ai-reset-cb70c7b2",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-15T21:21:00Z",
-      "first_seen": "2026-10-16T05:26:33Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "positive",
-        "reason": "The headline suggests that the latest AI reset is an opportunity to take advantage of, implying a positive impact on US tech stocks.",
-        "rated_at": "2026-10-16T05:25:28Z"
       }
     }
   ],

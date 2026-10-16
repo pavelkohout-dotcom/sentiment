@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T05:22:28Z",
+  "generated_at": "2026-10-16T05:26:33Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 30.59,
+      "value": 27.5,
       "status": "ok",
-      "events": 20,
-      "scored_events": 19,
-      "articles": 20,
+      "events": 31,
+      "scored_events": 28,
+      "articles": 31,
       "sources": 3,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-16T04:15:44Z",
+      "momentum": -3.09,
+      "momentum_baseline": "2026-10-16T04:31:02Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 47.53,
+      "value": 39.72,
       "status": "ok",
-      "events": 11,
-      "scored_events": 10,
-      "articles": 11,
+      "events": 18,
+      "scored_events": 16,
+      "articles": 18,
       "sources": 3,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-16T04:15:44Z",
+      "momentum": -7.81,
+      "momentum_baseline": "2026-10-16T04:31:02Z",
       "extreme": "normal"
     },
     "sp500": {
-      "value": 47.53,
+      "value": 39.72,
       "status": "ok",
-      "events": 11,
-      "scored_events": 10,
-      "articles": 11,
+      "events": 18,
+      "scored_events": 16,
+      "articles": 18,
       "sources": 3,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-16T04:15:44Z",
+      "momentum": -7.81,
+      "momentum_baseline": "2026-10-16T04:31:02Z",
       "extreme": "normal"
     }
   },
@@ -44,42 +44,324 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-16T05:22:28Z",
+      "last_success": "2026-10-16T05:26:33Z",
       "received": 10,
-      "accepted": 3,
+      "accepted": 8,
       "rejected": 0,
-      "pending_llama": 6,
-      "last_attempt": "2026-10-16T05:22:28Z",
+      "pending_llama": 0,
+      "last_attempt": "2026-10-16T05:26:33Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-16T05:22:28Z",
+      "last_success": "2026-10-16T05:26:33Z",
       "received": 20,
       "accepted": 15,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-16T05:22:28Z",
+      "last_attempt": "2026-10-16T05:26:33Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-16T05:22:28Z",
+      "last_success": "2026-10-16T05:26:33Z",
       "received": 10,
-      "accepted": 0,
+      "accepted": 6,
       "rejected": 0,
-      "pending_llama": 10,
-      "last_attempt": "2026-10-16T05:22:28Z",
+      "pending_llama": 0,
+      "last_attempt": "2026-10-16T05:26:33Z",
       "status": "ok"
     }
   ],
-  "new_articles": 0,
-  "total_archived": 109,
+  "new_articles": 8,
+  "total_archived": 117,
   "articles": [
+    {
+      "id": "c79374ea44b6bc8554b5c4beedef251fcaacee2f19bd27144a979ae4f7846b21",
+      "url": "https://www.investing.com/news/stock-market-news/sk-hynix-oversold-near-support-after-15-slide-live-levels-93CH-4942961",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-16T05:06:52Z",
+      "first_seen": "2026-10-16T05:26:33Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "unclear",
+        "reason": "The headline does not mention US equities or a specific US company, but rather refers to SK Hynix, a South Korean company. The phrase 'extreme oversold in downtrend' is ambiguous and does not provide clear direction or impact on US equities.",
+        "rated_at": "2026-10-16T05:25:34Z"
+      }
+    },
+    {
+      "id": "324f0c95f17a3206f8b3cb6389ba67e12c389d0e1f5fc011da959fa1c6ee31ed",
+      "url": "https://www.investing.com/news/stock-market-news/nidec-says-considering-legal-action-against-executives-over-accounting-scandal-4953093",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-16T05:01:44Z",
+      "first_seen": "2026-10-16T05:26:33Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "The headline suggests a potential negative impact on the company's stock price due to the accounting scandal and potential legal action.",
+        "rated_at": "2026-10-16T05:25:39Z"
+      }
+    },
+    {
+      "id": "c8e482af285ad215cd16394f1ae627f10c5c6ccd7aecf817a26231e212621e01",
+      "url": "https://www.investing.com/news/stock-market-news/msci-freezes-certain-turkey-index-changes-warns-of-potential-market-downgrade-4952952",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-16T04:30:53Z",
+      "first_seen": "2026-10-16T05:26:33Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "negative",
+        "reason": "The headline suggests a potential negative impact on US equities due to the warning of a potential market downgrade, which could lead to a decrease in investor confidence and a subsequent decline in stock prices.",
+        "rated_at": "2026-10-16T05:25:42Z"
+      }
+    },
+    {
+      "id": "4933f18049cc89fdd60e469c8dae82c6fcbde65566f1dee7b8eb80ec90811c76",
+      "url": "https://www.investing.com/news/stock-market-news/tesla-set-to-unveil-next-generation-roadster-sports-ev-after-years-of-delay-4951021",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-16T04:18:24Z",
+      "first_seen": "2026-10-15T10:31:03Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "unclear",
+        "reason": "The headline does not mention any impact on US equities, and the information provided is about a specific product and its development timeline, which is unclear in terms of its effect on the broader market.",
+        "rated_at": "2026-10-16T05:25:49Z"
+      }
+    },
+    {
+      "id": "b6defc872754313dc8733db453a17e786ec98af0511275ad93a0df55bf0dabec",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-sourcenext-stock-sliding-today-93CH-4953067",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-16T04:16:17Z",
+      "first_seen": "2026-10-16T05:26:33Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "The headline suggests that the stock of Sourcenext is sliding, implying a negative impact on the company's stock price.",
+        "rated_at": "2026-10-16T05:25:57Z"
+      }
+    },
+    {
+      "id": "f06fc3838f86ed5e1638f237547c5778ab5e44bcd1ffe4b1d5f9c2bc0ad83662",
+      "url": "https://www.investing.com/news/stock-market-news/which-stocks-will-benefit-from-ai-power-demand-going-nuclear-93CH-4953057",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-16T04:13:37Z",
+      "first_seen": "2026-10-16T05:26:33Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "positive",
+        "reason": "The headline suggests that AI power demand will have a positive impact on US stocks, implying a growth opportunity for companies involved in AI and related industries.",
+        "rated_at": "2026-10-16T05:25:59Z"
+      }
+    },
+    {
+      "id": "0192250980d424dbfc3f0ac9f8c9a78a8f8e60c8a4ba25e36d7949cb2d532b9e",
+      "url": "https://www.marketwatch.com/story/tesla-may-finally-debut-a-flying-car-today-after-testing-fans-patience-for-nearly-a-decade-9a23c8e8",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-16T02:42:00Z",
+      "first_seen": "2026-10-15T16:45:47Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "positive",
+        "reason": "The headline suggests a significant innovation and potential growth driver for Tesla, which could positively impact its stock price.",
+        "rated_at": "2026-10-16T05:25:17Z"
+      }
+    },
+    {
+      "id": "41fde6a74f245cee717585bedf7778722560e609fc124115bfc6e1ca3231f0d2",
+      "url": "https://www.marketwatch.com/story/pepsi-loses-more-ground-in-the-soda-wars-as-kfc-switches-to-coke-49b1ef53",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-15T23:29:00Z",
+      "first_seen": "2026-10-16T05:26:33Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "Pepsi losing market share to Coca-Cola due to KFC's decision to switch to Coke",
+        "rated_at": "2026-10-16T05:25:19Z"
+      }
+    },
+    {
+      "id": "99ceda1854e84b4054d7a88983d063b5c9bdbe546ab0dbcef383a76373f61817",
+      "url": "https://www.marketwatch.com/story/how-a-midterm-sweep-by-democrats-could-turn-this-tech-selloff-into-a-tech-crash-a1d1a82f",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-15T21:56:00Z",
+      "first_seen": "2026-10-16T05:26:33Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "negative",
+        "reason": "The headline suggests that a midterm sweep by Democrats could lead to increased regulation and scrutiny of the tech industry, potentially causing a crash in tech stocks.",
+        "rated_at": "2026-10-16T05:25:23Z"
+      }
+    },
+    {
+      "id": "517e5c81e2bfe50265997ed40aed33f2cb88b893db91f10dea4780b6733211a4",
+      "url": "https://www.marketwatch.com/story/micron-nvidia-and-other-chip-stocks-face-renewed-pressure-as-ai-fears-swell-4e0dc989",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-15T21:23:00Z",
+      "first_seen": "2026-10-15T13:01:18Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "negative",
+        "reason": "The headline suggests that the pressure on chip stocks, including Nvidia, is due to fears about AI, which could negatively impact the overall US equity market.",
+        "rated_at": "2026-10-16T05:25:26Z"
+      }
+    },
+    {
+      "id": "4c85aa7c76ffa7def00e31a84257ef94fbcb9bc30d5fb58493eff922bd09335c",
+      "url": "https://www.marketwatch.com/story/dont-ditch-tech-stocks-just-yet-make-these-moves-to-take-advantage-of-the-latest-ai-reset-cb70c7b2",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-15T21:21:00Z",
+      "first_seen": "2026-10-16T05:26:33Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "positive",
+        "reason": "The headline suggests that the latest AI reset is an opportunity to take advantage of, implying a positive impact on US tech stocks.",
+        "rated_at": "2026-10-16T05:25:28Z"
+      }
+    },
     {
       "id": "6bed83e857c75ef73a4bae4811615b7ad778617a399068df977a1a30f35b6c73",
       "url": "https://www.investing.com/news/stock-market-news/exclusiveinvestors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say-4952698",
@@ -601,10 +883,10 @@
     "titles": "Hidden unless publisher rights explicitly configured. No article bodies collected."
   },
   "llama": {
-    "last_rated_at": "2026-10-15T21:23:25Z",
-    "last_refresh_at": "2026-10-15T21:23:25Z",
-    "errors": 1,
-    "pending": 16,
+    "last_rated_at": "2026-10-16T05:25:59Z",
+    "last_refresh_at": "2026-10-16T05:25:59Z",
+    "errors": 0,
+    "pending": 0,
     "model_digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
     "scale": {
       "negative": -1,

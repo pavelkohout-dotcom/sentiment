@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T21:01:16Z",
+  "generated_at": "2026-10-16T21:15:46Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 52.76,
+      "value": 52.81,
       "status": "ok",
-      "events": 43,
-      "scored_events": 37,
-      "articles": 43,
+      "events": 40,
+      "scored_events": 34,
+      "articles": 40,
       "sources": 2,
-      "momentum": -0.11,
-      "momentum_baseline": "2026-10-16T20:01:16Z",
+      "momentum": 0.1,
+      "momentum_baseline": "2026-10-16T20:15:44Z",
       "extreme": "normal"
     },
     "nasdaq100": {
@@ -23,8 +23,8 @@
       "scored_events": 17,
       "articles": 22,
       "sources": 2,
-      "momentum": -2.12,
-      "momentum_baseline": "2026-10-16T20:01:16Z",
+      "momentum": -1.38,
+      "momentum_baseline": "2026-10-16T20:15:44Z",
       "extreme": "normal"
     },
     "sp500": {
@@ -34,8 +34,8 @@
       "scored_events": 17,
       "articles": 22,
       "sources": 2,
-      "momentum": -2.12,
-      "momentum_baseline": "2026-10-16T20:01:16Z",
+      "momentum": -1.38,
+      "momentum_baseline": "2026-10-16T20:15:44Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-16T21:01:16Z",
+      "last_success": "2026-10-16T21:15:46Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "pending_llama": 4,
-      "last_attempt": "2026-10-16T21:01:16Z",
+      "pending_llama": 5,
+      "last_attempt": "2026-10-16T21:15:46Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-16T21:01:16Z",
+      "last_success": "2026-10-16T21:15:46Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-16T21:01:16Z",
+      "last_attempt": "2026-10-16T21:15:46Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-16T21:01:16Z",
+      "last_success": "2026-10-16T21:15:46Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-16T21:01:16Z",
+      "last_attempt": "2026-10-16T21:15:46Z",
       "status": "ok"
     }
   ],
@@ -1101,81 +1101,6 @@
         "reason": "The headline suggests that the latest AI reset is an opportunity to take advantage of, implying a positive impact on US tech stocks.",
         "rated_at": "2026-10-16T05:25:28Z"
       }
-    },
-    {
-      "id": "6bed83e857c75ef73a4bae4811615b7ad778617a399068df977a1a30f35b6c73",
-      "url": "https://www.investing.com/news/stock-market-news/exclusiveinvestors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say-4952698",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T21:12:37Z",
-      "first_seen": "2026-10-15T21:23:56Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "The headline suggests that investors are tempering their expectations for Anthropic's IPO valuation due to a slowdown in revenue growth, indicating a negative impact on the company's stock.",
-        "rated_at": "2026-10-15T21:23:18Z"
-      }
-    },
-    {
-      "id": "e6fb19782e5343125c3198ba524642828915decb7cf510a7039968ab4ed362cf",
-      "url": "https://www.investing.com/news/stock-market-news/site-centers-stock-surges-on-3-special-dividend-4952700",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T21:06:56Z",
-      "first_seen": "2026-10-15T21:23:56Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "positive",
-        "reason": "The announcement of a special dividend of $3 per share is likely to boost the stock price of SITE Centers.",
-        "rated_at": "2026-10-15T21:23:15Z"
-      }
-    },
-    {
-      "id": "0a5888ca174dfb6fc85422359c1d5511fb8003da7be6864231b9ea31e5cc2b46",
-      "url": "https://www.investing.com/news/stock-market-news/some-investors-push-anthropic-to-cut-ipo-valuation-to-15-trillion--report-4952696",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T21:05:03Z",
-      "first_seen": "2026-10-15T21:23:56Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "The headline suggests that some investors are pushing for a lower valuation for Anthropic's IPO, which could negatively impact the company's stock price.",
-        "rated_at": "2026-10-15T21:23:20Z"
-      }
     }
   ],
   "methodology": {
@@ -1190,7 +1115,7 @@
     "last_rated_at": "2026-10-16T17:14:55Z",
     "last_refresh_at": "2026-10-16T17:14:55Z",
     "errors": 0,
-    "pending": 14,
+    "pending": 15,
     "model_digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
     "scale": {
       "negative": -1,

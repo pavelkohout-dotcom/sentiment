@@ -3418,5 +3418,31 @@
       "reason": "The headline suggests a negative outcome for Gemini, a cryptocurrency exchange, as the judge rejects the bid to vacate a $5 million settlement, implying a financial impact.",
       "rated_at": "2026-10-16T17:14:55Z"
     }
+  },
+  {
+    "id": "c86bc0421944aad24d13c39d30ce48b5bcece9a19c798c26f559a03f7539b953",
+    "url": "https://www.marketwatch.com/story/social-securitys-cola-will-be-3-6-in-2027-as-inflation-persists-f7c9dff2",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-16T19:45:00Z",
+    "first_seen": "2026-10-16T20:01:16Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": 1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "positive",
+      "reason": "The headline suggests an increase in Social Security checks, which could positively impact US equities.",
+      "rated_at": "2026-10-15T20:42:39Z"
+    }
   }
 ]

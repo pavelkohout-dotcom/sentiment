@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T22:01:15Z",
+  "generated_at": "2026-10-16T22:15:43Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
@@ -12,8 +12,8 @@
       "scored_events": 31,
       "articles": 37,
       "sources": 2,
-      "momentum": 1.02,
-      "momentum_baseline": "2026-10-16T21:01:16Z",
+      "momentum": 0.97,
+      "momentum_baseline": "2026-10-16T21:15:46Z",
       "extreme": "normal"
     },
     "nasdaq100": {
@@ -24,7 +24,7 @@
       "articles": 19,
       "sources": 2,
       "momentum": 1.03,
-      "momentum_baseline": "2026-10-16T21:01:16Z",
+      "momentum_baseline": "2026-10-16T21:15:46Z",
       "extreme": "normal"
     },
     "sp500": {
@@ -35,7 +35,7 @@
       "articles": 19,
       "sources": 2,
       "momentum": 1.03,
-      "momentum_baseline": "2026-10-16T21:01:16Z",
+      "momentum_baseline": "2026-10-16T21:15:46Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-16T22:01:15Z",
+      "last_success": "2026-10-16T22:15:43Z",
       "received": 10,
-      "accepted": 2,
+      "accepted": 1,
       "rejected": 0,
-      "pending_llama": 7,
-      "last_attempt": "2026-10-16T22:01:15Z",
+      "pending_llama": 8,
+      "last_attempt": "2026-10-16T22:15:43Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-16T22:01:15Z",
+      "last_success": "2026-10-16T22:15:43Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-16T22:01:15Z",
+      "last_attempt": "2026-10-16T22:15:43Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-16T22:01:15Z",
+      "last_success": "2026-10-16T22:15:43Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-16T22:01:15Z",
+      "last_attempt": "2026-10-16T22:15:43Z",
       "status": "ok"
     }
   ],
@@ -1037,7 +1037,7 @@
     "last_rated_at": "2026-10-16T17:14:55Z",
     "last_refresh_at": "2026-10-16T17:14:55Z",
     "errors": 0,
-    "pending": 17,
+    "pending": 18,
     "model_digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
     "scale": {
       "negative": -1,

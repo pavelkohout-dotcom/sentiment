@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T18:45:44Z",
+  "generated_at": "2026-10-16T19:01:15Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 47.71,
+      "value": 48.17,
       "status": "ok",
-      "events": 55,
-      "scored_events": 49,
-      "articles": 55,
+      "events": 54,
+      "scored_events": 48,
+      "articles": 54,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-16T17:45:44Z",
+      "momentum": 0.46,
+      "momentum_baseline": "2026-10-16T18:01:20Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 31.18,
+      "value": 31.68,
       "status": "ok",
-      "events": 28,
-      "scored_events": 23,
-      "articles": 28,
+      "events": 27,
+      "scored_events": 22,
+      "articles": 27,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-16T17:45:44Z",
+      "momentum": 0.5,
+      "momentum_baseline": "2026-10-16T18:01:20Z",
       "extreme": "normal"
     },
     "sp500": {
-      "value": 31.18,
+      "value": 31.68,
       "status": "ok",
-      "events": 28,
-      "scored_events": 23,
-      "articles": 28,
+      "events": 27,
+      "scored_events": 22,
+      "articles": 27,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-16T17:45:44Z",
+      "momentum": 0.5,
+      "momentum_baseline": "2026-10-16T18:01:20Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-16T18:45:44Z",
+      "last_success": "2026-10-16T19:01:15Z",
       "received": 10,
-      "accepted": 3,
+      "accepted": 2,
       "rejected": 0,
-      "pending_llama": 4,
-      "last_attempt": "2026-10-16T18:45:44Z",
+      "pending_llama": 5,
+      "last_attempt": "2026-10-16T19:01:15Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-16T18:45:44Z",
+      "last_success": "2026-10-16T19:01:15Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-16T18:45:44Z",
+      "last_attempt": "2026-10-16T19:01:15Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-16T18:45:44Z",
+      "last_success": "2026-10-16T19:01:15Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-16T18:45:44Z",
+      "last_attempt": "2026-10-16T19:01:15Z",
       "status": "ok"
     }
   ],
@@ -1456,32 +1456,6 @@
         "reason": "The headline suggests that CoreWeave's stock is rebounding, indicating a positive impact on the company's equity.",
         "rated_at": "2026-10-15T20:42:21Z"
       }
-    },
-    {
-      "id": "45bb31e369c7797d780ba774b5561a9a860ed315a53d49eba1199493505e140c",
-      "url": "https://www.marketwatch.com/story/this-one-governors-race-could-derail-the-ai-trade-thats-powered-the-stock-market-6bbf06f8",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-15T19:00:00Z",
-      "first_seen": "2026-10-15T20:47:24Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "negative",
-        "reason": "The headline suggests that a governor's race could negatively impact the AI trade, which has powered the stock market, implying a potential decline in US equities.",
-        "rated_at": "2026-10-15T20:42:23Z"
-      }
     }
   ],
   "methodology": {
@@ -1496,7 +1470,7 @@
     "last_rated_at": "2026-10-16T17:14:55Z",
     "last_refresh_at": "2026-10-16T17:14:55Z",
     "errors": 0,
-    "pending": 14,
+    "pending": 15,
     "model_digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
     "scale": {
       "negative": -1,

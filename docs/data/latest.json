@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T19:15:44Z",
+  "generated_at": "2026-10-16T19:31:00Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 48.17,
+      "value": 47.78,
       "status": "ok",
-      "events": 54,
-      "scored_events": 48,
-      "articles": 54,
+      "events": 53,
+      "scored_events": 47,
+      "articles": 53,
       "sources": 2,
-      "momentum": 0.46,
-      "momentum_baseline": "2026-10-16T18:15:45Z",
+      "momentum": 0.07,
+      "momentum_baseline": "2026-10-16T18:31:10Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 31.68,
+      "value": 31.06,
       "status": "ok",
-      "events": 27,
-      "scored_events": 22,
-      "articles": 27,
+      "events": 26,
+      "scored_events": 21,
+      "articles": 26,
       "sources": 2,
-      "momentum": 0.5,
-      "momentum_baseline": "2026-10-16T18:15:45Z",
+      "momentum": -0.12,
+      "momentum_baseline": "2026-10-16T18:31:10Z",
       "extreme": "normal"
     },
     "sp500": {
-      "value": 31.68,
+      "value": 31.06,
       "status": "ok",
-      "events": 27,
-      "scored_events": 22,
-      "articles": 27,
+      "events": 26,
+      "scored_events": 21,
+      "articles": 26,
       "sources": 2,
-      "momentum": 0.5,
-      "momentum_baseline": "2026-10-16T18:15:45Z",
+      "momentum": -0.12,
+      "momentum_baseline": "2026-10-16T18:31:10Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-16T19:15:44Z",
+      "last_success": "2026-10-16T19:31:00Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
       "pending_llama": 5,
-      "last_attempt": "2026-10-16T19:15:44Z",
+      "last_attempt": "2026-10-16T19:31:00Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-16T19:15:44Z",
+      "last_success": "2026-10-16T19:31:00Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-16T19:15:44Z",
+      "last_attempt": "2026-10-16T19:31:00Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-16T19:15:44Z",
+      "last_success": "2026-10-16T19:31:00Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-16T19:15:44Z",
+      "last_attempt": "2026-10-16T19:31:00Z",
       "status": "ok"
     }
   ],
@@ -1429,32 +1429,6 @@
         "direction": "positive",
         "reason": "The headline suggests a rebound in the Nasdaq, which is a broad US stock market index, indicating a positive impact on US equities.",
         "rated_at": "2026-10-15T20:43:13Z"
-      }
-    },
-    {
-      "id": "d447a8b3033a216dcad91029f6162fed845e544720621455f5dac57fb8711b3f",
-      "url": "https://www.marketwatch.com/story/coreweave-investors-are-feeling-spooked-as-the-companys-stock-and-bonds-see-fresh-pressure-ba39a931",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-15T19:26:00Z",
-      "first_seen": "2026-10-15T19:31:02Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "positive",
-        "reason": "The headline suggests that CoreWeave's stock is rebounding, indicating a positive impact on the company's equity.",
-        "rated_at": "2026-10-15T20:42:21Z"
       }
     }
   ],

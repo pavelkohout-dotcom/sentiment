@@ -4,37 +4,27 @@
  const button=document.getElementById('local-refresh');
  const message=document.getElementById('local-refresh-status');
  const setup=document.getElementById('local-refresh-setup');
- let polling=false;
- const delay=ms=>new Promise(resolve=>setTimeout(resolve,ms));
- async function call(path,options={}){
-  const response=await fetch(endpoint+path,{...options,cache:'no-store',signal:AbortSignal.timeout(10000)});
-  if(!response.ok&&response.status!==409&&response.status!==428)throw Error('local service');
-  return {code:response.status,data:await response.json()};
- }
- function show(state){
-  message.textContent=state.message;
+ let helper=null, watch=null, timer=null, handshake=false, terminal=false;
+ function release(){button.disabled=false;clearInterval(watch);clearTimeout(timer);}
+ window.addEventListener('message',event=>{
+  if(event.origin!==endpoint||event.source!==helper||!event.data||event.data.type!=='msm-status'||terminal)return;
+  clearTimeout(timer);
+  const state=event.data;
+  message.textContent=state.configured?state.message:'V místním okně nejdřív jednorázově připojte GitHub.';
   setup.hidden=state.configured;
-  if(!state.configured)message.textContent='Nejdřív jednorázově připojte GitHub v nastavení tohoto Macu.';
- }
- button.addEventListener('click',async()=>{
-  if(polling)return;
-  polling=true;button.disabled=true;setup.hidden=true;
-  message.textContent='Připojuji se k tomuto Macu… Případně povolte prohlížeči přístup k místní síti.';
-  try{
-   let {data:state}=await call('/status');show(state);
-   if(!state.configured)return;
-   if(!state.running){
-    const result=await call('/refresh',{method:'POST',headers:{'Content-Type':'application/json','X-MSM-Token':state.nonce},body:'{}'});
-    state=result.data;show(state);
-   }
-   while(state.running){
-    await delay(3000);
-    state=(await call('/status')).data;show(state);
-   }
-   if(state.phase==='done'&&typeof load==='function')await load();
-  }catch{
-   message.textContent='Místní pomocník není dostupný nebo prohlížeč nepovolil připojení. Tlačítko funguje jen na nastaveném Macu. Zkuste otevřít místní nastavení a aktualizaci spustit tam.';
-   setup.hidden=false;
-  }finally{polling=false;button.disabled=false;}
+  if(!handshake){handshake=true;helper.postMessage({type:'msm-refresh'},endpoint);return;}
+  if(!state.running&&['done','published','error'].includes(state.phase)){
+   terminal=true;release();
+   if(state.phase==='done'&&typeof load==='function')load();
+  }
+ });
+ button.addEventListener('click',()=>{
+  release();handshake=false;terminal=false;
+  helper=window.open(endpoint+'/#refresh','msm-local-refresh','popup,width=760,height=780');
+  if(!helper){message.textContent='Povolte otevření místního ovládacího okna, nebo použijte odkaz na nastavení.';setup.hidden=false;return;}
+  button.disabled=true;setup.hidden=true;
+  message.textContent='Otevírám ovládání na tomto Macu…';
+  timer=setTimeout(()=>{message.textContent='Místní pomocník neodpovídá. Spusťte jej na tomto Macu a zkuste tlačítko znovu.';setup.hidden=false;release();},10000);
+  watch=setInterval(()=>{if(helper.closed){release();message.textContent='Místní okno bylo zavřeno. Pokud aktualizace už běží, dokončí se na pozadí. Průběh zobrazíte opětovným kliknutím.';}},1000);
  });
 })();

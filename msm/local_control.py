@@ -172,10 +172,15 @@ SETUP = '''<!doctype html><html lang="cs"><meta charset="utf-8"><meta name="view
 <form id="setup"><h2>Jednorázové připojení GitHubu</h2><p>Vytvořte <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">omezený přístupový token na GitHubu</a>: vlastník <b>pavelkohout-dotcom</b>, pouze repozitář <b>sentiment</b>, oprávnění <b>Contents: Read and write</b>. Ostatní oprávnění ponechte vypnutá.</p><label for="token">Přístupový token (ukládá se pouze na tomto Macu)</label><input id="token" type="password" autocomplete="off" required><button>Připojit GitHub</button><p>Nevkládejte token do chatu. Po jeho vypršení jej zde můžete nahradit.</p></form>
 <p><button id="run" disabled>Aktualizovat sentiment teď</button></p><p><a href="https://pavelkohout-dotcom.github.io/sentiment/">Otevřít veřejný web ↗</a></p>
 <script src="/setup.js"></script></html>'''
-SETUP_JS = '''let nonce;const status=document.getElementById('status'),run=document.getElementById('run');
-async function poll(){try{const s=await(await fetch('/status')).json();nonce=s.nonce;status.textContent=s.configured?s.message:'Ještě je potřeba připojit GitHub.';run.disabled=!s.configured||s.running;}catch{status.textContent='Místní pomocník není dostupný.';run.disabled=true;}}
-document.getElementById('setup').onsubmit=async e=>{e.preventDefault();const field=document.getElementById('token');const token=field.value;field.value='';try{const r=await fetch('/configure',{method:'POST',headers:{'Content-Type':'application/json','X-MSM-Token':nonce},body:JSON.stringify({token})});if(!r.ok)throw Error();await poll();}catch{status.textContent='Připojení se nezdařilo. Zkontrolujte token, přístup k repozitáři a internet.';}};
-run.onclick=async()=>{run.disabled=true;try{const r=await fetch('/refresh',{method:'POST',headers:{'Content-Type':'application/json','X-MSM-Token':nonce},body:'{}'});if(!r.ok&&r.status!==409)throw Error();await poll();}catch{status.textContent='Spuštění se nezdařilo.';run.disabled=false;}};poll();setInterval(poll,3000);'''
+SETUP_JS = r'''let nonce,pending=false,starting=false,setupError=false;
+const status=document.getElementById('status'),run=document.getElementById('run'),site='https://pavelkohout-dotcom.github.io';
+function notify(s){if(window.opener)window.opener.postMessage({type:'msm-status',phase:s.phase,message:s.message,configured:s.configured,running:s.running},site);}
+async function start(){if(starting)return;starting=true;run.disabled=true;try{const r=await fetch('/refresh',{method:'POST',headers:{'Content-Type':'application/json','X-MSM-Token':nonce},body:'{}'});if(!r.ok&&r.status!==409)throw Error();pending=false;await poll();}catch{status.textContent='Spuštění se nezdařilo.';}finally{starting=false;}}
+async function poll(){try{const s=await(await fetch('/status')).json();nonce=s.nonce;if(!setupError)status.textContent=s.configured?s.message:'Ještě je potřeba připojit GitHub.';run.disabled=!s.configured||s.running;if(pending&&s.configured&&!starting){pending=false;if(!s.running){await start();return;}}notify(s);}catch{status.textContent='Místní pomocník není dostupný.';run.disabled=true;}}
+window.addEventListener('message',e=>{if(e.origin===site&&e.source===window.opener&&e.data&&e.data.type==='msm-refresh'){pending=true;poll();}});
+document.getElementById('setup').onsubmit=async e=>{e.preventDefault();const field=document.getElementById('token');const token=field.value;field.value='';setupError=false;try{const r=await fetch('/configure',{method:'POST',headers:{'Content-Type':'application/json','X-MSM-Token':nonce},body:JSON.stringify({token})});if(!r.ok)throw Error();await poll();}catch{setupError=true;status.textContent='Připojení se nezdařilo. Zkontrolujte token, přístup k repozitáři a internet.';}};
+run.onclick=()=>{setupError=false;start();};poll();setInterval(poll,3000);'''
+
 
 
 class Handler(BaseHTTPRequestHandler):

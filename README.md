@@ -112,7 +112,8 @@ model/digest/prompt/options. `state/store.json` a `docs/data/*` nadále spravuje
 
 Pomocník naslouchá jen na loopbacku; kontroluje Host, Origin a jednorázově při
 spuštění generovaný session nonce. Konfigurace přihlašování je dostupná pouze
-z místní stránky. Veřejný web se k Macu připojuje až po kliknutí. Prohlížeč může
-vyžádat povolení místní sítě; pokud spojení z veřejného webu nepodporuje, lze stejnou
-aktualizaci spustit v místním nastavení. Na jiném počítači bez pomocníka tlačítko
+z místní stránky. Veřejný web po kliknutí otevře místní ovládací okno. Po ověření původu a odesílajícího
+okna si předají požadavek a stav pomocí postMessage, bez tokenu a bez cross-origin
+HTTP požadavků. Může být potřeba povolit otevření okna. Aktualizaci lze spustit
+také samostatně v místním nastavení. Na jiném počítači bez pomocníka tlačítko
 zobrazí vysvětlení. Pomocník sám nezavádí další pravidelný plán.

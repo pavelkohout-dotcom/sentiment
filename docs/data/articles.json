@@ -3444,5 +3444,287 @@
       "reason": "The headline suggests an increase in Social Security checks, which could positively impact US equities.",
       "rated_at": "2026-10-15T20:42:39Z"
     }
+  },
+  {
+    "id": "7b87da9edc97d43fa05ff6f14999274e21ff97220cb5010522ab05b1f4e93ba5",
+    "url": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-16T21:59:00Z",
+    "first_seen": "2026-10-16T22:16:11Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "negative",
+      "reason": "The headline suggests a broad decline in tech stocks, including software and chip stocks, which could have a negative impact on US equities.",
+      "rated_at": "2026-10-16T22:14:46Z"
+    }
+  },
+  {
+    "id": "9be1f898a8da8772f1be9cdcc925a9ac284f069a77bff70c1e6097ab4e208a9e",
+    "url": "https://www.marketwatch.com/story/could-an-anthropic-ipo-put-your-401-k-at-risk-the-ai-safety-debate-hits-a-new-dimension-db3f09f7",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-16T21:35:00Z",
+    "first_seen": "2026-10-16T22:16:11Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "unclear",
+      "reason": "The headline does not explicitly mention a specific company or industry, and the concept of an 'Anthropic IPO' is unclear in terms of its potential impact on US equities.",
+      "rated_at": "2026-10-16T22:14:51Z"
+    }
+  },
+  {
+    "id": "ef08911a2c1bbb69afa62ef8d1ae1e6e9ff6a024dcab22233e7ba4a12af7b3e8",
+    "url": "https://www.marketwatch.com/story/the-bond-market-shrugged-off-two-inflation-shocks-why-stock-investors-should-pay-attention-5da4f771",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-16T21:30:00Z",
+    "first_seen": "2026-10-16T22:16:11Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": 1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "positive",
+      "reason": "The headline suggests that the bond market's reaction to inflation shocks is a positive sign for stock investors, implying a potential increase in US equities.",
+      "rated_at": "2026-10-16T22:14:53Z"
+    }
+  },
+  {
+    "id": "b3d2d75145071dd06ad01c03b365806df2e9d0b1db0b7b8a83dde6cfa6111871",
+    "url": "https://www.marketwatch.com/story/new-sec-rules-would-fleece-everyday-investors-to-enrich-wall-street-0a00fe03",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-16T21:21:00Z",
+    "first_seen": "2026-10-16T22:16:11Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "negative",
+      "reason": "The headline suggests that new SEC rules would have a negative impact on everyday investors, potentially favoring Wall Street interests.",
+      "rated_at": "2026-10-16T22:14:55Z"
+    }
+  },
+  {
+    "id": "28ff416588da7bd8e34875d2e5fdfca8bd35bcfb245fc6fd7b2de5d72065625d",
+    "url": "https://www.marketwatch.com/story/dont-buy-this-dip-several-signs-suggest-theres-more-pain-ahead-for-tech-stocks-83f971d7",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-16T20:58:00Z",
+    "first_seen": "2026-10-16T22:16:11Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "negative",
+      "reason": "The headline suggests that the author believes there will be more pain ahead for tech stocks, implying a negative impact on US equities.",
+      "rated_at": "2026-10-16T22:15:00Z"
+    }
+  },
+  {
+    "id": "7e5b7f547916f20e9b386c618d7611f1bffe35fb316ffff4db86e7ec55a82445",
+    "url": "https://www.marketwatch.com/story/echostars-stock-looks-like-a-stealthy-way-to-ride-the-spacex-wave-j-p-morgan-says-c4effa5d",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-16T20:05:00Z",
+    "first_seen": "2026-10-16T22:16:11Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": 1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "positive",
+      "reason": "J.P. Morgan's recommendation to ride the SpaceX wave",
+      "rated_at": "2026-10-16T22:15:02Z"
+    }
+  },
+  {
+    "id": "36c4823e5851fd01e710fabd669f4199889f53e0a63e91a64f1d08bc86e9c7ab",
+    "url": "https://www.investing.com/news/stock-market-news/novavax-shareholder-shah-capital-to-step-back-from-activist-role-4954878",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T21:30:42Z",
+    "first_seen": "2026-10-16T22:16:11Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "negative",
+      "reason": "The change in activist role may negatively impact Novavax's stock price, potentially leading to a decrease in investor confidence and a decline in the company's valuation.",
+      "rated_at": "2026-10-16T22:15:14Z"
+    }
+  },
+  {
+    "id": "349807d259f28398daaa641812162b9a36218a462eadd859f0b69c69333f75bd",
+    "url": "https://www.investing.com/news/stock-market-news/exclusiveboeing-sales-chief-mcmullen-to-retire-company-memo-says-4954848",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T21:30:26Z",
+    "first_seen": "2026-10-16T22:16:11Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "negative",
+      "reason": "The retirement of the sales chief may have a negative impact on Boeing's sales and revenue, potentially affecting the company's stock price.",
+      "rated_at": "2026-10-16T22:15:17Z"
+    }
+  },
+  {
+    "id": "f7a8bbe960e89c2c5e031811e972e44154bf1254ffe6144e8badf21dd1c7128c",
+    "url": "https://www.investing.com/news/stock-market-news/softbank-weighs-18-billion-acquisition-of-allied-universal-bloomberg-news-reports-4954792",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T21:25:11Z",
+    "first_seen": "2026-10-16T22:16:11Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "unclear",
+      "reason": "The headline does not mention the impact on US equities, and the acquisition is not directly related to the broader US stock market.",
+      "rated_at": "2026-10-16T22:15:23Z"
+    }
+  },
+  {
+    "id": "457dae6e9fda452519c2819a3d014d8481c1ffa753741d00d73227fbb6b107e7",
+    "url": "https://www.investing.com/news/stock-market-news/us-lifts-restrictions-on-new-mexican-flights-from-capitals-airports-4954901",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T22:00:22Z",
+    "first_seen": "2026-10-16T22:15:04Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": 1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "positive",
+      "reason": "The news is likely to have a positive impact on US equities, as it could lead to increased economic activity and trade between the two countries.",
+      "rated_at": "2026-10-16T22:15:04Z"
+    }
+  },
+  {
+    "id": "a1138acff5fba7169ba4c00d9b871c979122e41c636d0604b79996cb0b68b70a",
+    "url": "https://www.investing.com/news/stock-market-news/tesla-unveils-new-roadster-with-flight-capabilities-set-for-production-in-2028-4952962",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T21:58:23Z",
+    "first_seen": "2026-10-16T22:15:07Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "negative",
+      "reason": "Tesla shares are being affected by a broader tech rout, despite the company's new Roadster with flight capabilities, which suggests a negative impact on the stock.",
+      "rated_at": "2026-10-16T22:15:07Z"
+    }
   }
 ]

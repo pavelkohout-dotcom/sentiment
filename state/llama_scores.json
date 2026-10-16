@@ -2271,10 +2271,526 @@
       ],
       "rule_segments": [],
       "kind": "unknown"
+    },
+    "ce9872c6020ad61a1a154faec63397c1cd9fbd9b5dd883226d38e6790ed4b26b": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that a Wall Street veteran is recommending Nike as a turnaround trade, implying a positive outlook for the company's stock."
+      },
+      "rated_at": "2026-10-16T14:41:42Z",
+      "url": "https://www.marketwatch.com/story/the-stock-market-has-already-crashed-why-a-wall-street-veteran-says-nike-is-the-ultimate-turnaround-trade-f4429eb3",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T14:28:00Z",
+      "signature": [
+        "08c4242b5f585628",
+        "276446ba01e3aa38",
+        "2be23c585f15e5fd",
+        "4d8aaa64f68587b1",
+        "5dd95c98aff2e783",
+        "6008c26f4452392a",
+        "85719be272f82fa1",
+        "9150c74c5f92d51a",
+        "d133a66dd576b4cf",
+        "e4d693d24e646cb7",
+        "ea53396caebc40d7",
+        "f21adfd19983708d",
+        "ff42dd0de480c0e0"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "b5d7b99ef1ab9cf264fb6871d06ffc18cbae0d506c082c9a59dd45e4f5e62fed": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that a potential sell signal has been silenced, implying that it's not yet a good time to buy US equities."
+      },
+      "rated_at": "2026-10-16T14:41:44Z",
+      "url": "https://www.marketwatch.com/story/a-stock-market-sell-signal-has-been-silenced-but-these-bank-of-america-strategists-say-its-too-early-to-buy-8cdf98c8",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T14:14:00Z",
+      "signature": [
+        "043a718774c572bd",
+        "08c4242b5f585628",
+        "4381dc2ab1428516",
+        "54753b18d291efd4",
+        "6cd6c401d8d3b474",
+        "853916b1dbc21e61",
+        "9150c74c5f92d51a",
+        "94c05f1c45a1d1a9",
+        "a0b967fc60136d2e",
+        "b41e6560a4467aa4",
+        "b808e156d18d1cec",
+        "c0f21d451463ec3e",
+        "cdc29937887188ad",
+        "d041924c15885af6",
+        "e4d693d24e646cb7",
+        "e8197b20f8e71e42",
+        "f408830bcc7fab37"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "f02664d27c9f4268f9f4fc967eeb8033df42b4e94138f276368c13593fff72ee": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any specific company, and the topic of fasting is not directly related to the stock market."
+      },
+      "rated_at": "2026-10-16T14:41:47Z",
+      "url": "https://www.marketwatch.com/story/influencers-and-biohackers-swear-by-fasting-heres-what-the-science-says-3318191f",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T14:00:00Z",
+      "signature": [
+        "043a718774c572bd",
+        "3876e60c98d1c729",
+        "398fba34d765bd11",
+        "3ef631dfff36845f",
+        "749ab2c0d06c42ae",
+        "790fad4744a9da8d",
+        "d5808ebedf535792",
+        "fcec91509759ad99"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "210354f61e4544172b51f7759865c69a2fa7381920f82a17a34096cfe9dad0ae": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not imply a specific impact on US equities, and the mention of a specific product (Apple's foldable iPhone Duo) does not provide direction on the broader market."
+      },
+      "rated_at": "2026-10-16T14:41:50Z",
+      "url": "https://www.marketwatch.com/story/is-apples-foldable-iphone-duo-worth-2-000-see-how-it-stacks-up-against-other-foldable-phones-c9066b13",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T12:00:00Z",
+      "signature": [
+        "043a718774c572bd",
+        "241c1e30ed886aa4",
+        "2ac9a6746aca543a",
+        "3a7bd3e2360a3d29",
+        "3e8127f523859840",
+        "75a288c0d6898c5f",
+        "8044aae1f86875d9",
+        "a718e3e9aefa308a",
+        "aa9e9b5c907d50fe",
+        "b4f4e6c4e52c1f6b",
+        "c0a6eb55b12b7dfe",
+        "d4735e3a265e16ee",
+        "d9298a10d1b07358",
+        "e89a10d4ca9fadf6",
+        "fdd823e31be438f6"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "ab3c2effba5dbf8f00b1377d3bb559fed7a8c092f04230e0c43cecf92225c66e": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or the stock market, and the topic is personal finance and Social Security benefits."
+      },
+      "rated_at": "2026-10-16T14:41:52Z",
+      "url": "https://www.marketwatch.com/story/its-a-wait-and-see-situation-im-63-and-diagnosed-with-lymphoma-should-i-take-my-social-security-next-year-ea88b419",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T11:30:00Z",
+      "signature": [
+        "038468518ad8122e",
+        "043a718774c572bd",
+        "2dbc643aaf07d9a1",
+        "3e860f41a5ea92c4",
+        "4cb4ea25583c2564",
+        "5d2d3ceb7abe5523",
+        "62c66a7a5dd70c31",
+        "716ecabb45ac6a88",
+        "aa9e9b5c907d50fe",
+        "c6c1c9a9c8543f1e",
+        "d1905cf90af29a5a",
+        "d22b75e3a33a790e",
+        "da4ea2a5506f2693",
+        "de7d1b721a1e0632",
+        "f86b1f62a8554232",
+        "fc097e65503cb3ad"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "516613cc3975b8d591934a959cf4da21cfc731acc575ecb646faa450cb881a29": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not imply any impact on US equities, and the topic is unrelated to the stock market."
+      },
+      "rated_at": "2026-10-16T14:42:00Z",
+      "url": "https://www.marketwatch.com/story/can-a-55-000-plus-robot-load-the-dishwasher-inside-my-afternoon-with-two-humanoid-housekeepers-0a9569ab",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T11:00:00Z",
+      "signature": [
+        "02d20bbd7e394ad5",
+        "038468518ad8122e",
+        "0cf67fc72b3c86c7",
+        "106b086224a4d945",
+        "18d63be10ad544a0",
+        "2ac9a6746aca543a",
+        "2f024fe411a0407c",
+        "3798a3a33d19e7bd",
+        "383ef36928344f56",
+        "3fc4ccfe745870e2",
+        "9f584196e7fe6de8",
+        "c8e07c1ac268eae0",
+        "dbc5acceeda6cd24"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "962d4baf89fe4470fe3890120f03983d43d2d2ad0c454ebf6a58eca001615b79": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that a technical analyst at Jefferies has identified a positive development in the market, setting the stage for a rally into year-end, which is expected to have a positive impact on US equities."
+      },
+      "rated_at": "2026-10-16T14:42:10Z",
+      "url": "https://www.marketwatch.com/story/jefferies-technical-analyst-finds-an-encouraging-development-in-thursday-rebound-setting-stage-for-rally-into-year-end-34ad6e31",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T10:38:00Z",
+      "signature": [
+        "15cbfab2cca18f28",
+        "2149c64d00134c01",
+        "361e48d0308f20e3",
+        "4cb4ea25583c2564",
+        "6b847a0ed0b2c484",
+        "83e3b78f14e08cc5",
+        "875b9380866e9d56",
+        "977506cfba9f653a",
+        "afd5c5ae5738e275",
+        "c7ff6dcd94d7161e",
+        "e647f94effe44500",
+        "ec72b9566a9c3501",
+        "f44ceb062e35dfee",
+        "f629814f089480c0"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "2ddc70db6c4ad63a4c2948f35fbdc50c5dd0b4642dd8be63344c8a7bc0f0836f": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any specific US company, and the IMF's suggestion is not directly applicable to the US market. The mention of a budget raid in the UK also does not have a clear impact on US equities."
+      },
+      "rated_at": "2026-10-16T14:42:13Z",
+      "url": "https://www.theguardian.com/business/live/2026/oct/16/john-healey-set-to-raise-bank-taxes-shares-profits-stock-markets-imf-latest-news-updates",
+      "provider": "guardian",
+      "published_at": "2026-10-16T14:27:15Z",
+      "signature": [
+        "0af96a8ed622a394",
+        "11d40417959631d3",
+        "20246bb1bf5313e2",
+        "247610f4dedd4ab7",
+        "262cd7e8d3156b5b",
+        "263dae9af8f88960",
+        "378bfce5cda2599a",
+        "4446d5cc70147c28",
+        "4c3b61ed20f14cb6",
+        "7383711c1b05e72a",
+        "83116acf18e4dc44",
+        "8588b8c524e36861",
+        "b9a1602551834723",
+        "c06dc8cc17251ea4",
+        "d1ffaf0265bbf7e1",
+        "e49b5c7a9e738d48",
+        "f86b1f62a8554232"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "e10e935a355d458738187e4494cd44ee1bf94ee21469198b072eb9c2213a5a98": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that the stock is sliding, implying a negative impact on the company's stock price."
+      },
+      "rated_at": "2026-10-16T14:42:15Z",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-palo-alto-networks-stock-sliding-today-93CH-4954447",
+      "provider": "investing",
+      "published_at": "2026-10-16T14:26:48Z",
+      "signature": [
+        "08c4242b5f585628",
+        "175d374a1e9f8545",
+        "20a4611836d9648a",
+        "2be23c585f15e5fd",
+        "58d805bc784099da",
+        "a19db4951fbcd4cb",
+        "e0f4f767ac88a930"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "f2da9701da768df897e2f3bdf15add7ed806aea4ccaea1567a40d6b3b6337221": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline indicates a decline in the Nasdaq, which is a broad US stock market index, while the Dow rises, suggesting a negative impact on US equities."
+      },
+      "rated_at": "2026-10-16T14:42:18Z",
+      "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-edge-lower-as-ai-spending-fed-rate-concerns-weigh-4952930",
+      "provider": "investing",
+      "published_at": "2026-10-16T14:25:06Z",
+      "signature": [
+        "043a718774c572bd",
+        "0604cd3138feed20",
+        "07a8750738828ffd",
+        "148de9c5a7a44d19",
+        "276446ba01e3aa38",
+        "32e83e92d45d71f6",
+        "8e7ce76b88cc45a2",
+        "998c132416e73b91",
+        "c1b7cf7c9cdf6f57",
+        "cf70fe342f1ef4e3",
+        "e3d1277adcd760ab",
+        "fc1b192ed5829737",
+        "ff6b1c44fb9488ad"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "148a329c41a2d18bc12790033498252658704ebe562122e26cdf0cbe43c46a61": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that Micron Technology's stock is sliding, indicating a negative impact on the company's stock price."
+      },
+      "rated_at": "2026-10-16T14:42:20Z",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-micron-technology-stock-sliding-today-93CH-4954431",
+      "provider": "investing",
+      "published_at": "2026-10-16T14:21:08Z",
+      "signature": [
+        "08c4242b5f585628",
+        "2be23c585f15e5fd",
+        "37b5fecebce720fd",
+        "58d805bc784099da",
+        "e0f4f767ac88a930",
+        "e91fadf24f78c081"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "3944f2275a7f17693e474a1bcd23b31806f7bc7e67b4de5885752effd10c0561": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that the company's shares may move up 4.3% based on its upcoming earnings report, indicating a positive impact on the stock."
+      },
+      "rated_at": "2026-10-16T14:42:23Z",
+      "url": "https://www.investing.com/news/stock-market-news/slb-shares-may-move-43-on-oct-23-earnings-report-93CH-4954424",
+      "provider": "investing",
+      "published_at": "2026-10-16T14:18:52Z",
+      "signature": [
+        "4a64609f7db9facc",
+        "4b227777d4dd1fc6",
+        "4e07408562bedb8b",
+        "535fa30d7e25dd8a",
+        "65e10716f363b5a6",
+        "683a62ce15fbabb1",
+        "845e91831319e89c",
+        "aaadc31b1826c3b9",
+        "ee4d988c65de860f",
+        "fe7634184576f6d1"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "b0d83d136d994b8abc7fa9812ce5c903c15c03c57e3d6a4206e9833850b24c1d": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests a potential positive impact on Electrolux shares, specifically mentioning a 12% move on earnings release."
+      },
+      "rated_at": "2026-10-16T14:42:25Z",
+      "url": "https://www.investing.com/news/stock-market-news/electrolux-shares-may-move-12-on-oct-23-earnings-release-93CH-4954421",
+      "provider": "investing",
+      "published_at": "2026-10-16T14:17:38Z",
+      "signature": [
+        "4a64609f7db9facc",
+        "535fa30d7e25dd8a",
+        "65e10716f363b5a6",
+        "683a62ce15fbabb1",
+        "6b51d431df5d7f14",
+        "a4d451ec23463726",
+        "ce3f8b6a080204c7",
+        "ee4d988c65de860f",
+        "fe7634184576f6d1"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "c94c1a104d44850e582fe67821b9b23aba9ea6fc20cc0635668401f6efa00e36": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that Dell Technologies' stock is sliding, indicating a negative impact on the company's stock price."
+      },
+      "rated_at": "2026-10-16T14:42:27Z",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-dell-technologies-stock-sliding-today-93CH-4954420",
+      "provider": "investing",
+      "published_at": "2026-10-16T14:17:20Z",
+      "signature": [
+        "08c4242b5f585628",
+        "2be23c585f15e5fd",
+        "58d805bc784099da",
+        "d0e2ece166bdef23",
+        "e0f4f767ac88a930",
+        "ee3170d06527503f"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "46a19d129c871d99f8165633317d929a22070e7d5852b0eb391b1a43a22311df": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that Tesla's price has fallen below its 200-day simple moving average (SMA), which is a bearish signal."
+      },
+      "rated_at": "2026-10-16T14:42:30Z",
+      "url": "https://www.investing.com/news/stock-market-news/tesla-rangebound-at-380-with-weak-trend-live-levels-93CH-4944787",
+      "provider": "investing",
+      "published_at": "2026-10-16T14:17:03Z",
+      "signature": [
+        "1db75136fe8063bd",
+        "27badc983df1780b",
+        "2b2a51df70a161c5",
+        "600b4cdf20cc06a7",
+        "7358bd4ec877e1b6",
+        "7d50f20853334a30",
+        "88c7f08d0be5407e",
+        "e4d00226255e697d",
+        "f74efabef12ea619"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "ce496458e3cd23de000c10cfd53aeee8d4c6ec7f3c58a7f05c21fc9c0dd10660": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests a bearish trend in the Nasdaq 100, which could have a negative impact on US equities."
+      },
+      "rated_at": "2026-10-16T14:42:32Z",
+      "url": "https://www.investing.com/news/stock-market-news/nasdaq-100-breaks-cloud-support-at-30935-live-levels-93CH-4944778",
+      "provider": "investing",
+      "published_at": "2026-10-16T14:17:01Z",
+      "signature": [
+        "247610f4dedd4ab7",
+        "27badc983df1780b",
+        "28720365c5e7476a",
+        "2ce06a9e7f8c3e6b",
+        "342b503c67232dbe",
+        "7d50f20853334a30",
+        "8ada24bf6bf31392",
+        "ad57366865126e55",
+        "e4d00226255e697d",
+        "fc1b192ed5829737"
+      ],
+      "rule_segments": [
+        "nasdaq100"
+      ],
+      "kind": "unknown"
+    },
+    "5b486b4bdc1bcc8c9e736761bdb2247398015dba88ca6f773e754de5b0a39a9d": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests a technical breakdown in Alphabet's stock price, which could have a negative impact on the company's valuation and potentially lead to a decline in its stock price."
+      },
+      "rated_at": "2026-10-16T14:42:34Z",
+      "url": "https://www.investing.com/news/stock-market-news/alphabet-c-squeezed-at-349-between-key-levels-live-levels-93CH-4944780",
+      "provider": "investing",
+      "published_at": "2026-10-16T14:17:00Z",
+      "signature": [
+        "247610f4dedd4ab7",
+        "2e7d2c03a9507ae2",
+        "342b503c67232dbe",
+        "4dd4f3835505cd95",
+        "670671cd97404156",
+        "7d50f20853334a30",
+        "9644294ac4ffb309",
+        "9e258d1804965ab2",
+        "a18603086e5bdf9d"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "dc6dd0e1dd8d393847c4792874058cef7c3b05b1903493f494cb57e506efd45c": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "mixed",
+        "score": 0,
+        "reason": "The headline suggests a potential breakout or trap, indicating a mixed impact on US equities."
+      },
+      "rated_at": "2026-10-16T14:42:36Z",
+      "url": "https://www.investing.com/news/stock-market-news/dow-jones-tests-52200-resistance-amid-bull-trap-risk-live-levels-93CH-4944779",
+      "provider": "investing",
+      "published_at": "2026-10-16T14:16:59Z",
+      "signature": [
+        "11ba65852271cd24",
+        "247610f4dedd4ab7",
+        "41cfc0d1f2d127b0",
+        "59830ebc3a418411",
+        "8a9a02d73aeefd97",
+        "9706987d633e05a0",
+        "be970d090a9b0a23",
+        "c67c126365145982",
+        "e2fd4410c00e8dab",
+        "ff6b1c44fb9488ad"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
     }
   },
-  "updated_at": "2026-10-16T05:25:59Z",
-  "last_attempt": "2026-10-16T05:25:59Z",
-  "errors": [],
-  "last_success": "2026-10-16T05:25:59Z"
+  "updated_at": "2026-10-16T14:42:36Z",
+  "last_attempt": "2026-10-16T14:42:36Z",
+  "errors": [
+    {
+      "headline_hash": "f79c269d5fe1eb8d72f6d2437ee68f0d1202622a208cb06e56df4e4cd638cea3",
+      "error": "ValueError"
+    },
+    {
+      "headline_hash": "45bbfee50a803cff09b1215aae545676e855eb176c52bdd4e3617a4780cf9cfc",
+      "error": "ValueError"
+    }
+  ],
+  "last_success": "2026-10-16T14:42:36Z"
 }

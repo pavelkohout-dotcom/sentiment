@@ -85,3 +85,34 @@ Zápisy jednotlivých JSON souborů jsou atomické. Při poškozeném JSON se b�
 ## Ověření
 
 `VALIDATION.md` a `test-results.txt` obsahují skutečně provedené kontroly. Testy ověřují software a známé finanční jazykové příklady; **nedokazují predikční kvalitu, investiční výnos ani univerzální správnost sentimentu**. Pro takové tvrzení je potřeba nezávislý ručně označený vzorek, měření shody a časově oddělené vyhodnocení.
+
+### Ruční aktualizace z Macu
+
+Tlačítko **Aktualizovat přes Llamu** komunikuje pouze s pomocníkem na
+`http://127.0.0.1:8766`. Pomocník se spouští z kořene repozitáře:
+
+```sh
+python3 -B -m msm.local_control --directory /absolute/private/runtime-directory
+```
+
+V místním nastavení na stejné adrese jednorázově připojte fine-grained GitHub token:
+jen repozitář `pavelkohout-dotcom/sentiment`, `Contents: Read and write`.
+Token se ukládá do zvoleného soukromého adresáře s právy 0600 (adresář 0700),
+nikdy do repozitáře ani veřejného webu. Zvolte adresář mimo checkout.
+Po vypršení tokenu jej v nastavení nahraďte. Při odinstalaci zastavte pomocníka,
+smažte soukromý adresář a token zrušte v nastavení GitHubu.
+
+Mac musí být vzhůru, online a mít spuštěnou Ollamu s předepsaným modelem.
+Pomocník nemění ani nestahuje modely. Každý požadavek použije čistý aktuální main,
+spustí `msm.rate_local`, publikuje výhradně `state/llama_scores.json` a čeká až
+5 minut na nasazení. Platné částečné výsledky se publikují i při chybách jednotlivých
+hodnocení; při selhání publikace zůstanou místně pro další pokus. Při konfliktu
+se soubor načte znovu a sloučí podle hashů a času hodnocení, jen pro kompatibilní
+model/digest/prompt/options. `state/store.json` a `docs/data/*` nadále spravuje Actions.
+
+Pomocník naslouchá jen na loopbacku; kontroluje Host, Origin a jednorázově při
+spuštění generovaný session nonce. Konfigurace přihlašování je dostupná pouze
+z místní stránky. Veřejný web se k Macu připojuje až po kliknutí. Prohlížeč může
+vyžádat povolení místní sítě; pokud spojení z veřejného webu nepodporuje, lze stejnou
+aktualizaci spustit v místním nastavení. Na jiném počítači bez pomocníka tlačítko
+zobrazí vysvětlení. Pomocník sám nezavádí další pravidelný plán.

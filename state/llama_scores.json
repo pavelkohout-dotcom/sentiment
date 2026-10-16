@@ -3408,10 +3408,507 @@
       ],
       "rule_segments": [],
       "kind": "unknown"
+    },
+    "14973d6306235944fcb52c9b910eecab671ee6ec4af41fa2fcfbf6149804bdd8": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests a broad decline in tech stocks, including software and chip stocks, which could have a negative impact on US equities."
+      },
+      "rated_at": "2026-10-16T22:14:46Z",
+      "url": "https://www.marketwatch.com/story/nowhere-to-hide-tech-selloff-hits-software-and-chip-stocks-alike-6d96773c",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T21:59:00Z",
+      "signature": [
+        "1ef8f25405f82682",
+        "1f5bb9791a310e13",
+        "20aeff0494e828d1",
+        "2548c17ff2a7c7f0",
+        "35390f5453e810b6",
+        "62f51d296d3429d8",
+        "c0bd51e0416194e1",
+        "d7cea7305a333d5c",
+        "fe9bbd400bb6cb31"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "d0b9e7ef8828a4dcd62706ae6274b7cf6fd83e54df26711a9e3387232e1f6d90": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any specific company, so it is unclear how it would impact the market."
+      },
+      "rated_at": "2026-10-16T22:14:48Z",
+      "url": "https://www.marketwatch.com/story/this-senate-race-where-data-centers-are-a-crucial-issue-has-more-spending-than-any-other-midterm-clash-5152b43d",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T21:43:00Z",
+      "signature": [
+        "129ce50dd90bf244",
+        "15a5a49734b740ad",
+        "187897ce0afcf20b",
+        "259864d70a8a989c",
+        "262cd7e8d3156b5b",
+        "26dd7517f5ecee31",
+        "3a6eb0790f39ac87",
+        "4a502846d070e208",
+        "4b42194596899bcd",
+        "7383711c1b05e72a",
+        "891ce66a0f781c2a",
+        "9150c74c5f92d51a",
+        "b48111c10c65fc11",
+        "d6a7cd2a7371b1a1",
+        "d9298a10d1b07358"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "e0d155a3555b381af20fb7819c8b7ff2912704b7ced0aecd4d7fc311ba3dc937": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not explicitly mention a specific company or industry, and the concept of an 'Anthropic IPO' is unclear in terms of its potential impact on US equities."
+      },
+      "rated_at": "2026-10-16T22:14:51Z",
+      "url": "https://www.marketwatch.com/story/could-an-anthropic-ipo-put-your-401-k-at-risk-the-ai-safety-debate-hits-a-new-dimension-db3f09f7",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T21:35:00Z",
+      "signature": [
+        "0e031e954a432055",
+        "11507a0e2f5e69d5",
+        "2c6ef0f0d0e4cc6e",
+        "32e83e92d45d71f6",
+        "373cb2c6d4fe2778",
+        "48eb632fe16ae195",
+        "4d040d3f6466018c",
+        "62f51d296d3429d8",
+        "6f7a9000cccc11b5",
+        "8254c329a92850f6",
+        "856e8bd358ece398",
+        "9647978e40f75d2a",
+        "c70eca6b0f88f44d",
+        "dcaadad1cfce4377"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "b260f078e109a8eae5f6bdf5b0b1c48731ec0885aed51b7d09100b010980b585": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that the bond market's reaction to inflation shocks is a positive sign for stock investors, implying a potential increase in US equities."
+      },
+      "rated_at": "2026-10-16T22:14:53Z",
+      "url": "https://www.marketwatch.com/story/the-bond-market-shrugged-off-two-inflation-shocks-why-stock-investors-should-pay-attention-5da4f771",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T21:30:00Z",
+      "signature": [
+        "08c4242b5f585628",
+        "2be23c585f15e5fd",
+        "3fc4ccfe745870e2",
+        "41356564d2558d43",
+        "4a8b14af4d9b541e",
+        "6d731a5ed145ab6d",
+        "927f368c571eef4c",
+        "9350872d712a127c",
+        "b4dc66dde806261b",
+        "e0787d272a439bb7",
+        "e4d693d24e646cb7",
+        "f21dea74d898cfea",
+        "f86b1f62a8554232"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "eab74fc08a3a724eaaf2a3928605a73a31c70eef6fc65db5ad12c68e84d58f5f": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that new SEC rules would have a negative impact on everyday investors, potentially favoring Wall Street interests."
+      },
+      "rated_at": "2026-10-16T22:14:55Z",
+      "url": "https://www.marketwatch.com/story/new-sec-rules-would-fleece-everyday-investors-to-enrich-wall-street-0a00fe03",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T21:21:00Z",
+      "signature": [
+        "11507a0e2f5e69d5",
+        "2001981d63292fd5",
+        "4d8aaa64f68587b1",
+        "6008c26f4452392a",
+        "6c621d1a05138a78",
+        "927f368c571eef4c",
+        "9e7ef9e260ae8c4e",
+        "add93534eeb46380",
+        "c4df5370c58673dd",
+        "c6323a2117013ed6"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "786aaac471e23953bd794f376c89a51fa98210bccae302048e1e975fc0258680": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or the stock market, and the question is about personal finance and Social Security benefits."
+      },
+      "rated_at": "2026-10-16T22:14:57Z",
+      "url": "https://www.marketwatch.com/story/its-a-wait-and-see-situation-im-63-and-diagnosed-with-lymphoma-should-i-take-my-social-security-next-year-ea88b419",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T21:15:00Z",
+      "signature": [
+        "038468518ad8122e",
+        "2dbc643aaf07d9a1",
+        "3e860f41a5ea92c4",
+        "4cb4ea25583c2564",
+        "5d2d3ceb7abe5523",
+        "62c66a7a5dd70c31",
+        "c6c1c9a9c8543f1e",
+        "d1905cf90af29a5a",
+        "d22b75e3a33a790e",
+        "da4ea2a5506f2693",
+        "de7d1b721a1e0632",
+        "f86b1f62a8554232"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "83646a0b87b4fbcb403e3c8577d1200162af4fdfc9b58f438b076c8866e696f7": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that the author believes there will be more pain ahead for tech stocks, implying a negative impact on US equities."
+      },
+      "rated_at": "2026-10-16T22:15:00Z",
+      "url": "https://www.marketwatch.com/story/dont-buy-this-dip-several-signs-suggest-theres-more-pain-ahead-for-tech-stocks-83f971d7",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T20:58:00Z",
+      "signature": [
+        "043a718774c572bd",
+        "187897ce0afcf20b",
+        "1ef8f25405f82682",
+        "2740e59ffb8c5eff",
+        "4a2326c64ab2287e",
+        "5c78c8e7160e76ba",
+        "b6813f3af2d45fbf",
+        "d0b4034c6ca7ee87",
+        "dc726d0a525fdaf7",
+        "e244f187f696561d",
+        "e259202cf023eab7",
+        "e3b98a4da31a127d",
+        "e8197b20f8e71e42",
+        "fe9bbd400bb6cb31"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "28b4d7bdd618aa7e1999eb7d9baac7e293a7a25b54aaa0b47a0ef916f940de11": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "J.P. Morgan's recommendation to ride the SpaceX wave"
+      },
+      "rated_at": "2026-10-16T22:15:02Z",
+      "url": "https://www.marketwatch.com/story/echostars-stock-looks-like-a-stealthy-way-to-ride-the-spacex-wave-j-p-morgan-says-c4effa5d",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T20:05:00Z",
+      "signature": [
+        "043a718774c572bd",
+        "08c4242b5f585628",
+        "148de9c5a7a44d19",
+        "189f40034be7a199",
+        "44c5e7071f3a75a2",
+        "4b125ec99a744705",
+        "7150e904ba7820e0",
+        "95d09b6231e6627f",
+        "cab2644828bcc1f2",
+        "d2a1ba788399c8d1",
+        "e049bd056f936d1b",
+        "e3f550fc6ab21a69",
+        "e78bdebae031095b"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "805b9185844f46d6f7331335d3f5726d7ec3ac1834fe16d41d8f46a09de474df": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The news is likely to have a positive impact on US equities, as it could lead to increased economic activity and trade between the two countries."
+      },
+      "rated_at": "2026-10-16T22:15:04Z",
+      "url": "https://www.investing.com/news/stock-market-news/us-lifts-restrictions-on-new-mexican-flights-from-capitals-airports-4954901",
+      "provider": "investing",
+      "published_at": "2026-10-16T22:00:22Z",
+      "signature": [
+        "043a718774c572bd",
+        "0faa155716f526ef",
+        "11507a0e2f5e69d5",
+        "15a95672c05d4cf9",
+        "659204fb26f36932",
+        "79adb2a2fce5c6ba",
+        "bd08022e8fb80701",
+        "c8cf489ed229d3a2",
+        "d9903ac96966dbc5"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "7336e7792687a0d047b7a922da999ceee82d119462831eca38d8ac1c5cac3e2e": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "Tesla shares are being affected by a broader tech rout, despite the company's new Roadster with flight capabilities, which suggests a negative impact on the stock."
+      },
+      "rated_at": "2026-10-16T22:15:07Z",
+      "url": "https://www.investing.com/news/stock-market-news/tesla-unveils-new-roadster-with-flight-capabilities-set-for-production-in-2028-4952962",
+      "provider": "investing",
+      "published_at": "2026-10-16T21:58:23Z",
+      "signature": [
+        "03b6b3e9163de296",
+        "06926a5203efb021",
+        "11507a0e2f5e69d5",
+        "3df8c38622686e1a",
+        "3fc0e5c4c484797a",
+        "4a64609f7db9facc",
+        "6dbefb4fe02322df",
+        "7358bd4ec877e1b6",
+        "75a288c0d6898c5f",
+        "a47a2e1872852966",
+        "fe9bbd400bb6cb31"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "b4b0f028e5fc29e39e9d4f7b3599ebc59be08fe7db8f1f5fca07b730bbf3ecb8": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any economic topic, it's about a person holding a lead for a UN chief position."
+      },
+      "rated_at": "2026-10-16T22:15:09Z",
+      "url": "https://www.investing.com/news/stock-market-news/grynspan-holds-lead-for-next-un-chief-as-race-enters-decisive-stage-4954900",
+      "provider": "investing",
+      "published_at": "2026-10-16T21:54:26Z",
+      "signature": [
+        "129ce50dd90bf244",
+        "171cd9969103f91b",
+        "28faaa675ccec57f",
+        "3b97260d76d3d7df",
+        "4af73eea3204e30e",
+        "68bca10eea2ba33f",
+        "9285827b8031a1db",
+        "c6c1c9a9c8543f1e",
+        "c7ff6dcd94d7161e",
+        "e3456bc1f4d270f4"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "cfbdd134e8f5a5ffd941bcb7535904a2f51ff450fa28247db4da2d7487ee99c2": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or stocks, but rather a specific company's (LA restaurant group) strategy to hedge playoff risk using a bet on the Dodgers. The impact on US equities is unclear."
+      },
+      "rated_at": "2026-10-16T22:15:12Z",
+      "url": "https://www.investing.com/news/stock-market-news/la-restaurant-group-used-60000-dodgers-bet-to-hedge-playoff-risk-kalshi-says-4954890",
+      "provider": "investing",
+      "published_at": "2026-10-16T21:36:17Z",
+      "signature": [
+        "0ae467cc10e077a1",
+        "2ac9a6746aca543a",
+        "2c6ef0f0d0e4cc6e",
+        "39fa9ec190eee7b6",
+        "48bcca3c4f2b0bf5",
+        "68adede792564ff3",
+        "97fe21bcd36ae81c",
+        "ad936fcbed631fa6",
+        "b064bbfa28ec0440",
+        "b737ca7ee563ae80",
+        "ee275d64dafcd283",
+        "f839161355091fcd"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "c2437c4ce62506cb45ca008c41e0275a246c21dc9ae8d4f1b64c5dbe976fdf2d": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The change in activist role may negatively impact Novavax's stock price, potentially leading to a decrease in investor confidence and a decline in the company's valuation."
+      },
+      "rated_at": "2026-10-16T22:15:14Z",
+      "url": "https://www.investing.com/news/stock-market-news/novavax-shareholder-shah-capital-to-step-back-from-activist-role-4954878",
+      "provider": "investing",
+      "published_at": "2026-10-16T21:30:42Z",
+      "signature": [
+        "24cba1263475f27e",
+        "3c482346f3750276",
+        "3e64cc41cf8e07b4",
+        "4b168d88dc872a77",
+        "51a9a6137b1d3d49",
+        "805500be830ef976",
+        "bd08022e8fb80701",
+        "f2b5e68aa91b38db"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "559551bc9eb54b72804c110bb3fd436b049d0fcb93403035cfa978a21977ec83": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The retirement of the sales chief may have a negative impact on Boeing's sales and revenue, potentially affecting the company's stock price."
+      },
+      "rated_at": "2026-10-16T22:15:17Z",
+      "url": "https://www.investing.com/news/stock-market-news/exclusiveboeing-sales-chief-mcmullen-to-retire-company-memo-says-4954848",
+      "provider": "investing",
+      "published_at": "2026-10-16T21:30:26Z",
+      "signature": [
+        "1641db559f79a7e3",
+        "16f45b99abfda636",
+        "433cd7fc8060e082",
+        "9285827b8031a1db",
+        "9588c4b2e8c1865b",
+        "9c225a950b92172f",
+        "e04eb29020eaa961",
+        "f168ccdd91548c5a"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "d330f566724b0021a6a212030285f5b4e10d515d1c2ca6a2fc77dbf514b1a08c": {
+      "rating": {
+        "scope": "other",
+        "direction": "positive",
+        "score": null,
+        "reason": "The headline refers to the performance of Mexico's stock market, which is not directly related to US equities."
+      },
+      "rated_at": "2026-10-16T22:15:21Z",
+      "url": "https://www.investing.com/news/stock-market-news/mexico-stocks-higher-at-close-of-trade-spbmv-ipc-up-187-4954874",
+      "provider": "investing",
+      "published_at": "2026-10-16T21:30:03Z",
+      "signature": [
+        "043a718774c572bd",
+        "148de9c5a7a44d19",
+        "17f76fe91c554529",
+        "18640e38f277a2b6",
+        "1ef8f25405f82682",
+        "276446ba01e3aa38",
+        "310ff200149b44a3",
+        "6b86b273ff34fce1",
+        "75a288c0d6898c5f",
+        "8be2978e343799a3",
+        "bdd2d3af3a5a1213",
+        "e5ff8d2b6809d810"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "032bf1538b03371598313fff12b6a5da01f5d7c7f934f143b8ce5db06ede243a": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention the impact on US equities, and the acquisition is not directly related to the broader US stock market."
+      },
+      "rated_at": "2026-10-16T22:15:23Z",
+      "url": "https://www.investing.com/news/stock-market-news/softbank-weighs-18-billion-acquisition-of-allied-universal-bloomberg-news-reports-4954792",
+      "provider": "investing",
+      "published_at": "2026-10-16T21:25:11Z",
+      "signature": [
+        "21bd015e3675d546",
+        "294977cefaa2743e",
+        "31de312977fc2ebd",
+        "41cf6794ba4200b8",
+        "4ec9599fc203d176",
+        "80c697e9924a5260",
+        "80d387ccb3289295",
+        "a9fd078562420a27"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "abd0dce7b66b5393c28c8da88cee4e6f4dd8dcb2ce94e9c8949f95742427b393": {
+      "rating": {
+        "scope": "other",
+        "direction": "negative",
+        "score": null,
+        "reason": "The headline refers to the performance of Colombia's stock market, which is not directly related to US equities."
+      },
+      "rated_at": "2026-10-16T22:15:27Z",
+      "url": "https://www.investing.com/news/stock-market-news/colombia-stocks-lower-at-close-of-trade-colcap-down-055-4954873",
+      "provider": "investing",
+      "published_at": "2026-10-16T21:25:03Z",
+      "signature": [
+        "02d20bbd7e394ad5",
+        "1ef8f25405f82682",
+        "276446ba01e3aa38",
+        "310ff200149b44a3",
+        "5feceb66ffc86f38",
+        "653f2e6dc5ece30a",
+        "8c6fb1e9e37a1aea",
+        "908aec4512d80ff4",
+        "c91bd9c288c0a7c5"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "d018aa7d80a8f0462f431d35d36330efc2513dbb7e4041970eb4717aec26ee70": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any specific company, and the impact on US equities is unclear."
+      },
+      "rated_at": "2026-10-16T22:15:29Z",
+      "url": "https://www.investing.com/news/stock-market-news/chinese-online-retailer-temu-agrees-to-data-privacy-restrictions-to-settle-texas-lawsuit-documents-say-4954577",
+      "provider": "investing",
+      "published_at": "2026-10-16T21:24:35Z",
+      "signature": [
+        "15a95672c05d4cf9",
+        "36b2a10044ffe600",
+        "3a6eb0790f39ac87",
+        "5849f0dbde1a6968",
+        "5873102fa0951713",
+        "6868e83de35c465d",
+        "900e816f6c26b9fd",
+        "9b16b44d0e0a5cac",
+        "a0b967fc60136d2e",
+        "a4cc6bc01a927e2a",
+        "b85b91c53558d46d",
+        "e2d3b41db9567ddf",
+        "f6fc84c9f21c2490"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
     }
   },
-  "updated_at": "2026-10-16T17:14:55Z",
-  "last_attempt": "2026-10-16T17:14:55Z",
+  "updated_at": "2026-10-16T22:15:29Z",
+  "last_attempt": "2026-10-16T22:15:29Z",
   "errors": [],
-  "last_success": "2026-10-16T17:14:55Z"
+  "last_success": "2026-10-16T22:15:29Z"
 }

@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T20:31:01Z",
+  "generated_at": "2026-10-16T20:45:45Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 52.06,
+      "value": 52.64,
       "status": "ok",
-      "events": 48,
-      "scored_events": 42,
-      "articles": 48,
+      "events": 44,
+      "scored_events": 38,
+      "articles": 44,
       "sources": 2,
-      "momentum": 4.28,
-      "momentum_baseline": "2026-10-16T19:31:00Z",
+      "momentum": 4.86,
+      "momentum_baseline": "2026-10-16T19:45:43Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 36.77,
+      "value": 36.55,
       "status": "ok",
-      "events": 24,
-      "scored_events": 19,
-      "articles": 24,
+      "events": 22,
+      "scored_events": 17,
+      "articles": 22,
       "sources": 2,
-      "momentum": 5.71,
-      "momentum_baseline": "2026-10-16T19:31:00Z",
+      "momentum": 5.49,
+      "momentum_baseline": "2026-10-16T19:45:43Z",
       "extreme": "normal"
     },
     "sp500": {
-      "value": 36.77,
+      "value": 36.55,
       "status": "ok",
-      "events": 24,
-      "scored_events": 19,
-      "articles": 24,
+      "events": 22,
+      "scored_events": 17,
+      "articles": 22,
       "sources": 2,
-      "momentum": 5.71,
-      "momentum_baseline": "2026-10-16T19:31:00Z",
+      "momentum": 5.49,
+      "momentum_baseline": "2026-10-16T19:45:43Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-16T20:31:01Z",
+      "last_success": "2026-10-16T20:45:45Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
       "pending_llama": 4,
-      "last_attempt": "2026-10-16T20:31:01Z",
+      "last_attempt": "2026-10-16T20:45:45Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-16T20:31:01Z",
+      "last_success": "2026-10-16T20:45:45Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-16T20:31:01Z",
+      "last_attempt": "2026-10-16T20:45:45Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-16T20:31:01Z",
+      "last_success": "2026-10-16T20:45:45Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-16T20:31:01Z",
+      "last_attempt": "2026-10-16T20:45:45Z",
       "status": "ok"
     }
   ],
@@ -1200,108 +1200,6 @@
         "direction": "negative",
         "reason": "The selling of $3.3 billion in shares by the co-founders may put downward pressure on the company's stock price.",
         "rated_at": "2026-10-15T21:23:22Z"
-      }
-    },
-    {
-      "id": "cbcc360858b83dec30dcfcc4aba0fcb079f793677d75c8b84578eb3814b496bf",
-      "url": "https://www.investing.com/news/stock-market-news/hain-celestial-weighs-chapter-11-filing-as-debt-pressures-build--bloomberg-4952659",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T20:45:00Z",
-      "first_seen": "2026-10-15T21:23:56Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "The headline suggests that Hain Celestial, a single US company, is considering filing for Chapter 11 bankruptcy protection due to debt pressures, which would have a negative impact on its stock.",
-        "rated_at": "2026-10-15T21:23:25Z"
-      }
-    },
-    {
-      "id": "2b7c393137c2b672f7921e5ed6d2f069f17119f18ca72577a7ec3be134731f14",
-      "url": "https://www.marketwatch.com/story/traders-pile-into-bonds-and-defensive-stocks-as-the-tech-wreck-picks-up-steam-48c04374",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-15T20:40:00Z",
-      "first_seen": "2026-10-15T20:47:24Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "negative",
-        "reason": "The headline suggests that investors are selling AI stocks, which could have a negative impact on the broader US market.",
-        "rated_at": "2026-10-15T20:44:09Z"
-      }
-    },
-    {
-      "id": "1d93477cb2a8f0e4cd0e91a14f3f338ac5e801c0295d2f14d39069edbdebca6a",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-jb-hunt-transport-stock-sliding-today-93CH-4952641",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T20:31:28Z",
-      "first_seen": "2026-10-15T20:47:24Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "The headline suggests that the stock is sliding, implying a negative impact on the company's stock price.",
-        "rated_at": "2026-10-15T20:42:53Z"
-      }
-    },
-    {
-      "id": "a12febd033645bbf7a7ecbffa928fa419c81f94b27ec03bcd73024302bebbf2f",
-      "url": "https://www.investing.com/news/stock-market-news/us-stocks-higher-at-close-of-trade-dow-jones-industrial-average-up-108-4952637",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T20:31:03Z",
-      "first_seen": "2026-10-15T20:45:46Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "positive",
-        "reason": "The headline indicates a positive performance of the Dow Jones Industrial Average, which is a broad market indicator.",
-        "rated_at": "2026-10-15T20:42:55Z"
       }
     }
   ],

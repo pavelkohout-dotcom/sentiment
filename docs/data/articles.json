@@ -3189,5 +3189,234 @@
       "reason": "The headline suggests that Celestica's stock is sliding, implying a negative impact on the company's stock price.",
       "rated_at": "2026-10-16T15:17:50Z"
     }
+  },
+  {
+    "id": "aaeff5ca5b22ef36911fefb6ebcd54fb1da6e91c2e3c28a82bf69967aaa5ef7a",
+    "url": "https://www.marketwatch.com/story/heres-how-the-fed-should-reveal-its-outlook-for-the-economy-79629f25",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-16T17:07:00Z",
+    "first_seen": "2026-10-16T17:15:35Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "unclear",
+      "reason": "The headline does not imply a specific impact on US equities, but rather discusses the Federal Reserve's outlook for the economy, which may indirectly affect the market.",
+      "rated_at": "2026-10-16T17:14:18Z"
+    }
+  },
+  {
+    "id": "43168b348ab555a0cc856e4d024aa6407139a3f68edbf88c90b96b6411c6450d",
+    "url": "https://www.marketwatch.com/story/elon-musk-may-have-just-taken-a-major-step-toward-consolidating-his-empire-7d82dea6",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-16T16:39:00Z",
+    "first_seen": "2026-10-16T17:15:35Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": 1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "positive",
+      "reason": "The headline suggests that Elon Musk is taking a step towards consolidating his empire, implying a positive impact on his company's stock.",
+      "rated_at": "2026-10-16T17:14:20Z"
+    }
+  },
+  {
+    "id": "169fb5229dc06a8d6d7dabcce5ab5375cd65b4ae74d886032e4e7584b722243e",
+    "url": "https://www.marketwatch.com/story/many-of-2026s-hottest-stocks-have-seen-dramatic-comedowns-this-week-e5ae5d06",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-16T16:09:00Z",
+    "first_seen": "2026-10-16T17:15:35Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "negative",
+      "reason": "The headline suggests that many of the hottest stocks in 2026 have seen a dramatic decline, implying a negative impact on US equities.",
+      "rated_at": "2026-10-16T17:14:23Z"
+    }
+  },
+  {
+    "id": "f0d0f4c19c14a62621ff0c10a99721dd802e854e670e7b1ebb2069fbf7589e79",
+    "url": "https://www.investing.com/news/stock-market-news/coreweave-bond-rout-tests-markets-math-on-ai-buildout-4953576",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T16:54:59Z",
+    "first_seen": "2026-10-16T17:15:35Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "negative",
+      "reason": "The headline suggests that CoreWeave's bond rout may have a negative impact on US equities, specifically the company's stock price.",
+      "rated_at": "2026-10-16T17:14:31Z"
+    }
+  },
+  {
+    "id": "9a03511e77f0f09ff8ead43b65fbe759052ef349bf4f5322a8aa56c30dc120c0",
+    "url": "https://www.investing.com/news/stock-market-news/european-stocks-gain-as-schneider-lifts-sentiment-inflation-data-awaited-4953276",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T16:36:59Z",
+    "first_seen": "2026-10-16T17:15:35Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "unclear",
+      "reason": "The headline does not mention US equities directly, but rather European shares. The mention of a tech selloff and earnings may have some indirect impact on US markets, but it is unclear what the near-term impact would be.",
+      "rated_at": "2026-10-16T17:14:34Z"
+    }
+  },
+  {
+    "id": "cb64678fdff68f9a45aa5c1e9ff152f8376cf2f2b876c2aab6225ec02f2c1b73",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-corporacion-america-airports-stock-climbing-today-93CH-4954629",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T16:34:13Z",
+    "first_seen": "2026-10-16T17:15:35Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": 1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "positive",
+      "reason": "The headline suggests that the stock is climbing, indicating a positive impact on the company's stock price.",
+      "rated_at": "2026-10-16T17:14:42Z"
+    }
+  },
+  {
+    "id": "85d1e665ed8ba253c80c311dc5ef121d0e3a5b11944d21fe81bfb241b30be58e",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-nisource-stock-rallying-today-93CH-4954628",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T16:34:09Z",
+    "first_seen": "2026-10-16T17:15:35Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": 1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "positive",
+      "reason": "The headline suggests that NiSource stock is rallying, indicating a positive impact on US equities.",
+      "rated_at": "2026-10-16T17:14:44Z"
+    }
+  },
+  {
+    "id": "c2582cdd0c7bcb7bed2c0a74bbed180bb02d9d23279210de4627e9a5d182f88a",
+    "url": "https://www.investing.com/news/stock-market-news/european-stocks-on-course-for-best-week-since-aug-on-easing-yields-4953245",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T16:25:30Z",
+    "first_seen": "2026-10-16T17:15:35Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "unclear",
+      "reason": "The headline does not explicitly mention US equities, but the phrase 'since June' implies a comparison to a previous period. The impact on US equities is unclear.",
+      "rated_at": "2026-10-16T17:14:50Z"
+    }
+  },
+  {
+    "id": "0c9909981bf55e38a72bb603986430ea65d4d6d70e767b742ccfd47dd34d6f06",
+    "url": "https://www.investing.com/news/stock-market-news/judge-rejects-cftc-gemini-bid-to-vacate-5-million-settlement-4954606",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T16:12:50Z",
+    "first_seen": "2026-10-16T17:15:35Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "negative",
+      "reason": "The headline suggests a negative outcome for Gemini, a cryptocurrency exchange, as the judge rejects the bid to vacate a $5 million settlement, implying a financial impact.",
+      "rated_at": "2026-10-16T17:14:55Z"
+    }
   }
 ]

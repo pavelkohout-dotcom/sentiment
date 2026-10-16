@@ -4943,6 +4943,344 @@
         "e0f4f767ac88a930"
       ],
       "headline_hash": "2c34937666d4418d179266738986087c6752ca348a79ef521b32eb730e665b13"
+    },
+    "aaeff5ca5b22ef36911fefb6ebcd54fb1da6e91c2e3c28a82bf69967aaa5ef7a": {
+      "id": "aaeff5ca5b22ef36911fefb6ebcd54fb1da6e91c2e3c28a82bf69967aaa5ef7a",
+      "url": "https://www.marketwatch.com/story/heres-how-the-fed-should-reveal-its-outlook-for-the-economy-79629f25",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-16T17:07:00Z",
+      "first_seen": "2026-10-16T17:15:35Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "unclear",
+        "reason": "The headline does not imply a specific impact on US equities, but rather discusses the Federal Reserve's outlook for the economy, which may indirectly affect the market.",
+        "rated_at": "2026-10-16T17:14:18Z"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "20e796c128096d22",
+        "419a636ccc2aa55c",
+        "4f53c6c301f98610",
+        "6fda2b8252b6d5ea",
+        "8044aae1f86875d9",
+        "f86b1f62a8554232",
+        "fcec91509759ad99"
+      ],
+      "headline_hash": "b4cd576fa4dbad71e6a3448af6bc152a0e8c9b5a734a1e5032e18f98b7172ebc"
+    },
+    "43168b348ab555a0cc856e4d024aa6407139a3f68edbf88c90b96b6411c6450d": {
+      "id": "43168b348ab555a0cc856e4d024aa6407139a3f68edbf88c90b96b6411c6450d",
+      "url": "https://www.marketwatch.com/story/elon-musk-may-have-just-taken-a-major-step-toward-consolidating-his-empire-7d82dea6",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-16T16:39:00Z",
+      "first_seen": "2026-10-16T17:15:35Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "positive",
+        "reason": "The headline suggests that Elon Musk is taking a step towards consolidating his empire, implying a positive impact on his company's stock.",
+        "rated_at": "2026-10-16T17:14:20Z"
+      },
+      "signature": [
+        "193c45b5281908d2",
+        "3e64cc41cf8e07b4",
+        "4274e7edc82236a6",
+        "4db16eb962f33f6f",
+        "6558a6a3379db4f3",
+        "73c9c98668a34c54",
+        "8b64d09d9a7290a3",
+        "99341d56cc288053",
+        "b2c66dfd45dd07f5",
+        "cc58a5f8986c71d4",
+        "d602bf8f470bc67c",
+        "ee4d988c65de860f"
+      ],
+      "headline_hash": "98ee0b0e7fbcfa5c07869ab3492c21ad9ce4c8050c067007dba0cef74b37bf28"
+    },
+    "169fb5229dc06a8d6d7dabcce5ab5375cd65b4ae74d886032e4e7584b722243e": {
+      "id": "169fb5229dc06a8d6d7dabcce5ab5375cd65b4ae74d886032e4e7584b722243e",
+      "url": "https://www.marketwatch.com/story/many-of-2026s-hottest-stocks-have-seen-dramatic-comedowns-this-week-e5ae5d06",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-16T16:09:00Z",
+      "first_seen": "2026-10-16T17:15:35Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "negative",
+        "reason": "The headline suggests that many of the hottest stocks in 2026 have seen a dramatic decline, implying a negative impact on US equities.",
+        "rated_at": "2026-10-16T17:14:23Z"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "097092286f79d3a1",
+        "1137b15c7797aa84",
+        "158a323a7ba44870",
+        "193c45b5281908d2",
+        "1ef8f25405f82682",
+        "6df37daaa46ce714",
+        "7208794c984ea1c7",
+        "9c51288ab4f6ae0c",
+        "d15b947e56c5eb86"
+      ],
+      "headline_hash": "272cd5362ba4af2b055193de126ee65a4f26046873ef929fa0b26105aebe2cb0"
+    },
+    "f0d0f4c19c14a62621ff0c10a99721dd802e854e670e7b1ebb2069fbf7589e79": {
+      "id": "f0d0f4c19c14a62621ff0c10a99721dd802e854e670e7b1ebb2069fbf7589e79",
+      "url": "https://www.investing.com/news/stock-market-news/coreweave-bond-rout-tests-markets-math-on-ai-buildout-4953576",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-16T16:54:59Z",
+      "first_seen": "2026-10-16T17:15:35Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "The headline suggests that CoreWeave's bond rout may have a negative impact on US equities, specifically the company's stock price.",
+        "rated_at": "2026-10-16T17:14:31Z"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "32e83e92d45d71f6",
+        "3df8c38622686e1a",
+        "58a6d6801ae771e6",
+        "59830ebc3a418411",
+        "8348e0915fc78ec2",
+        "a8a5343533baeb26",
+        "e4d693d24e646cb7",
+        "f21dea74d898cfea"
+      ],
+      "headline_hash": "8cee0c9494c9b94451b5f9bf55de9734cde10d8254d45d2d0d8a6e8b50226e2a"
+    },
+    "9a03511e77f0f09ff8ead43b65fbe759052ef349bf4f5322a8aa56c30dc120c0": {
+      "id": "9a03511e77f0f09ff8ead43b65fbe759052ef349bf4f5322a8aa56c30dc120c0",
+      "url": "https://www.investing.com/news/stock-market-news/european-stocks-gain-as-schneider-lifts-sentiment-inflation-data-awaited-4953276",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-16T16:36:59Z",
+      "first_seen": "2026-10-16T17:15:35Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "unclear",
+        "reason": "The headline does not mention US equities directly, but rather European shares. The mention of a tech selloff and earnings may have some indirect impact on US markets, but it is unclear what the near-term impact would be.",
+        "rated_at": "2026-10-16T17:14:34Z"
+      },
+      "signature": [
+        "2548c17ff2a7c7f0",
+        "310ff200149b44a3",
+        "354d51ee5f356dcc",
+        "4a64609f7db9facc",
+        "6b5a3ded016ab782",
+        "6df37daaa46ce714",
+        "762069bc07a6e1b5",
+        "7cf6b0597fe4e3cb",
+        "8f4375ec65c2c409",
+        "c0fa1ef864788c45",
+        "e39cf4518fca1824",
+        "fe7634184576f6d1",
+        "fe9bbd400bb6cb31"
+      ],
+      "headline_hash": "0315dab2b46c38b7dc7f0a0db87c3915fb75d408057ebcf3b738e3e2b7d17826"
+    },
+    "cb64678fdff68f9a45aa5c1e9ff152f8376cf2f2b876c2aab6225ec02f2c1b73": {
+      "id": "cb64678fdff68f9a45aa5c1e9ff152f8376cf2f2b876c2aab6225ec02f2c1b73",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-corporacion-america-airports-stock-climbing-today-93CH-4954629",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-16T16:34:13Z",
+      "first_seen": "2026-10-16T17:15:35Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "positive",
+        "reason": "The headline suggests that the stock is climbing, indicating a positive impact on the company's stock price.",
+        "rated_at": "2026-10-16T17:14:42Z"
+      },
+      "signature": [
+        "08c4242b5f585628",
+        "2be23c585f15e5fd",
+        "a7b7c58958ea0909",
+        "b41e6560a4467aa4",
+        "d9903ac96966dbc5",
+        "df7da510a6fe1ab6",
+        "e0f4f767ac88a930"
+      ],
+      "headline_hash": "0a1fea1df2f1e53ac0996a9bc6184b096e2856b9b8ae94f8f88582f982cf2825"
+    },
+    "85d1e665ed8ba253c80c311dc5ef121d0e3a5b11944d21fe81bfb241b30be58e": {
+      "id": "85d1e665ed8ba253c80c311dc5ef121d0e3a5b11944d21fe81bfb241b30be58e",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-nisource-stock-rallying-today-93CH-4954628",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-16T16:34:09Z",
+      "first_seen": "2026-10-16T17:15:35Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "positive",
+        "reason": "The headline suggests that NiSource stock is rallying, indicating a positive impact on US equities.",
+        "rated_at": "2026-10-16T17:14:44Z"
+      },
+      "signature": [
+        "08c4242b5f585628",
+        "2be23c585f15e5fd",
+        "75435f866125eed8",
+        "e0f4f767ac88a930",
+        "fd23ae26523e609d"
+      ],
+      "headline_hash": "184c58c4797d9fe3c4342aea2f436440adae17952192fb4fee717f5102a488f6"
+    },
+    "c2582cdd0c7bcb7bed2c0a74bbed180bb02d9d23279210de4627e9a5d182f88a": {
+      "id": "c2582cdd0c7bcb7bed2c0a74bbed180bb02d9d23279210de4627e9a5d182f88a",
+      "url": "https://www.investing.com/news/stock-market-news/european-stocks-on-course-for-best-week-since-aug-on-easing-yields-4953245",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-16T16:25:30Z",
+      "first_seen": "2026-10-16T17:15:35Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "unclear",
+        "reason": "The headline does not explicitly mention US equities, but the phrase 'since June' implies a comparison to a previous period. The impact on US equities is unclear.",
+        "rated_at": "2026-10-16T17:14:50Z"
+      },
+      "signature": [
+        "1ef8f25405f82682",
+        "5d22b78816fc82d8",
+        "6b5a3ded016ab782",
+        "6df37daaa46ce714",
+        "72231043bc1807e6",
+        "8f4375ec65c2c409",
+        "ba75b4423591cddc",
+        "c0fa1ef864788c45",
+        "e39cf4518fca1824"
+      ],
+      "headline_hash": "8502f6bd4c4bd63e9dbd636e44272922186ae69882f2e9bbe559cb8d9c0322de"
+    },
+    "0c9909981bf55e38a72bb603986430ea65d4d6d70e767b742ccfd47dd34d6f06": {
+      "id": "0c9909981bf55e38a72bb603986430ea65d4d6d70e767b742ccfd47dd34d6f06",
+      "url": "https://www.investing.com/news/stock-market-news/judge-rejects-cftc-gemini-bid-to-vacate-5-million-settlement-4954606",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-16T16:12:50Z",
+      "first_seen": "2026-10-16T17:15:35Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "The headline suggests a negative outcome for Gemini, a cryptocurrency exchange, as the judge rejects the bid to vacate a $5 million settlement, implying a financial impact.",
+        "rated_at": "2026-10-16T17:14:55Z"
+      },
+      "signature": [
+        "10e86c6514d40f2a",
+        "22f56333ffdc935a",
+        "453a50a24c7eeab0",
+        "5d72436256ada538",
+        "a75c433ab2ae1daf",
+        "be0d3024d4d27372",
+        "c0e0efc4fc56af49",
+        "c8ce96a5ba0d15da",
+        "ef2d127de37b942b"
+      ],
+      "headline_hash": "ec40339d88e1c336b43b36c6d3b26e8505261f25815dd6e5e607a59fb8bc2240"
     }
   },
   "sources": {
@@ -4950,25 +5288,25 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-16T17:01:21Z",
+      "last_success": "2026-10-16T17:15:35Z",
       "received": 10,
-      "accepted": 3,
+      "accepted": 5,
       "rejected": 0,
-      "last_attempt": "2026-10-16T17:01:21Z",
+      "last_attempt": "2026-10-16T17:15:35Z",
       "status": "ok",
-      "pending_llama": 3
+      "pending_llama": 0
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-16T17:01:21Z",
+      "last_success": "2026-10-16T17:15:35Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
-      "last_attempt": "2026-10-16T17:01:21Z",
+      "last_attempt": "2026-10-16T17:15:35Z",
       "status": "ok",
-      "pending_llama": 1
+      "pending_llama": 0
     },
     "alphavantage": {
       "id": "alphavantage",
@@ -4987,13 +5325,13 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-16T17:01:21Z",
+      "last_success": "2026-10-16T17:15:35Z",
       "received": 10,
-      "accepted": 0,
+      "accepted": 6,
       "rejected": 0,
-      "last_attempt": "2026-10-16T17:01:21Z",
+      "last_attempt": "2026-10-16T17:15:35Z",
       "status": "ok",
-      "pending_llama": 9
+      "pending_llama": 0
     }
   },
   "model_revisions": [

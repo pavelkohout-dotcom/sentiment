@@ -2778,10 +2778,274 @@
       ],
       "rule_segments": [],
       "kind": "unknown"
+    },
+    "fc0dab8737411fb23c0e83f679124565020aa28e303a1feb3af176179e490292": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline is about personal finance and family business, not US equities. It does not imply any impact on US stocks."
+      },
+      "rated_at": "2026-10-16T15:17:02Z",
+      "url": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T15:00:00Z",
+      "signature": [
+        "11d40417959631d3",
+        "29ba0e4351419286",
+        "3f62550731d942f8",
+        "3fc4ccfe745870e2",
+        "5a7cf4ac138054a8",
+        "62c66a7a5dd70c31",
+        "7692c3ad3540bb80",
+        "93f6e11d9ce3e407",
+        "a68b412c4282555f",
+        "af193190b8d3cd14",
+        "cdc29937887188ad",
+        "d34a569ab7aaa54d",
+        "de7d1b721a1e0632",
+        "f86b1f62a8554232",
+        "f905b19542ed08c9",
+        "ff5a1ae012afa5d4"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "bbec6e1b99e6cb8542e275887992e8c5eb21d3c4dcfd6ad0cde31bf24fd23edd": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or stocks, and the topic is about retiring abroad and financial ties to the US, which is unclear in terms of its impact on US equities."
+      },
+      "rated_at": "2026-10-16T15:17:05Z",
+      "url": "https://www.marketwatch.com/story/retiring-abroad-dont-cut-these-financial-ties-to-the-u-s-5e7e4fc2",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T15:00:00Z",
+      "signature": [
+        "043a718774c572bd",
+        "0bfe935e70c321c7",
+        "0d388a2db494a883",
+        "378bfce5cda2599a",
+        "4a2326c64ab2287e",
+        "a6278590a4ba1f3c",
+        "abeda62fefc1b342",
+        "b808e156d18d1cec",
+        "e3b98a4da31a127d",
+        "fed0e4820af42571"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "21cffd48dab6dd423bd06c9b6b07813345e00ba43eb4584e12d973373630cd30": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that KFC's decision to switch from PepsiCo to Coca-Cola as its US soda supplier may have a negative impact on PepsiCo's stock, potentially affecting broader US equities."
+      },
+      "rated_at": "2026-10-16T15:17:21Z",
+      "url": "https://www.investing.com/news/stock-market-news/kfc-to-sign-cocacola-on-as-beverage-partner-ditching-pepsico-wsj-reports-4952509",
+      "provider": "investing",
+      "published_at": "2026-10-16T15:12:24Z",
+      "signature": [
+        "14a136223815c492",
+        "214d3b704f33f2c5",
+        "42be22c266603b34",
+        "6116c93bf51548a6",
+        "65e10716f363b5a6",
+        "79adb2a2fce5c6ba",
+        "7f3fa48ca8856781",
+        "83049bf87edd848d",
+        "955ed10b73d6265b",
+        "a4cf5e703ea05d93",
+        "e2fa544f1c063438",
+        "e629fa6598d73276",
+        "eefa3980fdf345e9"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "8906f0dc6896f59bf193647bfe58b0d40f29a7db95ba3ac6f23621274f862110": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that Sprott's stock is gaining, indicating a positive impact on the company's stock price."
+      },
+      "rated_at": "2026-10-16T15:17:27Z",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-sprott-stock-gaining-today-93CH-4954532",
+      "provider": "investing",
+      "published_at": "2026-10-16T15:09:26Z",
+      "signature": [
+        "08c4242b5f585628",
+        "2be23c585f15e5fd",
+        "5f0d61eabc137337",
+        "c04b81b9a456763d",
+        "e0f4f767ac88a930"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "76f1f19663a836cb5052741f1a637cd07d9f674ed7c3681d641abcbee1afe2c8": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The EU drug regulator's backing for Eli Lilly's weight-loss pill is a positive development for the company, indicating a potential increase in revenue and market share."
+      },
+      "rated_at": "2026-10-16T15:17:34Z",
+      "url": "https://www.investing.com/news/stock-market-news/eli-lillys-weightloss-pill-wins-eu-drug-regulators-backing-4954218",
+      "provider": "investing",
+      "published_at": "2026-10-16T15:01:33Z",
+      "signature": [
+        "043a718774c572bd",
+        "0844df8fee9eeada",
+        "202bd009f816aa8a",
+        "27037fccea3062ee",
+        "2ea71c18131a7f03",
+        "4d0282941aaf2d69",
+        "a962826d4641c07e",
+        "bc3347de8e8c621f",
+        "e3127a4ce13edc51",
+        "f4a85a7509a0a756",
+        "fe98a4b07a9f4ee4"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "6986e22d10261ea1848bbf8e4790c19041c53ccb943ade615acd2d2a7f66d966": {
+      "rating": {
+        "scope": "other",
+        "direction": "negative",
+        "score": null,
+        "reason": "The headline suggests that the private credit market's reliance on AI financing may be impacted by CoreWeave's debt stress, which could have a negative impact on US equities."
+      },
+      "rated_at": "2026-10-16T15:17:40Z",
+      "url": "https://www.investing.com/news/stock-market-news/private-credit-roundup-coreweaves-debt-stress-tests-private-credits-ai-financing-boom-4954178",
+      "provider": "investing",
+      "published_at": "2026-10-16T15:01:19Z",
+      "signature": [
+        "043a718774c572bd",
+        "32e83e92d45d71f6",
+        "59830ebc3a418411",
+        "652d75f9bafb25e5",
+        "715dc8493c36579a",
+        "81f52337ebb4cb16",
+        "8348e0915fc78ec2",
+        "e4e3e15eef8decf5",
+        "e6cd6593df646c52",
+        "ecc4873a1694eb0d",
+        "f43dc8790ed62156"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "48a886c0973929418b20bb5ed1eeae1909cf56d089a78ef5c36484ae71877179": {
+      "rating": {
+        "scope": "other",
+        "direction": "negative",
+        "score": null,
+        "reason": "The headline suggests a regulatory challenge to Microsoft's business, which could potentially impact US equities negatively."
+      },
+      "rated_at": "2026-10-16T15:17:43Z",
+      "url": "https://www.investing.com/news/stock-market-news/uk-competition-regulator-targets-microsofts-business-software-grip-4953421",
+      "provider": "investing",
+      "published_at": "2026-10-16T15:01:05Z",
+      "signature": [
+        "043a718774c572bd",
+        "11d40417959631d3",
+        "26cafb94003a6548",
+        "35390f5453e810b6",
+        "4721819b2bf3e332",
+        "83116acf18e4dc44",
+        "994dc8440a6b8c06",
+        "9fbf261b62c1d7c0",
+        "fe98a4b07a9f4ee4"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "f06c67937dab35bf90fb3abdc202e689ad91fef839d581dc2de3826c07f8bbe4": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that Vermilion Energy's stock is climbing, indicating a positive impact on US equities."
+      },
+      "rated_at": "2026-10-16T15:17:45Z",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-vermilion-energy-stock-climbing-today-93CH-4954517",
+      "provider": "investing",
+      "published_at": "2026-10-16T15:00:40Z",
+      "signature": [
+        "08c4242b5f585628",
+        "2be23c585f15e5fd",
+        "381cfb6e1e428419",
+        "79485f3a9f5f086e",
+        "df7da510a6fe1ab6",
+        "e0f4f767ac88a930"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "79ae4ab67d2c3e19964c3b6e5775ee6249785b16a24792ea89069c52ff6121b9": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The UK competition watchdog's statement implies that AWS and Microsoft may face regulatory hurdles or increased scrutiny, which could negatively impact their cloud services and US equities."
+      },
+      "rated_at": "2026-10-16T15:17:48Z",
+      "url": "https://www.investing.com/news/stock-market-news/aws-microsoft-can-do-more-to-address-cloud-services-barriers-uk-competition-watchdog-says-4953452",
+      "provider": "investing",
+      "published_at": "2026-10-16T15:00:32Z",
+      "signature": [
+        "1089f4de2dc2c193",
+        "187897ce0afcf20b",
+        "422718fe17b063bc",
+        "4721819b2bf3e332",
+        "56681010b753e1ab",
+        "7d1507284a5757ca",
+        "83116acf18e4dc44",
+        "9f584196e7fe6de8",
+        "9fbf261b62c1d7c0",
+        "ac0b52a2ae6ef999",
+        "d80c9bf910f14473",
+        "ef1c4b45f2ed7632"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "2c34937666d4418d179266738986087c6752ca348a79ef521b32eb730e665b13": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that Celestica's stock is sliding, implying a negative impact on the company's stock price."
+      },
+      "rated_at": "2026-10-16T15:17:50Z",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-celestica-stock-sliding-today-93CH-4954516",
+      "provider": "investing",
+      "published_at": "2026-10-16T15:00:17Z",
+      "signature": [
+        "08c4242b5f585628",
+        "2be23c585f15e5fd",
+        "58d805bc784099da",
+        "596bd20e1edd45b5",
+        "e0f4f767ac88a930"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
     }
   },
-  "updated_at": "2026-10-16T14:42:36Z",
-  "last_attempt": "2026-10-16T14:44:41Z",
+  "updated_at": "2026-10-16T15:17:50Z",
+  "last_attempt": "2026-10-16T15:17:50Z",
   "errors": [
     {
       "headline_hash": "f79c269d5fe1eb8d72f6d2437ee68f0d1202622a208cb06e56df4e4cd638cea3",
@@ -2790,7 +3054,15 @@
     {
       "headline_hash": "45bbfee50a803cff09b1215aae545676e855eb176c52bdd4e3617a4780cf9cfc",
       "error": "ValueError"
+    },
+    {
+      "headline_hash": "fd5bf8d8e04ba02191ee00c7a4c58ec6fd0b4c2f5f6b3b5cd54944eee108db8e",
+      "error": "ValueError"
+    },
+    {
+      "headline_hash": "428ec4834eda69778f257ebad65cbc86833c91a2f99e3c5bed0afc2954d7dd25",
+      "error": "ValueError"
     }
   ],
-  "last_success": "2026-10-16T14:44:41Z"
+  "last_success": "2026-10-16T15:17:50Z"
 }

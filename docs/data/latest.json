@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T03:15:43Z",
+  "generated_at": "2026-10-16T03:31:04Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
@@ -13,7 +13,7 @@
       "articles": 20,
       "sources": 3,
       "momentum": 0.0,
-      "momentum_baseline": "2026-10-16T02:15:41Z",
+      "momentum_baseline": "2026-10-16T02:31:02Z",
       "extreme": "normal"
     },
     "nasdaq100": {
@@ -24,7 +24,7 @@
       "articles": 11,
       "sources": 3,
       "momentum": 0.0,
-      "momentum_baseline": "2026-10-16T02:15:41Z",
+      "momentum_baseline": "2026-10-16T02:31:02Z",
       "extreme": "normal"
     },
     "sp500": {
@@ -35,7 +35,7 @@
       "articles": 11,
       "sources": 3,
       "momentum": 0.0,
-      "momentum_baseline": "2026-10-16T02:15:41Z",
+      "momentum_baseline": "2026-10-16T02:31:02Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-16T03:15:43Z",
+      "last_success": "2026-10-16T03:31:04Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
       "pending_llama": 6,
-      "last_attempt": "2026-10-16T03:15:43Z",
+      "last_attempt": "2026-10-16T03:31:04Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-16T03:15:43Z",
+      "last_success": "2026-10-16T03:31:04Z",
       "received": 20,
       "accepted": 15,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-16T03:15:43Z",
+      "last_attempt": "2026-10-16T03:31:04Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-16T03:15:43Z",
+      "last_success": "2026-10-16T03:31:04Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-16T03:15:43Z",
+      "last_attempt": "2026-10-16T03:31:04Z",
       "status": "ok"
     }
   ],

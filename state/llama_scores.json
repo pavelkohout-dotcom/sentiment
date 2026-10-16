@@ -3042,27 +3042,376 @@
       ],
       "rule_segments": [],
       "kind": "unknown"
+    },
+    "b4cd576fa4dbad71e6a3448af6bc152a0e8c9b5a734a1e5032e18f98b7172ebc": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not imply a specific impact on US equities, but rather discusses the Federal Reserve's outlook for the economy, which may indirectly affect the market."
+      },
+      "rated_at": "2026-10-16T17:14:18Z",
+      "url": "https://www.marketwatch.com/story/heres-how-the-fed-should-reveal-its-outlook-for-the-economy-79629f25",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T17:07:00Z",
+      "signature": [
+        "043a718774c572bd",
+        "20e796c128096d22",
+        "419a636ccc2aa55c",
+        "4f53c6c301f98610",
+        "6fda2b8252b6d5ea",
+        "8044aae1f86875d9",
+        "f86b1f62a8554232",
+        "fcec91509759ad99"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "98ee0b0e7fbcfa5c07869ab3492c21ad9ce4c8050c067007dba0cef74b37bf28": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that Elon Musk is taking a step towards consolidating his empire, implying a positive impact on his company's stock."
+      },
+      "rated_at": "2026-10-16T17:14:20Z",
+      "url": "https://www.marketwatch.com/story/elon-musk-may-have-just-taken-a-major-step-toward-consolidating-his-empire-7d82dea6",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T16:39:00Z",
+      "signature": [
+        "193c45b5281908d2",
+        "3e64cc41cf8e07b4",
+        "4274e7edc82236a6",
+        "4db16eb962f33f6f",
+        "6558a6a3379db4f3",
+        "73c9c98668a34c54",
+        "8b64d09d9a7290a3",
+        "99341d56cc288053",
+        "b2c66dfd45dd07f5",
+        "cc58a5f8986c71d4",
+        "d602bf8f470bc67c",
+        "ee4d988c65de860f"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "272cd5362ba4af2b055193de126ee65a4f26046873ef929fa0b26105aebe2cb0": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that many of the hottest stocks in 2026 have seen a dramatic decline, implying a negative impact on US equities."
+      },
+      "rated_at": "2026-10-16T17:14:23Z",
+      "url": "https://www.marketwatch.com/story/many-of-2026s-hottest-stocks-have-seen-dramatic-comedowns-this-week-e5ae5d06",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T16:09:00Z",
+      "signature": [
+        "043a718774c572bd",
+        "097092286f79d3a1",
+        "1137b15c7797aa84",
+        "158a323a7ba44870",
+        "193c45b5281908d2",
+        "1ef8f25405f82682",
+        "6df37daaa46ce714",
+        "7208794c984ea1c7",
+        "9c51288ab4f6ae0c",
+        "d15b947e56c5eb86"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "01a2c7b07f9d4266e115c5d1ef2bec480b87c6c807f997400e118a7db90970cc": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not imply any impact on US equities, and the topic is unrelated to the stock market."
+      },
+      "rated_at": "2026-10-16T17:14:25Z",
+      "url": "https://www.marketwatch.com/story/can-a-55-000-plus-robot-load-the-dishwasher-inside-my-afternoon-with-two-humanoid-housekeepers-0a9569ab",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T16:05:00Z",
+      "signature": [
+        "02d20bbd7e394ad5",
+        "038468518ad8122e",
+        "0cf67fc72b3c86c7",
+        "106b086224a4d945",
+        "18d63be10ad544a0",
+        "2ac9a6746aca543a",
+        "2f024fe411a0407c",
+        "3798a3a33d19e7bd",
+        "3fc4ccfe745870e2",
+        "9f584196e7fe6de8",
+        "c8e07c1ac268eae0",
+        "dbc5acceeda6cd24"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "879dbd31398194a0149c3bbaf7c382b38f54aa6d616d5225ec9a3668993a206f": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any specific US company, and the IMF's suggestion is not directly applicable to the US market. The mention of a budget raid in the UK also does not have a clear impact on US equities."
+      },
+      "rated_at": "2026-10-16T17:14:28Z",
+      "url": "https://www.theguardian.com/business/live/2026/oct/16/john-healey-set-to-raise-bank-taxes-shares-profits-stock-markets-imf-latest-news-updates",
+      "provider": "guardian",
+      "published_at": "2026-10-16T15:42:59Z",
+      "signature": [
+        "0af96a8ed622a394",
+        "20246bb1bf5313e2",
+        "262cd7e8d3156b5b",
+        "263dae9af8f88960",
+        "378bfce5cda2599a",
+        "4446d5cc70147c28",
+        "4c3b61ed20f14cb6",
+        "7383711c1b05e72a",
+        "83116acf18e4dc44",
+        "8588b8c524e36861",
+        "b9a1602551834723",
+        "c06dc8cc17251ea4",
+        "c37d8ede17f4c7ee",
+        "d1ffaf0265bbf7e1",
+        "e49b5c7a9e738d48",
+        "f86b1f62a8554232"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "8cee0c9494c9b94451b5f9bf55de9734cde10d8254d45d2d0d8a6e8b50226e2a": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that CoreWeave's bond rout may have a negative impact on US equities, specifically the company's stock price."
+      },
+      "rated_at": "2026-10-16T17:14:31Z",
+      "url": "https://www.investing.com/news/stock-market-news/coreweave-bond-rout-tests-markets-math-on-ai-buildout-4953576",
+      "provider": "investing",
+      "published_at": "2026-10-16T16:54:59Z",
+      "signature": [
+        "043a718774c572bd",
+        "32e83e92d45d71f6",
+        "3df8c38622686e1a",
+        "58a6d6801ae771e6",
+        "59830ebc3a418411",
+        "8348e0915fc78ec2",
+        "a8a5343533baeb26",
+        "e4d693d24e646cb7",
+        "f21dea74d898cfea"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "0315dab2b46c38b7dc7f0a0db87c3915fb75d408057ebcf3b738e3e2b7d17826": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities directly, but rather European shares. The mention of a tech selloff and earnings may have some indirect impact on US markets, but it is unclear what the near-term impact would be."
+      },
+      "rated_at": "2026-10-16T17:14:34Z",
+      "url": "https://www.investing.com/news/stock-market-news/european-stocks-gain-as-schneider-lifts-sentiment-inflation-data-awaited-4953276",
+      "provider": "investing",
+      "published_at": "2026-10-16T16:36:59Z",
+      "signature": [
+        "2548c17ff2a7c7f0",
+        "310ff200149b44a3",
+        "354d51ee5f356dcc",
+        "4a64609f7db9facc",
+        "6b5a3ded016ab782",
+        "6df37daaa46ce714",
+        "762069bc07a6e1b5",
+        "7cf6b0597fe4e3cb",
+        "8f4375ec65c2c409",
+        "c0fa1ef864788c45",
+        "e39cf4518fca1824",
+        "fe7634184576f6d1",
+        "fe9bbd400bb6cb31"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "2afd8927eba93cbc5ff04ceb72e7415f98961cee9e5b685e3e5722d732a54a19": {
+      "rating": {
+        "scope": "other",
+        "direction": "positive",
+        "score": null,
+        "reason": "The headline refers to the UK's FTSE 100 index, which is not a US equity, but a positive outcome for the UK market may have a positive impact on US equities due to global market connections."
+      },
+      "rated_at": "2026-10-16T17:14:40Z",
+      "url": "https://www.investing.com/news/stock-market-news/uk-stocks-set-for-weekly-gains-as-investors-seek-shelter-in-defensive-sectors-4953812",
+      "provider": "investing",
+      "published_at": "2026-10-16T16:36:42Z",
+      "signature": [
+        "043a718774c572bd",
+        "16837433443196b5",
+        "44778d82365e4af6",
+        "6cf2c255b068bb69",
+        "6df37daaa46ce714",
+        "83116acf18e4dc44",
+        "98f38f12db221a8c",
+        "9d5d7fcf3aa35a48",
+        "a0a416e1b1bb3484",
+        "ad57366865126e55",
+        "afd5c5ae5738e275",
+        "fd1fa5baa00345fc"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "0a1fea1df2f1e53ac0996a9bc6184b096e2856b9b8ae94f8f88582f982cf2825": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that the stock is climbing, indicating a positive impact on the company's stock price."
+      },
+      "rated_at": "2026-10-16T17:14:42Z",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-corporacion-america-airports-stock-climbing-today-93CH-4954629",
+      "provider": "investing",
+      "published_at": "2026-10-16T16:34:13Z",
+      "signature": [
+        "08c4242b5f585628",
+        "2be23c585f15e5fd",
+        "a7b7c58958ea0909",
+        "b41e6560a4467aa4",
+        "d9903ac96966dbc5",
+        "df7da510a6fe1ab6",
+        "e0f4f767ac88a930"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "184c58c4797d9fe3c4342aea2f436440adae17952192fb4fee717f5102a488f6": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that NiSource stock is rallying, indicating a positive impact on US equities."
+      },
+      "rated_at": "2026-10-16T17:14:44Z",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-nisource-stock-rallying-today-93CH-4954628",
+      "provider": "investing",
+      "published_at": "2026-10-16T16:34:09Z",
+      "signature": [
+        "08c4242b5f585628",
+        "2be23c585f15e5fd",
+        "75435f866125eed8",
+        "e0f4f767ac88a930",
+        "fd23ae26523e609d"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "03b7ae28d738a13666b4eb0185dbeb3364605eb2059f89e742f9a1a277c4809c": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not imply a direct impact on US equities, and the term 'cybersecurity incident' is ambiguous and could have various effects on different industries or companies."
+      },
+      "rated_at": "2026-10-16T17:14:47Z",
+      "url": "https://www.investing.com/news/stock-market-news/usfederal-bankruptcy-court-operations-disrupted-bycybersecurity-incident-4954551",
+      "provider": "investing",
+      "published_at": "2026-10-16T16:30:27Z",
+      "signature": [
+        "0752f1faf690dbe1",
+        "64a1e1972b663b35",
+        "74de07c4e919534b",
+        "79adb2a2fce5c6ba",
+        "a2f89e6fe92debe3",
+        "b74e6b8e7391a61c",
+        "d4191834714542dc",
+        "fdc4917f70bd1a73"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "8502f6bd4c4bd63e9dbd636e44272922186ae69882f2e9bbe559cb8d9c0322de": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not explicitly mention US equities, but the phrase 'since June' implies a comparison to a previous period. The impact on US equities is unclear."
+      },
+      "rated_at": "2026-10-16T17:14:50Z",
+      "url": "https://www.investing.com/news/stock-market-news/european-stocks-on-course-for-best-week-since-aug-on-easing-yields-4953245",
+      "provider": "investing",
+      "published_at": "2026-10-16T16:25:30Z",
+      "signature": [
+        "1ef8f25405f82682",
+        "5d22b78816fc82d8",
+        "6b5a3ded016ab782",
+        "6df37daaa46ce714",
+        "72231043bc1807e6",
+        "8f4375ec65c2c409",
+        "ba75b4423591cddc",
+        "c0fa1ef864788c45",
+        "e39cf4518fca1824"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "48147c3560d8e7a4842bed503aab436be4be40c6066c8a195531799a4b5228e6": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any specific US company, so it is unclear how it would impact US stocks."
+      },
+      "rated_at": "2026-10-16T17:14:52Z",
+      "url": "https://www.investing.com/news/stock-market-news/indonesia-regulators-fine-three-companies-612-million-total-93CH-4954607",
+      "provider": "investing",
+      "published_at": "2026-10-16T16:12:56Z",
+      "signature": [
+        "11239872d178729a",
+        "1701cfb023a18b15",
+        "341cf9022a3e6469",
+        "4ad92a45689299fb",
+        "8b5b9db0c13db242",
+        "c8ce96a5ba0d15da",
+        "d029fa3a95e174a1",
+        "d14a58bae804a2b8",
+        "d4735e3a265e16ee"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "ec40339d88e1c336b43b36c6d3b26e8505261f25815dd6e5e607a59fb8bc2240": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests a negative outcome for Gemini, a cryptocurrency exchange, as the judge rejects the bid to vacate a $5 million settlement, implying a financial impact."
+      },
+      "rated_at": "2026-10-16T17:14:55Z",
+      "url": "https://www.investing.com/news/stock-market-news/judge-rejects-cftc-gemini-bid-to-vacate-5-million-settlement-4954606",
+      "provider": "investing",
+      "published_at": "2026-10-16T16:12:50Z",
+      "signature": [
+        "10e86c6514d40f2a",
+        "22f56333ffdc935a",
+        "453a50a24c7eeab0",
+        "5d72436256ada538",
+        "a75c433ab2ae1daf",
+        "be0d3024d4d27372",
+        "c0e0efc4fc56af49",
+        "c8ce96a5ba0d15da",
+        "ef2d127de37b942b"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
     }
   },
-  "updated_at": "2026-10-16T15:17:50Z",
-  "last_attempt": "2026-10-16T15:17:50Z",
-  "errors": [
-    {
-      "headline_hash": "f79c269d5fe1eb8d72f6d2437ee68f0d1202622a208cb06e56df4e4cd638cea3",
-      "error": "ValueError"
-    },
-    {
-      "headline_hash": "45bbfee50a803cff09b1215aae545676e855eb176c52bdd4e3617a4780cf9cfc",
-      "error": "ValueError"
-    },
-    {
-      "headline_hash": "fd5bf8d8e04ba02191ee00c7a4c58ec6fd0b4c2f5f6b3b5cd54944eee108db8e",
-      "error": "ValueError"
-    },
-    {
-      "headline_hash": "428ec4834eda69778f257ebad65cbc86833c91a2f99e3c5bed0afc2954d7dd25",
-      "error": "ValueError"
-    }
-  ],
-  "last_success": "2026-10-16T15:17:50Z"
+  "updated_at": "2026-10-16T17:14:55Z",
+  "last_attempt": "2026-10-16T17:14:55Z",
+  "errors": [],
+  "last_success": "2026-10-16T17:14:55Z"
 }

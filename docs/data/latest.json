@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T20:01:16Z",
+  "generated_at": "2026-10-16T20:15:44Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 52.87,
+      "value": 52.71,
       "status": "ok",
-      "events": 54,
-      "scored_events": 48,
-      "articles": 54,
+      "events": 53,
+      "scored_events": 47,
+      "articles": 53,
       "sources": 2,
-      "momentum": 4.7,
-      "momentum_baseline": "2026-10-16T19:01:15Z",
+      "momentum": 4.54,
+      "momentum_baseline": "2026-10-16T19:15:44Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 38.67,
+      "value": 37.93,
       "status": "ok",
-      "events": 27,
-      "scored_events": 22,
-      "articles": 27,
+      "events": 26,
+      "scored_events": 21,
+      "articles": 26,
       "sources": 2,
-      "momentum": 6.99,
-      "momentum_baseline": "2026-10-16T19:01:15Z",
+      "momentum": 6.25,
+      "momentum_baseline": "2026-10-16T19:15:44Z",
       "extreme": "normal"
     },
     "sp500": {
-      "value": 38.67,
+      "value": 37.93,
       "status": "ok",
-      "events": 27,
-      "scored_events": 22,
-      "articles": 27,
+      "events": 26,
+      "scored_events": 21,
+      "articles": 26,
       "sources": 2,
-      "momentum": 6.99,
-      "momentum_baseline": "2026-10-16T19:01:15Z",
+      "momentum": 6.25,
+      "momentum_baseline": "2026-10-16T19:15:44Z",
       "extreme": "normal"
     }
   },
@@ -44,40 +44,40 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-16T20:01:16Z",
+      "last_success": "2026-10-16T20:15:44Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "pending_llama": 3,
-      "last_attempt": "2026-10-16T20:01:16Z",
+      "pending_llama": 4,
+      "last_attempt": "2026-10-16T20:15:44Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-16T20:01:16Z",
+      "last_success": "2026-10-16T20:15:44Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-16T20:01:16Z",
+      "last_attempt": "2026-10-16T20:15:44Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-16T20:01:16Z",
+      "last_success": "2026-10-16T20:15:44Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-16T20:01:16Z",
+      "last_attempt": "2026-10-16T20:15:44Z",
       "status": "ok"
     }
   ],
-  "new_articles": 1,
+  "new_articles": 0,
   "total_archived": 143,
   "articles": [
     {
@@ -1430,32 +1430,6 @@
         "reason": "The headline implies a negative impact on PepsiCo's US equities, as KFC is switching from a longtime partner to a new supplier, Coca-Cola.",
         "rated_at": "2026-10-15T20:43:09Z"
       }
-    },
-    {
-      "id": "33f060435828eeb9df94dcec0e9f31970a9536274580ad54ee7489ed1db7b102",
-      "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-fall-as-hot-inflation-revives-fed-hike-concerns-4950317",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-15T20:12:30Z",
-      "first_seen": "2026-10-15T01:01:13Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "positive",
-        "reason": "The headline suggests a rebound in the Nasdaq, which is a broad US stock market index, indicating a positive impact on US equities.",
-        "rated_at": "2026-10-15T20:43:13Z"
-      }
     }
   ],
   "methodology": {
@@ -1470,7 +1444,7 @@
     "last_rated_at": "2026-10-16T17:14:55Z",
     "last_refresh_at": "2026-10-16T17:14:55Z",
     "errors": 0,
-    "pending": 13,
+    "pending": 14,
     "model_digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
     "scale": {
       "negative": -1,

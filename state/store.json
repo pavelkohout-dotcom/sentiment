@@ -4763,6 +4763,186 @@
         "ff6b1c44fb9488ad"
       ],
       "headline_hash": "dc6dd0e1dd8d393847c4792874058cef7c3b05b1903493f494cb57e506efd45c"
+    },
+    "ad2c956e2ce931998cbdf5bc9de2ed3634b170687021c04913fa6d70514a0549": {
+      "id": "ad2c956e2ce931998cbdf5bc9de2ed3634b170687021c04913fa6d70514a0549",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-sprott-stock-gaining-today-93CH-4954532",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-16T15:09:26Z",
+      "first_seen": "2026-10-16T15:17:27Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "positive",
+        "reason": "The headline suggests that Sprott's stock is gaining, indicating a positive impact on the company's stock price.",
+        "rated_at": "2026-10-16T15:17:27Z"
+      },
+      "signature": [
+        "08c4242b5f585628",
+        "2be23c585f15e5fd",
+        "5f0d61eabc137337",
+        "c04b81b9a456763d",
+        "e0f4f767ac88a930"
+      ],
+      "headline_hash": "8906f0dc6896f59bf193647bfe58b0d40f29a7db95ba3ac6f23621274f862110"
+    },
+    "e98db93f10a768543f857e68fc06f3fe8ee5ca3034c472f17383dcc3354d28b0": {
+      "id": "e98db93f10a768543f857e68fc06f3fe8ee5ca3034c472f17383dcc3354d28b0",
+      "url": "https://www.investing.com/news/stock-market-news/eli-lillys-weightloss-pill-wins-eu-drug-regulators-backing-4954218",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-16T15:01:33Z",
+      "first_seen": "2026-10-16T15:17:34Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "positive",
+        "reason": "The EU drug regulator's backing for Eli Lilly's weight-loss pill is a positive development for the company, indicating a potential increase in revenue and market share.",
+        "rated_at": "2026-10-16T15:17:34Z"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "0844df8fee9eeada",
+        "202bd009f816aa8a",
+        "27037fccea3062ee",
+        "2ea71c18131a7f03",
+        "4d0282941aaf2d69",
+        "a962826d4641c07e",
+        "bc3347de8e8c621f",
+        "e3127a4ce13edc51",
+        "f4a85a7509a0a756",
+        "fe98a4b07a9f4ee4"
+      ],
+      "headline_hash": "76f1f19663a836cb5052741f1a637cd07d9f674ed7c3681d641abcbee1afe2c8"
+    },
+    "bba0517bcbf3085429ec63809fd0971e5670f1fc15129f46f752eccaa902f7e3": {
+      "id": "bba0517bcbf3085429ec63809fd0971e5670f1fc15129f46f752eccaa902f7e3",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-vermilion-energy-stock-climbing-today-93CH-4954517",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-16T15:00:40Z",
+      "first_seen": "2026-10-16T15:17:45Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "positive",
+        "reason": "The headline suggests that Vermilion Energy's stock is climbing, indicating a positive impact on US equities.",
+        "rated_at": "2026-10-16T15:17:45Z"
+      },
+      "signature": [
+        "08c4242b5f585628",
+        "2be23c585f15e5fd",
+        "381cfb6e1e428419",
+        "79485f3a9f5f086e",
+        "df7da510a6fe1ab6",
+        "e0f4f767ac88a930"
+      ],
+      "headline_hash": "f06c67937dab35bf90fb3abdc202e689ad91fef839d581dc2de3826c07f8bbe4"
+    },
+    "5a9e43fb2f5102ffa0fc664414ac056fa39a881e75924403060597f1b580ef62": {
+      "id": "5a9e43fb2f5102ffa0fc664414ac056fa39a881e75924403060597f1b580ef62",
+      "url": "https://www.investing.com/news/stock-market-news/aws-microsoft-can-do-more-to-address-cloud-services-barriers-uk-competition-watchdog-says-4953452",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-16T15:00:32Z",
+      "first_seen": "2026-10-16T15:17:48Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "The UK competition watchdog's statement implies that AWS and Microsoft may face regulatory hurdles or increased scrutiny, which could negatively impact their cloud services and US equities.",
+        "rated_at": "2026-10-16T15:17:48Z"
+      },
+      "signature": [
+        "1089f4de2dc2c193",
+        "187897ce0afcf20b",
+        "422718fe17b063bc",
+        "4721819b2bf3e332",
+        "56681010b753e1ab",
+        "7d1507284a5757ca",
+        "83116acf18e4dc44",
+        "9f584196e7fe6de8",
+        "9fbf261b62c1d7c0",
+        "ac0b52a2ae6ef999",
+        "d80c9bf910f14473",
+        "ef1c4b45f2ed7632"
+      ],
+      "headline_hash": "79ae4ab67d2c3e19964c3b6e5775ee6249785b16a24792ea89069c52ff6121b9"
+    },
+    "bec22c2f43ec9da28ade90a981ae7b1048c0b281f066d7f20ebd0cda5aa9024d": {
+      "id": "bec22c2f43ec9da28ade90a981ae7b1048c0b281f066d7f20ebd0cda5aa9024d",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-celestica-stock-sliding-today-93CH-4954516",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-16T15:00:17Z",
+      "first_seen": "2026-10-16T15:17:50Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "The headline suggests that Celestica's stock is sliding, implying a negative impact on the company's stock price.",
+        "rated_at": "2026-10-16T15:17:50Z"
+      },
+      "signature": [
+        "08c4242b5f585628",
+        "2be23c585f15e5fd",
+        "58d805bc784099da",
+        "596bd20e1edd45b5",
+        "e0f4f767ac88a930"
+      ],
+      "headline_hash": "2c34937666d4418d179266738986087c6752ca348a79ef521b32eb730e665b13"
     }
   },
   "sources": {
@@ -4770,23 +4950,23 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-16T15:15:48Z",
+      "last_success": "2026-10-16T15:18:39Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
-      "last_attempt": "2026-10-16T15:15:48Z",
+      "last_attempt": "2026-10-16T15:18:39Z",
       "status": "ok",
-      "pending_llama": 4
+      "pending_llama": 2
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-16T15:15:48Z",
+      "last_success": "2026-10-16T15:18:39Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
-      "last_attempt": "2026-10-16T15:15:48Z",
+      "last_attempt": "2026-10-16T15:18:39Z",
       "status": "ok",
       "pending_llama": 0
     },
@@ -4807,11 +4987,11 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-16T15:15:48Z",
+      "last_success": "2026-10-16T15:18:39Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-16T15:15:48Z",
+      "last_attempt": "2026-10-16T15:18:39Z",
       "status": "ok",
       "pending_llama": 8
     }

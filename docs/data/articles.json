@@ -3063,5 +3063,131 @@
       "reason": "The headline suggests a potential breakout or trap, indicating a mixed impact on US equities.",
       "rated_at": "2026-10-16T14:42:36Z"
     }
+  },
+  {
+    "id": "ad2c956e2ce931998cbdf5bc9de2ed3634b170687021c04913fa6d70514a0549",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-sprott-stock-gaining-today-93CH-4954532",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T15:09:26Z",
+    "first_seen": "2026-10-16T15:17:27Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": 1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "positive",
+      "reason": "The headline suggests that Sprott's stock is gaining, indicating a positive impact on the company's stock price.",
+      "rated_at": "2026-10-16T15:17:27Z"
+    }
+  },
+  {
+    "id": "e98db93f10a768543f857e68fc06f3fe8ee5ca3034c472f17383dcc3354d28b0",
+    "url": "https://www.investing.com/news/stock-market-news/eli-lillys-weightloss-pill-wins-eu-drug-regulators-backing-4954218",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T15:01:33Z",
+    "first_seen": "2026-10-16T15:17:34Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": 1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "positive",
+      "reason": "The EU drug regulator's backing for Eli Lilly's weight-loss pill is a positive development for the company, indicating a potential increase in revenue and market share.",
+      "rated_at": "2026-10-16T15:17:34Z"
+    }
+  },
+  {
+    "id": "bba0517bcbf3085429ec63809fd0971e5670f1fc15129f46f752eccaa902f7e3",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-vermilion-energy-stock-climbing-today-93CH-4954517",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T15:00:40Z",
+    "first_seen": "2026-10-16T15:17:45Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": 1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "positive",
+      "reason": "The headline suggests that Vermilion Energy's stock is climbing, indicating a positive impact on US equities.",
+      "rated_at": "2026-10-16T15:17:45Z"
+    }
+  },
+  {
+    "id": "5a9e43fb2f5102ffa0fc664414ac056fa39a881e75924403060597f1b580ef62",
+    "url": "https://www.investing.com/news/stock-market-news/aws-microsoft-can-do-more-to-address-cloud-services-barriers-uk-competition-watchdog-says-4953452",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T15:00:32Z",
+    "first_seen": "2026-10-16T15:17:48Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "negative",
+      "reason": "The UK competition watchdog's statement implies that AWS and Microsoft may face regulatory hurdles or increased scrutiny, which could negatively impact their cloud services and US equities.",
+      "rated_at": "2026-10-16T15:17:48Z"
+    }
+  },
+  {
+    "id": "bec22c2f43ec9da28ade90a981ae7b1048c0b281f066d7f20ebd0cda5aa9024d",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-celestica-stock-sliding-today-93CH-4954516",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T15:00:17Z",
+    "first_seen": "2026-10-16T15:17:50Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "negative",
+      "reason": "The headline suggests that Celestica's stock is sliding, implying a negative impact on the company's stock price.",
+      "rated_at": "2026-10-16T15:17:50Z"
+    }
   }
 ]

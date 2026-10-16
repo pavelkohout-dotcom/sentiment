@@ -2781,7 +2781,7 @@
     }
   },
   "updated_at": "2026-10-16T14:42:36Z",
-  "last_attempt": "2026-10-16T14:42:36Z",
+  "last_attempt": "2026-10-16T14:44:41Z",
   "errors": [
     {
       "headline_hash": "f79c269d5fe1eb8d72f6d2437ee68f0d1202622a208cb06e56df4e4cd638cea3",
@@ -2792,5 +2792,5 @@
       "error": "ValueError"
     }
   ],
-  "last_success": "2026-10-16T14:42:36Z"
+  "last_success": "2026-10-16T14:44:41Z"
 }

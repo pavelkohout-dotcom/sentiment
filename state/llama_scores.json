@@ -391,7 +391,7 @@
       "rated_at": "2026-10-15T20:41:13Z",
       "url": "https://www.marketwatch.com/story/i-earn-110-000-a-year-i-lost-my-home-in-the-great-recession-im-renting-in-my-50s-why-is-that-judged-as-failure-d1371d67",
       "provider": "marketwatch",
-      "published_at": "2026-10-14T19:15:00Z",
+      "published_at": "2026-10-15T22:31:00Z",
       "signature": [
         "038468518ad8122e",
         "0e9fd1596c4b1dfc",
@@ -1843,15 +1843,438 @@
       ],
       "rule_segments": [],
       "kind": "unknown"
+    },
+    "542374a3f515948d28f2d20bb3b478763182e33c4673421dc29251e495c9b9bd": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests a significant innovation and potential growth driver for Tesla, which could positively impact its stock price."
+      },
+      "rated_at": "2026-10-16T05:25:17Z",
+      "url": "https://www.marketwatch.com/story/tesla-may-finally-debut-a-flying-car-today-after-testing-fans-patience-for-nearly-a-decade-9a23c8e8",
+      "provider": "marketwatch",
+      "published_at": "2026-10-16T02:42:00Z",
+      "signature": [
+        "205c3e16c66ff0b8",
+        "2b2961a431b23c90",
+        "3513d9452af7c176",
+        "7358bd4ec877e1b6",
+        "a1f95e4f6e5e4d17",
+        "e5a1d427256b280f",
+        "fa8847b0c3318327"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "2a61ba41fa360762ce80b2646e8016887c1a8b2ff77ce36e328ba52c158aec80": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "Pepsi losing market share to Coca-Cola due to KFC's decision to switch to Coke"
+      },
+      "rated_at": "2026-10-16T05:25:19Z",
+      "url": "https://www.marketwatch.com/story/pepsi-loses-more-ground-in-the-soda-wars-as-kfc-switches-to-coke-49b1ef53",
+      "provider": "marketwatch",
+      "published_at": "2026-10-15T23:29:00Z",
+      "signature": [
+        "187897ce0afcf20b",
+        "2e7af2bf0c17e5a9",
+        "3d2676bea22d9b21",
+        "3f3ac62134eb65f2",
+        "5330e8f20aac22d5",
+        "8e9c543a5078f214",
+        "a4cf5e703ea05d93",
+        "dbb3b50e59c7326b",
+        "eefa3980fdf345e9"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "f9565463aae2f88b0c883b2e91bb602ae8ffd43f5cd73e1feef37b1fa1b07b55": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline is about personal finance and family business, not US equities. It does not imply any impact on US stocks."
+      },
+      "rated_at": "2026-10-16T05:25:21Z",
+      "url": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382",
+      "provider": "marketwatch",
+      "published_at": "2026-10-15T22:15:00Z",
+      "signature": [
+        "11d40417959631d3",
+        "1c50993b009c62dd",
+        "29ba0e4351419286",
+        "3f62550731d942f8",
+        "3fc4ccfe745870e2",
+        "5a7cf4ac138054a8",
+        "62c66a7a5dd70c31",
+        "7692c3ad3540bb80",
+        "93f6e11d9ce3e407",
+        "a68b412c4282555f",
+        "af193190b8d3cd14",
+        "cba06b5736faf67e",
+        "cdc29937887188ad",
+        "d34a569ab7aaa54d",
+        "de7d1b721a1e0632",
+        "f86b1f62a8554232",
+        "f905b19542ed08c9",
+        "ff5a1ae012afa5d4"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "fd5bc83627fa8999efb56a204ba5c907a47bc8c7816f77307444440885fdc320": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that a midterm sweep by Democrats could lead to increased regulation and scrutiny of the tech industry, potentially causing a crash in tech stocks."
+      },
+      "rated_at": "2026-10-16T05:25:23Z",
+      "url": "https://www.marketwatch.com/story/how-a-midterm-sweep-by-democrats-could-turn-this-tech-selloff-into-a-tech-crash-a1d1a82f",
+      "provider": "marketwatch",
+      "published_at": "2026-10-15T21:56:00Z",
+      "signature": [
+        "0e031e954a432055",
+        "2548c17ff2a7c7f0",
+        "4b42194596899bcd",
+        "6b847a0ed0b2c484",
+        "8044aae1f86875d9",
+        "9b473845f684444f",
+        "b20a63a37c1698c7",
+        "cdb2e0d0f873ce53",
+        "dfd33796972c3baa",
+        "fe9bbd400bb6cb31"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "d8400b439fb47280caff4bbbc34c4a03929cf79b0666d79be3c4f055c0e7013a": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that the pressure on chip stocks, including Nvidia, is due to fears about AI, which could negatively impact the overall US equity market."
+      },
+      "rated_at": "2026-10-16T05:25:26Z",
+      "url": "https://www.marketwatch.com/story/micron-nvidia-and-other-chip-stocks-face-renewed-pressure-as-ai-fears-swell-4e0dc989",
+      "provider": "marketwatch",
+      "published_at": "2026-10-15T21:23:00Z",
+      "signature": [
+        "0282d9b79f42c74c",
+        "1ef8f25405f82682",
+        "32e83e92d45d71f6",
+        "36603efb55eb1ebf",
+        "8d4321d936320802",
+        "8e506e203cf1774d",
+        "b50946a2af60a94c",
+        "b667446e6eb2552f",
+        "d7cea7305a333d5c",
+        "d9298a10d1b07358"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "899ebffec3f71f01ac3193186f991afa2278ed18f121d086b01334480c39715d": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that the latest AI reset is an opportunity to take advantage of, implying a positive impact on US tech stocks."
+      },
+      "rated_at": "2026-10-16T05:25:28Z",
+      "url": "https://www.marketwatch.com/story/dont-ditch-tech-stocks-just-yet-make-these-moves-to-take-advantage-of-the-latest-ai-reset-cb70c7b2",
+      "provider": "marketwatch",
+      "published_at": "2026-10-15T21:21:00Z",
+      "signature": [
+        "01be30bb4a27765c",
+        "1ef8f25405f82682",
+        "32e83e92d45d71f6",
+        "4a2326c64ab2287e",
+        "5ac8dad60a3b8325",
+        "5e1e2bcac305958b",
+        "7db0558a5cdaa5ff",
+        "8aca04ab6ee7c402",
+        "b2c66dfd45dd07f5",
+        "b808e156d18d1cec",
+        "cfd96dd92f7e0025",
+        "d05aa2a15fb3c40e",
+        "d1905cf90af29a5a",
+        "e3b98a4da31a127d",
+        "fe9bbd400bb6cb31"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "9877ad48d475d1b05b07a9a34d1f34cb0bbba6cf87fb08486405588df3436a04": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any specific US company, so it is unclear how it would impact US stocks."
+      },
+      "rated_at": "2026-10-16T05:25:30Z",
+      "url": "https://www.investing.com/news/stock-market-news/malaysia-q3-gdp-grows-53-slows-from-q2-93CH-4953096",
+      "provider": "investing",
+      "published_at": "2026-10-16T05:13:23Z",
+      "signature": [
+        "4e07408562bedb8b",
+        "58e2791934fdd9cf",
+        "6a9a10210588981d",
+        "7dae7d2ef8a2d0b3",
+        "85b16ab98f6aa865",
+        "bce407eb22bfac10",
+        "bee98bf120e89063",
+        "ef2d127de37b942b"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "f277e05d3cd706c939273e9a1eb3bb48bdcea3f7f434e440ed4b1282ad19edf2": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or a specific US company, but rather refers to SK Hynix, a South Korean company. The phrase 'extreme oversold in downtrend' is ambiguous and does not provide clear direction or impact on US equities."
+      },
+      "rated_at": "2026-10-16T05:25:34Z",
+      "url": "https://www.investing.com/news/stock-market-news/sk-hynix-oversold-near-support-after-15-slide-live-levels-93CH-4942961",
+      "provider": "investing",
+      "published_at": "2026-10-16T05:06:52Z",
+      "signature": [
+        "1fe492721d92eb0c",
+        "247610f4dedd4ab7",
+        "2c2e2440f6052e13",
+        "32b56ed53348a858",
+        "3393b41eeeea1c11",
+        "7d50f20853334a30",
+        "fcb4ac3c7a332eea"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "aa4016a066c093d2e757d479966511ee7289edee8ba30b056df9c9ffed9fb30e": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline refers to the Nikkei 225 index, which is a Japanese stock market index, and does not have a direct impact on US equities. The mention of resistance at 67,000 is also unclear in terms of its relevance to US stocks."
+      },
+      "rated_at": "2026-10-16T05:25:37Z",
+      "url": "https://www.investing.com/news/stock-market-news/nikkei-225-coiled-in-ichimoku-cloud-live-levels-93CH-4942960",
+      "provider": "investing",
+      "published_at": "2026-10-16T05:05:54Z",
+      "signature": [
+        "0e6523810856a138",
+        "140b2aeec1ef9a49",
+        "247610f4dedd4ab7",
+        "2ac9a6746aca543a",
+        "44fe9d1943ff5627",
+        "49d180ecf5613281",
+        "7d50f20853334a30",
+        "be970d090a9b0a23",
+        "cdc29937887188ad",
+        "e203120a667bd3ea"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "d511ace3511dc5bf4cdcb8b8cc3b3dc2ccb81b8c21ecbbed1f4ef4f0e942544c": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests a potential negative impact on the company's stock price due to the accounting scandal and potential legal action."
+      },
+      "rated_at": "2026-10-16T05:25:39Z",
+      "url": "https://www.investing.com/news/stock-market-news/nidec-says-considering-legal-action-against-executives-over-accounting-scandal-4953093",
+      "provider": "investing",
+      "published_at": "2026-10-16T05:01:44Z",
+      "signature": [
+        "2a31aefa266db9cc",
+        "5fb6a47e368e12e5",
+        "7aa8abd19e580091",
+        "9a2ea65b8be0d086",
+        "a708df92c9e46229",
+        "a718e3e9aefa308a",
+        "aabf9db5d947f87a",
+        "bd938c688f49b77c",
+        "cbf61a304471c962"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "fad8783ffda5ccbe90cdbbd7763e1979acb72e0b75f1a44b0c4ecb57cd47b9a6": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests a potential negative impact on US equities due to the warning of a potential market downgrade, which could lead to a decrease in investor confidence and a subsequent decline in stock prices."
+      },
+      "rated_at": "2026-10-16T05:25:42Z",
+      "url": "https://www.investing.com/news/stock-market-news/msci-freezes-certain-turkey-index-changes-warns-of-potential-market-downgrade-4952952",
+      "provider": "investing",
+      "published_at": "2026-10-16T04:30:53Z",
+      "signature": [
+        "1bc04b5291c26a46",
+        "4110c398f2d88fdb",
+        "70d16cbbf8e41719",
+        "81b6b2c874b78764",
+        "8d7d5397f8842b41",
+        "a767b05c59728241",
+        "a8c9c0a3e7748e78",
+        "d0b4ba2311b3e849",
+        "e4d693d24e646cb7",
+        "f76e03f51e04c44c"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "bed315d348e37aec0da18c7421bb8aff7fa8580ce37ee4de716bb20b769b6269": {
+      "rating": {
+        "scope": "other",
+        "direction": "negative",
+        "score": null,
+        "reason": "The headline suggests a potential decrease in demand for offshore trusts, which could negatively impact US equities, particularly those in the financial sector."
+      },
+      "rated_at": "2026-10-16T05:25:46Z",
+      "url": "https://www.investing.com/news/stock-market-news/analysischinas-superrich-scramble-to-exit-offshore-trusts-raise-cash-as-taxman-knocks-4953051",
+      "provider": "investing",
+      "published_at": "2026-10-16T04:18:43Z",
+      "signature": [
+        "01d4a0fcebc9e5a1",
+        "043a718774c572bd",
+        "3500740c72b6c208",
+        "3c4e4e3ce23cf175",
+        "50c0152c2952082a",
+        "73d1b1b1bc1dabfb",
+        "7baa68f2418ba82d",
+        "ab0fcec08e18a7bc",
+        "b2b7d61bec1eaa42",
+        "e49b5c7a9e738d48",
+        "e596899f114b5162",
+        "e6237a00335639ee"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "c67f8d14542d1fcdd0bd33622999dd850060e83a6ae984cf0e65de4ebbb813b4": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention any impact on US equities, and the information provided is about a specific product and its development timeline, which is unclear in terms of its effect on the broader market."
+      },
+      "rated_at": "2026-10-16T05:25:49Z",
+      "url": "https://www.investing.com/news/stock-market-news/tesla-set-to-unveil-next-generation-roadster-sports-ev-after-years-of-delay-4951021",
+      "provider": "investing",
+      "published_at": "2026-10-16T04:18:24Z",
+      "signature": [
+        "043a718774c572bd",
+        "06926a5203efb021",
+        "11507a0e2f5e69d5",
+        "2e3200de84b9cada",
+        "6976a029d065bf7d",
+        "6ae9e4d22c4670b9",
+        "72ac68ec9bcdf7a8",
+        "7358bd4ec877e1b6",
+        "90eae63487cae2df",
+        "9fe430e5274621be",
+        "a78fc4a2c8c1f33c",
+        "e3b98a4da31a127d",
+        "e78bdebae031095b"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "689a3f93ccf6921af109b61a526407d36dfaddfa3d1a57a0a3a5a3f26afff217": {
+      "rating": {
+        "scope": "other",
+        "direction": "negative",
+        "score": null,
+        "reason": "The headline refers to Indonesia stocks, which is not a US company or a broad US stock market index. The negative impact is implied by the phrase 'biggest daily slump since 1998'."
+      },
+      "rated_at": "2026-10-16T05:25:55Z",
+      "url": "https://www.investing.com/news/stock-market-news/indonesia-stocks-suffer-biggest-daily-slump-since-1998-as-msci-weighs-downgrade-4953068",
+      "provider": "investing",
+      "published_at": "2026-10-16T04:17:47Z",
+      "signature": [
+        "1ef8f25405f82682",
+        "294977cefaa2743e",
+        "341cf9022a3e6469",
+        "4cf14180a81b04a1",
+        "6b5a3ded016ab782",
+        "6f31304cdfd0a3a6",
+        "90191e4114b0c17d",
+        "a8c9c0a3e7748e78",
+        "d54123de468bd42e",
+        "e6b6a3f041cad044",
+        "f76e03f51e04c44c"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "08312fa64771848c8d24e91caf43056cd40912947a97d36ee2145342a9b35ca6": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that the stock of Sourcenext is sliding, implying a negative impact on the company's stock price."
+      },
+      "rated_at": "2026-10-16T05:25:57Z",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-sourcenext-stock-sliding-today-93CH-4953067",
+      "provider": "investing",
+      "published_at": "2026-10-16T04:16:17Z",
+      "signature": [
+        "08c4242b5f585628",
+        "2be23c585f15e5fd",
+        "43f3e04706b15976",
+        "58d805bc784099da",
+        "e0f4f767ac88a930"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "684a58709c865b2c208d135898492dc2ed0b2f42da1bc003c6be4ff923c9771f": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that AI power demand will have a positive impact on US stocks, implying a growth opportunity for companies involved in AI and related industries."
+      },
+      "rated_at": "2026-10-16T05:25:59Z",
+      "url": "https://www.investing.com/news/stock-market-news/which-stocks-will-benefit-from-ai-power-demand-going-nuclear-93CH-4953057",
+      "provider": "investing",
+      "published_at": "2026-10-16T04:13:37Z",
+      "signature": [
+        "07d715edb696fb5f",
+        "1ef8f25405f82682",
+        "32e83e92d45d71f6",
+        "77bc06c55d29ee3c",
+        "901ad244ed23ebc2",
+        "bc16f5825a9dafc8",
+        "c44d8605913ba4ad",
+        "dffc177fd0bbfd67",
+        "e97469619c0d7aa7"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
     }
   },
-  "updated_at": "2026-10-15T21:23:25Z",
-  "last_attempt": "2026-10-15T21:23:25Z",
-  "errors": [
-    {
-      "headline_hash": "f79c269d5fe1eb8d72f6d2437ee68f0d1202622a208cb06e56df4e4cd638cea3",
-      "error": "ValueError"
-    }
-  ],
-  "last_success": "2026-10-15T21:23:25Z"
+  "updated_at": "2026-10-16T05:25:59Z",
+  "last_attempt": "2026-10-16T05:25:59Z",
+  "errors": [],
+  "last_success": "2026-10-16T05:25:59Z"
 }

@@ -359,19 +359,24 @@
     "source": "www.investing.com",
     "provider": "investing",
     "title": null,
-    "published_at": "2026-10-15T14:16:14Z",
+    "published_at": "2026-10-16T14:17:01Z",
     "first_seen": "2026-10-14T14:31:04Z",
     "analysis": {
       "segments": [
-        "nasdaq100"
+        "nasdaq100",
+        "sp500"
       ],
-      "score": null,
-      "confidence": 0,
+      "score": -1,
+      "confidence": 1,
       "rules": [],
       "uncertain": false,
       "mixed": false,
       "kind": "unknown",
-      "model": "impact-rules-1.0.2"
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "negative",
+      "reason": "The headline suggests a bearish trend in the Nasdaq 100, which could have a negative impact on US equities.",
+      "rated_at": "2026-10-16T14:42:32Z"
     }
   },
   {
@@ -380,20 +385,24 @@
     "source": "www.investing.com",
     "provider": "investing",
     "title": null,
-    "published_at": "2026-10-15T14:16:08Z",
+    "published_at": "2026-10-16T14:17:03Z",
     "first_seen": "2026-10-14T14:31:04Z",
     "analysis": {
       "segments": [
         "nasdaq100",
         "sp500"
       ],
-      "score": null,
-      "confidence": 0,
+      "score": -1,
+      "confidence": 1,
       "rules": [],
       "uncertain": false,
       "mixed": false,
       "kind": "unknown",
-      "model": "impact-rules-1.0.2"
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "negative",
+      "reason": "The headline suggests that Tesla's price has fallen below its 200-day simple moving average (SMA), which is a bearish signal.",
+      "rated_at": "2026-10-16T14:42:30Z"
     }
   },
   {
@@ -402,20 +411,24 @@
     "source": "www.investing.com",
     "provider": "investing",
     "title": null,
-    "published_at": "2026-10-15T14:16:09Z",
+    "published_at": "2026-10-16T14:17:00Z",
     "first_seen": "2026-10-14T14:31:04Z",
     "analysis": {
       "segments": [
         "nasdaq100",
         "sp500"
       ],
-      "score": null,
-      "confidence": 0,
+      "score": -1,
+      "confidence": 1,
       "rules": [],
       "uncertain": false,
       "mixed": false,
       "kind": "unknown",
-      "model": "impact-rules-1.0.2"
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "negative",
+      "reason": "The headline suggests a technical breakdown in Alphabet's stock price, which could have a negative impact on the company's valuation and potentially lead to a decline in its stock price.",
+      "rated_at": "2026-10-16T14:42:34Z"
     }
   },
   {
@@ -2768,6 +2781,287 @@
       "direction": "positive",
       "reason": "The headline suggests that AI power demand will have a positive impact on US stocks, implying a growth opportunity for companies involved in AI and related industries.",
       "rated_at": "2026-10-16T05:25:59Z"
+    }
+  },
+  {
+    "id": "5f10a9982e66de493c70e8669b41323e7a2abf7d0a61bd24bea2cf7ff56608cc",
+    "url": "https://www.marketwatch.com/story/is-apples-foldable-iphone-duo-worth-2-000-see-how-it-stacks-up-against-other-foldable-phones-c9066b13",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-16T14:40:00Z",
+    "first_seen": "2026-10-16T14:43:20Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "unclear",
+      "reason": "The headline does not imply a specific impact on US equities, and the mention of a specific product (Apple's foldable iPhone Duo) does not provide direction on the broader market.",
+      "rated_at": "2026-10-16T14:41:50Z"
+    }
+  },
+  {
+    "id": "d4a0ad647625469293675ab88927a7dd15c043e78a16d439f6f0e818c1379173",
+    "url": "https://www.marketwatch.com/story/the-stock-market-has-already-crashed-why-a-wall-street-veteran-says-nike-is-the-ultimate-turnaround-trade-f4429eb3",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-16T14:28:00Z",
+    "first_seen": "2026-10-16T14:43:20Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": 1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "positive",
+      "reason": "The headline suggests that a Wall Street veteran is recommending Nike as a turnaround trade, implying a positive outlook for the company's stock.",
+      "rated_at": "2026-10-16T14:41:42Z"
+    }
+  },
+  {
+    "id": "9b78b97ef183e1c7c819f670737b7c51fbe362a800faf70e55e3d57867eddb0b",
+    "url": "https://www.marketwatch.com/story/a-stock-market-sell-signal-has-been-silenced-but-these-bank-of-america-strategists-say-its-too-early-to-buy-8cdf98c8",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-16T14:14:00Z",
+    "first_seen": "2026-10-16T14:43:20Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "negative",
+      "reason": "The headline suggests that a potential sell signal has been silenced, implying that it's not yet a good time to buy US equities.",
+      "rated_at": "2026-10-16T14:41:44Z"
+    }
+  },
+  {
+    "id": "0ae010c3dac2478bcc2dce8fc8a957a6f348043afdc7b7e398083b31c2f3a38f",
+    "url": "https://www.marketwatch.com/story/jefferies-technical-analyst-finds-an-encouraging-development-in-thursday-rebound-setting-stage-for-rally-into-year-end-34ad6e31",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-16T10:38:00Z",
+    "first_seen": "2026-10-16T14:43:20Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": 1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "positive",
+      "reason": "The headline suggests that a technical analyst at Jefferies has identified a positive development in the market, setting the stage for a rally into year-end, which is expected to have a positive impact on US equities.",
+      "rated_at": "2026-10-16T14:42:10Z"
+    }
+  },
+  {
+    "id": "c619eb87fe165a198b7e220d5da794a4dc2b84ae39504cd033d3dfc671181760",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-palo-alto-networks-stock-sliding-today-93CH-4954447",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T14:26:48Z",
+    "first_seen": "2026-10-16T14:43:20Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "negative",
+      "reason": "The headline suggests that the stock is sliding, implying a negative impact on the company's stock price.",
+      "rated_at": "2026-10-16T14:42:15Z"
+    }
+  },
+  {
+    "id": "37e292f8d338ec97ab2ec69e99b43d867d0341534117554bc53f877c725bd431",
+    "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-edge-lower-as-ai-spending-fed-rate-concerns-weigh-4952930",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T14:25:06Z",
+    "first_seen": "2026-10-16T14:43:20Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "negative",
+      "reason": "The headline indicates a decline in the Nasdaq, which is a broad US stock market index, while the Dow rises, suggesting a negative impact on US equities.",
+      "rated_at": "2026-10-16T14:42:18Z"
+    }
+  },
+  {
+    "id": "01a9e18315581dc5877f8eca8f33eaff1eaa6ec8d12c05b91370cda63292a50c",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-micron-technology-stock-sliding-today-93CH-4954431",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T14:21:08Z",
+    "first_seen": "2026-10-16T14:43:20Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "negative",
+      "reason": "The headline suggests that Micron Technology's stock is sliding, indicating a negative impact on the company's stock price.",
+      "rated_at": "2026-10-16T14:42:20Z"
+    }
+  },
+  {
+    "id": "20cd74e022817bf9a07586d2abf905c4cb1bc85243ea04b3abfef9087cbecfb5",
+    "url": "https://www.investing.com/news/stock-market-news/slb-shares-may-move-43-on-oct-23-earnings-report-93CH-4954424",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T14:18:52Z",
+    "first_seen": "2026-10-16T14:43:20Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": 1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "positive",
+      "reason": "The headline suggests that the company's shares may move up 4.3% based on its upcoming earnings report, indicating a positive impact on the stock.",
+      "rated_at": "2026-10-16T14:42:23Z"
+    }
+  },
+  {
+    "id": "6574cb8be58214b173cfd04692193d5295d450cc402e017e3b362e708d4a344e",
+    "url": "https://www.investing.com/news/stock-market-news/electrolux-shares-may-move-12-on-oct-23-earnings-release-93CH-4954421",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T14:17:38Z",
+    "first_seen": "2026-10-16T14:43:20Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": 1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "positive",
+      "reason": "The headline suggests a potential positive impact on Electrolux shares, specifically mentioning a 12% move on earnings release.",
+      "rated_at": "2026-10-16T14:42:25Z"
+    }
+  },
+  {
+    "id": "b940a9f5242e5ff5f4ef7116fbf989776005d819657e08e75ed07c490bc3dd75",
+    "url": "https://www.investing.com/news/stock-market-news/why-is-dell-technologies-stock-sliding-today-93CH-4954420",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T14:17:20Z",
+    "first_seen": "2026-10-16T14:43:20Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "negative",
+      "reason": "The headline suggests that Dell Technologies' stock is sliding, indicating a negative impact on the company's stock price.",
+      "rated_at": "2026-10-16T14:42:27Z"
+    }
+  },
+  {
+    "id": "454bcb934292d0603cfd255b6d14ff552cfdb4444f082ec250c9c5e2426ba6b7",
+    "url": "https://www.investing.com/news/stock-market-news/dow-jones-tests-52200-resistance-amid-bull-trap-risk-live-levels-93CH-4944779",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-16T14:16:59Z",
+    "first_seen": "2026-10-16T14:43:20Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": 0,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": true,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "mixed",
+      "reason": "The headline suggests a potential breakout or trap, indicating a mixed impact on US equities.",
+      "rated_at": "2026-10-16T14:42:36Z"
     }
   }
 ]

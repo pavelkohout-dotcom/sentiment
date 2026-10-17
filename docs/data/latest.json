@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T17:01:13Z",
+  "generated_at": "2026-10-17T17:15:42Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
@@ -8,34 +8,34 @@
     "all": {
       "value": 62.42,
       "status": "ok",
-      "events": 23,
+      "events": 22,
       "scored_events": 20,
-      "articles": 23,
+      "articles": 22,
       "sources": 2,
-      "momentum": 0.65,
-      "momentum_baseline": "2026-10-17T16:01:13Z",
+      "momentum": -0.54,
+      "momentum_baseline": "2026-10-17T16:15:44Z",
       "extreme": "normal"
     },
     "nasdaq100": {
       "value": 70.23,
       "status": "ok",
-      "events": 16,
+      "events": 15,
       "scored_events": 14,
-      "articles": 16,
+      "articles": 15,
       "sources": 2,
-      "momentum": 0.55,
-      "momentum_baseline": "2026-10-17T16:01:13Z",
+      "momentum": 0.0,
+      "momentum_baseline": "2026-10-17T16:15:44Z",
       "extreme": "normal"
     },
     "sp500": {
       "value": 70.23,
       "status": "ok",
-      "events": 16,
+      "events": 15,
       "scored_events": 14,
-      "articles": 16,
+      "articles": 15,
       "sources": 2,
-      "momentum": 0.55,
-      "momentum_baseline": "2026-10-17T16:01:13Z",
+      "momentum": 0.0,
+      "momentum_baseline": "2026-10-17T16:15:44Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-17T17:01:13Z",
+      "last_success": "2026-10-17T17:15:42Z",
       "received": 10,
       "accepted": 6,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-17T17:01:13Z",
+      "last_attempt": "2026-10-17T17:15:42Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-17T17:01:13Z",
+      "last_success": "2026-10-17T17:15:42Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-17T17:01:13Z",
+      "last_attempt": "2026-10-17T17:15:42Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-17T17:01:13Z",
+      "last_success": "2026-10-17T17:15:42Z",
       "received": 10,
       "accepted": 4,
       "rejected": 0,
       "pending_llama": 1,
-      "last_attempt": "2026-10-17T17:01:13Z",
+      "last_attempt": "2026-10-17T17:15:42Z",
       "status": "ok"
     }
   ],
@@ -643,32 +643,6 @@
         "direction": "positive",
         "reason": "The headline suggests an increase in Social Security checks, which could positively impact US equities.",
         "rated_at": "2026-10-15T20:42:39Z"
-      }
-    },
-    {
-      "id": "aaeff5ca5b22ef36911fefb6ebcd54fb1da6e91c2e3c28a82bf69967aaa5ef7a",
-      "url": "https://www.marketwatch.com/story/heres-how-the-fed-should-reveal-its-outlook-for-the-economy-79629f25",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-16T17:07:00Z",
-      "first_seen": "2026-10-16T17:15:35Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": true,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "unclear",
-        "reason": "The headline does not imply a specific impact on US equities, but rather discusses the Federal Reserve's outlook for the economy, which may indirectly affect the market.",
-        "rated_at": "2026-10-16T17:14:18Z"
       }
     }
   ],

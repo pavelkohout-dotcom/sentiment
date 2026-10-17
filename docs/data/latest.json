@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T20:01:11Z",
+  "generated_at": "2026-10-17T20:15:46Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 61.98,
+      "value": 61.5,
       "status": "ok",
-      "events": 21,
-      "scored_events": 19,
-      "articles": 21,
+      "events": 20,
+      "scored_events": 18,
+      "articles": 20,
       "sources": 2,
-      "momentum": -0.44,
-      "momentum_baseline": "2026-10-17T19:01:14Z",
+      "momentum": -0.92,
+      "momentum_baseline": "2026-10-17T19:15:42Z",
       "extreme": "normal"
     },
     "nasdaq100": {
@@ -24,7 +24,7 @@
       "articles": 14,
       "sources": 2,
       "momentum": -0.47,
-      "momentum_baseline": "2026-10-17T19:01:14Z",
+      "momentum_baseline": "2026-10-17T19:15:42Z",
       "extreme": "normal"
     },
     "sp500": {
@@ -35,7 +35,7 @@
       "articles": 14,
       "sources": 2,
       "momentum": -0.47,
-      "momentum_baseline": "2026-10-17T19:01:14Z",
+      "momentum_baseline": "2026-10-17T19:15:42Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-17T20:01:11Z",
+      "last_success": "2026-10-17T20:15:46Z",
       "received": 10,
-      "accepted": 5,
+      "accepted": 4,
       "rejected": 0,
       "pending_llama": 2,
-      "last_attempt": "2026-10-17T20:01:11Z",
+      "last_attempt": "2026-10-17T20:15:46Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-17T20:01:11Z",
+      "last_success": "2026-10-17T20:15:46Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-17T20:01:11Z",
+      "last_attempt": "2026-10-17T20:15:46Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-17T20:01:11Z",
+      "last_success": "2026-10-17T20:15:46Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
       "pending_llama": 2,
-      "last_attempt": "2026-10-17T20:01:11Z",
+      "last_attempt": "2026-10-17T20:15:46Z",
       "status": "ok"
     }
   ],
@@ -592,31 +592,6 @@
         "direction": "negative",
         "reason": "The headline suggests that the author believes there will be more pain ahead for tech stocks, implying a negative impact on US equities.",
         "rated_at": "2026-10-16T22:15:00Z"
-      }
-    },
-    {
-      "id": "7e5b7f547916f20e9b386c618d7611f1bffe35fb316ffff4db86e7ec55a82445",
-      "url": "https://www.marketwatch.com/story/echostars-stock-looks-like-a-stealthy-way-to-ride-the-spacex-wave-j-p-morgan-says-c4effa5d",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-16T20:05:00Z",
-      "first_seen": "2026-10-16T22:16:11Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "positive",
-        "reason": "J.P. Morgan's recommendation to ride the SpaceX wave",
-        "rated_at": "2026-10-16T22:15:02Z"
       }
     }
   ],

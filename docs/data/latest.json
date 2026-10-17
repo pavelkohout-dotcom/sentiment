@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T21:15:45Z",
+  "generated_at": "2026-10-17T21:31:00Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 62.51,
+      "value": 65.98,
       "status": "ok",
-      "events": 19,
-      "scored_events": 17,
-      "articles": 19,
+      "events": 14,
+      "scored_events": 13,
+      "articles": 14,
       "sources": 2,
-      "momentum": 1.01,
-      "momentum_baseline": "2026-10-17T20:15:46Z",
+      "momentum": 4.48,
+      "momentum_baseline": "2026-10-17T20:31:02Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 70.78,
+      "value": 71.34,
       "status": "ok",
-      "events": 13,
-      "scored_events": 12,
-      "articles": 13,
+      "events": 11,
+      "scored_events": 10,
+      "articles": 11,
       "sources": 2,
-      "momentum": 1.02,
-      "momentum_baseline": "2026-10-17T20:15:46Z",
+      "momentum": 1.58,
+      "momentum_baseline": "2026-10-17T20:31:02Z",
       "extreme": "normal"
     },
     "sp500": {
-      "value": 70.78,
+      "value": 71.34,
       "status": "ok",
-      "events": 13,
-      "scored_events": 12,
-      "articles": 13,
+      "events": 11,
+      "scored_events": 10,
+      "articles": 11,
       "sources": 2,
-      "momentum": 1.02,
-      "momentum_baseline": "2026-10-17T20:15:46Z",
+      "momentum": 1.58,
+      "momentum_baseline": "2026-10-17T20:31:02Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-17T21:15:45Z",
+      "last_success": "2026-10-17T21:31:00Z",
       "received": 10,
       "accepted": 4,
       "rejected": 0,
       "pending_llama": 2,
-      "last_attempt": "2026-10-17T21:15:45Z",
+      "last_attempt": "2026-10-17T21:31:00Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-17T21:15:45Z",
+      "last_success": "2026-10-17T21:31:00Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-17T21:15:45Z",
+      "last_attempt": "2026-10-17T21:31:00Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-17T21:15:45Z",
+      "last_success": "2026-10-17T21:31:00Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
       "pending_llama": 2,
-      "last_attempt": "2026-10-17T21:15:45Z",
+      "last_attempt": "2026-10-17T21:31:00Z",
       "status": "ok"
     }
   ],
@@ -439,133 +439,6 @@
         "direction": "unclear",
         "reason": "The headline does not explicitly mention a specific company or industry, and the concept of an 'Anthropic IPO' is unclear in terms of its potential impact on US equities.",
         "rated_at": "2026-10-16T22:14:51Z"
-      }
-    },
-    {
-      "id": "36c4823e5851fd01e710fabd669f4199889f53e0a63e91a64f1d08bc86e9c7ab",
-      "url": "https://www.investing.com/news/stock-market-news/novavax-shareholder-shah-capital-to-step-back-from-activist-role-4954878",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T21:30:42Z",
-      "first_seen": "2026-10-16T22:16:11Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "The change in activist role may negatively impact Novavax's stock price, potentially leading to a decrease in investor confidence and a decline in the company's valuation.",
-        "rated_at": "2026-10-16T22:15:14Z"
-      }
-    },
-    {
-      "id": "349807d259f28398daaa641812162b9a36218a462eadd859f0b69c69333f75bd",
-      "url": "https://www.investing.com/news/stock-market-news/exclusiveboeing-sales-chief-mcmullen-to-retire-company-memo-says-4954848",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T21:30:26Z",
-      "first_seen": "2026-10-16T22:16:11Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "The retirement of the sales chief may have a negative impact on Boeing's sales and revenue, potentially affecting the company's stock price.",
-        "rated_at": "2026-10-16T22:15:17Z"
-      }
-    },
-    {
-      "id": "ef08911a2c1bbb69afa62ef8d1ae1e6e9ff6a024dcab22233e7ba4a12af7b3e8",
-      "url": "https://www.marketwatch.com/story/the-bond-market-shrugged-off-two-inflation-shocks-why-stock-investors-should-pay-attention-5da4f771",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-16T21:30:00Z",
-      "first_seen": "2026-10-16T22:16:11Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "positive",
-        "reason": "The headline suggests that the bond market's reaction to inflation shocks is a positive sign for stock investors, implying a potential increase in US equities.",
-        "rated_at": "2026-10-16T22:14:53Z"
-      }
-    },
-    {
-      "id": "f7a8bbe960e89c2c5e031811e972e44154bf1254ffe6144e8badf21dd1c7128c",
-      "url": "https://www.investing.com/news/stock-market-news/softbank-weighs-18-billion-acquisition-of-allied-universal-bloomberg-news-reports-4954792",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T21:25:11Z",
-      "first_seen": "2026-10-16T22:16:11Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": true,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "unclear",
-        "reason": "The headline does not mention the impact on US equities, and the acquisition is not directly related to the broader US stock market.",
-        "rated_at": "2026-10-16T22:15:23Z"
-      }
-    },
-    {
-      "id": "b3d2d75145071dd06ad01c03b365806df2e9d0b1db0b7b8a83dde6cfa6111871",
-      "url": "https://www.marketwatch.com/story/new-sec-rules-would-fleece-everyday-investors-to-enrich-wall-street-0a00fe03",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-16T21:21:00Z",
-      "first_seen": "2026-10-16T22:16:11Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "negative",
-        "reason": "The headline suggests that new SEC rules would have a negative impact on everyday investors, potentially favoring Wall Street interests.",
-        "rated_at": "2026-10-16T22:14:55Z"
       }
     }
   ],

@@ -5762,11 +5762,11 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-17T04:45:44Z",
+      "last_success": "2026-10-17T05:01:11Z",
       "received": 10,
       "accepted": 7,
       "rejected": 0,
-      "last_attempt": "2026-10-17T04:45:44Z",
+      "last_attempt": "2026-10-17T05:01:11Z",
       "status": "ok",
       "pending_llama": 0
     },
@@ -5774,11 +5774,11 @@
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-17T04:45:44Z",
+      "last_success": "2026-10-17T05:01:11Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
-      "last_attempt": "2026-10-17T04:45:44Z",
+      "last_attempt": "2026-10-17T05:01:11Z",
       "status": "ok",
       "pending_llama": 0
     },
@@ -5799,13 +5799,13 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-17T04:45:44Z",
+      "last_success": "2026-10-17T05:01:11Z",
       "received": 10,
       "accepted": 2,
       "rejected": 0,
-      "last_attempt": "2026-10-17T04:45:44Z",
+      "last_attempt": "2026-10-17T05:01:11Z",
       "status": "ok",
-      "pending_llama": 6
+      "pending_llama": 7
     }
   },
   "model_revisions": [

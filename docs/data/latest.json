@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T14:15:44Z",
+  "generated_at": "2026-10-17T14:31:01Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 43.5,
+      "value": 44.62,
       "status": "ok",
-      "events": 38,
-      "scored_events": 32,
-      "articles": 38,
+      "events": 27,
+      "scored_events": 21,
+      "articles": 27,
       "sources": 2,
-      "momentum": 1.45,
-      "momentum_baseline": "2026-10-17T13:15:44Z",
+      "momentum": 2.57,
+      "momentum_baseline": "2026-10-17T13:31:00Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 32.95,
+      "value": 37.5,
       "status": "ok",
-      "events": 20,
-      "scored_events": 15,
-      "articles": 20,
+      "events": 14,
+      "scored_events": 9,
+      "articles": 14,
       "sources": 2,
-      "momentum": 1.36,
-      "momentum_baseline": "2026-10-17T13:15:44Z",
+      "momentum": 5.91,
+      "momentum_baseline": "2026-10-17T13:31:00Z",
       "extreme": "normal"
     },
     "sp500": {
-      "value": 32.95,
+      "value": 37.5,
       "status": "ok",
-      "events": 20,
-      "scored_events": 15,
-      "articles": 20,
+      "events": 14,
+      "scored_events": 9,
+      "articles": 14,
       "sources": 2,
-      "momentum": 1.36,
-      "momentum_baseline": "2026-10-17T13:15:44Z",
+      "momentum": 5.91,
+      "momentum_baseline": "2026-10-17T13:31:00Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-17T14:15:44Z",
+      "last_success": "2026-10-17T14:31:01Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
       "pending_llama": 5,
-      "last_attempt": "2026-10-17T14:15:44Z",
+      "last_attempt": "2026-10-17T14:31:01Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-17T14:15:44Z",
+      "last_success": "2026-10-17T14:31:01Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-17T14:15:44Z",
+      "last_attempt": "2026-10-17T14:31:01Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-17T14:15:44Z",
+      "last_success": "2026-10-17T14:31:01Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-17T14:15:44Z",
+      "last_attempt": "2026-10-17T14:31:01Z",
       "status": "ok"
     }
   ],
@@ -767,287 +767,6 @@
         "direction": "unclear",
         "reason": "The headline does not imply a specific impact on US equities, and the mention of a specific product (Apple's foldable iPhone Duo) does not provide direction on the broader market.",
         "rated_at": "2026-10-16T14:41:50Z"
-      }
-    },
-    {
-      "id": "d4a0ad647625469293675ab88927a7dd15c043e78a16d439f6f0e818c1379173",
-      "url": "https://www.marketwatch.com/story/the-stock-market-has-already-crashed-why-a-wall-street-veteran-says-nike-is-the-ultimate-turnaround-trade-f4429eb3",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-16T14:28:00Z",
-      "first_seen": "2026-10-16T14:43:20Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "positive",
-        "reason": "The headline suggests that a Wall Street veteran is recommending Nike as a turnaround trade, implying a positive outlook for the company's stock.",
-        "rated_at": "2026-10-16T14:41:42Z"
-      }
-    },
-    {
-      "id": "c619eb87fe165a198b7e220d5da794a4dc2b84ae39504cd033d3dfc671181760",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-palo-alto-networks-stock-sliding-today-93CH-4954447",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T14:26:48Z",
-      "first_seen": "2026-10-16T14:43:20Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "The headline suggests that the stock is sliding, implying a negative impact on the company's stock price.",
-        "rated_at": "2026-10-16T14:42:15Z"
-      }
-    },
-    {
-      "id": "37e292f8d338ec97ab2ec69e99b43d867d0341534117554bc53f877c725bd431",
-      "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-edge-lower-as-ai-spending-fed-rate-concerns-weigh-4952930",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T14:25:06Z",
-      "first_seen": "2026-10-16T14:43:20Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "negative",
-        "reason": "The headline indicates a decline in the Nasdaq, which is a broad US stock market index, while the Dow rises, suggesting a negative impact on US equities.",
-        "rated_at": "2026-10-16T14:42:18Z"
-      }
-    },
-    {
-      "id": "01a9e18315581dc5877f8eca8f33eaff1eaa6ec8d12c05b91370cda63292a50c",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-micron-technology-stock-sliding-today-93CH-4954431",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T14:21:08Z",
-      "first_seen": "2026-10-16T14:43:20Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "The headline suggests that Micron Technology's stock is sliding, indicating a negative impact on the company's stock price.",
-        "rated_at": "2026-10-16T14:42:20Z"
-      }
-    },
-    {
-      "id": "20cd74e022817bf9a07586d2abf905c4cb1bc85243ea04b3abfef9087cbecfb5",
-      "url": "https://www.investing.com/news/stock-market-news/slb-shares-may-move-43-on-oct-23-earnings-report-93CH-4954424",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T14:18:52Z",
-      "first_seen": "2026-10-16T14:43:20Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "positive",
-        "reason": "The headline suggests that the company's shares may move up 4.3% based on its upcoming earnings report, indicating a positive impact on the stock.",
-        "rated_at": "2026-10-16T14:42:23Z"
-      }
-    },
-    {
-      "id": "6574cb8be58214b173cfd04692193d5295d450cc402e017e3b362e708d4a344e",
-      "url": "https://www.investing.com/news/stock-market-news/electrolux-shares-may-move-12-on-oct-23-earnings-release-93CH-4954421",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T14:17:38Z",
-      "first_seen": "2026-10-16T14:43:20Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "positive",
-        "reason": "The headline suggests a potential positive impact on Electrolux shares, specifically mentioning a 12% move on earnings release.",
-        "rated_at": "2026-10-16T14:42:25Z"
-      }
-    },
-    {
-      "id": "b940a9f5242e5ff5f4ef7116fbf989776005d819657e08e75ed07c490bc3dd75",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-dell-technologies-stock-sliding-today-93CH-4954420",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T14:17:20Z",
-      "first_seen": "2026-10-16T14:43:20Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "The headline suggests that Dell Technologies' stock is sliding, indicating a negative impact on the company's stock price.",
-        "rated_at": "2026-10-16T14:42:27Z"
-      }
-    },
-    {
-      "id": "4002f97577f7db2177c6d9c73cc5dc1ccdfd19f6feb7c99b4704ae049ad60903",
-      "url": "https://www.investing.com/news/stock-market-news/tesla-rangebound-at-380-with-weak-trend-live-levels-93CH-4944787",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T14:17:03Z",
-      "first_seen": "2026-10-14T14:31:04Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "The headline suggests that Tesla's price has fallen below its 200-day simple moving average (SMA), which is a bearish signal.",
-        "rated_at": "2026-10-16T14:42:30Z"
-      }
-    },
-    {
-      "id": "4b30451ff28a59c2ca67ea361b668c291db24e23c6b0aa3668ef394d7ea1bee9",
-      "url": "https://www.investing.com/news/stock-market-news/nasdaq-100-breaks-cloud-support-at-30935-live-levels-93CH-4944778",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T14:17:01Z",
-      "first_seen": "2026-10-14T14:31:04Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "negative",
-        "reason": "The headline suggests a bearish trend in the Nasdaq 100, which could have a negative impact on US equities.",
-        "rated_at": "2026-10-16T14:42:32Z"
-      }
-    },
-    {
-      "id": "d86197669c1b9576a6d94fc5d5620065550a854684fa63f95615a50e452bcefd",
-      "url": "https://www.investing.com/news/stock-market-news/alphabet-c-squeezed-at-349-between-key-levels-live-levels-93CH-4944780",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T14:17:00Z",
-      "first_seen": "2026-10-14T14:31:04Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "The headline suggests a technical breakdown in Alphabet's stock price, which could have a negative impact on the company's valuation and potentially lead to a decline in its stock price.",
-        "rated_at": "2026-10-16T14:42:34Z"
-      }
-    },
-    {
-      "id": "454bcb934292d0603cfd255b6d14ff552cfdb4444f082ec250c9c5e2426ba6b7",
-      "url": "https://www.investing.com/news/stock-market-news/dow-jones-tests-52200-resistance-amid-bull-trap-risk-live-levels-93CH-4944779",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T14:16:59Z",
-      "first_seen": "2026-10-16T14:43:20Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": 0,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": true,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "mixed",
-        "reason": "The headline suggests a potential breakout or trap, indicating a mixed impact on US equities.",
-        "rated_at": "2026-10-16T14:42:36Z"
       }
     }
   ],

@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T16:45:46Z",
+  "generated_at": "2026-10-17T17:01:13Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 61.66,
+      "value": 62.42,
       "status": "ok",
-      "events": 24,
-      "scored_events": 21,
-      "articles": 24,
+      "events": 23,
+      "scored_events": 20,
+      "articles": 23,
       "sources": 2,
-      "momentum": -0.11,
-      "momentum_baseline": "2026-10-17T15:45:45Z",
+      "momentum": 0.65,
+      "momentum_baseline": "2026-10-17T16:01:13Z",
       "extreme": "normal"
     },
     "nasdaq100": {
@@ -24,7 +24,7 @@
       "articles": 16,
       "sources": 2,
       "momentum": 0.55,
-      "momentum_baseline": "2026-10-17T15:45:45Z",
+      "momentum_baseline": "2026-10-17T16:01:13Z",
       "extreme": "normal"
     },
     "sp500": {
@@ -35,7 +35,7 @@
       "articles": 16,
       "sources": 2,
       "momentum": 0.55,
-      "momentum_baseline": "2026-10-17T15:45:45Z",
+      "momentum_baseline": "2026-10-17T16:01:13Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-17T16:45:46Z",
+      "last_success": "2026-10-17T17:01:13Z",
       "received": 10,
       "accepted": 6,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-17T16:45:46Z",
+      "last_attempt": "2026-10-17T17:01:13Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-17T16:45:46Z",
+      "last_success": "2026-10-17T17:01:13Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-17T16:45:46Z",
+      "last_attempt": "2026-10-17T17:01:13Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-17T16:45:46Z",
+      "last_success": "2026-10-17T17:01:13Z",
       "received": 10,
       "accepted": 4,
       "rejected": 0,
       "pending_llama": 1,
-      "last_attempt": "2026-10-17T16:45:46Z",
+      "last_attempt": "2026-10-17T17:01:13Z",
       "status": "ok"
     }
   ],
@@ -669,31 +669,6 @@
         "direction": "unclear",
         "reason": "The headline does not imply a specific impact on US equities, but rather discusses the Federal Reserve's outlook for the economy, which may indirectly affect the market.",
         "rated_at": "2026-10-16T17:14:18Z"
-      }
-    },
-    {
-      "id": "f0d0f4c19c14a62621ff0c10a99721dd802e854e670e7b1ebb2069fbf7589e79",
-      "url": "https://www.investing.com/news/stock-market-news/coreweave-bond-rout-tests-markets-math-on-ai-buildout-4953576",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T16:54:59Z",
-      "first_seen": "2026-10-16T17:15:35Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "The headline suggests that CoreWeave's bond rout may have a negative impact on US equities, specifically the company's stock price.",
-        "rated_at": "2026-10-16T17:14:31Z"
       }
     }
   ],

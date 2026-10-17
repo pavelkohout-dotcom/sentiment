@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T15:01:12Z",
+  "generated_at": "2026-10-17T15:09:41Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 45.4,
+      "value": 61.77,
       "status": "ok",
-      "events": 23,
-      "scored_events": 18,
-      "articles": 23,
+      "events": 31,
+      "scored_events": 26,
+      "articles": 31,
       "sources": 2,
-      "momentum": 3.35,
-      "momentum_baseline": "2026-10-17T14:01:12Z",
+      "momentum": 19.72,
+      "momentum_baseline": "2026-10-17T14:09:47Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 42.07,
+      "value": 69.68,
       "status": "ok",
-      "events": 12,
-      "scored_events": 8,
-      "articles": 12,
+      "events": 19,
+      "scored_events": 15,
+      "articles": 19,
       "sources": 2,
-      "momentum": 10.48,
-      "momentum_baseline": "2026-10-17T14:01:12Z",
+      "momentum": 38.09,
+      "momentum_baseline": "2026-10-17T14:09:47Z",
       "extreme": "normal"
     },
     "sp500": {
-      "value": 42.07,
+      "value": 69.68,
       "status": "ok",
-      "events": 12,
-      "scored_events": 8,
-      "articles": 12,
+      "events": 19,
+      "scored_events": 15,
+      "articles": 19,
       "sources": 2,
-      "momentum": 10.48,
-      "momentum_baseline": "2026-10-17T14:01:12Z",
+      "momentum": 38.09,
+      "momentum_baseline": "2026-10-17T14:09:47Z",
       "extreme": "normal"
     }
   },
@@ -44,42 +44,299 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-17T15:01:12Z",
+      "last_success": "2026-10-17T15:09:41Z",
       "received": 10,
-      "accepted": 1,
+      "accepted": 6,
       "rejected": 0,
-      "pending_llama": 5,
-      "last_attempt": "2026-10-17T15:01:12Z",
+      "pending_llama": 0,
+      "last_attempt": "2026-10-17T15:09:41Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-17T15:01:12Z",
+      "last_success": "2026-10-17T15:09:41Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-17T15:01:12Z",
+      "last_attempt": "2026-10-17T15:09:41Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-17T15:01:12Z",
+      "last_success": "2026-10-17T15:09:41Z",
       "received": 10,
-      "accepted": 0,
+      "accepted": 5,
       "rejected": 0,
-      "pending_llama": 10,
-      "last_attempt": "2026-10-17T15:01:12Z",
+      "pending_llama": 0,
+      "last_attempt": "2026-10-17T15:09:41Z",
       "status": "ok"
     }
   ],
-  "new_articles": 0,
-  "total_archived": 154,
+  "new_articles": 10,
+  "total_archived": 164,
   "articles": [
+    {
+      "id": "286fd4218e1201599806964a34560bd7f597b34202faa763e9176d0296021abe",
+      "url": "https://www.investing.com/news/stock-market-news/which-company-has-the-worlds-highest-earnings-the-answer-may-surprise-you-4955422",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-17T13:12:06Z",
+      "first_seen": "2026-10-17T15:09:41Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "positive",
+        "reason": "The headline suggests that the company's earnings are exceptionally high, implying a positive impact on its stock price.",
+        "rated_at": "2026-10-17T15:08:37Z"
+      }
+    },
+    {
+      "id": "783120ea01041b9de7aa75ff2530baf1b0b5b55461856a59ffab98801b910d7f",
+      "url": "https://www.marketwatch.com/story/meet-the-home-buyers-totally-unfazed-by-7-mortgage-rates-7a9b1cc7",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-17T13:00:00Z",
+      "first_seen": "2026-10-17T15:09:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "positive",
+        "reason": "The headline suggests that some home buyers are not deterred by high mortgage rates, implying a positive impact on US equities.",
+        "rated_at": "2026-10-17T15:08:23Z"
+      }
+    },
+    {
+      "id": "2b60e50198a7893a387d2729992aeb2112d558669a8c489ea497dfd91651786a",
+      "url": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-17T12:30:00Z",
+      "first_seen": "2026-10-17T15:09:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "negative",
+        "reason": "The headline suggests that a decline in silver prices may be indicative of an economic slowdown, which could negatively impact US equities.",
+        "rated_at": "2026-10-17T15:08:25Z"
+      }
+    },
+    {
+      "id": "7d346bcef2563999b202451f7a624e0266fde9b1e0531312fe35a58b6ded843c",
+      "url": "https://www.investing.com/news/stock-market-news/chip-index-sox-posts-longest-losing-streak-since-2008-as-ai-worries-deepen-4955401",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-17T12:04:36Z",
+      "first_seen": "2026-10-17T15:09:41Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "The headline suggests a decline in the Semiconductor Index (SOX), which is a specific index tracking the performance of semiconductor companies, indicating a negative impact on US equities.",
+        "rated_at": "2026-10-17T15:08:40Z"
+      }
+    },
+    {
+      "id": "bbcfc3aa96f72b984243821318cda2ce452e4592257e3ae5b44e7139bcfd8085",
+      "url": "https://www.marketwatch.com/story/microsoft-shopify-and-3-more-ai-stocks-that-are-favorite-wall-street-earnings-plays-0bb61e81",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-17T12:01:00Z",
+      "first_seen": "2026-10-17T15:09:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "positive",
+        "reason": "The headline suggests that Microsoft is a favorite Wall Street earnings play, implying a positive near-term impact on its stock price.",
+        "rated_at": "2026-10-17T15:08:28Z"
+      }
+    },
+    {
+      "id": "fddb43da8477f84ab8029194cabb666c67938a86f9ca191c82488638d1595be4",
+      "url": "https://www.marketwatch.com/story/it-was-another-great-week-for-the-average-stock-as-market-leadership-shifts-away-from-tech-8e8516da",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-17T11:30:00Z",
+      "first_seen": "2026-10-17T15:09:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "positive",
+        "reason": "The headline suggests a positive impact on broad US stocks, as the average stock performed well, indicating a shift in market leadership away from tech.",
+        "rated_at": "2026-10-17T15:08:31Z"
+      }
+    },
+    {
+      "id": "7920daf721db5f69f4972802616e991857b16314ce4e01bc8bb9f4c55b3786c3",
+      "url": "https://www.marketwatch.com/story/fed-interest-rate-decision-this-month-is-a-closer-call-than-markets-think-f96ccf95",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-17T11:00:00Z",
+      "first_seen": "2026-10-17T15:09:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 0,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": true,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "mixed",
+        "reason": "The headline suggests that the Fed's interest-rate decision this month is uncertain, which could lead to mixed reactions in the market, potentially impacting US equities.",
+        "rated_at": "2026-10-17T15:08:33Z"
+      }
+    },
+    {
+      "id": "3783070822aaa5bc86eb25f35700901167c92a9908dbe5a0aa2f69cc7c5d130a",
+      "url": "https://www.investing.com/news/stock-market-news/citi-sees-resilient-demand-for-chinese-ai-ipos-despite-valuation-concerns-4955340",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-17T08:41:17Z",
+      "first_seen": "2026-10-17T15:09:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "positive",
+        "reason": "The headline suggests that Citi's positive outlook on Chinese AI IPOs could have a positive impact on US equities, potentially driving up demand and prices.",
+        "rated_at": "2026-10-17T15:08:43Z"
+      }
+    },
+    {
+      "id": "fcb006deae359e7fe1aefa8ddacb315988cbeb54da38b72b7a6c00af6b72e9fa",
+      "url": "https://www.investing.com/news/stock-market-news/anthropic-offers-blackstone-doubledigit-yield-in-chipfinancing-deal-ft-reports-4955079",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-17T01:06:24Z",
+      "first_seen": "2026-10-17T15:09:41Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "positive",
+        "reason": "The headline suggests a successful deal for Blackstone, implying a positive impact on the company's financials and potentially its stock price.",
+        "rated_at": "2026-10-17T15:08:56Z"
+      }
+    },
+    {
+      "id": "a81ee9c70a6c9c6a66176c52fb1a0649d3f6fec2a6ec98219b28238433cb1654",
+      "url": "https://www.investing.com/news/stock-market-news/will-starlink-mobile-matter-for-apple-4955056",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-17T00:39:39Z",
+      "first_seen": "2026-10-17T15:09:41Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 0,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": true,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "mixed",
+        "reason": "The headline suggests that Starlink Mobile, a service from SpaceX, may have an impact on Apple, but the direction of the impact is unclear. It could be positive if Starlink Mobile's service is seen as a threat to Apple's mobile business, or negative if it is seen as a complementary service that benefits Apple's ecosystem.",
+        "rated_at": "2026-10-17T15:09:00Z"
+      }
+    },
     {
       "id": "457dae6e9fda452519c2819a3d014d8481c1ffa753741d00d73227fbb6b107e7",
       "url": "https://www.investing.com/news/stock-market-news/us-lifts-restrictions-on-new-mexican-flights-from-capitals-airports-4954901",
@@ -616,56 +873,6 @@
         "reason": "The headline suggests that many of the hottest stocks in 2026 have seen a dramatic decline, implying a negative impact on US equities.",
         "rated_at": "2026-10-16T17:14:23Z"
       }
-    },
-    {
-      "id": "ad2c956e2ce931998cbdf5bc9de2ed3634b170687021c04913fa6d70514a0549",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-sprott-stock-gaining-today-93CH-4954532",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T15:09:26Z",
-      "first_seen": "2026-10-16T15:17:27Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "positive",
-        "reason": "The headline suggests that Sprott's stock is gaining, indicating a positive impact on the company's stock price.",
-        "rated_at": "2026-10-16T15:17:27Z"
-      }
-    },
-    {
-      "id": "e98db93f10a768543f857e68fc06f3fe8ee5ca3034c472f17383dcc3354d28b0",
-      "url": "https://www.investing.com/news/stock-market-news/eli-lillys-weightloss-pill-wins-eu-drug-regulators-backing-4954218",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T15:01:33Z",
-      "first_seen": "2026-10-16T15:17:34Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "positive",
-        "reason": "The EU drug regulator's backing for Eli Lilly's weight-loss pill is a positive development for the company, indicating a potential increase in revenue and market share.",
-        "rated_at": "2026-10-16T15:17:34Z"
-      }
     }
   ],
   "methodology": {
@@ -677,10 +884,10 @@
     "titles": "Hidden unless publisher rights explicitly configured. No article bodies collected."
   },
   "llama": {
-    "last_rated_at": "2026-10-16T22:15:29Z",
-    "last_refresh_at": "2026-10-16T22:15:29Z",
+    "last_rated_at": "2026-10-17T15:09:00Z",
+    "last_refresh_at": "2026-10-17T15:09:01Z",
     "errors": 0,
-    "pending": 15,
+    "pending": 0,
     "model_digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
     "scale": {
       "negative": -1,

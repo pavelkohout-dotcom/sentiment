@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T16:01:13Z",
+  "generated_at": "2026-10-17T16:15:44Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 61.77,
+      "value": 62.96,
       "status": "ok",
-      "events": 31,
-      "scored_events": 26,
-      "articles": 31,
+      "events": 29,
+      "scored_events": 24,
+      "articles": 29,
       "sources": 2,
-      "momentum": 16.37,
-      "momentum_baseline": "2026-10-17T15:01:12Z",
+      "momentum": 1.19,
+      "momentum_baseline": "2026-10-17T15:15:44Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 69.68,
+      "value": 70.23,
       "status": "ok",
-      "events": 19,
-      "scored_events": 15,
-      "articles": 19,
+      "events": 18,
+      "scored_events": 14,
+      "articles": 18,
       "sources": 2,
-      "momentum": 27.61,
-      "momentum_baseline": "2026-10-17T15:01:12Z",
+      "momentum": 0.55,
+      "momentum_baseline": "2026-10-17T15:15:44Z",
       "extreme": "normal"
     },
     "sp500": {
-      "value": 69.68,
+      "value": 70.23,
       "status": "ok",
-      "events": 19,
-      "scored_events": 15,
-      "articles": 19,
+      "events": 18,
+      "scored_events": 14,
+      "articles": 18,
       "sources": 2,
-      "momentum": 27.61,
-      "momentum_baseline": "2026-10-17T15:01:12Z",
+      "momentum": 0.55,
+      "momentum_baseline": "2026-10-17T15:15:44Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-17T16:01:13Z",
+      "last_success": "2026-10-17T16:15:44Z",
       "received": 10,
       "accepted": 6,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-17T16:01:13Z",
+      "last_attempt": "2026-10-17T16:15:44Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-17T16:01:13Z",
+      "last_success": "2026-10-17T16:15:44Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-17T16:01:13Z",
+      "last_attempt": "2026-10-17T16:15:44Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-17T16:01:13Z",
+      "last_success": "2026-10-17T16:15:44Z",
       "received": 10,
       "accepted": 5,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-17T16:01:13Z",
+      "last_attempt": "2026-10-17T16:15:44Z",
       "status": "ok"
     }
   ],
@@ -821,57 +821,6 @@
         "direction": "unclear",
         "reason": "The headline does not explicitly mention US equities, but the phrase 'since June' implies a comparison to a previous period. The impact on US equities is unclear.",
         "rated_at": "2026-10-16T17:14:50Z"
-      }
-    },
-    {
-      "id": "0c9909981bf55e38a72bb603986430ea65d4d6d70e767b742ccfd47dd34d6f06",
-      "url": "https://www.investing.com/news/stock-market-news/judge-rejects-cftc-gemini-bid-to-vacate-5-million-settlement-4954606",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T16:12:50Z",
-      "first_seen": "2026-10-16T17:15:35Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "The headline suggests a negative outcome for Gemini, a cryptocurrency exchange, as the judge rejects the bid to vacate a $5 million settlement, implying a financial impact.",
-        "rated_at": "2026-10-16T17:14:55Z"
-      }
-    },
-    {
-      "id": "169fb5229dc06a8d6d7dabcce5ab5375cd65b4ae74d886032e4e7584b722243e",
-      "url": "https://www.marketwatch.com/story/many-of-2026s-hottest-stocks-have-seen-dramatic-comedowns-this-week-e5ae5d06",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-16T16:09:00Z",
-      "first_seen": "2026-10-16T17:15:35Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "negative",
-        "reason": "The headline suggests that many of the hottest stocks in 2026 have seen a dramatic decline, implying a negative impact on US equities.",
-        "rated_at": "2026-10-16T17:14:23Z"
       }
     }
   ],

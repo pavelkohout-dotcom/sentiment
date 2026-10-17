@@ -1,40 +1,40 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T14:09:47Z",
+  "generated_at": "2026-10-17T14:15:44Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 42.05,
+      "value": 43.5,
       "status": "ok",
-      "events": 39,
-      "scored_events": 33,
-      "articles": 39,
+      "events": 38,
+      "scored_events": 32,
+      "articles": 38,
       "sources": 2,
-      "momentum": 0.0,
+      "momentum": 1.45,
       "momentum_baseline": "2026-10-17T13:15:44Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 31.59,
+      "value": 32.95,
       "status": "ok",
-      "events": 21,
-      "scored_events": 16,
-      "articles": 21,
+      "events": 20,
+      "scored_events": 15,
+      "articles": 20,
       "sources": 2,
-      "momentum": 0.0,
+      "momentum": 1.36,
       "momentum_baseline": "2026-10-17T13:15:44Z",
       "extreme": "normal"
     },
     "sp500": {
-      "value": 31.59,
+      "value": 32.95,
       "status": "ok",
-      "events": 21,
-      "scored_events": 16,
-      "articles": 21,
+      "events": 20,
+      "scored_events": 15,
+      "articles": 20,
       "sources": 2,
-      "momentum": 0.0,
+      "momentum": 1.36,
       "momentum_baseline": "2026-10-17T13:15:44Z",
       "extreme": "normal"
     }
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-17T14:09:47Z",
+      "last_success": "2026-10-17T14:15:44Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
       "pending_llama": 5,
-      "last_attempt": "2026-10-17T14:09:47Z",
+      "last_attempt": "2026-10-17T14:15:44Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-17T14:09:47Z",
+      "last_success": "2026-10-17T14:15:44Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-17T14:09:47Z",
+      "last_attempt": "2026-10-17T14:15:44Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-17T14:09:47Z",
+      "last_success": "2026-10-17T14:15:44Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-17T14:09:47Z",
+      "last_attempt": "2026-10-17T14:15:44Z",
       "status": "ok"
     }
   ],
@@ -1048,32 +1048,6 @@
         "direction": "mixed",
         "reason": "The headline suggests a potential breakout or trap, indicating a mixed impact on US equities.",
         "rated_at": "2026-10-16T14:42:36Z"
-      }
-    },
-    {
-      "id": "9b78b97ef183e1c7c819f670737b7c51fbe362a800faf70e55e3d57867eddb0b",
-      "url": "https://www.marketwatch.com/story/a-stock-market-sell-signal-has-been-silenced-but-these-bank-of-america-strategists-say-its-too-early-to-buy-8cdf98c8",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-16T14:14:00Z",
-      "first_seen": "2026-10-16T14:43:20Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "negative",
-        "reason": "The headline suggests that a potential sell signal has been silenced, implying that it's not yet a good time to buy US equities.",
-        "rated_at": "2026-10-16T14:41:44Z"
       }
     }
   ],

@@ -3905,10 +3905,411 @@
       ],
       "rule_segments": [],
       "kind": "unknown"
+    },
+    "a83ba5a872667199e1eaedee3bcdd6be4e44c8537b0a9cbd0bf21f142b13837c": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that some home buyers are not deterred by high mortgage rates, implying a positive impact on US equities."
+      },
+      "rated_at": "2026-10-17T15:08:23Z",
+      "url": "https://www.marketwatch.com/story/meet-the-home-buyers-totally-unfazed-by-7-mortgage-rates-7a9b1cc7",
+      "provider": "marketwatch",
+      "published_at": "2026-10-17T13:00:00Z",
+      "signature": [
+        "27461ccfdb5503af",
+        "4d013e1cdcf526b9",
+        "4ea140588150773c",
+        "7902699be42c8a8e",
+        "8ccb033c0e48b27f",
+        "adf27cc54e26ca64",
+        "e31b7e5e27bbea96",
+        "ff24aad2c015d2e6"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "315ccce4aef32bcfb1b9708730e92bb2475a46fab8d70e3f863956e96d7bec23": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that a decline in silver prices may be indicative of an economic slowdown, which could negatively impact US equities."
+      },
+      "rated_at": "2026-10-17T15:08:25Z",
+      "url": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1",
+      "provider": "marketwatch",
+      "published_at": "2026-10-17T12:30:00Z",
+      "signature": [
+        "034a7e52c5c9534b",
+        "043a718774c572bd",
+        "11c45871e9f8b9df",
+        "13f47db849be8e76",
+        "1a6562590ef19d10",
+        "4f420329adfeccf2",
+        "6ef7c9b15ecdd690",
+        "70ce871f8a3d3fb4",
+        "78cde64c3e47f2cb",
+        "a110865816b97b0f",
+        "d90ee9ccf6bea1d2"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "f7dd9f8c6b3258ca5bfde35cd7bcbcb7d32c3575de0639c647b9891453c7fb75": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that Microsoft is a favorite Wall Street earnings play, implying a positive near-term impact on its stock price."
+      },
+      "rated_at": "2026-10-17T15:08:28Z",
+      "url": "https://www.marketwatch.com/story/microsoft-shopify-and-3-more-ai-stocks-that-are-favorite-wall-street-earnings-plays-0bb61e81",
+      "provider": "marketwatch",
+      "published_at": "2026-10-17T12:01:00Z",
+      "signature": [
+        "187897ce0afcf20b",
+        "1ef8f25405f82682",
+        "1ff3a3c1830a1531",
+        "32e83e92d45d71f6",
+        "4d8aaa64f68587b1",
+        "4e07408562bedb8b",
+        "6008c26f4452392a",
+        "8a72266588ef612e",
+        "9fbf261b62c1d7c0",
+        "bdfcc48f9c95491a",
+        "fe7634184576f6d1"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "8e9d544e4676139b695f12d96b37caafb90e7a286214e963b151b7f3afd14c19": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests a positive impact on broad US stocks, as the average stock performed well, indicating a shift in market leadership away from tech."
+      },
+      "rated_at": "2026-10-17T15:08:31Z",
+      "url": "https://www.marketwatch.com/story/it-was-another-great-week-for-the-average-stock-as-market-leadership-shifts-away-from-tech-8e8516da",
+      "provider": "marketwatch",
+      "published_at": "2026-10-17T11:30:00Z",
+      "signature": [
+        "08c4242b5f585628",
+        "184df936d41b2da8",
+        "2da3a789df290cb5",
+        "378ce56a9d146d51",
+        "6df37daaa46ce714",
+        "87765da6ccf06682",
+        "9e720e53885580b1",
+        "ae448ac86c4e8e4d",
+        "b63b99f6383ba713",
+        "e4d693d24e646cb7",
+        "fe9bbd400bb6cb31"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "48988874d52e3555952581377d80aa69b906281dc7939e9d960178bee7506af5": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "mixed",
+        "score": 0,
+        "reason": "The headline suggests that the Fed's interest-rate decision this month is uncertain, which could lead to mixed reactions in the market, potentially impacting US equities."
+      },
+      "rated_at": "2026-10-17T15:08:33Z",
+      "url": "https://www.marketwatch.com/story/fed-interest-rate-decision-this-month-is-a-closer-call-than-markets-think-f96ccf95",
+      "provider": "marketwatch",
+      "published_at": "2026-10-17T11:00:00Z",
+      "signature": [
+        "20e796c128096d22",
+        "6c6948d75b800d13",
+        "7383711c1b05e72a",
+        "7edb360f06acaef2",
+        "828408e40d4fe651",
+        "86ae35d58a6aa3b5",
+        "a5c7d1719e284f2c",
+        "be98c6532c0d6a26",
+        "c549779d79e5c8e9",
+        "dc2fc19d8fce376c"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "d3b699a0c368a9326e5d5569685ec95dc1f94a99e6580936e8f554ac15ba5d48": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any impact on the stock market."
+      },
+      "rated_at": "2026-10-17T15:08:35Z",
+      "url": "https://www.investing.com/news/stock-market-news/deepseek-releases-ai-model-update-opens-search-apis-to-all-users-4955445",
+      "provider": "investing",
+      "published_at": "2026-10-17T14:33:21Z",
+      "signature": [
+        "20195541dc5dea56",
+        "2419329067823cab",
+        "2937013f21818106",
+        "32e83e92d45d71f6",
+        "3359963d8a8deb76",
+        "5ef5ef0364b6939c",
+        "6f7ac1823da81d2e",
+        "7dfb4cf67742cb06",
+        "8a3b2dde19c3466b",
+        "9372c470eeadd5ec"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "09995eac43a6c17445415c6727e35dfe7ee95c37d15e2f81fe730628ed9c1d80": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that the company's earnings are exceptionally high, implying a positive impact on its stock price."
+      },
+      "rated_at": "2026-10-17T15:08:37Z",
+      "url": "https://www.investing.com/news/stock-market-news/which-company-has-the-worlds-highest-earnings-the-answer-may-surprise-you-4955422",
+      "provider": "investing",
+      "published_at": "2026-10-17T13:12:06Z",
+      "signature": [
+        "043a718774c572bd",
+        "0832c0adf0541814",
+        "0db52f4076c08251",
+        "486ea46224d1bb4f",
+        "4d8fa801a136f34f",
+        "77bc06c55d29ee3c",
+        "9150c74c5f92d51a",
+        "bb0347a468d97e98",
+        "ee4d988c65de860f",
+        "f168ccdd91548c5a",
+        "fe7634184576f6d1"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "3d6f985ca2538d1814a3f2bb7b9ed3cba13c7679f3ed452289cd54f1576fcfe0": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests a decline in the Semiconductor Index (SOX), which is a specific index tracking the performance of semiconductor companies, indicating a negative impact on US equities."
+      },
+      "rated_at": "2026-10-17T15:08:40Z",
+      "url": "https://www.investing.com/news/stock-market-news/chip-index-sox-posts-longest-losing-streak-since-2008-as-ai-worries-deepen-4955401",
+      "provider": "investing",
+      "published_at": "2026-10-17T12:04:36Z",
+      "signature": [
+        "1bc04b5291c26a46",
+        "32e83e92d45d71f6",
+        "3fbf0de21a976c03",
+        "46854e82a3ccdcfd",
+        "4a10fc76ef342d64",
+        "5d73183031791498",
+        "6b5a3ded016ab782",
+        "6f804d1d5b6235f9",
+        "8638f57f5a8478b7",
+        "a44f1b9751711635",
+        "d7cea7305a333d5c",
+        "e5e53c784d5d49de"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "eaf6b118076fb6e05cfab6ef1aaa8f38de7c12828e0d8aad40107e45015115ff": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that Citi's positive outlook on Chinese AI IPOs could have a positive impact on US equities, potentially driving up demand and prices."
+      },
+      "rated_at": "2026-10-17T15:08:43Z",
+      "url": "https://www.investing.com/news/stock-market-news/citi-sees-resilient-demand-for-chinese-ai-ipos-despite-valuation-concerns-4955340",
+      "provider": "investing",
+      "published_at": "2026-10-17T08:41:17Z",
+      "signature": [
+        "19c0657222ad5238",
+        "2ad55da5b6ea629b",
+        "32e83e92d45d71f6",
+        "6dbefb4fe02322df",
+        "83094e0bd5b43c06",
+        "b8892917221fb2c3",
+        "c2f3e1cb321d8aef",
+        "dffc177fd0bbfd67",
+        "e2d3b41db9567ddf",
+        "fcfc5fe39fc177d6"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "09ae9e8cadc5a40c7a0618cd79dcf11c1942a63da6aacadeead289e24489a9cf": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any economic impact, and is unrelated to the stock market."
+      },
+      "rated_at": "2026-10-17T15:08:45Z",
+      "url": "https://www.investing.com/news/stock-market-news/explainercould-hackers-get-inside-my-fridge-4955339",
+      "provider": "investing",
+      "published_at": "2026-10-17T08:36:22Z",
+      "signature": [
+        "038468518ad8122e",
+        "0cb1dd1d18fda2b6",
+        "0d2f07d411174e15",
+        "0e031e954a432055",
+        "106b086224a4d945",
+        "2998b3232d29e8dc",
+        "997bc249599b7419"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "79c305f80bc67eebd76f8eabf7a217d097fddc3bc3863243c168ff3a367f1c95": {
+      "rating": {
+        "scope": "other",
+        "direction": "positive",
+        "score": null,
+        "reason": "The headline suggests a positive impact on the environment and potentially on the electric vehicle (EV) industry, which could have a positive impact on US equities."
+      },
+      "rated_at": "2026-10-17T15:08:49Z",
+      "url": "https://www.investing.com/news/stock-market-news/nearly-12000-california-residents-bought-evs-using-state-rebate-program-4954764",
+      "provider": "investing",
+      "published_at": "2026-10-17T04:48:35Z",
+      "signature": [
+        "1310ca2c8932dbd1",
+        "2ac9a6746aca543a",
+        "39deaf7caa6bbb32",
+        "4a609f87d4ebff8b",
+        "4ba69735ca53765e",
+        "50286229439eccf5",
+        "6b51d431df5d7f14",
+        "7e8eea5cc6098027",
+        "a24e10fde71a121a",
+        "ad9b708835cee1c5",
+        "bf33e11fa2942227"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "f0c165c10cf3042d5f1f0a9c7f8af0ee739c448e3db82e9658661ffec1aacd6d": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any specific company, and the impact on US equities is unclear."
+      },
+      "rated_at": "2026-10-17T15:08:52Z",
+      "url": "https://www.investing.com/news/stock-market-news/chinese-online-retailer-temu-agrees-to-data-privacy-restrictions-to-settle-texas-lawsuit-documents-say-4954577",
+      "provider": "investing",
+      "published_at": "2026-10-17T04:18:21Z",
+      "signature": [
+        "36b2a10044ffe600",
+        "3a6eb0790f39ac87",
+        "472eed993cb137a3",
+        "5849f0dbde1a6968",
+        "5873102fa0951713",
+        "6868e83de35c465d",
+        "900e816f6c26b9fd",
+        "a4cc6bc01a927e2a",
+        "b85b91c53558d46d",
+        "e2d3b41db9567ddf",
+        "f6fc84c9f21c2490"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "dfe8a41020213467be02f8c613ab2818aab72472ed34ebafadac74ab81c5cf83": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any specific US company, so it is unclear how it would impact US stocks."
+      },
+      "rated_at": "2026-10-17T15:08:54Z",
+      "url": "https://www.investing.com/news/stock-market-news/jios-32-billion-ipo-tests-investor-appetite-as-ambani-legacy-faces-scrutiny-4955160",
+      "provider": "investing",
+      "published_at": "2026-10-17T03:00:26Z",
+      "signature": [
+        "043a718774c572bd",
+        "0acdac7cac91ab4c",
+        "4e07408562bedb8b",
+        "59830ebc3a418411",
+        "73043e4eaf1a8b05",
+        "80c697e9924a5260",
+        "9647978e40f75d2a",
+        "abbe51030b1dbc63",
+        "b812c33dd9e092dc",
+        "c49fea7425fa7f86",
+        "d4735e3a265e16ee",
+        "df22016bdd63f389",
+        "e203120a667bd3ea"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "365656613afb6e65fd9dc7e9f2bcec706a1556a5cbc13a8e030c11148942a3c2": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests a successful deal for Blackstone, implying a positive impact on the company's financials and potentially its stock price."
+      },
+      "rated_at": "2026-10-17T15:08:56Z",
+      "url": "https://www.investing.com/news/stock-market-news/anthropic-offers-blackstone-doubledigit-yield-in-chipfinancing-deal-ft-reports-4955079",
+      "provider": "investing",
+      "published_at": "2026-10-17T01:06:24Z",
+      "signature": [
+        "2ce06a9e7f8c3e6b",
+        "5388a5a5ac0868b9",
+        "7f26104f77a7ce47",
+        "8bbcba42d48dcffe",
+        "92ab364e8f439e2d",
+        "95ff34cf19e6f49f",
+        "9adf009b9ea42792",
+        "c70eca6b0f88f44d",
+        "d7cea7305a333d5c",
+        "e4e3e15eef8decf5",
+        "f96c94f287038f69"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "fdf655d348479218d4e914092c63093ed6cbcc3c26440d1af955e6a71b2195f8": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "mixed",
+        "score": 0,
+        "reason": "The headline suggests that Starlink Mobile, a service from SpaceX, may have an impact on Apple, but the direction of the impact is unclear. It could be positive if Starlink Mobile's service is seen as a threat to Apple's mobile business, or negative if it is seen as a complementary service that benefits Apple's ecosystem."
+      },
+      "rated_at": "2026-10-17T15:09:00Z",
+      "url": "https://www.investing.com/news/stock-market-news/will-starlink-mobile-matter-for-apple-4955056",
+      "provider": "investing",
+      "published_at": "2026-10-17T00:39:39Z",
+      "signature": [
+        "2412f76972451e84",
+        "3a7bd3e2360a3d29",
+        "57523f642f63eabb",
+        "bc16f5825a9dafc8",
+        "d524c1a0811da495"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
     }
   },
-  "updated_at": "2026-10-16T22:15:29Z",
-  "last_attempt": "2026-10-16T22:15:29Z",
+  "updated_at": "2026-10-17T15:09:00Z",
+  "last_attempt": "2026-10-17T15:09:01Z",
   "errors": [],
-  "last_success": "2026-10-16T22:15:29Z"
+  "last_success": "2026-10-17T15:09:01Z"
 }

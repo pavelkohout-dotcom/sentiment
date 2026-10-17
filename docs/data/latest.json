@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T04:15:42Z",
+  "generated_at": "2026-10-17T04:31:00Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 42.42,
+      "value": 42.78,
       "status": "ok",
-      "events": 45,
-      "scored_events": 37,
-      "articles": 45,
+      "events": 42,
+      "scored_events": 35,
+      "articles": 42,
       "sources": 2,
-      "momentum": -0.32,
-      "momentum_baseline": "2026-10-17T03:15:42Z",
+      "momentum": 0.04,
+      "momentum_baseline": "2026-10-17T03:30:58Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 32.6,
+      "value": 32.99,
       "status": "ok",
-      "events": 24,
-      "scored_events": 18,
-      "articles": 24,
+      "events": 22,
+      "scored_events": 17,
+      "articles": 22,
       "sources": 2,
-      "momentum": -1.0,
-      "momentum_baseline": "2026-10-17T03:15:42Z",
+      "momentum": -0.61,
+      "momentum_baseline": "2026-10-17T03:30:58Z",
       "extreme": "normal"
     },
     "sp500": {
-      "value": 32.6,
+      "value": 32.99,
       "status": "ok",
-      "events": 24,
-      "scored_events": 18,
-      "articles": 24,
+      "events": 22,
+      "scored_events": 17,
+      "articles": 22,
       "sources": 2,
-      "momentum": -1.0,
-      "momentum_baseline": "2026-10-17T03:15:42Z",
+      "momentum": -0.61,
+      "momentum_baseline": "2026-10-17T03:30:58Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-17T04:15:42Z",
+      "last_success": "2026-10-17T04:31:00Z",
       "received": 10,
       "accepted": 7,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-17T04:15:42Z",
+      "last_attempt": "2026-10-17T04:31:00Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-17T04:15:42Z",
+      "last_success": "2026-10-17T04:31:00Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-17T04:15:42Z",
+      "last_attempt": "2026-10-17T04:31:00Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-17T04:15:42Z",
+      "last_success": "2026-10-17T04:31:00Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
       "pending_llama": 5,
-      "last_attempt": "2026-10-17T04:15:42Z",
+      "last_attempt": "2026-10-17T04:31:00Z",
       "status": "ok"
     }
   ],
@@ -1150,83 +1150,6 @@
         "direction": "negative",
         "reason": "The headline suggests a potential negative impact on the company's stock price due to the accounting scandal and potential legal action.",
         "rated_at": "2026-10-16T05:25:39Z"
-      }
-    },
-    {
-      "id": "c8e482af285ad215cd16394f1ae627f10c5c6ccd7aecf817a26231e212621e01",
-      "url": "https://www.investing.com/news/stock-market-news/msci-freezes-certain-turkey-index-changes-warns-of-potential-market-downgrade-4952952",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T04:30:53Z",
-      "first_seen": "2026-10-16T05:26:33Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "negative",
-        "reason": "The headline suggests a potential negative impact on US equities due to the warning of a potential market downgrade, which could lead to a decrease in investor confidence and a subsequent decline in stock prices.",
-        "rated_at": "2026-10-16T05:25:42Z"
-      }
-    },
-    {
-      "id": "4933f18049cc89fdd60e469c8dae82c6fcbde65566f1dee7b8eb80ec90811c76",
-      "url": "https://www.investing.com/news/stock-market-news/tesla-set-to-unveil-next-generation-roadster-sports-ev-after-years-of-delay-4951021",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T04:18:24Z",
-      "first_seen": "2026-10-15T10:31:03Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": true,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "unclear",
-        "reason": "The headline does not mention any impact on US equities, and the information provided is about a specific product and its development timeline, which is unclear in terms of its effect on the broader market.",
-        "rated_at": "2026-10-16T05:25:49Z"
-      }
-    },
-    {
-      "id": "b6defc872754313dc8733db453a17e786ec98af0511275ad93a0df55bf0dabec",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-sourcenext-stock-sliding-today-93CH-4953067",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T04:16:17Z",
-      "first_seen": "2026-10-16T05:26:33Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "The headline suggests that the stock of Sourcenext is sliding, implying a negative impact on the company's stock price.",
-        "rated_at": "2026-10-16T05:25:57Z"
       }
     }
   ],

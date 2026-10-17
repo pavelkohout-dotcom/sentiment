@@ -12798,5 +12798,45 @@
         "extreme": "normal"
       }
     }
+  },
+  {
+    "at": "2026-10-17T06:07:23Z",
+    "model": "llama3-numeric-1.0.0",
+    "collection_status": "ok",
+    "metrics": {
+      "all": {
+        "value": 42.98,
+        "status": "ok",
+        "events": 40,
+        "scored_events": 34,
+        "articles": 40,
+        "sources": 2,
+        "momentum": 0.2,
+        "momentum_baseline": "2026-10-17T05:01:11Z",
+        "extreme": "normal"
+      },
+      "nasdaq100": {
+        "value": 32.99,
+        "status": "ok",
+        "events": 22,
+        "scored_events": 17,
+        "articles": 22,
+        "sources": 2,
+        "momentum": 0.0,
+        "momentum_baseline": "2026-10-17T05:01:11Z",
+        "extreme": "normal"
+      },
+      "sp500": {
+        "value": 32.99,
+        "status": "ok",
+        "events": 22,
+        "scored_events": 17,
+        "articles": 22,
+        "sources": 2,
+        "momentum": 0.0,
+        "momentum_baseline": "2026-10-17T05:01:11Z",
+        "extreme": "normal"
+      }
+    }
   }
 ]

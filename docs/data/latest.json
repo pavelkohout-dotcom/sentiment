@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T16:30:59Z",
+  "generated_at": "2026-10-17T16:45:46Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 62.96,
+      "value": 61.66,
       "status": "ok",
-      "events": 28,
-      "scored_events": 24,
-      "articles": 28,
+      "events": 24,
+      "scored_events": 21,
+      "articles": 24,
       "sources": 2,
-      "momentum": 1.19,
-      "momentum_baseline": "2026-10-17T15:31:01Z",
+      "momentum": -0.11,
+      "momentum_baseline": "2026-10-17T15:45:45Z",
       "extreme": "normal"
     },
     "nasdaq100": {
       "value": 70.23,
       "status": "ok",
-      "events": 17,
+      "events": 16,
       "scored_events": 14,
-      "articles": 17,
+      "articles": 16,
       "sources": 2,
       "momentum": 0.55,
-      "momentum_baseline": "2026-10-17T15:31:01Z",
+      "momentum_baseline": "2026-10-17T15:45:45Z",
       "extreme": "normal"
     },
     "sp500": {
       "value": 70.23,
       "status": "ok",
-      "events": 17,
+      "events": 16,
       "scored_events": 14,
-      "articles": 17,
+      "articles": 16,
       "sources": 2,
       "momentum": 0.55,
-      "momentum_baseline": "2026-10-17T15:31:01Z",
+      "momentum_baseline": "2026-10-17T15:45:45Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-17T16:30:59Z",
+      "last_success": "2026-10-17T16:45:46Z",
       "received": 10,
       "accepted": 6,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-17T16:30:59Z",
+      "last_attempt": "2026-10-17T16:45:46Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-17T16:30:59Z",
+      "last_success": "2026-10-17T16:45:46Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-17T16:30:59Z",
+      "last_attempt": "2026-10-17T16:45:46Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-17T16:30:59Z",
+      "last_success": "2026-10-17T16:45:46Z",
       "received": 10,
-      "accepted": 5,
+      "accepted": 4,
       "rejected": 0,
-      "pending_llama": 0,
-      "last_attempt": "2026-10-17T16:30:59Z",
+      "pending_llama": 1,
+      "last_attempt": "2026-10-17T16:45:46Z",
       "status": "ok"
     }
   ],
@@ -695,107 +695,6 @@
         "reason": "The headline suggests that CoreWeave's bond rout may have a negative impact on US equities, specifically the company's stock price.",
         "rated_at": "2026-10-16T17:14:31Z"
       }
-    },
-    {
-      "id": "43168b348ab555a0cc856e4d024aa6407139a3f68edbf88c90b96b6411c6450d",
-      "url": "https://www.marketwatch.com/story/elon-musk-may-have-just-taken-a-major-step-toward-consolidating-his-empire-7d82dea6",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-16T16:39:00Z",
-      "first_seen": "2026-10-16T17:15:35Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "positive",
-        "reason": "The headline suggests that Elon Musk is taking a step towards consolidating his empire, implying a positive impact on his company's stock.",
-        "rated_at": "2026-10-16T17:14:20Z"
-      }
-    },
-    {
-      "id": "9a03511e77f0f09ff8ead43b65fbe759052ef349bf4f5322a8aa56c30dc120c0",
-      "url": "https://www.investing.com/news/stock-market-news/european-stocks-gain-as-schneider-lifts-sentiment-inflation-data-awaited-4953276",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T16:36:59Z",
-      "first_seen": "2026-10-16T17:15:35Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": true,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "unclear",
-        "reason": "The headline does not mention US equities directly, but rather European shares. The mention of a tech selloff and earnings may have some indirect impact on US markets, but it is unclear what the near-term impact would be.",
-        "rated_at": "2026-10-16T17:14:34Z"
-      }
-    },
-    {
-      "id": "cb64678fdff68f9a45aa5c1e9ff152f8376cf2f2b876c2aab6225ec02f2c1b73",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-corporacion-america-airports-stock-climbing-today-93CH-4954629",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T16:34:13Z",
-      "first_seen": "2026-10-16T17:15:35Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "positive",
-        "reason": "The headline suggests that the stock is climbing, indicating a positive impact on the company's stock price.",
-        "rated_at": "2026-10-16T17:14:42Z"
-      }
-    },
-    {
-      "id": "85d1e665ed8ba253c80c311dc5ef121d0e3a5b11944d21fe81bfb241b30be58e",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-nisource-stock-rallying-today-93CH-4954628",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-16T16:34:09Z",
-      "first_seen": "2026-10-16T17:15:35Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "positive",
-        "reason": "The headline suggests that NiSource stock is rallying, indicating a positive impact on US equities.",
-        "rated_at": "2026-10-16T17:14:44Z"
-      }
     }
   ],
   "methodology": {
@@ -810,7 +709,7 @@
     "last_rated_at": "2026-10-17T15:09:00Z",
     "last_refresh_at": "2026-10-17T15:09:01Z",
     "errors": 0,
-    "pending": 0,
+    "pending": 1,
     "model_digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
     "scale": {
       "negative": -1,

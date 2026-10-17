@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T10:31:00Z",
+  "generated_at": "2026-10-17T10:45:48Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 42.98,
+      "value": 42.05,
       "status": "ok",
-      "events": 40,
-      "scored_events": 34,
-      "articles": 40,
+      "events": 39,
+      "scored_events": 33,
+      "articles": 39,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-17T09:31:00Z",
+      "momentum": -0.93,
+      "momentum_baseline": "2026-10-17T09:45:40Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 32.99,
+      "value": 31.59,
       "status": "ok",
-      "events": 22,
-      "scored_events": 17,
-      "articles": 22,
+      "events": 21,
+      "scored_events": 16,
+      "articles": 21,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-17T09:31:00Z",
+      "momentum": -1.4,
+      "momentum_baseline": "2026-10-17T09:45:40Z",
       "extreme": "normal"
     },
     "sp500": {
-      "value": 32.99,
+      "value": 31.59,
       "status": "ok",
-      "events": 22,
-      "scored_events": 17,
-      "articles": 22,
+      "events": 21,
+      "scored_events": 16,
+      "articles": 21,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-17T09:31:00Z",
+      "momentum": -1.4,
+      "momentum_baseline": "2026-10-17T09:45:40Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-17T10:31:00Z",
+      "last_success": "2026-10-17T10:45:48Z",
       "received": 10,
       "accepted": 7,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-17T10:31:00Z",
+      "last_attempt": "2026-10-17T10:45:48Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-17T10:31:00Z",
+      "last_success": "2026-10-17T10:45:48Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-17T10:31:00Z",
+      "last_attempt": "2026-10-17T10:45:48Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-17T10:31:00Z",
+      "last_success": "2026-10-17T10:45:48Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 9,
-      "last_attempt": "2026-10-17T10:31:00Z",
+      "last_attempt": "2026-10-17T10:45:48Z",
       "status": "ok"
     }
   ],
@@ -1074,32 +1074,6 @@
         "direction": "negative",
         "reason": "The headline suggests that a potential sell signal has been silenced, implying that it's not yet a good time to buy US equities.",
         "rated_at": "2026-10-16T14:41:44Z"
-      }
-    },
-    {
-      "id": "0ae010c3dac2478bcc2dce8fc8a957a6f348043afdc7b7e398083b31c2f3a38f",
-      "url": "https://www.marketwatch.com/story/jefferies-technical-analyst-finds-an-encouraging-development-in-thursday-rebound-setting-stage-for-rally-into-year-end-34ad6e31",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-16T10:38:00Z",
-      "first_seen": "2026-10-16T14:43:20Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "positive",
-        "reason": "The headline suggests that a technical analyst at Jefferies has identified a positive development in the market, setting the stage for a rally into year-end, which is expected to have a positive impact on US equities.",
-        "rated_at": "2026-10-16T14:42:10Z"
       }
     }
   ],

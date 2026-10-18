@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T09:31:00Z",
+  "generated_at": "2026-10-18T09:45:45Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
@@ -12,8 +12,8 @@
       "scored_events": 7,
       "articles": 7,
       "sources": 2,
-      "momentum": -5.61,
-      "momentum_baseline": "2026-10-18T08:31:01Z",
+      "momentum": 0.0,
+      "momentum_baseline": "2026-10-18T08:45:44Z",
       "extreme": "normal"
     },
     "nasdaq100": {
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-18T09:31:00Z",
+      "last_success": "2026-10-18T09:45:45Z",
       "received": 10,
       "accepted": 4,
       "rejected": 0,
       "pending_llama": 2,
-      "last_attempt": "2026-10-18T09:31:00Z",
+      "last_attempt": "2026-10-18T09:45:45Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-18T09:31:00Z",
+      "last_success": "2026-10-18T09:45:45Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-18T09:31:00Z",
+      "last_attempt": "2026-10-18T09:45:45Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-18T09:31:00Z",
+      "last_success": "2026-10-18T09:45:45Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 9,
-      "last_attempt": "2026-10-18T09:31:00Z",
+      "last_attempt": "2026-10-18T09:45:45Z",
       "status": "ok"
     }
   ],

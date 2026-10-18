@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T12:45:43Z",
+  "generated_at": "2026-10-18T13:01:12Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
@@ -8,32 +8,32 @@
     "all": {
       "value": 100.0,
       "status": "low_coverage",
-      "events": 2,
-      "scored_events": 2,
-      "articles": 2,
-      "sources": 2,
+      "events": 1,
+      "scored_events": 1,
+      "articles": 1,
+      "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
     },
     "nasdaq100": {
-      "value": 100.0,
-      "status": "low_coverage",
-      "events": 1,
-      "scored_events": 1,
-      "articles": 1,
-      "sources": 1,
+      "value": null,
+      "status": "no_data",
+      "events": 0,
+      "scored_events": 0,
+      "articles": 0,
+      "sources": 0,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
     },
     "sp500": {
-      "value": 100.0,
-      "status": "low_coverage",
-      "events": 1,
-      "scored_events": 1,
-      "articles": 1,
-      "sources": 1,
+      "value": null,
+      "status": "no_data",
+      "events": 0,
+      "scored_events": 0,
+      "articles": 0,
+      "sources": 0,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-18T12:45:43Z",
+      "last_success": "2026-10-18T13:01:12Z",
       "received": 10,
-      "accepted": 4,
+      "accepted": 3,
       "rejected": 0,
-      "pending_llama": 3,
-      "last_attempt": "2026-10-18T12:45:43Z",
+      "pending_llama": 4,
+      "last_attempt": "2026-10-18T13:01:12Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-18T12:45:43Z",
+      "last_success": "2026-10-18T13:01:12Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-18T12:45:43Z",
+      "last_attempt": "2026-10-18T13:01:12Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-18T12:45:43Z",
+      "last_success": "2026-10-18T13:01:12Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-18T12:45:43Z",
+      "last_attempt": "2026-10-18T13:01:12Z",
       "status": "ok"
     }
   ],
@@ -104,32 +104,6 @@
         "reason": "The headline suggests that the company's earnings are exceptionally high, implying a positive impact on its stock price.",
         "rated_at": "2026-10-17T15:08:37Z"
       }
-    },
-    {
-      "id": "783120ea01041b9de7aa75ff2530baf1b0b5b55461856a59ffab98801b910d7f",
-      "url": "https://www.marketwatch.com/story/meet-the-home-buyers-totally-unfazed-by-7-mortgage-rates-7a9b1cc7",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-17T13:00:00Z",
-      "first_seen": "2026-10-17T15:09:41Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "positive",
-        "reason": "The headline suggests that some home buyers are not deterred by high mortgage rates, implying a positive impact on US equities.",
-        "rated_at": "2026-10-17T15:08:23Z"
-      }
     }
   ],
   "methodology": {
@@ -144,7 +118,7 @@
     "last_rated_at": "2026-10-17T15:09:00Z",
     "last_refresh_at": "2026-10-17T15:09:01Z",
     "errors": 0,
-    "pending": 13,
+    "pending": 14,
     "model_digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
     "scale": {
       "negative": -1,

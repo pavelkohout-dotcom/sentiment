@@ -1,38 +1,38 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T12:15:43Z",
+  "generated_at": "2026-10-18T12:31:03Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 75.72,
+      "value": 100.0,
       "status": "low_coverage",
-      "events": 3,
-      "scored_events": 3,
-      "articles": 3,
+      "events": 2,
+      "scored_events": 2,
+      "articles": 2,
       "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
     },
     "nasdaq100": {
-      "value": 51.44,
+      "value": 100.0,
       "status": "low_coverage",
-      "events": 2,
-      "scored_events": 2,
-      "articles": 2,
+      "events": 1,
+      "scored_events": 1,
+      "articles": 1,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
     },
     "sp500": {
-      "value": 51.44,
+      "value": 100.0,
       "status": "low_coverage",
-      "events": 2,
-      "scored_events": 2,
-      "articles": 2,
+      "events": 1,
+      "scored_events": 1,
+      "articles": 1,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-18T12:15:43Z",
+      "last_success": "2026-10-18T12:31:03Z",
       "received": 10,
       "accepted": 4,
       "rejected": 0,
       "pending_llama": 3,
-      "last_attempt": "2026-10-18T12:15:43Z",
+      "last_attempt": "2026-10-18T12:31:03Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-18T12:15:43Z",
+      "last_success": "2026-10-18T12:31:03Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-18T12:15:43Z",
+      "last_attempt": "2026-10-18T12:31:03Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-18T12:15:43Z",
+      "last_success": "2026-10-18T12:31:03Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-18T12:15:43Z",
+      "last_attempt": "2026-10-18T12:31:03Z",
       "status": "ok"
     }
   ],
@@ -129,32 +129,6 @@
         "direction": "positive",
         "reason": "The headline suggests that some home buyers are not deterred by high mortgage rates, implying a positive impact on US equities.",
         "rated_at": "2026-10-17T15:08:23Z"
-      }
-    },
-    {
-      "id": "2b60e50198a7893a387d2729992aeb2112d558669a8c489ea497dfd91651786a",
-      "url": "https://www.marketwatch.com/story/silvers-recent-50-drop-from-a-record-high-hints-that-an-economic-slowdown-looms-e9fdfaf1",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-17T12:30:00Z",
-      "first_seen": "2026-10-17T15:09:41Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "negative",
-        "reason": "The headline suggests that a decline in silver prices may be indicative of an economic slowdown, which could negatively impact US equities.",
-        "rated_at": "2026-10-17T15:08:25Z"
       }
     }
   ],

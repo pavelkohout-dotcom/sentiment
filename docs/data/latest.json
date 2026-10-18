@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T18:31:02Z",
+  "generated_at": "2026-10-18T18:45:42Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 56.6,
+      "value": 57.64,
       "status": "ok",
-      "events": 10,
-      "scored_events": 8,
-      "articles": 10,
+      "events": 9,
+      "scored_events": 7,
+      "articles": 9,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-18T17:31:02Z",
+      "momentum": 1.04,
+      "momentum_baseline": "2026-10-18T17:45:43Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 56.6,
+      "value": 57.64,
       "status": "ok",
-      "events": 8,
-      "scored_events": 8,
-      "articles": 8,
+      "events": 7,
+      "scored_events": 7,
+      "articles": 7,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-18T17:31:02Z",
+      "momentum": 1.04,
+      "momentum_baseline": "2026-10-18T17:45:43Z",
       "extreme": "normal"
     },
     "sp500": {
-      "value": 56.6,
+      "value": 57.64,
       "status": "ok",
-      "events": 8,
-      "scored_events": 8,
-      "articles": 8,
+      "events": 7,
+      "scored_events": 7,
+      "articles": 7,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-18T17:31:02Z",
+      "momentum": 1.04,
+      "momentum_baseline": "2026-10-18T17:45:43Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-18T18:31:02Z",
+      "last_success": "2026-10-18T18:45:42Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
       "pending_llama": 1,
-      "last_attempt": "2026-10-18T18:31:02Z",
+      "last_attempt": "2026-10-18T18:45:42Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-18T18:31:02Z",
+      "last_success": "2026-10-18T18:45:42Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-18T18:31:02Z",
+      "last_attempt": "2026-10-18T18:45:42Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-18T18:31:02Z",
+      "last_success": "2026-10-18T18:45:42Z",
       "received": 10,
       "accepted": 5,
       "rejected": 0,
-      "pending_llama": 1,
-      "last_attempt": "2026-10-18T18:31:02Z",
+      "pending_llama": 3,
+      "last_attempt": "2026-10-18T18:45:42Z",
       "status": "ok"
     }
   ],
@@ -311,32 +311,6 @@
         "reason": "The headline does not mention any US company, and the impact on US equities is unclear.",
         "rated_at": "2026-10-18T16:53:46Z"
       }
-    },
-    {
-      "id": "955b531e9320fd0ba05a35d544a59d3b79d102e3a2e441a8820a91ea8bbbf820",
-      "url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-17T18:40:00Z",
-      "first_seen": "2026-10-18T16:54:23Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "negative",
-        "reason": "The headline suggests that Gen Z renters are prioritizing investing over homeownership, which may negatively impact the housing market and broader US equities.",
-        "rated_at": "2026-10-18T16:53:15Z"
-      }
     }
   ],
   "methodology": {
@@ -351,7 +325,7 @@
     "last_rated_at": "2026-10-18T16:53:46Z",
     "last_refresh_at": "2026-10-18T16:53:46Z",
     "errors": 0,
-    "pending": 2,
+    "pending": 4,
     "model_digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
     "scale": {
       "negative": -1,

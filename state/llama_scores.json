@@ -4306,10 +4306,444 @@
         "sp500"
       ],
       "kind": "unknown"
+    },
+    "31a9012d577a3519b1639ddb92ef5bac51169d8b93b404b5021e03cd500e8676": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or the stock market, and the topic is a personal and ethical dilemma rather than a financial or economic issue."
+      },
+      "rated_at": "2026-10-18T16:53:03Z",
+      "url": "https://www.marketwatch.com/story/im-64-years-old-with-two-sons-but-only-one-works-in-the-family-firm-should-i-leave-him-70-of-the-business-2fe6c382",
+      "provider": "marketwatch",
+      "published_at": "2026-10-18T15:15:00Z",
+      "signature": [
+        "11d40417959631d3",
+        "29ba0e4351419286",
+        "2a683592454edd4f",
+        "3fc4ccfe745870e2",
+        "5a7cf4ac138054a8",
+        "62c66a7a5dd70c31",
+        "7692c3ad3540bb80",
+        "93f6e11d9ce3e407",
+        "a68b412c4282555f",
+        "af193190b8d3cd14",
+        "cdc29937887188ad",
+        "d34a569ab7aaa54d",
+        "de7d1b721a1e0632",
+        "f168ccdd91548c5a",
+        "f905b19542ed08c9",
+        "ff5a1ae012afa5d4"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "38e19e46197bdec99a58daa071fbbf47edb59cbfc2187b36b644f972c7e01274": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that certain stocks could drive S&P 500 earnings growth, implying a positive impact on US equities."
+      },
+      "rated_at": "2026-10-18T16:53:05Z",
+      "url": "https://www.marketwatch.com/story/these-surprising-stocks-could-be-some-of-the-biggest-drivers-of-s-p-500-earnings-growth-ea073a07",
+      "provider": "marketwatch",
+      "published_at": "2026-10-18T14:00:00Z",
+      "signature": [
+        "043a718774c572bd",
+        "0604cd3138feed20",
+        "0e031e954a432055",
+        "148de9c5a7a44d19",
+        "19c64195eb8f22c3",
+        "1ef8f25405f82682",
+        "3fc414de196c5d49",
+        "90191e4114b0c17d",
+        "a6b46dd0d1ae5e86",
+        "a71518107f3a70bc",
+        "b808e156d18d1cec",
+        "fe7634184576f6d1"
+      ],
+      "rule_segments": [
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "8b0e443c71b2d0d5630f36c0f1e0247ecdd07f791bf0583b6f107ad972233841": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "mixed",
+        "score": 0,
+        "reason": "Strong earnings and rising borrowing costs are mixed signals for US equities, indicating a high-stakes showdown"
+      },
+      "rated_at": "2026-10-18T16:53:08Z",
+      "url": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8",
+      "provider": "marketwatch",
+      "published_at": "2026-10-18T13:00:00Z",
+      "signature": [
+        "1ef8f25405f82682",
+        "5e60ff5ac0ec0f50",
+        "6ef7c9b15ecdd690",
+        "79c5afc2b0cb20cb",
+        "824d422d755b9c7b",
+        "8b33db6387f29721",
+        "90d448c0f5a04425",
+        "acd9e56b5701c9c5",
+        "bcde6928e538c63c",
+        "eda15ce4834ac303",
+        "fe7634184576f6d1"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "176bb5e63886703728437dc97467685bf75652cf0ef67a77b8771db8e7e5ff9b": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that there is a market rotation warning of more weakness ahead, implying a negative impact on US equities."
+      },
+      "rated_at": "2026-10-18T16:53:10Z",
+      "url": "https://www.marketwatch.com/story/there-is-a-silent-market-rotation-inside-the-s-p-500-thats-warning-of-more-weakness-ahead-549e7650",
+      "provider": "marketwatch",
+      "published_at": "2026-10-18T12:00:00Z",
+      "signature": [
+        "043a718774c572bd",
+        "0604cd3138feed20",
+        "106b086224a4d945",
+        "148de9c5a7a44d19",
+        "187897ce0afcf20b",
+        "224610f102890bc0",
+        "448545189b00ee87",
+        "4bd9354bb6522334",
+        "5a9b9fc8e986cc2f",
+        "d0b4034c6ca7ee87",
+        "e244f187f696561d",
+        "e4d693d24e646cb7"
+      ],
+      "rule_segments": [
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "2495a03322d4b5c5d4644c8939829bd9ed11163e8bd20a7f9dd43a7d5a4939e8": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any specific company, and the concept of 'happiness insurance' is unclear in terms of its impact on the stock market."
+      },
+      "rated_at": "2026-10-18T16:53:13Z",
+      "url": "https://www.marketwatch.com/story/fake-shopping-sprees-and-happiness-insurance-the-latest-fintech-apps-reveal-our-financial-anxieties-77770a46",
+      "provider": "marketwatch",
+      "published_at": "2026-10-17T18:52:00Z",
+      "signature": [
+        "110599ccb008c674",
+        "1180412af43d7860",
+        "3ba3a074387adfd6",
+        "419a636ccc2aa55c",
+        "42f38c12577ba328",
+        "5e1e2bcac305958b",
+        "64e8937abc6d71cf",
+        "a6556e4852e26390",
+        "b5d54c39e66671c9",
+        "d101a467144d57f4",
+        "d56f6359d240f69e",
+        "fed0e4820af42571"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "b8f617dab0210b6a0e307e9c563195494a5c64f3dc1d0f11e8b648fc00b28dca": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "negative",
+        "score": -1,
+        "reason": "The headline suggests that Gen Z renters are prioritizing investing over homeownership, which may negatively impact the housing market and broader US equities."
+      },
+      "rated_at": "2026-10-18T16:53:15Z",
+      "url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344",
+      "provider": "marketwatch",
+      "published_at": "2026-10-17T18:40:00Z",
+      "signature": [
+        "0373280943853b5a",
+        "116c49130f14f514",
+        "2430e09ec2ec2845",
+        "254bb97b57f12e16",
+        "35da636b0d049d44",
+        "3b6a765ede676559",
+        "549c6dd1281dcc6c",
+        "594e519ae499312b",
+        "6b86b273ff34fce1",
+        "7f7f85b1e7d5ffd4",
+        "9390298f3fb0c5b1",
+        "efbde73cf7b4ef00"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "3804d01dd25652b3c7010c8ec9f8cf27ef7a064991deecebb2b44e508070af67": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "mixed",
+        "score": 0,
+        "reason": "The headline suggests that the focus is shifting from AI-related stocks to earnings, which could have a mixed impact on the broader US market."
+      },
+      "rated_at": "2026-10-18T16:53:18Z",
+      "url": "https://www.investing.com/news/stock-market-news/as-ai-rally-wobbles-stock-markets-spotlight-turns-to-earnings-4955913",
+      "provider": "investing",
+      "published_at": "2026-10-18T13:00:22Z",
+      "signature": [
+        "043a718774c572bd",
+        "08c4242b5f585628",
+        "32e83e92d45d71f6",
+        "4052679dec065619",
+        "6976a029d065bf7d",
+        "afd5c5ae5738e275",
+        "be46a22b1f8cddcc",
+        "e4d693d24e646cb7",
+        "fe7634184576f6d1"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "5ee855a6c13331c1608afd2058c89fb24a1f092ba98dbaed2108730c31d9d182": {
+      "rating": {
+        "scope": "other",
+        "direction": "negative",
+        "score": null,
+        "reason": "The headline's focus on Saudi Arabia stocks and the Tadawul All Share index suggests a negative impact on US equities, as it is unrelated to the US market."
+      },
+      "rated_at": "2026-10-18T16:53:23Z",
+      "url": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-higher-at-close-of-trade-tadawul-all-share-up-082-4955903",
+      "provider": "investing",
+      "published_at": "2026-10-18T12:45:03Z",
+      "signature": [
+        "1ef8f25405f82682",
+        "276446ba01e3aa38",
+        "310ff200149b44a3",
+        "5ef5ef0364b6939c",
+        "5feceb66ffc86f38",
+        "67538627e4ac6d31",
+        "75a288c0d6898c5f",
+        "991e9e0dc7f2500b",
+        "a46e37632fa6ca51",
+        "c3bc45ac352fe43f",
+        "e5ff8d2b6809d810",
+        "ed149fce28b15b99"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "1d911c4eb8c0eb0117a1fe70882364ea084380bc6bb0b1b064c875993acd97bd": {
+      "rating": {
+        "scope": "broad_us",
+        "direction": "positive",
+        "score": 1,
+        "reason": "The headline suggests that an analyst is recommending buying two specific stocks, implying a positive outlook for US equities."
+      },
+      "rated_at": "2026-10-18T16:53:26Z",
+      "url": "https://www.investing.com/news/stock-market-news/buy-these-2-stocks-amid-ai-financing-concerns-analyst-4955896",
+      "provider": "investing",
+      "published_at": "2026-10-18T12:16:35Z",
+      "signature": [
+        "1ef8f25405f82682",
+        "32e83e92d45d71f6",
+        "69dabc67d286f871",
+        "b808e156d18d1cec",
+        "d4735e3a265e16ee",
+        "e4e3e15eef8decf5",
+        "e8197b20f8e71e42",
+        "f44ceb062e35dfee",
+        "fcfc5fe39fc177d6"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "4ec0e658a49bb287e1dad30881be90fa15091aaa81b16a6840bf15ab5f498a3d": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "negative",
+        "score": -1,
+        "reason": "Microsoft's withdrawal from a UK data center deal may have a negative impact on US equities, potentially affecting the tech sector and Microsoft's stock price."
+      },
+      "rated_at": "2026-10-18T16:53:28Z",
+      "url": "https://www.investing.com/news/stock-market-news/microsoft-pulls-out-of-uk-data-center-deal-with-nscale-telegraph-reports-4955864",
+      "provider": "investing",
+      "published_at": "2026-10-18T10:06:39Z",
+      "signature": [
+        "0684c60c14e870b7",
+        "3a6eb0790f39ac87",
+        "725aca9fc38447c1",
+        "762069bc07a6e1b5",
+        "7f26104f77a7ce47",
+        "83116acf18e4dc44",
+        "9fbf261b62c1d7c0",
+        "eb6cf0bb179ca6ed",
+        "f179a509d32bd92c",
+        "f96c94f287038f69"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "ec24bb07772afd15187ddca6dc5a8840d090fc07dc1c361cda4f662c867d2077": {
+      "rating": {
+        "scope": "unclear",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not provide any information about the impact on US equities, making it unclear."
+      },
+      "rated_at": "2026-10-18T16:53:30Z",
+      "url": "https://www.investing.com/news/stock-market-news/street-calls-of-the-week-93CH-4953774",
+      "provider": "investing",
+      "published_at": "2026-10-18T10:00:02Z",
+      "signature": [
+        "6008c26f4452392a",
+        "6df37daaa46ce714",
+        "f46f5990ebfadcab"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "b3af8fcf68bd83cecda1ef2782ab566c6d920f8891095074fcd40d03ada36270": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "unclear",
+        "score": null,
+        "reason": "Regulatory action is not directly related to US equities, and the impact on Nestle and Unilever's stock prices is unclear."
+      },
+      "rated_at": "2026-10-18T16:53:33Z",
+      "url": "https://www.investing.com/news/stock-market-news/nestle-unilever-face-regulatory-action-in-india-over-misleading-health-claims-4955820",
+      "provider": "investing",
+      "published_at": "2026-10-18T07:40:53Z",
+      "signature": [
+        "0282d9b79f42c74c",
+        "5fb6a47e368e12e5",
+        "62484e22a6a5ade1",
+        "a38c2d7bfc423b19",
+        "a61808fe40feb8b3",
+        "bd938c688f49b77c",
+        "f52318186adc9cb2",
+        "fa3069bd423c0ab3",
+        "fb54e9062429a937",
+        "fedb24c98f783a5d"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "e13f905a07472197746c4021fff753df60c743c725bc8068c0bb5d2dd33a5ea4": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "positive",
+        "score": 1,
+        "reason": "Meta and Salesforce, two US companies, received positive analyst moves, with Meta getting a Street-high price target and Salesforce being double upgraded."
+      },
+      "rated_at": "2026-10-18T16:53:35Z",
+      "url": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-meta-gets-streethigh-pt-salesforce-double-upgraded-4955491",
+      "provider": "investing",
+      "published_at": "2026-10-18T07:18:04Z",
+      "signature": [
+        "2a21fe6d592a19b7",
+        "2ce06a9e7f8c3e6b",
+        "32e83e92d45d71f6",
+        "3ccbd9105a45d8fc",
+        "6008c26f4452392a",
+        "6ef7c9b15ecdd690",
+        "8aca04ab6ee7c402",
+        "c60e86ae5dcbf2cf",
+        "d3fb7168cbef420e",
+        "e75b11da693d7bb5",
+        "ea3bd73e2b506e00",
+        "ef2d127de37b942b",
+        "f44ceb062e35dfee"
+      ],
+      "rule_segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "kind": "unknown"
+    },
+    "00f64fb4f53bec5f1ab4e3bd937a31dc43717aab0f5591e2622754ad11a41085": {
+      "rating": {
+        "scope": "other",
+        "direction": "negative",
+        "score": null,
+        "reason": "The proposed export controls on solar-manufacturing technologies by China may lead to a decrease in global solar panel production, potentially affecting US equities in the renewable energy sector."
+      },
+      "rated_at": "2026-10-18T16:53:41Z",
+      "url": "https://www.investing.com/news/stock-market-news/china-proposes-export-controls-on-solarmanufacturing-technologies-4955803",
+      "provider": "investing",
+      "published_at": "2026-10-18T06:24:20Z",
+      "signature": [
+        "039d6add7ee0b6cf",
+        "1e2135d1b50f14d3",
+        "2bfbc118abcafe8c",
+        "2f9f73a9a4863098",
+        "50c0152c2952082a",
+        "d46aee08cc49f6d1",
+        "ee3170d06527503f"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "455f9bc274b5c321a366d200e025ca99345ec0db17a6a16182a07c80c8626151": {
+      "rating": {
+        "scope": "other",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention US equities or any economic impact, and the mention of Rubio and other US officials heading to foreign policy hot spots does not imply any near-term impact on US equities."
+      },
+      "rated_at": "2026-10-18T16:53:43Z",
+      "url": "https://www.investing.com/news/stock-market-news/rubio-heads-to-central-asia-while-other-us-officials-hit-foreign-policy-hot-spots-4955781",
+      "provider": "investing",
+      "published_at": "2026-10-18T05:12:36Z",
+      "signature": [
+        "00aa47c8a6ebbdde",
+        "07a8750738828ffd",
+        "2251fc9c55d2ad1d",
+        "5c0bc2423c1af18c",
+        "63d04dee7c50f6fb",
+        "656771905e1ef731",
+        "79adb2a2fce5c6ba",
+        "7f5d1618e7d28cc7",
+        "823412d1eacb6795",
+        "8cb6279a8e1b12a9",
+        "9337e7b7d7a3a0ef",
+        "d9298a10d1b07358",
+        "ee139bd0fd941847"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
+    },
+    "c613d9b0f252deb5198384bb4c84d19e400b0166c4e2ab3a614a632fed0603d8": {
+      "rating": {
+        "scope": "single_us_company",
+        "direction": "unclear",
+        "score": null,
+        "reason": "The headline does not mention any US company, and the impact on US equities is unclear."
+      },
+      "rated_at": "2026-10-18T16:53:46Z",
+      "url": "https://www.investing.com/news/stock-market-news/antofagastas-centinela-strike-ends-after-deal-with-unions-4955771",
+      "provider": "investing",
+      "published_at": "2026-10-18T04:42:22Z",
+      "signature": [
+        "043a718774c572bd",
+        "05d70daa707c08d7",
+        "07e69766576d3e47",
+        "7cd58cdd64a3dcfc",
+        "b7a7513cd632f8a3",
+        "d9edd4c05294e5bd",
+        "f96c94f287038f69"
+      ],
+      "rule_segments": [],
+      "kind": "unknown"
     }
   },
-  "updated_at": "2026-10-17T15:09:00Z",
-  "last_attempt": "2026-10-17T15:09:01Z",
+  "updated_at": "2026-10-18T16:53:46Z",
+  "last_attempt": "2026-10-18T16:53:46Z",
   "errors": [],
-  "last_success": "2026-10-17T15:09:01Z"
+  "last_success": "2026-10-18T16:53:46Z"
 }

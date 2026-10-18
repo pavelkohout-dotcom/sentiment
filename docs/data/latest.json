@@ -1,38 +1,38 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T11:45:43Z",
+  "generated_at": "2026-10-18T12:01:13Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 59.98,
-      "status": "ok",
-      "events": 5,
-      "scored_events": 5,
-      "articles": 5,
+      "value": 52.34,
+      "status": "low_coverage",
+      "events": 4,
+      "scored_events": 4,
+      "articles": 4,
       "sources": 2,
-      "momentum": -1.65,
-      "momentum_baseline": "2026-10-18T10:45:45Z",
-      "extreme": "normal"
+      "momentum": null,
+      "momentum_baseline": null,
+      "extreme": "unavailable"
     },
     "nasdaq100": {
-      "value": 66.72,
+      "value": 51.44,
       "status": "low_coverage",
-      "events": 3,
-      "scored_events": 3,
-      "articles": 3,
+      "events": 2,
+      "scored_events": 2,
+      "articles": 2,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
     },
     "sp500": {
-      "value": 66.72,
+      "value": 51.44,
       "status": "low_coverage",
-      "events": 3,
-      "scored_events": 3,
-      "articles": 3,
+      "events": 2,
+      "scored_events": 2,
+      "articles": 2,
       "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-18T11:45:43Z",
+      "last_success": "2026-10-18T12:01:13Z",
       "received": 10,
       "accepted": 4,
       "rejected": 0,
-      "pending_llama": 2,
-      "last_attempt": "2026-10-18T11:45:43Z",
+      "pending_llama": 3,
+      "last_attempt": "2026-10-18T12:01:13Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-18T11:45:43Z",
+      "last_success": "2026-10-18T12:01:13Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-18T11:45:43Z",
+      "last_attempt": "2026-10-18T12:01:13Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-18T11:45:43Z",
+      "last_success": "2026-10-18T12:01:13Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-18T11:45:43Z",
+      "last_attempt": "2026-10-18T12:01:13Z",
       "status": "ok"
     }
   ],
@@ -181,32 +181,6 @@
         "reason": "The headline suggests a decline in the Semiconductor Index (SOX), which is a specific index tracking the performance of semiconductor companies, indicating a negative impact on US equities.",
         "rated_at": "2026-10-17T15:08:40Z"
       }
-    },
-    {
-      "id": "bbcfc3aa96f72b984243821318cda2ce452e4592257e3ae5b44e7139bcfd8085",
-      "url": "https://www.marketwatch.com/story/microsoft-shopify-and-3-more-ai-stocks-that-are-favorite-wall-street-earnings-plays-0bb61e81",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-17T12:01:00Z",
-      "first_seen": "2026-10-17T15:09:41Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "positive",
-        "reason": "The headline suggests that Microsoft is a favorite Wall Street earnings play, implying a positive near-term impact on its stock price.",
-        "rated_at": "2026-10-17T15:08:28Z"
-      }
     }
   ],
   "methodology": {
@@ -221,7 +195,7 @@
     "last_rated_at": "2026-10-17T15:09:00Z",
     "last_refresh_at": "2026-10-17T15:09:01Z",
     "errors": 0,
-    "pending": 12,
+    "pending": 13,
     "model_digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
     "scale": {
       "negative": -1,

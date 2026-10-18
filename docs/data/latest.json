@@ -1,42 +1,42 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T08:31:01Z",
+  "generated_at": "2026-10-18T08:45:44Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 67.24,
+      "value": 61.63,
       "status": "ok",
-      "events": 8,
-      "scored_events": 8,
-      "articles": 8,
+      "events": 7,
+      "scored_events": 7,
+      "articles": 7,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-18T07:31:02Z",
+      "momentum": -5.61,
+      "momentum_baseline": "2026-10-18T07:45:44Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 85.01,
-      "status": "ok",
-      "events": 6,
-      "scored_events": 6,
-      "articles": 6,
-      "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-18T07:31:02Z",
-      "extreme": "euphoria"
+      "value": 70.01,
+      "status": "low_coverage",
+      "events": 5,
+      "scored_events": 5,
+      "articles": 5,
+      "sources": 1,
+      "momentum": null,
+      "momentum_baseline": null,
+      "extreme": "unavailable"
     },
     "sp500": {
-      "value": 85.01,
-      "status": "ok",
-      "events": 6,
-      "scored_events": 6,
-      "articles": 6,
-      "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-18T07:31:02Z",
-      "extreme": "euphoria"
+      "value": 70.01,
+      "status": "low_coverage",
+      "events": 5,
+      "scored_events": 5,
+      "articles": 5,
+      "sources": 1,
+      "momentum": null,
+      "momentum_baseline": null,
+      "extreme": "unavailable"
     }
   },
   "sources": [
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-18T08:31:01Z",
+      "last_success": "2026-10-18T08:45:44Z",
       "received": 10,
       "accepted": 4,
       "rejected": 0,
       "pending_llama": 2,
-      "last_attempt": "2026-10-18T08:31:01Z",
+      "last_attempt": "2026-10-18T08:45:44Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-18T08:31:01Z",
+      "last_success": "2026-10-18T08:45:44Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
       "pending_llama": 0,
-      "last_attempt": "2026-10-18T08:31:01Z",
+      "last_attempt": "2026-10-18T08:45:44Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-18T08:31:01Z",
+      "last_success": "2026-10-18T08:45:44Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 9,
-      "last_attempt": "2026-10-18T08:31:01Z",
+      "last_attempt": "2026-10-18T08:45:44Z",
       "status": "ok"
     }
   ],
@@ -258,32 +258,6 @@
         "direction": "mixed",
         "reason": "The headline suggests that the Fed's interest-rate decision this month is uncertain, which could lead to mixed reactions in the market, potentially impacting US equities.",
         "rated_at": "2026-10-17T15:08:33Z"
-      }
-    },
-    {
-      "id": "3783070822aaa5bc86eb25f35700901167c92a9908dbe5a0aa2f69cc7c5d130a",
-      "url": "https://www.investing.com/news/stock-market-news/citi-sees-resilient-demand-for-chinese-ai-ipos-despite-valuation-concerns-4955340",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-17T08:41:17Z",
-      "first_seen": "2026-10-17T15:09:41Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "positive",
-        "reason": "The headline suggests that Citi's positive outlook on Chinese AI IPOs could have a positive impact on US equities, potentially driving up demand and prices.",
-        "rated_at": "2026-10-17T15:08:43Z"
       }
     }
   ],

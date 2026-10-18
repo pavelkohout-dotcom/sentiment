@@ -3983,5 +3983,263 @@
       "reason": "The headline suggests that Starlink Mobile, a service from SpaceX, may have an impact on Apple, but the direction of the impact is unclear. It could be positive if Starlink Mobile's service is seen as a threat to Apple's mobile business, or negative if it is seen as a complementary service that benefits Apple's ecosystem.",
       "rated_at": "2026-10-17T15:09:00Z"
     }
+  },
+  {
+    "id": "dbb54d2a44d3b3980db608f28ac6a0efb0d4b1f10c267235dbc2dff1becc850c",
+    "url": "https://www.marketwatch.com/story/these-surprising-stocks-could-be-some-of-the-biggest-drivers-of-s-p-500-earnings-growth-ea073a07",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-18T14:00:00Z",
+    "first_seen": "2026-10-18T16:54:23Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": 1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "positive",
+      "reason": "The headline suggests that certain stocks could drive S&P 500 earnings growth, implying a positive impact on US equities.",
+      "rated_at": "2026-10-18T16:53:05Z"
+    }
+  },
+  {
+    "id": "5a2dde83ad41a69de89dcaddf5afd1574cf882604aaf5e52c16ca7cafbcfaf38",
+    "url": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-18T13:00:00Z",
+    "first_seen": "2026-10-18T16:54:23Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": 0,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": true,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "mixed",
+      "reason": "Strong earnings and rising borrowing costs are mixed signals for US equities, indicating a high-stakes showdown",
+      "rated_at": "2026-10-18T16:53:08Z"
+    }
+  },
+  {
+    "id": "912ddbc75434a91fdaceda0e24cb3b6793142c73a735e2987d98438526cc6fa7",
+    "url": "https://www.marketwatch.com/story/there-is-a-silent-market-rotation-inside-the-s-p-500-thats-warning-of-more-weakness-ahead-549e7650",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-18T12:00:00Z",
+    "first_seen": "2026-10-18T16:54:23Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "negative",
+      "reason": "The headline suggests that there is a market rotation warning of more weakness ahead, implying a negative impact on US equities.",
+      "rated_at": "2026-10-18T16:53:10Z"
+    }
+  },
+  {
+    "id": "955b531e9320fd0ba05a35d544a59d3b79d102e3a2e441a8820a91ea8bbbf820",
+    "url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344",
+    "source": "www.marketwatch.com",
+    "provider": "marketwatch",
+    "title": null,
+    "published_at": "2026-10-17T18:40:00Z",
+    "first_seen": "2026-10-18T16:54:23Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "negative",
+      "reason": "The headline suggests that Gen Z renters are prioritizing investing over homeownership, which may negatively impact the housing market and broader US equities.",
+      "rated_at": "2026-10-18T16:53:15Z"
+    }
+  },
+  {
+    "id": "74cc0686f11bb28665013b6629738e1888fade9364876497aeffc60fda291e1c",
+    "url": "https://www.investing.com/news/stock-market-news/as-ai-rally-wobbles-stock-markets-spotlight-turns-to-earnings-4955913",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-18T13:00:22Z",
+    "first_seen": "2026-10-18T16:54:23Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": 0,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": true,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "mixed",
+      "reason": "The headline suggests that the focus is shifting from AI-related stocks to earnings, which could have a mixed impact on the broader US market.",
+      "rated_at": "2026-10-18T16:53:18Z"
+    }
+  },
+  {
+    "id": "911e055e43eb33e89791e7f135d5ca20f3e620ebb320551173a75aeb0b1237ce",
+    "url": "https://www.investing.com/news/stock-market-news/buy-these-2-stocks-amid-ai-financing-concerns-analyst-4955896",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-18T12:16:35Z",
+    "first_seen": "2026-10-18T16:54:23Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": 1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "broad_us",
+      "direction": "positive",
+      "reason": "The headline suggests that an analyst is recommending buying two specific stocks, implying a positive outlook for US equities.",
+      "rated_at": "2026-10-18T16:53:26Z"
+    }
+  },
+  {
+    "id": "74e013852fe15882cb1116244f582c7900ded7f76d217076f92bce3f5bd5933d",
+    "url": "https://www.investing.com/news/stock-market-news/microsoft-pulls-out-of-uk-data-center-deal-with-nscale-telegraph-reports-4955864",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-18T10:06:39Z",
+    "first_seen": "2026-10-18T16:54:23Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "negative",
+      "reason": "Microsoft's withdrawal from a UK data center deal may have a negative impact on US equities, potentially affecting the tech sector and Microsoft's stock price.",
+      "rated_at": "2026-10-18T16:53:28Z"
+    }
+  },
+  {
+    "id": "7bf6b4652fe5d3cb92fb660ff4591d2adca442ce4b07a172adaae6ebeedd38a6",
+    "url": "https://www.investing.com/news/stock-market-news/nestle-unilever-face-regulatory-action-in-india-over-misleading-health-claims-4955820",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-18T07:40:53Z",
+    "first_seen": "2026-10-18T16:54:23Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "unclear",
+      "reason": "Regulatory action is not directly related to US equities, and the impact on Nestle and Unilever's stock prices is unclear.",
+      "rated_at": "2026-10-18T16:53:33Z"
+    }
+  },
+  {
+    "id": "f90a87a28e961e6aa67a4b31d5fa7f50749401890c54cf343137daa08eb388bc",
+    "url": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-meta-gets-streethigh-pt-salesforce-double-upgraded-4955491",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-18T07:18:04Z",
+    "first_seen": "2026-10-18T16:54:23Z",
+    "analysis": {
+      "segments": [
+        "nasdaq100",
+        "sp500"
+      ],
+      "score": 1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "positive",
+      "reason": "Meta and Salesforce, two US companies, received positive analyst moves, with Meta getting a Street-high price target and Salesforce being double upgraded.",
+      "rated_at": "2026-10-18T16:53:35Z"
+    }
+  },
+  {
+    "id": "86e6180c1f90efa848b79c59728fe607e243fdca30f0f47a2a156c9b726c976f",
+    "url": "https://www.investing.com/news/stock-market-news/antofagastas-centinela-strike-ends-after-deal-with-unions-4955771",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-18T04:42:22Z",
+    "first_seen": "2026-10-18T16:54:23Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": null,
+      "confidence": 0,
+      "rules": [],
+      "uncertain": true,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "unclear",
+      "reason": "The headline does not mention any US company, and the impact on US equities is unclear.",
+      "rated_at": "2026-10-18T16:53:46Z"
+    }
   }
 ]

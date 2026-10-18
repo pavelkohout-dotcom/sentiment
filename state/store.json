@@ -6142,6 +6142,399 @@
         "d524c1a0811da495"
       ],
       "headline_hash": "fdf655d348479218d4e914092c63093ed6cbcc3c26440d1af955e6a71b2195f8"
+    },
+    "dbb54d2a44d3b3980db608f28ac6a0efb0d4b1f10c267235dbc2dff1becc850c": {
+      "id": "dbb54d2a44d3b3980db608f28ac6a0efb0d4b1f10c267235dbc2dff1becc850c",
+      "url": "https://www.marketwatch.com/story/these-surprising-stocks-could-be-some-of-the-biggest-drivers-of-s-p-500-earnings-growth-ea073a07",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-18T14:00:00Z",
+      "first_seen": "2026-10-18T16:54:23Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "positive",
+        "reason": "The headline suggests that certain stocks could drive S&P 500 earnings growth, implying a positive impact on US equities.",
+        "rated_at": "2026-10-18T16:53:05Z"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "0604cd3138feed20",
+        "0e031e954a432055",
+        "148de9c5a7a44d19",
+        "19c64195eb8f22c3",
+        "1ef8f25405f82682",
+        "3fc414de196c5d49",
+        "90191e4114b0c17d",
+        "a6b46dd0d1ae5e86",
+        "a71518107f3a70bc",
+        "b808e156d18d1cec",
+        "fe7634184576f6d1"
+      ],
+      "headline_hash": "38e19e46197bdec99a58daa071fbbf47edb59cbfc2187b36b644f972c7e01274"
+    },
+    "5a2dde83ad41a69de89dcaddf5afd1574cf882604aaf5e52c16ca7cafbcfaf38": {
+      "id": "5a2dde83ad41a69de89dcaddf5afd1574cf882604aaf5e52c16ca7cafbcfaf38",
+      "url": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-18T13:00:00Z",
+      "first_seen": "2026-10-18T16:54:23Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 0,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": true,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "mixed",
+        "reason": "Strong earnings and rising borrowing costs are mixed signals for US equities, indicating a high-stakes showdown",
+        "rated_at": "2026-10-18T16:53:08Z"
+      },
+      "signature": [
+        "1ef8f25405f82682",
+        "5e60ff5ac0ec0f50",
+        "6ef7c9b15ecdd690",
+        "79c5afc2b0cb20cb",
+        "824d422d755b9c7b",
+        "8b33db6387f29721",
+        "90d448c0f5a04425",
+        "acd9e56b5701c9c5",
+        "bcde6928e538c63c",
+        "eda15ce4834ac303",
+        "fe7634184576f6d1"
+      ],
+      "headline_hash": "8b0e443c71b2d0d5630f36c0f1e0247ecdd07f791bf0583b6f107ad972233841"
+    },
+    "912ddbc75434a91fdaceda0e24cb3b6793142c73a735e2987d98438526cc6fa7": {
+      "id": "912ddbc75434a91fdaceda0e24cb3b6793142c73a735e2987d98438526cc6fa7",
+      "url": "https://www.marketwatch.com/story/there-is-a-silent-market-rotation-inside-the-s-p-500-thats-warning-of-more-weakness-ahead-549e7650",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-18T12:00:00Z",
+      "first_seen": "2026-10-18T16:54:23Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "negative",
+        "reason": "The headline suggests that there is a market rotation warning of more weakness ahead, implying a negative impact on US equities.",
+        "rated_at": "2026-10-18T16:53:10Z"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "0604cd3138feed20",
+        "106b086224a4d945",
+        "148de9c5a7a44d19",
+        "187897ce0afcf20b",
+        "224610f102890bc0",
+        "448545189b00ee87",
+        "4bd9354bb6522334",
+        "5a9b9fc8e986cc2f",
+        "d0b4034c6ca7ee87",
+        "e244f187f696561d",
+        "e4d693d24e646cb7"
+      ],
+      "headline_hash": "176bb5e63886703728437dc97467685bf75652cf0ef67a77b8771db8e7e5ff9b"
+    },
+    "955b531e9320fd0ba05a35d544a59d3b79d102e3a2e441a8820a91ea8bbbf820": {
+      "id": "955b531e9320fd0ba05a35d544a59d3b79d102e3a2e441a8820a91ea8bbbf820",
+      "url": "https://www.marketwatch.com/story/gen-z-renters-are-the-only-group-more-likely-to-feel-successful-by-investing-than-buying-a-house-30ac5344",
+      "source": "www.marketwatch.com",
+      "provider": "marketwatch",
+      "title": null,
+      "published_at": "2026-10-17T18:40:00Z",
+      "first_seen": "2026-10-18T16:54:23Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "negative",
+        "reason": "The headline suggests that Gen Z renters are prioritizing investing over homeownership, which may negatively impact the housing market and broader US equities.",
+        "rated_at": "2026-10-18T16:53:15Z"
+      },
+      "signature": [
+        "0373280943853b5a",
+        "116c49130f14f514",
+        "2430e09ec2ec2845",
+        "254bb97b57f12e16",
+        "35da636b0d049d44",
+        "3b6a765ede676559",
+        "549c6dd1281dcc6c",
+        "594e519ae499312b",
+        "6b86b273ff34fce1",
+        "7f7f85b1e7d5ffd4",
+        "9390298f3fb0c5b1",
+        "efbde73cf7b4ef00"
+      ],
+      "headline_hash": "b8f617dab0210b6a0e307e9c563195494a5c64f3dc1d0f11e8b648fc00b28dca"
+    },
+    "74cc0686f11bb28665013b6629738e1888fade9364876497aeffc60fda291e1c": {
+      "id": "74cc0686f11bb28665013b6629738e1888fade9364876497aeffc60fda291e1c",
+      "url": "https://www.investing.com/news/stock-market-news/as-ai-rally-wobbles-stock-markets-spotlight-turns-to-earnings-4955913",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-18T13:00:22Z",
+      "first_seen": "2026-10-18T16:54:23Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 0,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": true,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "mixed",
+        "reason": "The headline suggests that the focus is shifting from AI-related stocks to earnings, which could have a mixed impact on the broader US market.",
+        "rated_at": "2026-10-18T16:53:18Z"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "08c4242b5f585628",
+        "32e83e92d45d71f6",
+        "4052679dec065619",
+        "6976a029d065bf7d",
+        "afd5c5ae5738e275",
+        "be46a22b1f8cddcc",
+        "e4d693d24e646cb7",
+        "fe7634184576f6d1"
+      ],
+      "headline_hash": "3804d01dd25652b3c7010c8ec9f8cf27ef7a064991deecebb2b44e508070af67"
+    },
+    "911e055e43eb33e89791e7f135d5ca20f3e620ebb320551173a75aeb0b1237ce": {
+      "id": "911e055e43eb33e89791e7f135d5ca20f3e620ebb320551173a75aeb0b1237ce",
+      "url": "https://www.investing.com/news/stock-market-news/buy-these-2-stocks-amid-ai-financing-concerns-analyst-4955896",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-18T12:16:35Z",
+      "first_seen": "2026-10-18T16:54:23Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "broad_us",
+        "direction": "positive",
+        "reason": "The headline suggests that an analyst is recommending buying two specific stocks, implying a positive outlook for US equities.",
+        "rated_at": "2026-10-18T16:53:26Z"
+      },
+      "signature": [
+        "1ef8f25405f82682",
+        "32e83e92d45d71f6",
+        "69dabc67d286f871",
+        "b808e156d18d1cec",
+        "d4735e3a265e16ee",
+        "e4e3e15eef8decf5",
+        "e8197b20f8e71e42",
+        "f44ceb062e35dfee",
+        "fcfc5fe39fc177d6"
+      ],
+      "headline_hash": "1d911c4eb8c0eb0117a1fe70882364ea084380bc6bb0b1b064c875993acd97bd"
+    },
+    "74e013852fe15882cb1116244f582c7900ded7f76d217076f92bce3f5bd5933d": {
+      "id": "74e013852fe15882cb1116244f582c7900ded7f76d217076f92bce3f5bd5933d",
+      "url": "https://www.investing.com/news/stock-market-news/microsoft-pulls-out-of-uk-data-center-deal-with-nscale-telegraph-reports-4955864",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-18T10:06:39Z",
+      "first_seen": "2026-10-18T16:54:23Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": -1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "negative",
+        "reason": "Microsoft's withdrawal from a UK data center deal may have a negative impact on US equities, potentially affecting the tech sector and Microsoft's stock price.",
+        "rated_at": "2026-10-18T16:53:28Z"
+      },
+      "signature": [
+        "0684c60c14e870b7",
+        "3a6eb0790f39ac87",
+        "725aca9fc38447c1",
+        "762069bc07a6e1b5",
+        "7f26104f77a7ce47",
+        "83116acf18e4dc44",
+        "9fbf261b62c1d7c0",
+        "eb6cf0bb179ca6ed",
+        "f179a509d32bd92c",
+        "f96c94f287038f69"
+      ],
+      "headline_hash": "4ec0e658a49bb287e1dad30881be90fa15091aaa81b16a6840bf15ab5f498a3d"
+    },
+    "7bf6b4652fe5d3cb92fb660ff4591d2adca442ce4b07a172adaae6ebeedd38a6": {
+      "id": "7bf6b4652fe5d3cb92fb660ff4591d2adca442ce4b07a172adaae6ebeedd38a6",
+      "url": "https://www.investing.com/news/stock-market-news/nestle-unilever-face-regulatory-action-in-india-over-misleading-health-claims-4955820",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-18T07:40:53Z",
+      "first_seen": "2026-10-18T16:54:23Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "unclear",
+        "reason": "Regulatory action is not directly related to US equities, and the impact on Nestle and Unilever's stock prices is unclear.",
+        "rated_at": "2026-10-18T16:53:33Z"
+      },
+      "signature": [
+        "0282d9b79f42c74c",
+        "5fb6a47e368e12e5",
+        "62484e22a6a5ade1",
+        "a38c2d7bfc423b19",
+        "a61808fe40feb8b3",
+        "bd938c688f49b77c",
+        "f52318186adc9cb2",
+        "fa3069bd423c0ab3",
+        "fb54e9062429a937",
+        "fedb24c98f783a5d"
+      ],
+      "headline_hash": "b3af8fcf68bd83cecda1ef2782ab566c6d920f8891095074fcd40d03ada36270"
+    },
+    "f90a87a28e961e6aa67a4b31d5fa7f50749401890c54cf343137daa08eb388bc": {
+      "id": "f90a87a28e961e6aa67a4b31d5fa7f50749401890c54cf343137daa08eb388bc",
+      "url": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-meta-gets-streethigh-pt-salesforce-double-upgraded-4955491",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-18T07:18:04Z",
+      "first_seen": "2026-10-18T16:54:23Z",
+      "analysis": {
+        "segments": [
+          "nasdaq100",
+          "sp500"
+        ],
+        "score": 1,
+        "confidence": 1,
+        "rules": [],
+        "uncertain": false,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "positive",
+        "reason": "Meta and Salesforce, two US companies, received positive analyst moves, with Meta getting a Street-high price target and Salesforce being double upgraded.",
+        "rated_at": "2026-10-18T16:53:35Z"
+      },
+      "signature": [
+        "2a21fe6d592a19b7",
+        "2ce06a9e7f8c3e6b",
+        "32e83e92d45d71f6",
+        "3ccbd9105a45d8fc",
+        "6008c26f4452392a",
+        "6ef7c9b15ecdd690",
+        "8aca04ab6ee7c402",
+        "c60e86ae5dcbf2cf",
+        "d3fb7168cbef420e",
+        "e75b11da693d7bb5",
+        "ea3bd73e2b506e00",
+        "ef2d127de37b942b",
+        "f44ceb062e35dfee"
+      ],
+      "headline_hash": "e13f905a07472197746c4021fff753df60c743c725bc8068c0bb5d2dd33a5ea4"
+    },
+    "86e6180c1f90efa848b79c59728fe607e243fdca30f0f47a2a156c9b726c976f": {
+      "id": "86e6180c1f90efa848b79c59728fe607e243fdca30f0f47a2a156c9b726c976f",
+      "url": "https://www.investing.com/news/stock-market-news/antofagastas-centinela-strike-ends-after-deal-with-unions-4955771",
+      "source": "www.investing.com",
+      "provider": "investing",
+      "title": null,
+      "published_at": "2026-10-18T04:42:22Z",
+      "first_seen": "2026-10-18T16:54:23Z",
+      "analysis": {
+        "segments": [
+          "us_equities"
+        ],
+        "score": null,
+        "confidence": 0,
+        "rules": [],
+        "uncertain": true,
+        "mixed": false,
+        "kind": "unknown",
+        "model": "llama3-numeric-1.0.0",
+        "scope": "single_us_company",
+        "direction": "unclear",
+        "reason": "The headline does not mention any US company, and the impact on US equities is unclear.",
+        "rated_at": "2026-10-18T16:53:46Z"
+      },
+      "signature": [
+        "043a718774c572bd",
+        "05d70daa707c08d7",
+        "07e69766576d3e47",
+        "7cd58cdd64a3dcfc",
+        "b7a7513cd632f8a3",
+        "d9edd4c05294e5bd",
+        "f96c94f287038f69"
+      ],
+      "headline_hash": "c613d9b0f252deb5198384bb4c84d19e400b0166c4e2ab3a614a632fed0603d8"
     }
   },
   "sources": {
@@ -6149,23 +6542,23 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-18T16:45:43Z",
+      "last_success": "2026-10-18T16:54:23Z",
       "received": 10,
-      "accepted": 0,
+      "accepted": 4,
       "rejected": 0,
-      "last_attempt": "2026-10-18T16:45:43Z",
+      "last_attempt": "2026-10-18T16:54:23Z",
       "status": "ok",
-      "pending_llama": 6
+      "pending_llama": 0
     },
     "guardian": {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-18T16:45:43Z",
+      "last_success": "2026-10-18T16:54:23Z",
       "received": 20,
       "accepted": 14,
       "rejected": 0,
-      "last_attempt": "2026-10-18T16:45:43Z",
+      "last_attempt": "2026-10-18T16:54:23Z",
       "status": "ok",
       "pending_llama": 0
     },
@@ -6186,13 +6579,13 @@
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-18T16:45:43Z",
+      "last_success": "2026-10-18T16:54:23Z",
       "received": 10,
-      "accepted": 0,
+      "accepted": 6,
       "rejected": 0,
-      "last_attempt": "2026-10-18T16:45:43Z",
+      "last_attempt": "2026-10-18T16:54:23Z",
       "status": "ok",
-      "pending_llama": 10
+      "pending_llama": 0
     }
   },
   "model_revisions": [

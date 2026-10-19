@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T10:01:19Z",
+  "generated_at": "2026-10-19T10:15:47Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 36.38,
+      "value": 37.37,
       "status": "ok",
-      "events": 7,
-      "scored_events": 7,
-      "articles": 7,
+      "events": 6,
+      "scored_events": 6,
+      "articles": 6,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-19T09:01:16Z",
+      "momentum": 0.99,
+      "momentum_baseline": "2026-10-19T09:15:47Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 53.85,
+      "value": 63.89,
       "status": "ok",
-      "events": 6,
-      "scored_events": 6,
-      "articles": 6,
+      "events": 5,
+      "scored_events": 5,
+      "articles": 5,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-19T09:01:16Z",
+      "momentum": 10.04,
+      "momentum_baseline": "2026-10-19T09:15:47Z",
       "extreme": "normal"
     },
     "sp500": {
-      "value": 53.85,
+      "value": 63.89,
       "status": "ok",
-      "events": 6,
-      "scored_events": 6,
-      "articles": 6,
+      "events": 5,
+      "scored_events": 5,
+      "articles": 5,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-19T09:01:16Z",
+      "momentum": 10.04,
+      "momentum_baseline": "2026-10-19T09:15:47Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-19T10:01:19Z",
+      "last_success": "2026-10-19T10:15:47Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
       "pending_llama": 5,
-      "last_attempt": "2026-10-19T10:01:19Z",
+      "last_attempt": "2026-10-19T10:15:47Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-19T10:01:19Z",
+      "last_success": "2026-10-19T10:15:47Z",
       "received": 20,
       "accepted": 12,
       "rejected": 0,
       "pending_llama": 3,
-      "last_attempt": "2026-10-19T10:01:19Z",
+      "last_attempt": "2026-10-19T10:15:47Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-19T10:01:19Z",
+      "last_success": "2026-10-19T10:15:47Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-19T10:01:19Z",
+      "last_attempt": "2026-10-19T10:15:47Z",
       "status": "ok"
     }
   ],
@@ -233,32 +233,6 @@
         "direction": "negative",
         "reason": "The headline suggests that there is a market rotation warning of more weakness ahead, implying a negative impact on US equities.",
         "rated_at": "2026-10-18T16:53:10Z"
-      }
-    },
-    {
-      "id": "74e013852fe15882cb1116244f582c7900ded7f76d217076f92bce3f5bd5933d",
-      "url": "https://www.investing.com/news/stock-market-news/microsoft-pulls-out-of-uk-data-center-deal-with-nscale-telegraph-reports-4955864",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-18T10:06:39Z",
-      "first_seen": "2026-10-18T16:54:23Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "Microsoft's withdrawal from a UK data center deal may have a negative impact on US equities, potentially affecting the tech sector and Microsoft's stock price.",
-        "rated_at": "2026-10-18T16:53:28Z"
       }
     }
   ],

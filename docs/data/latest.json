@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T07:31:04Z",
+  "generated_at": "2026-10-19T07:45:45Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
@@ -8,12 +8,12 @@
     "all": {
       "value": 36.38,
       "status": "ok",
-      "events": 8,
+      "events": 7,
       "scored_events": 7,
-      "articles": 8,
+      "articles": 7,
       "sources": 2,
       "momentum": -2.61,
-      "momentum_baseline": "2026-10-19T06:31:03Z",
+      "momentum_baseline": "2026-10-19T06:45:48Z",
       "extreme": "normal"
     },
     "nasdaq100": {
@@ -24,7 +24,7 @@
       "articles": 6,
       "sources": 2,
       "momentum": -3.79,
-      "momentum_baseline": "2026-10-19T06:31:03Z",
+      "momentum_baseline": "2026-10-19T06:45:48Z",
       "extreme": "normal"
     },
     "sp500": {
@@ -35,7 +35,7 @@
       "articles": 6,
       "sources": 2,
       "momentum": -3.79,
-      "momentum_baseline": "2026-10-19T06:31:03Z",
+      "momentum_baseline": "2026-10-19T06:45:48Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-19T07:31:04Z",
+      "last_success": "2026-10-19T07:45:45Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
       "pending_llama": 1,
-      "last_attempt": "2026-10-19T07:31:04Z",
+      "last_attempt": "2026-10-19T07:45:45Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-19T07:31:04Z",
+      "last_success": "2026-10-19T07:45:45Z",
       "received": 20,
       "accepted": 12,
       "rejected": 0,
-      "pending_llama": 2,
-      "last_attempt": "2026-10-19T07:31:04Z",
+      "pending_llama": 3,
+      "last_attempt": "2026-10-19T07:45:45Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-19T07:31:04Z",
+      "last_success": "2026-10-19T07:45:45Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-19T07:31:04Z",
+      "last_attempt": "2026-10-19T07:45:45Z",
       "status": "ok"
     }
   ],
@@ -260,31 +260,6 @@
         "reason": "Microsoft's withdrawal from a UK data center deal may have a negative impact on US equities, potentially affecting the tech sector and Microsoft's stock price.",
         "rated_at": "2026-10-18T16:53:28Z"
       }
-    },
-    {
-      "id": "7bf6b4652fe5d3cb92fb660ff4591d2adca442ce4b07a172adaae6ebeedd38a6",
-      "url": "https://www.investing.com/news/stock-market-news/nestle-unilever-face-regulatory-action-in-india-over-misleading-health-claims-4955820",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-18T07:40:53Z",
-      "first_seen": "2026-10-18T16:54:23Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": null,
-        "confidence": 0,
-        "rules": [],
-        "uncertain": true,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "unclear",
-        "reason": "Regulatory action is not directly related to US equities, and the impact on Nestle and Unilever's stock prices is unclear.",
-        "rated_at": "2026-10-18T16:53:33Z"
-      }
     }
   ],
   "methodology": {
@@ -299,7 +274,7 @@
     "last_rated_at": "2026-10-18T16:53:46Z",
     "last_refresh_at": "2026-10-18T16:53:46Z",
     "errors": 0,
-    "pending": 13,
+    "pending": 14,
     "model_digest": "365c0bd3c000a25d28ddbf732fe1c6add414de7275464c4e4d1c3b5fcb5d8ad1",
     "scale": {
       "negative": -1,

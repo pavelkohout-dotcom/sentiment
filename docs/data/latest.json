@@ -1,39 +1,39 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T12:45:46Z",
+  "generated_at": "2026-10-19T13:01:20Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 42.48,
+      "value": 50.0,
       "status": "low_coverage",
-      "events": 4,
-      "scored_events": 4,
-      "articles": 4,
+      "events": 2,
+      "scored_events": 2,
+      "articles": 2,
       "sources": 2,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
     },
     "nasdaq100": {
-      "value": 63.22,
+      "value": 100.0,
       "status": "low_coverage",
-      "events": 3,
-      "scored_events": 3,
-      "articles": 3,
-      "sources": 2,
+      "events": 1,
+      "scored_events": 1,
+      "articles": 1,
+      "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
     },
     "sp500": {
-      "value": 63.22,
+      "value": 100.0,
       "status": "low_coverage",
-      "events": 3,
-      "scored_events": 3,
-      "articles": 3,
-      "sources": 2,
+      "events": 1,
+      "scored_events": 1,
+      "articles": 1,
+      "sources": 1,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-19T12:45:46Z",
+      "last_success": "2026-10-19T13:01:20Z",
       "received": 10,
       "accepted": 1,
       "rejected": 0,
       "pending_llama": 8,
-      "last_attempt": "2026-10-19T12:45:46Z",
+      "last_attempt": "2026-10-19T13:01:20Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-19T12:45:46Z",
+      "last_success": "2026-10-19T13:01:20Z",
       "received": 20,
       "accepted": 12,
       "rejected": 0,
       "pending_llama": 4,
-      "last_attempt": "2026-10-19T12:45:46Z",
+      "last_attempt": "2026-10-19T13:01:20Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-19T12:45:46Z",
+      "last_success": "2026-10-19T13:01:20Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-19T12:45:46Z",
+      "last_attempt": "2026-10-19T13:01:20Z",
       "status": "ok"
     }
   ],
@@ -129,58 +129,6 @@
         "direction": "positive",
         "reason": "The headline suggests that certain stocks could drive S&P 500 earnings growth, implying a positive impact on US equities.",
         "rated_at": "2026-10-18T16:53:05Z"
-      }
-    },
-    {
-      "id": "74cc0686f11bb28665013b6629738e1888fade9364876497aeffc60fda291e1c",
-      "url": "https://www.investing.com/news/stock-market-news/as-ai-rally-wobbles-stock-markets-spotlight-turns-to-earnings-4955913",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-18T13:00:22Z",
-      "first_seen": "2026-10-18T16:54:23Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": 0,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": true,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "mixed",
-        "reason": "The headline suggests that the focus is shifting from AI-related stocks to earnings, which could have a mixed impact on the broader US market.",
-        "rated_at": "2026-10-18T16:53:18Z"
-      }
-    },
-    {
-      "id": "5a2dde83ad41a69de89dcaddf5afd1574cf882604aaf5e52c16ca7cafbcfaf38",
-      "url": "https://www.marketwatch.com/story/stocks-are-heading-for-a-high-stakes-showdown-as-strong-earnings-collide-with-rising-borrowing-costs-6f8ea5b8",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-18T13:00:00Z",
-      "first_seen": "2026-10-18T16:54:23Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": 0,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": true,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "mixed",
-        "reason": "Strong earnings and rising borrowing costs are mixed signals for US equities, indicating a high-stakes showdown",
-        "rated_at": "2026-10-18T16:53:08Z"
       }
     }
   ],

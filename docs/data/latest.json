@@ -1,41 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T07:15:46Z",
+  "generated_at": "2026-10-19T07:31:04Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 38.99,
+      "value": 36.38,
       "status": "ok",
-      "events": 9,
-      "scored_events": 8,
-      "articles": 9,
+      "events": 8,
+      "scored_events": 7,
+      "articles": 8,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-19T06:15:51Z",
+      "momentum": -2.61,
+      "momentum_baseline": "2026-10-19T06:31:03Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 57.64,
+      "value": 53.85,
       "status": "ok",
-      "events": 7,
-      "scored_events": 7,
-      "articles": 7,
+      "events": 6,
+      "scored_events": 6,
+      "articles": 6,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-19T06:15:51Z",
+      "momentum": -3.79,
+      "momentum_baseline": "2026-10-19T06:31:03Z",
       "extreme": "normal"
     },
     "sp500": {
-      "value": 57.64,
+      "value": 53.85,
       "status": "ok",
-      "events": 7,
-      "scored_events": 7,
-      "articles": 7,
+      "events": 6,
+      "scored_events": 6,
+      "articles": 6,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-19T06:15:51Z",
+      "momentum": -3.79,
+      "momentum_baseline": "2026-10-19T06:31:03Z",
       "extreme": "normal"
     }
   },
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-19T07:15:46Z",
+      "last_success": "2026-10-19T07:31:04Z",
       "received": 10,
       "accepted": 3,
       "rejected": 0,
       "pending_llama": 1,
-      "last_attempt": "2026-10-19T07:15:46Z",
+      "last_attempt": "2026-10-19T07:31:04Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-19T07:15:46Z",
+      "last_success": "2026-10-19T07:31:04Z",
       "received": 20,
       "accepted": 12,
       "rejected": 0,
       "pending_llama": 2,
-      "last_attempt": "2026-10-19T07:15:46Z",
+      "last_attempt": "2026-10-19T07:31:04Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-19T07:15:46Z",
+      "last_success": "2026-10-19T07:31:04Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-19T07:15:46Z",
+      "last_attempt": "2026-10-19T07:31:04Z",
       "status": "ok"
     }
   ],
@@ -284,32 +284,6 @@
         "direction": "unclear",
         "reason": "Regulatory action is not directly related to US equities, and the impact on Nestle and Unilever's stock prices is unclear.",
         "rated_at": "2026-10-18T16:53:33Z"
-      }
-    },
-    {
-      "id": "f90a87a28e961e6aa67a4b31d5fa7f50749401890c54cf343137daa08eb388bc",
-      "url": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-meta-gets-streethigh-pt-salesforce-double-upgraded-4955491",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-18T07:18:04Z",
-      "first_seen": "2026-10-18T16:54:23Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": 1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "positive",
-        "reason": "Meta and Salesforce, two US companies, received positive analyst moves, with Meta getting a Street-high price target and Salesforce being double upgraded.",
-        "rated_at": "2026-10-18T16:53:35Z"
       }
     }
   ],

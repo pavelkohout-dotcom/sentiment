@@ -4241,5 +4241,30 @@
       "reason": "The headline does not mention any US company, and the impact on US equities is unclear.",
       "rated_at": "2026-10-18T16:53:46Z"
     }
+  },
+  {
+    "id": "2de39db96df7a2dad2472de9815cc949573bfb7915ba42c925b082c9149a45c9",
+    "url": "https://www.investing.com/news/stock-market-news/coreweave-bond-rout-tests-markets-math-on-ai-buildout-4956226",
+    "source": "www.investing.com",
+    "provider": "investing",
+    "title": null,
+    "published_at": "2026-10-19T02:42:31Z",
+    "first_seen": "2026-10-19T03:01:15Z",
+    "analysis": {
+      "segments": [
+        "us_equities"
+      ],
+      "score": -1,
+      "confidence": 1,
+      "rules": [],
+      "uncertain": false,
+      "mixed": false,
+      "kind": "unknown",
+      "model": "llama3-numeric-1.0.0",
+      "scope": "single_us_company",
+      "direction": "negative",
+      "reason": "The headline suggests that CoreWeave's bond rout may have a negative impact on US equities, specifically the company's stock price.",
+      "rated_at": "2026-10-16T17:14:31Z"
+    }
   }
 ]

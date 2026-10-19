@@ -1,42 +1,42 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T11:45:48Z",
+  "generated_at": "2026-10-19T12:01:22Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 37.37,
+      "value": 48.67,
       "status": "ok",
-      "events": 6,
-      "scored_events": 6,
-      "articles": 6,
+      "events": 5,
+      "scored_events": 5,
+      "articles": 5,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-19T10:45:46Z",
+      "momentum": 11.3,
+      "momentum_baseline": "2026-10-19T11:01:17Z",
       "extreme": "normal"
     },
     "nasdaq100": {
-      "value": 63.89,
-      "status": "ok",
-      "events": 5,
-      "scored_events": 5,
-      "articles": 5,
+      "value": 75.19,
+      "status": "low_coverage",
+      "events": 4,
+      "scored_events": 4,
+      "articles": 4,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-19T10:45:46Z",
-      "extreme": "normal"
+      "momentum": null,
+      "momentum_baseline": null,
+      "extreme": "unavailable"
     },
     "sp500": {
-      "value": 63.89,
-      "status": "ok",
-      "events": 5,
-      "scored_events": 5,
-      "articles": 5,
+      "value": 75.19,
+      "status": "low_coverage",
+      "events": 4,
+      "scored_events": 4,
+      "articles": 4,
       "sources": 2,
-      "momentum": 0.0,
-      "momentum_baseline": "2026-10-19T10:45:46Z",
-      "extreme": "normal"
+      "momentum": null,
+      "momentum_baseline": null,
+      "extreme": "unavailable"
     }
   },
   "sources": [
@@ -44,36 +44,36 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-19T11:45:48Z",
+      "last_success": "2026-10-19T12:01:22Z",
       "received": 10,
-      "accepted": 0,
+      "accepted": 1,
       "rejected": 0,
       "pending_llama": 8,
-      "last_attempt": "2026-10-19T11:45:48Z",
+      "last_attempt": "2026-10-19T12:01:22Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-19T11:45:48Z",
+      "last_success": "2026-10-19T12:01:22Z",
       "received": 20,
       "accepted": 12,
       "rejected": 0,
       "pending_llama": 4,
-      "last_attempt": "2026-10-19T11:45:48Z",
+      "last_attempt": "2026-10-19T12:01:22Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-19T11:45:48Z",
+      "last_success": "2026-10-19T12:01:22Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-19T11:45:48Z",
+      "last_attempt": "2026-10-19T12:01:22Z",
       "status": "ok"
     }
   ],
@@ -207,32 +207,6 @@
         "direction": "positive",
         "reason": "The headline suggests that an analyst is recommending buying two specific stocks, implying a positive outlook for US equities.",
         "rated_at": "2026-10-18T16:53:26Z"
-      }
-    },
-    {
-      "id": "912ddbc75434a91fdaceda0e24cb3b6793142c73a735e2987d98438526cc6fa7",
-      "url": "https://www.marketwatch.com/story/there-is-a-silent-market-rotation-inside-the-s-p-500-thats-warning-of-more-weakness-ahead-549e7650",
-      "source": "www.marketwatch.com",
-      "provider": "marketwatch",
-      "title": null,
-      "published_at": "2026-10-18T12:00:00Z",
-      "first_seen": "2026-10-18T16:54:23Z",
-      "analysis": {
-        "segments": [
-          "nasdaq100",
-          "sp500"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "broad_us",
-        "direction": "negative",
-        "reason": "The headline suggests that there is a market rotation warning of more weakness ahead, implying a negative impact on US equities.",
-        "rated_at": "2026-10-18T16:53:10Z"
       }
     }
   ],

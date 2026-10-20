@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T02:30:58Z",
+  "generated_at": "2026-10-20T02:45:40Z",
   "model": "llama3-numeric-1.0.0",
   "collection_status": "ok",
   "window_hours": 24,
   "metrics": {
     "all": {
-      "value": 0.0,
-      "status": "low_coverage",
-      "events": 1,
-      "scored_events": 1,
-      "articles": 1,
-      "sources": 1,
+      "value": null,
+      "status": "no_data",
+      "events": 0,
+      "scored_events": 0,
+      "articles": 0,
+      "sources": 0,
       "momentum": null,
       "momentum_baseline": null,
       "extreme": "unavailable"
@@ -44,68 +44,42 @@
       "id": "marketwatch",
       "name": "MarketWatch",
       "terms": "https://www.marketwatch.com/help/terms-of-use",
-      "last_success": "2026-10-20T02:30:58Z",
+      "last_success": "2026-10-20T02:45:40Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 9,
-      "last_attempt": "2026-10-20T02:30:58Z",
+      "last_attempt": "2026-10-20T02:45:40Z",
       "status": "ok"
     },
     {
       "id": "guardian",
       "name": "The Guardian · Business",
       "terms": "https://www.theguardian.com/help/terms-of-service",
-      "last_success": "2026-10-20T02:30:58Z",
+      "last_success": "2026-10-20T02:45:40Z",
       "received": 20,
       "accepted": 11,
       "rejected": 0,
       "pending_llama": 5,
-      "last_attempt": "2026-10-20T02:30:58Z",
+      "last_attempt": "2026-10-20T02:45:40Z",
       "status": "ok"
     },
     {
       "id": "investing",
       "name": "Investing.com · Stock Market News",
       "terms": "https://www.investing.com/about-us/terms-and-conditions",
-      "last_success": "2026-10-20T02:30:58Z",
+      "last_success": "2026-10-20T02:45:40Z",
       "received": 10,
       "accepted": 0,
       "rejected": 0,
       "pending_llama": 10,
-      "last_attempt": "2026-10-20T02:30:58Z",
+      "last_attempt": "2026-10-20T02:45:40Z",
       "status": "ok"
     }
   ],
   "new_articles": 0,
   "total_archived": 175,
-  "articles": [
-    {
-      "id": "2de39db96df7a2dad2472de9815cc949573bfb7915ba42c925b082c9149a45c9",
-      "url": "https://www.investing.com/news/stock-market-news/coreweave-bond-rout-tests-markets-math-on-ai-buildout-4956226",
-      "source": "www.investing.com",
-      "provider": "investing",
-      "title": null,
-      "published_at": "2026-10-19T02:42:31Z",
-      "first_seen": "2026-10-19T03:01:15Z",
-      "analysis": {
-        "segments": [
-          "us_equities"
-        ],
-        "score": -1,
-        "confidence": 1,
-        "rules": [],
-        "uncertain": false,
-        "mixed": false,
-        "kind": "unknown",
-        "model": "llama3-numeric-1.0.0",
-        "scope": "single_us_company",
-        "direction": "negative",
-        "reason": "The headline suggests that CoreWeave's bond rout may have a negative impact on US equities, specifically the company's stock price.",
-        "rated_at": "2026-10-16T17:14:31Z"
-      }
-    }
-  ],
+  "articles": [],
   "methodology": {
     "type": "local_llama_headline_impact",
     "half_life_hours": 6,
